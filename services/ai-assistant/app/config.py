@@ -34,7 +34,13 @@ class Settings(BaseSettings):
 
     data_dir: Path = Field(default_factory=_default_data_dir)
     embedding_model: str = "text-embedding-3-small"
-    rag_similarity_threshold: float = 0.75
+    llm_model: str = "gpt-5.6-luna"
+    llm_temperature: float = 0.2
+    rag_similarity_threshold: float = 0.65
+    rag_top_k: int = 5
+    graph_expand_hops: int = 1
+    # nl or en — language for customer-facing answers
+    response_language: str = "nl"
 
 
 settings = Settings()

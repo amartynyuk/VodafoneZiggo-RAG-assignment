@@ -48,6 +48,12 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 DATA_DIR=../../data .venv/bin/python scripts/run_ingest_sample.py
 DATA_DIR=../../data .venv/bin/python scripts/run_ingest_sample.py --label "Ziggo GO"
 
+# Ingest all unique pages from ziggo-product-label-urls.json (~25 URLs, includes LLM calls)
+DATA_DIR=../../data .venv/bin/python scripts/run_ingest_all.py
+
+# Preview unique URLs without ingesting
+DATA_DIR=../../data .venv/bin/python scripts/run_ingest_all.py --dry-run
+
 # Verify FAISS + graph search
 DATA_DIR=../../data .venv/bin/python scripts/smoke_storage.py
 ```

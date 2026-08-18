@@ -1,0 +1,168 @@
+{
+  "ingested_at": "2026-08-18T12:21:26.313272+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/alles-in-1",
+    "page_id": "alles-in-1",
+    "label": "Alles-in-1",
+    "title": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo",
+    "meta_description": "Vergelijk de Alles-in-1 pakketten van Ziggo ✓ Stabiel, snel en veilig internet thuis ✓ Next Mini: Vol TV & Streaming ✓ Gratis Ziggo Sport ✓ Voordelig bellen",
+    "og_title": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo",
+    "og_description": "Vergelijk de Alles-in-1 pakketten van Ziggo ✓ Stabiel, snel en veilig internet thuis ✓ Next Mini: Vol TV & Streaming ✓ Gratis Ziggo Sport ✓ Voordelig bellen"
+  },
+  "content_quality": "sparse",
+  "main_char_count": 585,
+  "warnings": [
+    "Sparse static content (585 chars in <main>). Pricing/tables may need Playwright for full extraction."
+  ],
+  "sections": [
+    {
+      "section_id": "alles-in-1::overview",
+      "heading": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo",
+      "level": 1,
+      "text": "Vergelijk de Alles-in-1 pakketten van Ziggo ✓ Stabiel, snel en veilig internet thuis ✓ Next Mini: Vol TV & Streaming ✓ Gratis Ziggo Sport ✓ Voordelig bellen\n\nAlles-in-1\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "alles-in-1::chunk-0001",
+      "section_id": "alles-in-1::overview",
+      "text": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo\n\nVergelijk de Alles-in-1 pakketten van Ziggo ✓ Stabiel, snel en veilig internet thuis ✓ Next Mini: Vol TV & Streaming ✓ Gratis Ziggo Sport ✓ Voordelig bellen\n\nAlles-in-1\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1,
+      "token_estimate": 194
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:alles-in-1",
+      "label": "Page",
+      "properties": {
+        "page_id": "alles-in-1",
+        "url": "https://www.ziggo.nl/alles-in-1",
+        "title": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo",
+        "label": "Alles-in-1",
+        "content_quality": "sparse"
+      }
+    },
+    {
+      "node_id": "section:alles-in-1::overview",
+      "label": "Section",
+      "properties": {
+        "section_id": "alles-in-1::overview",
+        "heading": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo",
+        "level": 1,
+        "order": 1,
+        "summary": "Vergelijk de Alles-in-1-pakketten van Ziggo met stabiel, snel en veilig internet, Next Mini met Vol TV & Streaming, gratis Ziggo Sport en voordelig bellen. Je kiest een minimumduur van 1 of 2 jaar; daarna kun je maandelijks kosteloos opzeggen en tussentijds je pakket wijzigen.",
+        "topic": "overview"
+      }
+    },
+    {
+      "node_id": "chunk:alles-in-1::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "alles-in-1::chunk-0001",
+        "section_id": "alles-in-1::overview",
+        "text": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo\n\nVergelijk de Alles-in-1 pakketten van Ziggo ✓ Stabiel, snel en veilig internet thuis ✓ Next Mini: Vol TV & Streaming ✓ Gratis Ziggo Sport ✓ Voordelig bellen\n\nAlles-in-1\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+        "order": 1,
+        "token_estimate": 194
+      }
+    },
+    {
+      "node_id": "entity:alles-in-1",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:alles-in-1",
+        "name": "Alles-in-1",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:next-mini",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:next-mini",
+        "name": "Next Mini",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:ziggo-sport",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:ziggo-sport",
+        "name": "Ziggo Sport",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:1-of-2-jaar",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:1-of-2-jaar",
+        "name": "1 of 2 jaar",
+        "type": "Specification"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:alles-in-1",
+      "target_id": "section:alles-in-1::overview",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:alles-in-1::overview",
+      "target_id": "chunk:alles-in-1::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:alles-in-1::chunk-0001",
+      "target_id": "entity:alles-in-1",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:alles-in-1::chunk-0001",
+      "target_id": "entity:next-mini",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:alles-in-1::chunk-0001",
+      "target_id": "entity:ziggo-sport",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:alles-in-1::chunk-0001",
+      "target_id": "entity:1-of-2-jaar",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "product:alles-in-1",
+      "name": "Alles-in-1",
+      "entity_type": "Product",
+      "source_chunk_id": "alles-in-1::chunk-0001"
+    },
+    {
+      "entity_id": "product:next-mini",
+      "name": "Next Mini",
+      "entity_type": "Product",
+      "source_chunk_id": "alles-in-1::chunk-0001"
+    },
+    {
+      "entity_id": "product:ziggo-sport",
+      "name": "Ziggo Sport",
+      "entity_type": "Product",
+      "source_chunk_id": "alles-in-1::chunk-0001"
+    },
+    {
+      "entity_id": "specification:1-of-2-jaar",
+      "name": "1 of 2 jaar",
+      "entity_type": "Specification",
+      "source_chunk_id": "alles-in-1::chunk-0001"
+    }
+  ],
+  "section_summaries": {
+    "alles-in-1::overview": "Vergelijk de Alles-in-1-pakketten van Ziggo met stabiel, snel en veilig internet, Next Mini met Vol TV & Streaming, gratis Ziggo Sport en voordelig bellen. Je kiest een minimumduur van 1 of 2 jaar; daarna kun je maandelijks kosteloos opzeggen en tussentijds je pakket wijzigen."
+  }
+}

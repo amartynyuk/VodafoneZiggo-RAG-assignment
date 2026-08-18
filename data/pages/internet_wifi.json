@@ -1,0 +1,970 @@
+{
+  "ingested_at": "2026-08-18T12:23:35.200681+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/internet/wifi",
+    "page_id": "internet_wifi",
+    "label": "Wifi",
+    "title": "Wifi voor thuis. Lees hier alles wat je moet weten! | Ziggo",
+    "meta_description": "We streamen, appen, en verbinden slimme apparaten met wifi. Wifi is onmisbaar. Daarom krijg je bij Ziggo de beste wifi waar je geen omkijken naar hebt.",
+    "og_title": "Wifi voor thuis. Lees hier alles wat je moet weten! | Ziggo",
+    "og_description": "We streamen, appen, en verbinden slimme apparaten met wifi. Wifi is onmisbaar. Daarom krijg je bij Ziggo de beste wifi waar je geen omkijken naar hebt."
+  },
+  "content_quality": "rich",
+  "main_char_count": 7988,
+  "warnings": [],
+  "sections": [
+    {
+      "section_id": "internet_wifi::wifi-garantie",
+      "heading": "Wifi Garantie",
+      "level": 3,
+      "text": "Je krijgt gratis wifi-versterkers\nvoor wifi in je hele huis, 24/7 hulp van onze Wifi Crew, en een gratis monteur als het nodig is.",
+      "order": 3
+    },
+    {
+      "section_id": "internet_wifi::elk-jaar-beter",
+      "heading": "Elk jaar beter",
+      "level": 3,
+      "text": "Elk jaar krijg je automatisch een snellere en stabielere verbinding. Zo ben én blijf je ook in de toekomst perfect verbonden.",
+      "order": 4
+    },
+    {
+      "section_id": "internet_wifi::gratis-beveiliging",
+      "heading": "Gratis beveiliging",
+      "level": 3,
+      "text": "Ontvang de beste internetbeveiliging van F-Secure voor 1 apparaat gratis bij Ziggo Internet. Meer weten?\n.",
+      "order": 5
+    },
+    {
+      "section_id": "internet_wifi::maandelijks-aanpasbaar",
+      "heading": "Maandelijks aanpasbaar",
+      "level": 3,
+      "text": "Verandert je wifi-gebruik? Heb je meer of juist minder snelheid nodig? Pas je abonnement elke maand eenvoudig aan. Zo betaal je nooit teveel.",
+      "order": 6
+    },
+    {
+      "section_id": "internet_wifi::installatie-zoals-jij-wil",
+      "heading": "Installatie zoals jij wil",
+      "level": 3,
+      "text": "Je krijgt alle hulp die je nodig hebt om wifi, tv en bellen aan te sluiten. Kijk online, in de Vodafone & Ziggo app, of krijg hulp van onze Installatie Crew.",
+      "order": 7
+    },
+    {
+      "section_id": "internet_wifi::smartwifi",
+      "heading": "SmartWifi",
+      "level": 3,
+      "text": "Met onze SmartWifi software heb je de beste techniek in huis. De wifi wordt slim over je apparaten verdeeld, zodat je altijd een optimale verbinding hebt.",
+      "order": 8
+    },
+    {
+      "section_id": "internet_wifi::stap-nu-over-en-krijg",
+      "heading": "Stap nu over en krijg...",
+      "level": 3,
+      "text": "Gratis wifi-versterker\n24/7 hulp van onze Wifi Crew\nGratis monteur als het nodig is",
+      "order": 10
+    },
+    {
+      "section_id": "internet_wifi::gratis-wifi-versterkers",
+      "heading": "Gratis wifi-versterkers",
+      "level": 3,
+      "text": "Overal in huis wifi die werkt? Wij regelen het! Met ons krachtige SmartWifi modem én slimme wifi-versterkers.",
+      "order": 12
+    },
+    {
+      "section_id": "internet_wifi::24-7-hulp-van-de-wifi-crew",
+      "heading": "24/7 hulp van de Wifi Crew",
+      "level": 3,
+      "text": "Werkt je wifi toch niet zoals het hoort? Of mag het nog iets meer zijn? Onze Wifi Crew gaat geen wifi-uitdaging uit de weg.",
+      "order": 13
+    },
+    {
+      "section_id": "internet_wifi::gratis-monteur-bij-installatie",
+      "heading": "Gratis monteur bij installatie",
+      "level": 3,
+      "text": "Kom je er zelf niet uit? Geen zorgen! Een gratis monteur staat voor je klaar en helpt je graag.",
+      "order": 14
+    },
+    {
+      "section_id": "internet_wifi::veelgestelde-vragen",
+      "heading": "Veelgestelde vragen",
+      "level": 2,
+      "text": "Ziggo biedt verschillende pakketten waar je uit kunt kiezen met internet. Zo hebben we Alles-in-1 pakketten, met\n. Je kan ook kiezen voor een pakket zonder bellen, dat zijn de pakketten met\n. Wil je ook geen digitale tv? Dan hebben we ook pakketten met\n.\nBij Ziggo staan onze experts dag en nacht voor je klaar. De Wifi Crew is er voor ál je wifi-vragen. Online, telefonisch en zelfs 24/7 via de Messenger in de Vodafone & Ziggo app.\nOveral in huis mailen, appen, sharen en videobellen. Dat willen we allemaal. En allemaal tegelijk. Ook als we naar een andere kamer lopen of de trap opgaan. Isolatie, betonnen muren en apparatuur zorgen er soms voor dat je verbinding niet al te snel is. Met onze smart Wifiboosters is dat verleden tijd. De wifi bereikt je hele huis en schakelt automatisch met je mee.\nLees alles over\n.\nInstallatie is simpel, maar je kunt het ook door een specialist laten doen. Tot 8 weken na ontvangst van je pakket of verhuizing kun je een gratis installatiemonteur aanvragen. Meer informatie vind je op de pagina met de status van je bestelling. Log hiervoor in met je Mijn Ziggo account.\nOmdat je Wifi Garantie van ons krijgt, regelt de Installatie Crew kosteloos de hulp van een monteur. Zonder extra kosten. Bij het aansluiten van je wifi en bij eventuele storingen.",
+      "order": 15
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "internet_wifi::chunk-0001",
+      "section_id": "internet_wifi::wifi-garantie",
+      "text": "Wifi Garantie\n\nJe krijgt gratis wifi-versterkers\nvoor wifi in je hele huis, 24/7 hulp van onze Wifi Crew, en een gratis monteur als het nodig is.",
+      "order": 1,
+      "token_estimate": 36
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0002",
+      "section_id": "internet_wifi::elk-jaar-beter",
+      "text": "Elk jaar beter\n\nElk jaar krijg je automatisch een snellere en stabielere verbinding. Zo ben én blijf je ook in de toekomst perfect verbonden.",
+      "order": 2,
+      "token_estimate": 35
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0003",
+      "section_id": "internet_wifi::gratis-beveiliging",
+      "text": "Gratis beveiliging\n\nOntvang de beste internetbeveiliging van F-Secure voor 1 apparaat gratis bij Ziggo Internet. Meer weten?\n.",
+      "order": 3,
+      "token_estimate": 31
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0004",
+      "section_id": "internet_wifi::maandelijks-aanpasbaar",
+      "text": "Maandelijks aanpasbaar\n\nVerandert je wifi-gebruik? Heb je meer of juist minder snelheid nodig? Pas je abonnement elke maand eenvoudig aan. Zo betaal je nooit teveel.",
+      "order": 4,
+      "token_estimate": 41
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0005",
+      "section_id": "internet_wifi::installatie-zoals-jij-wil",
+      "text": "Installatie zoals jij wil\n\nJe krijgt alle hulp die je nodig hebt om wifi, tv en bellen aan te sluiten. Kijk online, in de Vodafone & Ziggo app, of krijg hulp van onze Installatie Crew.",
+      "order": 5,
+      "token_estimate": 46
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0006",
+      "section_id": "internet_wifi::smartwifi",
+      "text": "SmartWifi\n\nMet onze SmartWifi software heb je de beste techniek in huis. De wifi wordt slim over je apparaten verdeeld, zodat je altijd een optimale verbinding hebt.",
+      "order": 6,
+      "token_estimate": 41
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0007",
+      "section_id": "internet_wifi::stap-nu-over-en-krijg",
+      "text": "Stap nu over en krijg...\n\nGratis wifi-versterker\n24/7 hulp van onze Wifi Crew\nGratis monteur als het nodig is",
+      "order": 7,
+      "token_estimate": 27
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0008",
+      "section_id": "internet_wifi::gratis-wifi-versterkers",
+      "text": "Gratis wifi-versterkers\n\nOveral in huis wifi die werkt? Wij regelen het! Met ons krachtige SmartWifi modem én slimme wifi-versterkers.",
+      "order": 8,
+      "token_estimate": 33
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0009",
+      "section_id": "internet_wifi::24-7-hulp-van-de-wifi-crew",
+      "text": "24/7 hulp van de Wifi Crew\n\nWerkt je wifi toch niet zoals het hoort? Of mag het nog iets meer zijn? Onze Wifi Crew gaat geen wifi-uitdaging uit de weg.",
+      "order": 9,
+      "token_estimate": 37
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0010",
+      "section_id": "internet_wifi::gratis-monteur-bij-installatie",
+      "text": "Gratis monteur bij installatie\n\nKom je er zelf niet uit? Geen zorgen! Een gratis monteur staat voor je klaar en helpt je graag.",
+      "order": 10,
+      "token_estimate": 31
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0011",
+      "section_id": "internet_wifi::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 11,
+      "token_estimate": 4
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0012",
+      "section_id": "internet_wifi::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nZiggo biedt verschillende pakketten waar je uit kunt kiezen met internet. Zo hebben we Alles-in-1 pakketten, met\n. Je kan ook kiezen voor een pakket zonder bellen, dat zijn de pakketten met\n. Wil je ook geen digitale tv? Dan hebben we ook pakketten met\n.\nBij Ziggo staan onze experts dag en nacht voor je klaar. De Wifi Crew is er voor ál je wifi-vragen. Online, telefonisch en zelfs 24/7 via de Messenger in de Vodafone & Ziggo app.\nOveral in huis mailen, appen, sharen en videobellen. Dat willen we allemaal. En allemaal tegelijk. Ook als we naar een andere kamer lopen of de trap opgaan. Isolatie, betonnen muren en apparatuur zorgen er soms voor dat je verbinding niet al te snel is. Met onze smart Wifiboosters is dat verleden tijd. De wifi bereikt je hele huis en schakelt automatisch met je mee.\nLees alles over\n.\nInstallatie is simpel, maar je kunt het ook door een specialist laten doen. Tot 8 weken na ontvangst van je pakket of verhuizing kun je een gratis installatiemonteur aanvragen. Meer informatie vind je op de pagina met de status van je bestelling. Log hiervoor in met je Mijn Ziggo account.\nOmdat je Wifi Garantie van ons krijgt, regelt de Installatie Crew kosteloos de hulp van een monteur. Zonder extra kosten. Bij het aansluiten van je wifi en bij eventuele storingen.",
+      "order": 12,
+      "token_estimate": 328
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:internet_wifi",
+      "label": "Page",
+      "properties": {
+        "page_id": "internet_wifi",
+        "url": "https://www.ziggo.nl/internet/wifi",
+        "title": "Wifi voor thuis. Lees hier alles wat je moet weten! | Ziggo",
+        "label": "Wifi",
+        "content_quality": "rich"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::wifi-garantie",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::wifi-garantie",
+        "heading": "Wifi Garantie",
+        "level": 3,
+        "order": 3,
+        "summary": "Je krijgt gratis wifi-versterkers, 24/7 hulp van de Wifi Crew en indien nodig een gratis monteur voor wifi in je hele huis.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::elk-jaar-beter",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::elk-jaar-beter",
+        "heading": "Elk jaar beter",
+        "level": 3,
+        "order": 4,
+        "summary": "Je krijgt elk jaar automatisch een snellere en stabielere verbinding, zodat je ook in de toekomst goed verbonden blijft.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::gratis-beveiliging",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::gratis-beveiliging",
+        "heading": "Gratis beveiliging",
+        "level": 3,
+        "order": 5,
+        "summary": "Bij Ziggo Internet ontvang je gratis internetbeveiliging van F-Secure voor één apparaat.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::maandelijks-aanpasbaar",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::maandelijks-aanpasbaar",
+        "heading": "Maandelijks aanpasbaar",
+        "level": 3,
+        "order": 6,
+        "summary": "Je kunt je abonnement elke maand eenvoudig aanpassen wanneer je wifi-gebruik of gewenste snelheid verandert. Zo betaal je volgens de tekst nooit te veel.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::installatie-zoals-jij-wil",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::installatie-zoals-jij-wil",
+        "heading": "Installatie zoals jij wil",
+        "level": 3,
+        "order": 7,
+        "summary": "Je krijgt hulp bij het aansluiten van wifi, tv en bellen via online informatie, de Vodafone & Ziggo-app of de Installatie Crew.",
+        "topic": "how_to"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::smartwifi",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::smartwifi",
+        "heading": "SmartWifi",
+        "level": 3,
+        "order": 8,
+        "summary": "SmartWifi verdeelt de wifi slim over je apparaten, zodat je een optimale verbinding hebt.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::stap-nu-over-en-krijg",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::stap-nu-over-en-krijg",
+        "heading": "Stap nu over en krijg...",
+        "level": 3,
+        "order": 10,
+        "summary": "Bij overstappen krijg je een gratis wifi-versterker, 24/7 hulp van de Wifi Crew en indien nodig een gratis monteur.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::gratis-wifi-versterkers",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::gratis-wifi-versterkers",
+        "heading": "Gratis wifi-versterkers",
+        "level": 3,
+        "order": 12,
+        "summary": "Met een SmartWifi-modem en slimme wifi-versterkers zorgt Ziggo voor werkende wifi in het hele huis.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::24-7-hulp-van-de-wifi-crew",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::24-7-hulp-van-de-wifi-crew",
+        "heading": "24/7 hulp van de Wifi Crew",
+        "level": 3,
+        "order": 13,
+        "summary": "De Wifi Crew helpt 24/7 bij wifi-problemen en andere wifi-uitdagingen.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::gratis-monteur-bij-installatie",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::gratis-monteur-bij-installatie",
+        "heading": "Gratis monteur bij installatie",
+        "level": 3,
+        "order": 14,
+        "summary": "Als je de installatie niet zelf kunt uitvoeren, staat er een gratis monteur klaar om te helpen.",
+        "topic": "how_to"
+      }
+    },
+    {
+      "node_id": "section:internet_wifi::veelgestelde-vragen",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_wifi::veelgestelde-vragen",
+        "heading": "Veelgestelde vragen",
+        "level": 2,
+        "order": 15,
+        "summary": "Ziggo biedt verschillende internetpakketten, waaronder Alles-in-1-pakketten en pakketten zonder bellen of digitale tv. De Wifi Crew is dag en nacht bereikbaar voor wifi-vragen; smart Wifiboosters verbeteren het wifi-bereik in huis, en tot 8 weken na ontvangst van het pakket of een verhuizing kun je een gratis installatiemonteur aanvragen via Mijn Ziggo.",
+        "topic": "faq"
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0001",
+        "section_id": "internet_wifi::wifi-garantie",
+        "text": "Wifi Garantie\n\nJe krijgt gratis wifi-versterkers\nvoor wifi in je hele huis, 24/7 hulp van onze Wifi Crew, en een gratis monteur als het nodig is.",
+        "order": 1,
+        "token_estimate": 36
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0002",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0002",
+        "section_id": "internet_wifi::elk-jaar-beter",
+        "text": "Elk jaar beter\n\nElk jaar krijg je automatisch een snellere en stabielere verbinding. Zo ben én blijf je ook in de toekomst perfect verbonden.",
+        "order": 2,
+        "token_estimate": 35
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0003",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0003",
+        "section_id": "internet_wifi::gratis-beveiliging",
+        "text": "Gratis beveiliging\n\nOntvang de beste internetbeveiliging van F-Secure voor 1 apparaat gratis bij Ziggo Internet. Meer weten?\n.",
+        "order": 3,
+        "token_estimate": 31
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0004",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0004",
+        "section_id": "internet_wifi::maandelijks-aanpasbaar",
+        "text": "Maandelijks aanpasbaar\n\nVerandert je wifi-gebruik? Heb je meer of juist minder snelheid nodig? Pas je abonnement elke maand eenvoudig aan. Zo betaal je nooit teveel.",
+        "order": 4,
+        "token_estimate": 41
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0005",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0005",
+        "section_id": "internet_wifi::installatie-zoals-jij-wil",
+        "text": "Installatie zoals jij wil\n\nJe krijgt alle hulp die je nodig hebt om wifi, tv en bellen aan te sluiten. Kijk online, in de Vodafone & Ziggo app, of krijg hulp van onze Installatie Crew.",
+        "order": 5,
+        "token_estimate": 46
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0006",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0006",
+        "section_id": "internet_wifi::smartwifi",
+        "text": "SmartWifi\n\nMet onze SmartWifi software heb je de beste techniek in huis. De wifi wordt slim over je apparaten verdeeld, zodat je altijd een optimale verbinding hebt.",
+        "order": 6,
+        "token_estimate": 41
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0007",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0007",
+        "section_id": "internet_wifi::stap-nu-over-en-krijg",
+        "text": "Stap nu over en krijg...\n\nGratis wifi-versterker\n24/7 hulp van onze Wifi Crew\nGratis monteur als het nodig is",
+        "order": 7,
+        "token_estimate": 27
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0008",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0008",
+        "section_id": "internet_wifi::gratis-wifi-versterkers",
+        "text": "Gratis wifi-versterkers\n\nOveral in huis wifi die werkt? Wij regelen het! Met ons krachtige SmartWifi modem én slimme wifi-versterkers.",
+        "order": 8,
+        "token_estimate": 33
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0009",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0009",
+        "section_id": "internet_wifi::24-7-hulp-van-de-wifi-crew",
+        "text": "24/7 hulp van de Wifi Crew\n\nWerkt je wifi toch niet zoals het hoort? Of mag het nog iets meer zijn? Onze Wifi Crew gaat geen wifi-uitdaging uit de weg.",
+        "order": 9,
+        "token_estimate": 37
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0010",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0010",
+        "section_id": "internet_wifi::gratis-monteur-bij-installatie",
+        "text": "Gratis monteur bij installatie\n\nKom je er zelf niet uit? Geen zorgen! Een gratis monteur staat voor je klaar en helpt je graag.",
+        "order": 10,
+        "token_estimate": 31
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0011",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0011",
+        "section_id": "internet_wifi::veelgestelde-vragen",
+        "text": "Veelgestelde vragen",
+        "order": 11,
+        "token_estimate": 4
+      }
+    },
+    {
+      "node_id": "chunk:internet_wifi::chunk-0012",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_wifi::chunk-0012",
+        "section_id": "internet_wifi::veelgestelde-vragen",
+        "text": "Veelgestelde vragen\n\nZiggo biedt verschillende pakketten waar je uit kunt kiezen met internet. Zo hebben we Alles-in-1 pakketten, met\n. Je kan ook kiezen voor een pakket zonder bellen, dat zijn de pakketten met\n. Wil je ook geen digitale tv? Dan hebben we ook pakketten met\n.\nBij Ziggo staan onze experts dag en nacht voor je klaar. De Wifi Crew is er voor ál je wifi-vragen. Online, telefonisch en zelfs 24/7 via de Messenger in de Vodafone & Ziggo app.\nOveral in huis mailen, appen, sharen en videobellen. Dat willen we allemaal. En allemaal tegelijk. Ook als we naar een andere kamer lopen of de trap opgaan. Isolatie, betonnen muren en apparatuur zorgen er soms voor dat je verbinding niet al te snel is. Met onze smart Wifiboosters is dat verleden tijd. De wifi bereikt je hele huis en schakelt automatisch met je mee.\nLees alles over\n.\nInstallatie is simpel, maar je kunt het ook door een specialist laten doen. Tot 8 weken na ontvangst van je pakket of verhuizing kun je een gratis installatiemonteur aanvragen. Meer informatie vind je op de pagina met de status van je bestelling. Log hiervoor in met je Mijn Ziggo account.\nOmdat je Wifi Garantie van ons krijgt, regelt de Installatie Crew kosteloos de hulp van een monteur. Zonder extra kosten. Bij het aansluiten van je wifi en bij eventuele storingen.",
+        "order": 12,
+        "token_estimate": 328
+      }
+    },
+    {
+      "node_id": "entity:wifi-garantie",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:wifi-garantie",
+        "name": "Wifi Garantie",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:wifi-versterkers",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:wifi-versterkers",
+        "name": "wifi-versterkers",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:internetbeveiliging",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:internetbeveiliging",
+        "name": "internetbeveiliging",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:1-apparaat",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:1-apparaat",
+        "name": "1 apparaat",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:ziggo-internet",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:ziggo-internet",
+        "name": "Ziggo Internet",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:smartwifi",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:smartwifi",
+        "name": "SmartWifi",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:wifi-versterker",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:wifi-versterker",
+        "name": "wifi-versterker",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:wifi-crew",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:wifi-crew",
+        "name": "Wifi Crew",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:24-7",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:24-7",
+        "name": "24/7",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:smartwifi-modem",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:smartwifi-modem",
+        "name": "SmartWifi modem",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:vodafone-ziggo-app",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:vodafone-ziggo-app",
+        "name": "Vodafone & Ziggo app",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:smart-wifiboosters",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:smart-wifiboosters",
+        "name": "smart Wifiboosters",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:tot-8-weken",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:tot-8-weken",
+        "name": "Tot 8 weken",
+        "type": "Specification"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::wifi-garantie",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::elk-jaar-beter",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::gratis-beveiliging",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::maandelijks-aanpasbaar",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::installatie-zoals-jij-wil",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::smartwifi",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::stap-nu-over-en-krijg",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::gratis-wifi-versterkers",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::24-7-hulp-van-de-wifi-crew",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::gratis-monteur-bij-installatie",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:internet_wifi",
+      "target_id": "section:internet_wifi::veelgestelde-vragen",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:internet_wifi::wifi-garantie",
+      "target_id": "chunk:internet_wifi::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "section:internet_wifi::elk-jaar-beter",
+      "target_id": "chunk:internet_wifi::chunk-0002",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0001",
+      "target_id": "chunk:internet_wifi::chunk-0002",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::gratis-beveiliging",
+      "target_id": "chunk:internet_wifi::chunk-0003",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0002",
+      "target_id": "chunk:internet_wifi::chunk-0003",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::maandelijks-aanpasbaar",
+      "target_id": "chunk:internet_wifi::chunk-0004",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0003",
+      "target_id": "chunk:internet_wifi::chunk-0004",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::installatie-zoals-jij-wil",
+      "target_id": "chunk:internet_wifi::chunk-0005",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0004",
+      "target_id": "chunk:internet_wifi::chunk-0005",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::smartwifi",
+      "target_id": "chunk:internet_wifi::chunk-0006",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0005",
+      "target_id": "chunk:internet_wifi::chunk-0006",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::stap-nu-over-en-krijg",
+      "target_id": "chunk:internet_wifi::chunk-0007",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0006",
+      "target_id": "chunk:internet_wifi::chunk-0007",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::gratis-wifi-versterkers",
+      "target_id": "chunk:internet_wifi::chunk-0008",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0007",
+      "target_id": "chunk:internet_wifi::chunk-0008",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::24-7-hulp-van-de-wifi-crew",
+      "target_id": "chunk:internet_wifi::chunk-0009",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0008",
+      "target_id": "chunk:internet_wifi::chunk-0009",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::gratis-monteur-bij-installatie",
+      "target_id": "chunk:internet_wifi::chunk-0010",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0009",
+      "target_id": "chunk:internet_wifi::chunk-0010",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::veelgestelde-vragen",
+      "target_id": "chunk:internet_wifi::chunk-0011",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0010",
+      "target_id": "chunk:internet_wifi::chunk-0011",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:internet_wifi::veelgestelde-vragen",
+      "target_id": "chunk:internet_wifi::chunk-0012",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0011",
+      "target_id": "chunk:internet_wifi::chunk-0012",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0001",
+      "target_id": "entity:wifi-garantie",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0001",
+      "target_id": "entity:wifi-versterkers",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0003",
+      "target_id": "entity:internetbeveiliging",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0003",
+      "target_id": "entity:1-apparaat",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0003",
+      "target_id": "entity:ziggo-internet",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0006",
+      "target_id": "entity:smartwifi",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0007",
+      "target_id": "entity:wifi-versterker",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0007",
+      "target_id": "entity:wifi-crew",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0007",
+      "target_id": "entity:24-7",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0008",
+      "target_id": "entity:smartwifi-modem",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0008",
+      "target_id": "entity:wifi-versterkers",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0009",
+      "target_id": "entity:wifi-crew",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0009",
+      "target_id": "entity:24-7",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0012",
+      "target_id": "entity:wifi-crew",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0012",
+      "target_id": "entity:vodafone-ziggo-app",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0012",
+      "target_id": "entity:smart-wifiboosters",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0012",
+      "target_id": "entity:24-7",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0012",
+      "target_id": "entity:tot-8-weken",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_wifi::chunk-0012",
+      "target_id": "entity:wifi-garantie",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "servicefeature:wifi-garantie",
+      "name": "Wifi Garantie",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_wifi::chunk-0001"
+    },
+    {
+      "entity_id": "hardware:wifi-versterkers",
+      "name": "wifi-versterkers",
+      "entity_type": "Hardware",
+      "source_chunk_id": "internet_wifi::chunk-0001"
+    },
+    {
+      "entity_id": "servicefeature:internetbeveiliging",
+      "name": "internetbeveiliging",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_wifi::chunk-0003"
+    },
+    {
+      "entity_id": "specification:1-apparaat",
+      "name": "1 apparaat",
+      "entity_type": "Specification",
+      "source_chunk_id": "internet_wifi::chunk-0003"
+    },
+    {
+      "entity_id": "product:ziggo-internet",
+      "name": "Ziggo Internet",
+      "entity_type": "Product",
+      "source_chunk_id": "internet_wifi::chunk-0003"
+    },
+    {
+      "entity_id": "servicefeature:smartwifi",
+      "name": "SmartWifi",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_wifi::chunk-0006"
+    },
+    {
+      "entity_id": "hardware:wifi-versterker",
+      "name": "wifi-versterker",
+      "entity_type": "Hardware",
+      "source_chunk_id": "internet_wifi::chunk-0007"
+    },
+    {
+      "entity_id": "servicefeature:wifi-crew",
+      "name": "Wifi Crew",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_wifi::chunk-0007"
+    },
+    {
+      "entity_id": "specification:24-7",
+      "name": "24/7",
+      "entity_type": "Specification",
+      "source_chunk_id": "internet_wifi::chunk-0007"
+    },
+    {
+      "entity_id": "hardware:smartwifi-modem",
+      "name": "SmartWifi modem",
+      "entity_type": "Hardware",
+      "source_chunk_id": "internet_wifi::chunk-0008"
+    },
+    {
+      "entity_id": "hardware:wifi-versterkers",
+      "name": "wifi-versterkers",
+      "entity_type": "Hardware",
+      "source_chunk_id": "internet_wifi::chunk-0008"
+    },
+    {
+      "entity_id": "servicefeature:wifi-crew",
+      "name": "Wifi Crew",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_wifi::chunk-0009"
+    },
+    {
+      "entity_id": "specification:24-7",
+      "name": "24/7",
+      "entity_type": "Specification",
+      "source_chunk_id": "internet_wifi::chunk-0009"
+    },
+    {
+      "entity_id": "servicefeature:wifi-crew",
+      "name": "Wifi Crew",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_wifi::chunk-0012"
+    },
+    {
+      "entity_id": "product:vodafone-ziggo-app",
+      "name": "Vodafone & Ziggo app",
+      "entity_type": "Product",
+      "source_chunk_id": "internet_wifi::chunk-0012"
+    },
+    {
+      "entity_id": "hardware:smart-wifiboosters",
+      "name": "smart Wifiboosters",
+      "entity_type": "Hardware",
+      "source_chunk_id": "internet_wifi::chunk-0012"
+    },
+    {
+      "entity_id": "specification:24-7",
+      "name": "24/7",
+      "entity_type": "Specification",
+      "source_chunk_id": "internet_wifi::chunk-0012"
+    },
+    {
+      "entity_id": "specification:tot-8-weken",
+      "name": "Tot 8 weken",
+      "entity_type": "Specification",
+      "source_chunk_id": "internet_wifi::chunk-0012"
+    },
+    {
+      "entity_id": "servicefeature:wifi-garantie",
+      "name": "Wifi Garantie",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_wifi::chunk-0012"
+    }
+  ],
+  "section_summaries": {
+    "internet_wifi::wifi-garantie": "Je krijgt gratis wifi-versterkers, 24/7 hulp van de Wifi Crew en indien nodig een gratis monteur voor wifi in je hele huis.",
+    "internet_wifi::elk-jaar-beter": "Je krijgt elk jaar automatisch een snellere en stabielere verbinding, zodat je ook in de toekomst goed verbonden blijft.",
+    "internet_wifi::gratis-beveiliging": "Bij Ziggo Internet ontvang je gratis internetbeveiliging van F-Secure voor één apparaat.",
+    "internet_wifi::maandelijks-aanpasbaar": "Je kunt je abonnement elke maand eenvoudig aanpassen wanneer je wifi-gebruik of gewenste snelheid verandert. Zo betaal je volgens de tekst nooit te veel.",
+    "internet_wifi::installatie-zoals-jij-wil": "Je krijgt hulp bij het aansluiten van wifi, tv en bellen via online informatie, de Vodafone & Ziggo-app of de Installatie Crew.",
+    "internet_wifi::smartwifi": "SmartWifi verdeelt de wifi slim over je apparaten, zodat je een optimale verbinding hebt.",
+    "internet_wifi::stap-nu-over-en-krijg": "Bij overstappen krijg je een gratis wifi-versterker, 24/7 hulp van de Wifi Crew en indien nodig een gratis monteur.",
+    "internet_wifi::gratis-wifi-versterkers": "Met een SmartWifi-modem en slimme wifi-versterkers zorgt Ziggo voor werkende wifi in het hele huis.",
+    "internet_wifi::24-7-hulp-van-de-wifi-crew": "De Wifi Crew helpt 24/7 bij wifi-problemen en andere wifi-uitdagingen.",
+    "internet_wifi::gratis-monteur-bij-installatie": "Als je de installatie niet zelf kunt uitvoeren, staat er een gratis monteur klaar om te helpen.",
+    "internet_wifi::veelgestelde-vragen": "Ziggo biedt verschillende internetpakketten, waaronder Alles-in-1-pakketten en pakketten zonder bellen of digitale tv. De Wifi Crew is dag en nacht bereikbaar voor wifi-vragen; smart Wifiboosters verbeteren het wifi-bereik in huis, en tot 8 weken na ontvangst van het pakket of een verhuizing kun je een gratis installatiemonteur aanvragen via Mijn Ziggo."
+  }
+}

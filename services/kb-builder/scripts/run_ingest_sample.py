@@ -2,6 +2,8 @@
 """
 Run the ingest LangGraph on sample URLs from ziggo-product-label-urls.json.
 
+For a full batch ingest of all unique pages, use run_ingest_all.py instead.
+
 Usage (from services/kb-builder):
     DATA_DIR=../../data .venv/bin/python scripts/run_ingest_sample.py
     DATA_DIR=../../data .venv/bin/python scripts/run_ingest_sample.py --label "Ziggo GO"

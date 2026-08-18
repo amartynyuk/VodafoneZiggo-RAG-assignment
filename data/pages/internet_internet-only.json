@@ -1,0 +1,148 @@
+{
+  "ingested_at": "2026-08-18T12:21:33.009920+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/internet/internet-only",
+    "page_id": "internet_internet-only",
+    "label": "Internet Only",
+    "title": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo",
+    "meta_description": "Vergelijk alle Internet Only pakketten van Ziggo ✓  Internet waar je op kunt rekenen ✓ Stabiel, snel en veilig internet thuis ✓ Perfecte wifi door SmartWifi",
+    "og_title": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo",
+    "og_description": "Vergelijk alle Internet Only pakketten van Ziggo ✓  Internet waar je op kunt rekenen ✓ Stabiel, snel en veilig internet thuis ✓ Perfecte wifi door SmartWifi"
+  },
+  "content_quality": "sparse",
+  "main_char_count": 588,
+  "warnings": [
+    "Sparse static content (588 chars in <main>). Pricing/tables may need Playwright for full extraction."
+  ],
+  "sections": [
+    {
+      "section_id": "internet_internet-only::overview",
+      "heading": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo",
+      "level": 1,
+      "text": "Vergelijk alle Internet Only pakketten van Ziggo ✓  Internet waar je op kunt rekenen ✓ Stabiel, snel en veilig internet thuis ✓ Perfecte wifi door SmartWifi\n\nInternet Only\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "internet_internet-only::chunk-0001",
+      "section_id": "internet_internet-only::overview",
+      "text": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo\n\nVergelijk alle Internet Only pakketten van Ziggo ✓  Internet waar je op kunt rekenen ✓ Stabiel, snel en veilig internet thuis ✓ Perfecte wifi door SmartWifi\n\nInternet Only\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1,
+      "token_estimate": 197
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:internet_internet-only",
+      "label": "Page",
+      "properties": {
+        "page_id": "internet_internet-only",
+        "url": "https://www.ziggo.nl/internet/internet-only",
+        "title": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo",
+        "label": "Internet Only",
+        "content_quality": "sparse"
+      }
+    },
+    {
+      "node_id": "section:internet_internet-only::overview",
+      "label": "Section",
+      "properties": {
+        "section_id": "internet_internet-only::overview",
+        "heading": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo",
+        "level": 1,
+        "order": 1,
+        "summary": "Ziggo biedt Internet Only-pakketten met stabiel, snel en veilig internet thuis en SmartWifi voor goede wifi. Het abonnement loopt door met een gekozen minimumduur van 1 of 2 jaar; daarna kun je maandelijks kosteloos opzeggen en tussentijds je pakket wijzigen.",
+        "topic": "overview"
+      }
+    },
+    {
+      "node_id": "chunk:internet_internet-only::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "internet_internet-only::chunk-0001",
+        "section_id": "internet_internet-only::overview",
+        "text": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo\n\nVergelijk alle Internet Only pakketten van Ziggo ✓  Internet waar je op kunt rekenen ✓ Stabiel, snel en veilig internet thuis ✓ Perfecte wifi door SmartWifi\n\nInternet Only\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+        "order": 1,
+        "token_estimate": 197
+      }
+    },
+    {
+      "node_id": "entity:internet-only",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:internet-only",
+        "name": "Internet Only",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:smartwifi",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:smartwifi",
+        "name": "SmartWifi",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:1-of-2-jaar",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:1-of-2-jaar",
+        "name": "1 of 2 jaar",
+        "type": "Specification"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:internet_internet-only",
+      "target_id": "section:internet_internet-only::overview",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:internet_internet-only::overview",
+      "target_id": "chunk:internet_internet-only::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:internet_internet-only::chunk-0001",
+      "target_id": "entity:internet-only",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_internet-only::chunk-0001",
+      "target_id": "entity:smartwifi",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:internet_internet-only::chunk-0001",
+      "target_id": "entity:1-of-2-jaar",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "product:internet-only",
+      "name": "Internet Only",
+      "entity_type": "Product",
+      "source_chunk_id": "internet_internet-only::chunk-0001"
+    },
+    {
+      "entity_id": "servicefeature:smartwifi",
+      "name": "SmartWifi",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "internet_internet-only::chunk-0001"
+    },
+    {
+      "entity_id": "specification:1-of-2-jaar",
+      "name": "1 of 2 jaar",
+      "entity_type": "Specification",
+      "source_chunk_id": "internet_internet-only::chunk-0001"
+    }
+  ],
+  "section_summaries": {
+    "internet_internet-only::overview": "Ziggo biedt Internet Only-pakketten met stabiel, snel en veilig internet thuis en SmartWifi voor goede wifi. Het abonnement loopt door met een gekozen minimumduur van 1 of 2 jaar; daarna kun je maandelijks kosteloos opzeggen en tussentijds je pakket wijzigen."
+  }
+}

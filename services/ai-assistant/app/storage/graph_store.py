@@ -90,7 +90,9 @@ class NetworkXGraphStore:
                     if nid in visited:
                         continue
                     visited.add(nid)
-                    collected_nodes[nid] = dict(self.g.nodes[nid])
+                    attrs = dict(self.g.nodes[nid])
+                    attrs["node_id"] = nid
+                    collected_nodes[nid] = attrs
                     for _, target, data in self.g.out_edges(nid, data=True):
                         collected_edges.append(
                             {"source": nid, "target": target, **data}

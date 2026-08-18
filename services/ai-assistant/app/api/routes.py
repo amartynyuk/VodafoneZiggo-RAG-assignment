@@ -1,6 +1,9 @@
 """API route definitions."""
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
+
+from app.graph.workflow import run_query
+from app.models.schemas import AskRequest, AskResponse
 
 router = APIRouter()
 
@@ -11,17 +14,20 @@ async def health() -> dict[str, str]:
     return {"status": "ok", "service": "ai-assistant"}
 
 
-@router.post("/ask")
-async def ask(payload: dict) -> dict:
+@router.post("/ask", response_model=AskResponse)
+async def ask(request: AskRequest) -> AskResponse:
     """
-    Accept a customer question and return an answer.
+    Accept a customer question and return a graph-augmented RAG answer.
 
-    Phase 0 stub — LangGraph workflow is added in Phase 3.
+    Workflow: embed → retrieve → graph expand → generate (LangGraph).
+    LangSmith traces each step when LANGSMITH_TRACING=true.
     """
-    question = payload.get("question", "")
-    return {
-        "answer": f"[stub] Received your question: {question!r}. LangGraph not wired yet.",
-        "source": "stub",
-        "confidence": 0.0,
-        "blocked": False,
-    }
+    try:
+        return run_query(request)
+    except FileNotFoundError as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="Knowledge base not indexed yet. Run kb-builder ingest first.",
+        ) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc

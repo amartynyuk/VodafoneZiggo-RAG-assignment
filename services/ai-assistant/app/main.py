@@ -1,8 +1,8 @@
 """
 FastAPI application entrypoint for the AI Assistant service.
 
-This service handles customer questions via POST /ask. The LangGraph workflow
-(cache → security → graph-augmented RAG) will be wired in Phase 3+.
+This service handles customer questions via POST /ask using a LangGraph RAG workflow
+(embed → retrieve → graph expand → generate). Cache and security gates come in Phase 4+.
 """
 
 from fastapi import FastAPI

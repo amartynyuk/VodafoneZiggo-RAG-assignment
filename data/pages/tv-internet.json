@@ -1,5 +1,5 @@
 {
-  "ingested_at": "2026-08-18T11:05:04.720258+00:00",
+  "ingested_at": "2026-08-18T12:21:20.097750+00:00",
   "metadata": {
     "url": "https://www.ziggo.nl/tv-internet",
     "page_id": "tv-internet",
@@ -51,7 +51,9 @@
         "section_id": "tv-internet::overview",
         "heading": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
         "level": 1,
-        "order": 1
+        "order": 1,
+        "summary": "Ziggo biedt Internet & TV-abonnementen met stabiel, snel en veilig internet, Wifi Garantie, Next Mini, tv-kijken waar en wanneer je wilt en gratis Ziggo Sport. Het abonnement heeft een minimumduur van 1 of 2 jaar; daarna kun je maandelijks kosteloos opzeggen en tussentijds je pakket wijzigen.",
+        "topic": "overview"
       }
     },
     {
@@ -63,6 +65,51 @@
         "text": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo\n\n✓ Stabiel, snel en veilig internet thuis ✓ Wifi Garantie ✓ Next Mini: TV & Streaming ✓ Kijk TV waar en wanneer je wilt ✓ Gratis Ziggo Sport\n\nInternet & TV\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
         "order": 1,
         "token_estimate": 192
+      }
+    },
+    {
+      "node_id": "entity:internet-tv",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:internet-tv",
+        "name": "Internet & TV",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:wifi-garantie",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:wifi-garantie",
+        "name": "Wifi Garantie",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:next-mini",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:next-mini",
+        "name": "Next Mini",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:ziggo-sport",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:ziggo-sport",
+        "name": "Ziggo Sport",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:1-of-2-jaar",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:1-of-2-jaar",
+        "name": "1 of 2 jaar",
+        "type": "Specification"
       }
     }
   ],
@@ -76,8 +123,66 @@
       "source_id": "section:tv-internet::overview",
       "target_id": "chunk:tv-internet::chunk-0001",
       "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:tv-internet::chunk-0001",
+      "target_id": "entity:internet-tv",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:tv-internet::chunk-0001",
+      "target_id": "entity:wifi-garantie",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:tv-internet::chunk-0001",
+      "target_id": "entity:next-mini",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:tv-internet::chunk-0001",
+      "target_id": "entity:ziggo-sport",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:tv-internet::chunk-0001",
+      "target_id": "entity:1-of-2-jaar",
+      "rel_type": "MENTIONS"
     }
   ],
-  "entities": [],
-  "section_summaries": {}
+  "entities": [
+    {
+      "entity_id": "product:internet-tv",
+      "name": "Internet & TV",
+      "entity_type": "Product",
+      "source_chunk_id": "tv-internet::chunk-0001"
+    },
+    {
+      "entity_id": "servicefeature:wifi-garantie",
+      "name": "Wifi Garantie",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "tv-internet::chunk-0001"
+    },
+    {
+      "entity_id": "hardware:next-mini",
+      "name": "Next Mini",
+      "entity_type": "Hardware",
+      "source_chunk_id": "tv-internet::chunk-0001"
+    },
+    {
+      "entity_id": "product:ziggo-sport",
+      "name": "Ziggo Sport",
+      "entity_type": "Product",
+      "source_chunk_id": "tv-internet::chunk-0001"
+    },
+    {
+      "entity_id": "specification:1-of-2-jaar",
+      "name": "1 of 2 jaar",
+      "entity_type": "Specification",
+      "source_chunk_id": "tv-internet::chunk-0001"
+    }
+  ],
+  "section_summaries": {
+    "tv-internet::overview": "Ziggo biedt Internet & TV-abonnementen met stabiel, snel en veilig internet, Wifi Garantie, Next Mini, tv-kijken waar en wanneer je wilt en gratis Ziggo Sport. Het abonnement heeft een minimumduur van 1 of 2 jaar; daarna kun je maandelijks kosteloos opzeggen en tussentijds je pakket wijzigen."
+  }
 }
