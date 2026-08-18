@@ -1,0 +1,396 @@
+{
+  "ingested_at": "2026-08-18T12:30:40.207278+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/bellen/extra-telefoonlijn",
+    "page_id": "bellen_extra-telefoonlijn",
+    "label": "Extra telefoonlijn",
+    "title": "Voordelig bellen met vaste telefonie | Ziggo",
+    "meta_description": "Voordelig bellen met de vaste telefoon: dat doe je voor een vast bedrag per maand of lage kosten per minuut.",
+    "og_title": "Voordelig bellen met vaste telefonie | Ziggo",
+    "og_description": "Voordelig bellen met de vaste telefoon: dat doe je voor een vast bedrag per maand of lage kosten per minuut."
+  },
+  "content_quality": "sparse",
+  "main_char_count": 1424,
+  "warnings": [
+    "Sparse static content (1424 chars in <main>). Pricing/tables may need Playwright for full extraction."
+  ],
+  "sections": [
+    {
+      "section_id": "bellen_extra-telefoonlijn::overview",
+      "heading": "Voordelig bellen met vaste telefonie | Ziggo",
+      "level": 1,
+      "text": "Voordelig bellen met de vaste telefoon: dat doe je voor een vast bedrag per maand of lage kosten per minuut.\n\nVoordelig bellen naar vast en mobiel\nOntdek de mogelijkheden\nVast Bellen\nBij Ziggo bel je naar vaste en mobiele nummers in Nederland voor het voordelige tarief van 16 cent per minuut. Bovendien betaal je per seconde en kun je je huidige telefoonnummer gratis meenemen naar Ziggo. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nAbonnementen met Vast Bellen\nVast Bellen\nVast Bellen\nAlles-in-1\nAlles-in-1\nVolop Bellen\nVoor maar € 15,50 extra per maand bel je onbeperkt naar alle Nederlandse vaste en mobiele nummers.\nOnbeperkt bellen\nPer maand opzegbaar\nOm Volop Bellen te bestellen heb je een abonnement op\nVast Bellen\nof\nAlles-in-1\nnodig.\nBekijk Volop Bellen\nBekijk Volop Bellen\nNummerbehoud\nStap je over op Ziggo Bellen? Dan neem je je oude vaste telefoonnummer gratis mee. Wanneer je Ziggo modem is aangesloten, nemen we binnen 1 werkdag je telefoonnummer over.\nNummerbehoud vraag je heel eenvoudig aan. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nExtra telefoniediensten\nKies je favoriete telefoniedienst. Eenvoudig te bestellen en maandelijks opzegbaar.\nExtra lijn\nEen tweede telefoonlijn bij je Vast Bellen abonnement is erg handig. Bijvoorbeeld als je met meerdere mensen een huis deelt. Of als je niet zonder je fax kunt.\nExtra telefoonlijn\n+\nExtra diensten\nHeb je een Vast Bellen abonnement? Dan kun je verschillende extra diensten gebruiken die je niets extra kosten.\nVoicemail\n+\nDriegesprek\n+\nDoorschakelen\n+",
+      "order": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "bellen_extra-telefoonlijn::chunk-0001",
+      "section_id": "bellen_extra-telefoonlijn::overview",
+      "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen met de vaste telefoon: dat doe je voor een vast bedrag per maand of lage kosten per minuut.",
+      "order": 1,
+      "token_estimate": 38
+    },
+    {
+      "chunk_id": "bellen_extra-telefoonlijn::chunk-0002",
+      "section_id": "bellen_extra-telefoonlijn::overview",
+      "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen naar vast en mobiel\nOntdek de mogelijkheden\nVast Bellen\nBij Ziggo bel je naar vaste en mobiele nummers in Nederland voor het voordelige tarief van 16 cent per minuut. Bovendien betaal je per seconde en kun je je huidige telefoonnummer gratis meenemen naar Ziggo. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nAbonnementen met Vast Bellen\nVast Bellen\nVast Bellen\nAlles-in-1\nAlles-in-1\nVolop Bellen\nVoor maar € 15,50 extra per maand bel je onbeperkt naar alle Nederlandse vaste en mobiele nummers.\nOnbeperkt bellen\nPer maand opzegbaar\nOm Volop Bellen te bestellen heb je een abonnement op\nVast Bellen\nof\nAlles-in-1\nnodig.\nBekijk Volop Bellen\nBekijk Volop Bellen\nNummerbehoud\nStap je over op Ziggo Bellen? Dan neem je je oude vaste telefoonnummer gratis mee. Wanneer je Ziggo modem is aangesloten, nemen we binnen 1 werkdag je telefoonnummer over.\nNummerbehoud vraag je heel eenvoudig aan. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nExtra telefoniediensten\nKies je favoriete telefoniedienst. Eenvoudig te bestellen en maandelijks opzegbaar.\nExtra lijn\nEen tweede telefoonlijn bij je Vast Bellen abonnement is erg handig. Bijvoorbeeld als je met meerdere mensen een huis deelt. Of als je niet zonder je fax kunt.\nExtra telefoonlijn\n+\nExtra diensten\nHeb je een Vast Bellen abonnement? Dan kun je verschillende extra diensten gebruiken die je niets extra kosten.\nVoicemail\n+\nDriegesprek\n+\nDoorschakelen\n+",
+      "order": 2,
+      "token_estimate": 376
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:bellen_extra-telefoonlijn",
+      "label": "Page",
+      "properties": {
+        "page_id": "bellen_extra-telefoonlijn",
+        "url": "https://www.ziggo.nl/bellen/extra-telefoonlijn",
+        "title": "Voordelig bellen met vaste telefonie | Ziggo",
+        "label": "Extra telefoonlijn",
+        "content_quality": "sparse"
+      }
+    },
+    {
+      "node_id": "section:bellen_extra-telefoonlijn::overview",
+      "label": "Section",
+      "properties": {
+        "section_id": "bellen_extra-telefoonlijn::overview",
+        "heading": "Voordelig bellen met vaste telefonie | Ziggo",
+        "level": 1,
+        "order": 1,
+        "summary": "Met Ziggo Vast Bellen bel je naar vaste en mobiele nummers in Nederland voor 16 cent per minuut, waarbij je per seconde betaalt en je huidige nummer gratis kunt meenemen. Voor € 15,50 extra per maand biedt Volop Bellen onbeperkt bellen; daarnaast zijn een extra telefoonlijn en diensten zoals voicemail, driegesprek en doorschakelen beschikbaar.",
+        "topic": "overview"
+      }
+    },
+    {
+      "node_id": "chunk:bellen_extra-telefoonlijn::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "bellen_extra-telefoonlijn::chunk-0001",
+        "section_id": "bellen_extra-telefoonlijn::overview",
+        "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen met de vaste telefoon: dat doe je voor een vast bedrag per maand of lage kosten per minuut.",
+        "order": 1,
+        "token_estimate": 38
+      }
+    },
+    {
+      "node_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "bellen_extra-telefoonlijn::chunk-0002",
+        "section_id": "bellen_extra-telefoonlijn::overview",
+        "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen naar vast en mobiel\nOntdek de mogelijkheden\nVast Bellen\nBij Ziggo bel je naar vaste en mobiele nummers in Nederland voor het voordelige tarief van 16 cent per minuut. Bovendien betaal je per seconde en kun je je huidige telefoonnummer gratis meenemen naar Ziggo. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nAbonnementen met Vast Bellen\nVast Bellen\nVast Bellen\nAlles-in-1\nAlles-in-1\nVolop Bellen\nVoor maar € 15,50 extra per maand bel je onbeperkt naar alle Nederlandse vaste en mobiele nummers.\nOnbeperkt bellen\nPer maand opzegbaar\nOm Volop Bellen te bestellen heb je een abonnement op\nVast Bellen\nof\nAlles-in-1\nnodig.\nBekijk Volop Bellen\nBekijk Volop Bellen\nNummerbehoud\nStap je over op Ziggo Bellen? Dan neem je je oude vaste telefoonnummer gratis mee. Wanneer je Ziggo modem is aangesloten, nemen we binnen 1 werkdag je telefoonnummer over.\nNummerbehoud vraag je heel eenvoudig aan. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nExtra telefoniediensten\nKies je favoriete telefoniedienst. Eenvoudig te bestellen en maandelijks opzegbaar.\nExtra lijn\nEen tweede telefoonlijn bij je Vast Bellen abonnement is erg handig. Bijvoorbeeld als je met meerdere mensen een huis deelt. Of als je niet zonder je fax kunt.\nExtra telefoonlijn\n+\nExtra diensten\nHeb je een Vast Bellen abonnement? Dan kun je verschillende extra diensten gebruiken die je niets extra kosten.\nVoicemail\n+\nDriegesprek\n+\nDoorschakelen\n+",
+        "order": 2,
+        "token_estimate": 376
+      }
+    },
+    {
+      "node_id": "entity:vaste-telefonie",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:vaste-telefonie",
+        "name": "Vaste telefonie",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:vast-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:vast-bellen",
+        "name": "Vast Bellen",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:alles-in-1",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:alles-in-1",
+        "name": "Alles-in-1",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:volop-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:volop-bellen",
+        "name": "Volop Bellen",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:16-cent-per-minuut",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "pricepoint:16-cent-per-minuut",
+        "name": "16 cent per minuut",
+        "type": "PricePoint"
+      }
+    },
+    {
+      "node_id": "entity:15-50-extra-per-maand",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "pricepoint:15-50-extra-per-maand",
+        "name": "€ 15,50 extra per maand",
+        "type": "PricePoint"
+      }
+    },
+    {
+      "node_id": "entity:onbeperkt-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:onbeperkt-bellen",
+        "name": "Onbeperkt bellen",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:per-maand-opzegbaar",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:per-maand-opzegbaar",
+        "name": "Per maand opzegbaar",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:nummerbehoud",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:nummerbehoud",
+        "name": "Nummerbehoud",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:extra-telefoonlijn",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:extra-telefoonlijn",
+        "name": "Extra telefoonlijn",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:voicemail",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:voicemail",
+        "name": "Voicemail",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:driegesprek",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:driegesprek",
+        "name": "Driegesprek",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:doorschakelen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:doorschakelen",
+        "name": "Doorschakelen",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:ziggo-modem",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:ziggo-modem",
+        "name": "Ziggo modem",
+        "type": "Hardware"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:bellen_extra-telefoonlijn",
+      "target_id": "section:bellen_extra-telefoonlijn::overview",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:bellen_extra-telefoonlijn::overview",
+      "target_id": "chunk:bellen_extra-telefoonlijn::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "section:bellen_extra-telefoonlijn::overview",
+      "target_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0001",
+      "target_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0001",
+      "target_id": "entity:vaste-telefonie",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:vast-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:alles-in-1",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:volop-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:16-cent-per-minuut",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:15-50-extra-per-maand",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:onbeperkt-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:per-maand-opzegbaar",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:nummerbehoud",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:extra-telefoonlijn",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:voicemail",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:driegesprek",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:doorschakelen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_extra-telefoonlijn::chunk-0002",
+      "target_id": "entity:ziggo-modem",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "product:vaste-telefonie",
+      "name": "Vaste telefonie",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0001"
+    },
+    {
+      "entity_id": "product:vast-bellen",
+      "name": "Vast Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "product:alles-in-1",
+      "name": "Alles-in-1",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "product:volop-bellen",
+      "name": "Volop Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "pricepoint:16-cent-per-minuut",
+      "name": "16 cent per minuut",
+      "entity_type": "PricePoint",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "pricepoint:15-50-extra-per-maand",
+      "name": "€ 15,50 extra per maand",
+      "entity_type": "PricePoint",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "servicefeature:onbeperkt-bellen",
+      "name": "Onbeperkt bellen",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "servicefeature:per-maand-opzegbaar",
+      "name": "Per maand opzegbaar",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "servicefeature:nummerbehoud",
+      "name": "Nummerbehoud",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "servicefeature:extra-telefoonlijn",
+      "name": "Extra telefoonlijn",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "servicefeature:voicemail",
+      "name": "Voicemail",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "servicefeature:driegesprek",
+      "name": "Driegesprek",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "servicefeature:doorschakelen",
+      "name": "Doorschakelen",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    },
+    {
+      "entity_id": "hardware:ziggo-modem",
+      "name": "Ziggo modem",
+      "entity_type": "Hardware",
+      "source_chunk_id": "bellen_extra-telefoonlijn::chunk-0002"
+    }
+  ],
+  "section_summaries": {
+    "bellen_extra-telefoonlijn::overview": "Met Ziggo Vast Bellen bel je naar vaste en mobiele nummers in Nederland voor 16 cent per minuut, waarbij je per seconde betaalt en je huidige nummer gratis kunt meenemen. Voor € 15,50 extra per maand biedt Volop Bellen onbeperkt bellen; daarnaast zijn een extra telefoonlijn en diensten zoals voicemail, driegesprek en doorschakelen beschikbaar."
+  }
+}

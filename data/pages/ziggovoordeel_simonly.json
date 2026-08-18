@@ -1,0 +1,108 @@
+{
+  "ingested_at": "2026-08-18T12:31:34.441248+00:00",
+  "metadata": {
+    "url": "https://directsales.ziggo.nl/ziggovoordeel/simonly?filter=simonly&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_simonly",
+    "page_id": "ziggovoordeel_simonly",
+    "label": "Sim Only",
+    "title": "Sim Only",
+    "meta_description": null,
+    "og_title": null,
+    "og_description": null
+  },
+  "content_quality": "sparse",
+  "main_char_count": 394,
+  "warnings": [
+    "Sparse static content (394 chars in <main>). Pricing/tables may need Playwright for full extraction."
+  ],
+  "sections": [
+    {
+      "section_id": "ziggovoordeel_simonly::overview",
+      "heading": "Sim Only",
+      "level": 1,
+      "text": "Details voor Sim Only",
+      "order": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ziggovoordeel_simonly::chunk-0001",
+      "section_id": "ziggovoordeel_simonly::overview",
+      "text": "Sim Only\n\nDetails voor Sim Only",
+      "order": 1,
+      "token_estimate": 7
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:ziggovoordeel_simonly",
+      "label": "Page",
+      "properties": {
+        "page_id": "ziggovoordeel_simonly",
+        "url": "https://directsales.ziggo.nl/ziggovoordeel/simonly?filter=simonly&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_simonly",
+        "title": "Sim Only",
+        "label": "Sim Only",
+        "content_quality": "sparse"
+      }
+    },
+    {
+      "node_id": "section:ziggovoordeel_simonly::overview",
+      "label": "Section",
+      "properties": {
+        "section_id": "ziggovoordeel_simonly::overview",
+        "heading": "Sim Only",
+        "level": 1,
+        "order": 1,
+        "summary": "Dit onderdeel bevat details over Sim Only.",
+        "topic": "overview"
+      }
+    },
+    {
+      "node_id": "chunk:ziggovoordeel_simonly::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "ziggovoordeel_simonly::chunk-0001",
+        "section_id": "ziggovoordeel_simonly::overview",
+        "text": "Sim Only\n\nDetails voor Sim Only",
+        "order": 1,
+        "token_estimate": 7
+      }
+    },
+    {
+      "node_id": "entity:sim-only",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:sim-only",
+        "name": "Sim Only",
+        "type": "Product"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:ziggovoordeel_simonly",
+      "target_id": "section:ziggovoordeel_simonly::overview",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:ziggovoordeel_simonly::overview",
+      "target_id": "chunk:ziggovoordeel_simonly::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:ziggovoordeel_simonly::chunk-0001",
+      "target_id": "entity:sim-only",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "product:sim-only",
+      "name": "Sim Only",
+      "entity_type": "Product",
+      "source_chunk_id": "ziggovoordeel_simonly::chunk-0001"
+    }
+  ],
+  "section_summaries": {
+    "ziggovoordeel_simonly::overview": "Dit onderdeel bevat details over Sim Only."
+  }
+}

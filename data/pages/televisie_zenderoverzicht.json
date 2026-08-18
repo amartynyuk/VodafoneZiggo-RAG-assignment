@@ -1,0 +1,179 @@
+{
+  "ingested_at": "2026-08-18T12:26:03.736078+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/televisie/zenderoverzicht",
+    "page_id": "televisie_zenderoverzicht",
+    "label": "Zenderoverzicht",
+    "title": "Vind alle digitale zenders bij Ziggo in het zenderoverzicht",
+    "meta_description": "Met Televisie van Ziggo krijg je standaard veel digitale en HD-zenders. Vind en bekijk hier de hele zenderlijst met alle kanalen. ",
+    "og_title": "Zenderoverzicht",
+    "og_description": "Met Televisie van Ziggo krijg je standaard veel digitale en HD-zenders. Vind en bekijk hier de hele zenderlijst met alle kanalen. "
+  },
+  "content_quality": "rich",
+  "main_char_count": 1783,
+  "warnings": [],
+  "sections": [
+    {
+      "section_id": "televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+      "heading": "Deze zenders kijk je met TV van Ziggo",
+      "level": 2,
+      "text": "Wij zijn het netwerk dat werkt voor jou. En we willen je altijd blij maken met verrassende zenders. Daarom kan ons aanbod af en toe veranderen. Soms voegen we zenders toe en soms verdwijnen er zenders. Omdat ze ophouden te bestaan bijvoorbeeld. Hieronder vind je het zenderaanbod zoals het op dit moment geldt. Gebruik de filters om te zien welke zenders op dit moment in jouw tv-pakket zitten.\nkun je los aan elk tv-abonnement toevoegen en zijn maandelijks opzegbaar.",
+      "order": 2
+    },
+    {
+      "section_id": "televisie_zenderoverzicht::veelgestelde-vragen",
+      "heading": "Veelgestelde vragen",
+      "level": 3,
+      "text": "Nee, er zijn kleine verschillen per gemeente mogelijk. Zo verschillen de lokale en\nper gemeente.\nAlle zenderwijzigingen vind je op het\n. Het meest recente zenderoverzicht staat altijd op deze pagina zelf.\nVoor het printen van het digitale zenderoverzicht gebruik je de print-knop rechts boven de tabel. Daarmee open je een PDF die je eenvoudig kunt afdrukken. Voor de andere overzichten is er niet zo'n optie.\nDe Ziggo GO app is beschikbaar voor iOS en Android. Met de app kun je een groot aantal zenders zowel binnen- als buitenshuis bekijken. En via\nkijk je via je browser. Meer weten over Ziggo GO of de app downloaden? Bekijk dan de\n.\nSecret Circle is toegankelijk voor iedereen. We begrijpen dat niet iedereen deze zender wil zien of zelfs voorbij wil zien komen tijdens het zappen. Daarom laten we je de keuze. De zender is wel beschikbaar voor je, maar staat niet aan.",
+      "order": 3
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "televisie_zenderoverzicht::chunk-0001",
+      "section_id": "televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+      "text": "Deze zenders kijk je met TV van Ziggo\n\nWij zijn het netwerk dat werkt voor jou. En we willen je altijd blij maken met verrassende zenders. Daarom kan ons aanbod af en toe veranderen. Soms voegen we zenders toe en soms verdwijnen er zenders. Omdat ze ophouden te bestaan bijvoorbeeld. Hieronder vind je het zenderaanbod zoals het op dit moment geldt. Gebruik de filters om te zien welke zenders op dit moment in jouw tv-pakket zitten.\nkun je los aan elk tv-abonnement toevoegen en zijn maandelijks opzegbaar.",
+      "order": 1,
+      "token_estimate": 126
+    },
+    {
+      "chunk_id": "televisie_zenderoverzicht::chunk-0002",
+      "section_id": "televisie_zenderoverzicht::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nNee, er zijn kleine verschillen per gemeente mogelijk. Zo verschillen de lokale en\nper gemeente.\nAlle zenderwijzigingen vind je op het\n. Het meest recente zenderoverzicht staat altijd op deze pagina zelf.\nVoor het printen van het digitale zenderoverzicht gebruik je de print-knop rechts boven de tabel. Daarmee open je een PDF die je eenvoudig kunt afdrukken. Voor de andere overzichten is er niet zo'n optie.\nDe Ziggo GO app is beschikbaar voor iOS en Android. Met de app kun je een groot aantal zenders zowel binnen- als buitenshuis bekijken. En via\nkijk je via je browser. Meer weten over Ziggo GO of de app downloaden? Bekijk dan de\n.\nSecret Circle is toegankelijk voor iedereen. We begrijpen dat niet iedereen deze zender wil zien of zelfs voorbij wil zien komen tijdens het zappen. Daarom laten we je de keuze. De zender is wel beschikbaar voor je, maar staat niet aan.",
+      "order": 2,
+      "token_estimate": 224
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:televisie_zenderoverzicht",
+      "label": "Page",
+      "properties": {
+        "page_id": "televisie_zenderoverzicht",
+        "url": "https://www.ziggo.nl/televisie/zenderoverzicht",
+        "title": "Vind alle digitale zenders bij Ziggo in het zenderoverzicht",
+        "label": "Zenderoverzicht",
+        "content_quality": "rich"
+      }
+    },
+    {
+      "node_id": "section:televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+        "heading": "Deze zenders kijk je met TV van Ziggo",
+        "level": 2,
+        "order": 2,
+        "summary": "Het zenderaanbod van Ziggo kan veranderen doordat er zenders worden toegevoegd of verdwijnen. Via filters zie je welke zenders momenteel in jouw tv-pakket zitten.",
+        "topic": "overview"
+      }
+    },
+    {
+      "node_id": "section:televisie_zenderoverzicht::veelgestelde-vragen",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_zenderoverzicht::veelgestelde-vragen",
+        "heading": "Veelgestelde vragen",
+        "level": 3,
+        "order": 3,
+        "summary": "Het zenderaanbod kan per gemeente verschillen en de meest recente wijzigingen en overzichten staan op deze pagina. Het digitale zenderoverzicht is via de printknop als pdf af te drukken; met Ziggo GO kun je veel zenders binnen- en buitenshuis bekijken, terwijl Secret Circle beschikbaar is maar standaard niet aanstaat.",
+        "topic": "faq"
+      }
+    },
+    {
+      "node_id": "chunk:televisie_zenderoverzicht::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_zenderoverzicht::chunk-0001",
+        "section_id": "televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+        "text": "Deze zenders kijk je met TV van Ziggo\n\nWij zijn het netwerk dat werkt voor jou. En we willen je altijd blij maken met verrassende zenders. Daarom kan ons aanbod af en toe veranderen. Soms voegen we zenders toe en soms verdwijnen er zenders. Omdat ze ophouden te bestaan bijvoorbeeld. Hieronder vind je het zenderaanbod zoals het op dit moment geldt. Gebruik de filters om te zien welke zenders op dit moment in jouw tv-pakket zitten.\nkun je los aan elk tv-abonnement toevoegen en zijn maandelijks opzegbaar.",
+        "order": 1,
+        "token_estimate": 126
+      }
+    },
+    {
+      "node_id": "chunk:televisie_zenderoverzicht::chunk-0002",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_zenderoverzicht::chunk-0002",
+        "section_id": "televisie_zenderoverzicht::veelgestelde-vragen",
+        "text": "Veelgestelde vragen\n\nNee, er zijn kleine verschillen per gemeente mogelijk. Zo verschillen de lokale en\nper gemeente.\nAlle zenderwijzigingen vind je op het\n. Het meest recente zenderoverzicht staat altijd op deze pagina zelf.\nVoor het printen van het digitale zenderoverzicht gebruik je de print-knop rechts boven de tabel. Daarmee open je een PDF die je eenvoudig kunt afdrukken. Voor de andere overzichten is er niet zo'n optie.\nDe Ziggo GO app is beschikbaar voor iOS en Android. Met de app kun je een groot aantal zenders zowel binnen- als buitenshuis bekijken. En via\nkijk je via je browser. Meer weten over Ziggo GO of de app downloaden? Bekijk dan de\n.\nSecret Circle is toegankelijk voor iedereen. We begrijpen dat niet iedereen deze zender wil zien of zelfs voorbij wil zien komen tijdens het zappen. Daarom laten we je de keuze. De zender is wel beschikbaar voor je, maar staat niet aan.",
+        "order": 2,
+        "token_estimate": 224
+      }
+    },
+    {
+      "node_id": "entity:tv-van-ziggo",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:tv-van-ziggo",
+        "name": "TV van Ziggo",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:ziggo-go",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:ziggo-go",
+        "name": "Ziggo GO",
+        "type": "Product"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:televisie_zenderoverzicht",
+      "target_id": "section:televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_zenderoverzicht",
+      "target_id": "section:televisie_zenderoverzicht::veelgestelde-vragen",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+      "target_id": "chunk:televisie_zenderoverzicht::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "section:televisie_zenderoverzicht::veelgestelde-vragen",
+      "target_id": "chunk:televisie_zenderoverzicht::chunk-0002",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_zenderoverzicht::chunk-0001",
+      "target_id": "chunk:televisie_zenderoverzicht::chunk-0002",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "chunk:televisie_zenderoverzicht::chunk-0001",
+      "target_id": "entity:tv-van-ziggo",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_zenderoverzicht::chunk-0002",
+      "target_id": "entity:ziggo-go",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "product:tv-van-ziggo",
+      "name": "TV van Ziggo",
+      "entity_type": "Product",
+      "source_chunk_id": "televisie_zenderoverzicht::chunk-0001"
+    },
+    {
+      "entity_id": "product:ziggo-go",
+      "name": "Ziggo GO",
+      "entity_type": "Product",
+      "source_chunk_id": "televisie_zenderoverzicht::chunk-0002"
+    }
+  ],
+  "section_summaries": {
+    "televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo": "Het zenderaanbod van Ziggo kan veranderen doordat er zenders worden toegevoegd of verdwijnen. Via filters zie je welke zenders momenteel in jouw tv-pakket zitten.",
+    "televisie_zenderoverzicht::veelgestelde-vragen": "Het zenderaanbod kan per gemeente verschillen en de meest recente wijzigingen en overzichten staan op deze pagina. Het digitale zenderoverzicht is via de printknop als pdf af te drukken; met Ziggo GO kun je veel zenders binnen- en buitenshuis bekijken, terwijl Secret Circle beschikbaar is maar standaard niet aanstaat."
+  }
+}

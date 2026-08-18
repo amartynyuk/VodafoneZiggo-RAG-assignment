@@ -1,0 +1,364 @@
+{
+  "ingested_at": "2026-08-18T12:27:47.749455+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/televisie/mediaboxen",
+    "page_id": "televisie_mediaboxen",
+    "label": "Mediaboxen",
+    "title": "Ziggo Mediaboxen | Televisie | Ziggo",
+    "meta_description": "Er zijn twee soorten tv-kastjes; de Next Mini en de Mediabox Next. Allebei maken ze tv-kijken persoonlijker, slimmer én makkelijker.",
+    "og_title": "Ziggo Mediaboxen | Televisie | Ziggo",
+    "og_description": "Er zijn twee soorten tv-kastjes; de Next Mini en de Mediabox Next. Allebei maken ze tv-kijken persoonlijker, slimmer én makkelijker."
+  },
+  "content_quality": "rich",
+  "main_char_count": 6709,
+  "warnings": [],
+  "sections": [
+    {
+      "section_id": "televisie_mediaboxen::next-mini",
+      "heading": "Next Mini",
+      "level": 3,
+      "text": "Dit is het kleine broertje van de Mediabox Next, inclusief 4K. Sluit deze box aan op je modem met een internetkabel en je hebt de snelste en meest stabiele verbinding. Je ontvangt de Next Mini bij een nieuw televisie abonnement.",
+      "order": 4
+    },
+    {
+      "section_id": "televisie_mediaboxen::mediabox-next",
+      "heading": "Mediabox Next",
+      "level": 3,
+      "text": "Een compacte box, met 4K UHD. Sluit deze box aan met de coaxkabel én op je modem met een internetkabel en dan heb je de snelste en meest stabiele verbinding.",
+      "order": 5
+    },
+    {
+      "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+      "heading": "Veelgestelde vragen",
+      "level": 2,
+      "text": "Ja, dat kan. Met de Next Mini heb je alle streamingsdiensten zoals\n,\n,\nen\nop één plek. Wil je 4K-beeldkwaliteit, of je TV met je stem bedienen? Dan kun je je oude mediabox omruilen voor een nieuwe Next Mini.\nJe kan je abonnement makkelijk wijzigen in\n:\nGa naar ‘Producten’ > kies voor ‘Televisie’ of ‘Internet’ > ‘Je abonnement wijzigen’\nGa naar ‘Producten’ > ‘Pakket wijzigen’\nVink de Next Mini aan bij 'Pakket wijzigen', en rond de aanvraag verder af.\nHeb je nu een korting op een tv- of internetproduct? Dan vervalt de korting bij het omruilen van je mediabox. Je kunt dan beter even wachten tot je korting is afgelopen.\nHeb je een Mediabox Next? Dan is het omruilen naar de Next Mini niet nodig. Met je Mediabox Next heb je al dezelfde ervaring als de Next Mini. Daarom kun je die niet omwisselen.\nBij elk pakket met Televisie van Ziggo erin ontvang je de Next Mini.\n.\nWanneer je kiest voor een abonnement met de Next Mini of Mediabox Next, dan kijk je beschikbare programma's in\nmet een 4K UHD-geschikte tv. Er komen steeds meer huurfilms, tv-zenders, films en series bij in 4K UHD. Op de Mediabox Next en Next Mini bekijk je het aanbod. En apps zoals YouTube of Nextflix hebben ook films, series en programma's in 4K UHD.\n.\nBekijk\nhoe je je mediabox eenvoudig installeert.",
+      "order": 7
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0001",
+      "section_id": "televisie_mediaboxen::next-mini",
+      "text": "Next Mini\n\nDit is het kleine broertje van de Mediabox Next, inclusief 4K. Sluit deze box aan op je modem met een internetkabel en je hebt de snelste en meest stabiele verbinding. Je ontvangt de Next Mini bij een nieuw televisie abonnement.",
+      "order": 1,
+      "token_estimate": 59
+    },
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0002",
+      "section_id": "televisie_mediaboxen::mediabox-next",
+      "text": "Mediabox Next\n\nEen compacte box, met 4K UHD. Sluit deze box aan met de coaxkabel én op je modem met een internetkabel en dan heb je de snelste en meest stabiele verbinding.",
+      "order": 2,
+      "token_estimate": 43
+    },
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0003",
+      "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 3,
+      "token_estimate": 4
+    },
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0004",
+      "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nJa, dat kan. Met de Next Mini heb je alle streamingsdiensten zoals\n,\n,\nen\nop één plek. Wil je 4K-beeldkwaliteit, of je TV met je stem bedienen? Dan kun je je oude mediabox omruilen voor een nieuwe Next Mini.\nJe kan je abonnement makkelijk wijzigen in\n:\nGa naar ‘Producten’ > kies voor ‘Televisie’ of ‘Internet’ > ‘Je abonnement wijzigen’\nGa naar ‘Producten’ > ‘Pakket wijzigen’\nVink de Next Mini aan bij 'Pakket wijzigen', en rond de aanvraag verder af.\nHeb je nu een korting op een tv- of internetproduct? Dan vervalt de korting bij het omruilen van je mediabox. Je kunt dan beter even wachten tot je korting is afgelopen.\nHeb je een Mediabox Next? Dan is het omruilen naar de Next Mini niet nodig. Met je Mediabox Next heb je al dezelfde ervaring als de Next Mini. Daarom kun je die niet omwisselen.\nBij elk pakket met Televisie van Ziggo erin ontvang je de Next Mini.\n.\nWanneer je kiest voor een abonnement met de Next Mini of Mediabox Next, dan kijk je beschikbare programma's in\nmet een 4K UHD-geschikte tv. Er komen steeds meer huurfilms, tv-zenders, films en series bij in 4K UHD. Op de Mediabox Next en Next Mini bekijk je het aanbod. En apps zoals YouTube of Nextflix hebben ook films, series en programma's in 4K UHD.\n.\nBekijk\nhoe je je mediabox eenvoudig installeert.",
+      "order": 4,
+      "token_estimate": 324
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:televisie_mediaboxen",
+      "label": "Page",
+      "properties": {
+        "page_id": "televisie_mediaboxen",
+        "url": "https://www.ziggo.nl/televisie/mediaboxen",
+        "title": "Ziggo Mediaboxen | Televisie | Ziggo",
+        "label": "Mediaboxen",
+        "content_quality": "rich"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen::next-mini",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen::next-mini",
+        "heading": "Next Mini",
+        "level": 3,
+        "order": 4,
+        "summary": "De Next Mini is een compacte 4K-mediabox en het kleine broertje van de Mediabox Next. Sluit hem met een internetkabel aan op je modem voor de snelste en meest stabiele verbinding; je ontvangt hem bij een nieuw televisieabonnement.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen::mediabox-next",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen::mediabox-next",
+        "heading": "Mediabox Next",
+        "level": 3,
+        "order": 5,
+        "summary": "De Mediabox Next is een compacte mediabox met 4K UHD. Voor de snelste en meest stabiele verbinding sluit je hem aan met een coaxkabel en een internetkabel op je modem.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen::veelgestelde-vragen",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+        "heading": "Veelgestelde vragen",
+        "level": 2,
+        "order": 7,
+        "summary": "De veelgestelde vragen leggen uit hoe je een oude mediabox kunt omruilen voor een Next Mini, hoe je dit via Mijn Ziggo aanvraagt en dat een bestaande korting daardoor kan vervallen. Ook staat er dat een Mediabox Next niet hoeft te worden omgeruild, dat de Next Mini bij televisieabonnementen wordt geleverd en dat beide boxen 4K UHD ondersteunen.",
+        "topic": "faq"
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen::chunk-0001",
+        "section_id": "televisie_mediaboxen::next-mini",
+        "text": "Next Mini\n\nDit is het kleine broertje van de Mediabox Next, inclusief 4K. Sluit deze box aan op je modem met een internetkabel en je hebt de snelste en meest stabiele verbinding. Je ontvangt de Next Mini bij een nieuw televisie abonnement.",
+        "order": 1,
+        "token_estimate": 59
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen::chunk-0002",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen::chunk-0002",
+        "section_id": "televisie_mediaboxen::mediabox-next",
+        "text": "Mediabox Next\n\nEen compacte box, met 4K UHD. Sluit deze box aan met de coaxkabel én op je modem met een internetkabel en dan heb je de snelste en meest stabiele verbinding.",
+        "order": 2,
+        "token_estimate": 43
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen::chunk-0003",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen::chunk-0003",
+        "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+        "text": "Veelgestelde vragen",
+        "order": 3,
+        "token_estimate": 4
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen::chunk-0004",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen::chunk-0004",
+        "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+        "text": "Veelgestelde vragen\n\nJa, dat kan. Met de Next Mini heb je alle streamingsdiensten zoals\n,\n,\nen\nop één plek. Wil je 4K-beeldkwaliteit, of je TV met je stem bedienen? Dan kun je je oude mediabox omruilen voor een nieuwe Next Mini.\nJe kan je abonnement makkelijk wijzigen in\n:\nGa naar ‘Producten’ > kies voor ‘Televisie’ of ‘Internet’ > ‘Je abonnement wijzigen’\nGa naar ‘Producten’ > ‘Pakket wijzigen’\nVink de Next Mini aan bij 'Pakket wijzigen', en rond de aanvraag verder af.\nHeb je nu een korting op een tv- of internetproduct? Dan vervalt de korting bij het omruilen van je mediabox. Je kunt dan beter even wachten tot je korting is afgelopen.\nHeb je een Mediabox Next? Dan is het omruilen naar de Next Mini niet nodig. Met je Mediabox Next heb je al dezelfde ervaring als de Next Mini. Daarom kun je die niet omwisselen.\nBij elk pakket met Televisie van Ziggo erin ontvang je de Next Mini.\n.\nWanneer je kiest voor een abonnement met de Next Mini of Mediabox Next, dan kijk je beschikbare programma's in\nmet een 4K UHD-geschikte tv. Er komen steeds meer huurfilms, tv-zenders, films en series bij in 4K UHD. Op de Mediabox Next en Next Mini bekijk je het aanbod. En apps zoals YouTube of Nextflix hebben ook films, series en programma's in 4K UHD.\n.\nBekijk\nhoe je je mediabox eenvoudig installeert.",
+        "order": 4,
+        "token_estimate": 324
+      }
+    },
+    {
+      "node_id": "entity:next-mini",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:next-mini",
+        "name": "Next Mini",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:mediabox-next",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:mediabox-next",
+        "name": "Mediabox Next",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:4k",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:4k",
+        "name": "4K",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:4k-uhd",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:4k-uhd",
+        "name": "4K UHD",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:4k-beeldkwaliteit",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:4k-beeldkwaliteit",
+        "name": "4K-beeldkwaliteit",
+        "type": "Specification"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:televisie_mediaboxen",
+      "target_id": "section:televisie_mediaboxen::next-mini",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_mediaboxen",
+      "target_id": "section:televisie_mediaboxen::mediabox-next",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_mediaboxen",
+      "target_id": "section:televisie_mediaboxen::veelgestelde-vragen",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen::next-mini",
+      "target_id": "chunk:televisie_mediaboxen::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen::mediabox-next",
+      "target_id": "chunk:televisie_mediaboxen::chunk-0002",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0001",
+      "target_id": "chunk:televisie_mediaboxen::chunk-0002",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen::veelgestelde-vragen",
+      "target_id": "chunk:televisie_mediaboxen::chunk-0003",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0002",
+      "target_id": "chunk:televisie_mediaboxen::chunk-0003",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen::veelgestelde-vragen",
+      "target_id": "chunk:televisie_mediaboxen::chunk-0004",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0003",
+      "target_id": "chunk:televisie_mediaboxen::chunk-0004",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0001",
+      "target_id": "entity:next-mini",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0001",
+      "target_id": "entity:mediabox-next",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0001",
+      "target_id": "entity:4k",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0002",
+      "target_id": "entity:mediabox-next",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0002",
+      "target_id": "entity:4k-uhd",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0004",
+      "target_id": "entity:next-mini",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0004",
+      "target_id": "entity:mediabox-next",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0004",
+      "target_id": "entity:4k-beeldkwaliteit",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen::chunk-0004",
+      "target_id": "entity:4k-uhd",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "hardware:next-mini",
+      "name": "Next Mini",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0001"
+    },
+    {
+      "entity_id": "hardware:mediabox-next",
+      "name": "Mediabox Next",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0001"
+    },
+    {
+      "entity_id": "specification:4k",
+      "name": "4K",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0001"
+    },
+    {
+      "entity_id": "hardware:mediabox-next",
+      "name": "Mediabox Next",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0002"
+    },
+    {
+      "entity_id": "specification:4k-uhd",
+      "name": "4K UHD",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0002"
+    },
+    {
+      "entity_id": "hardware:next-mini",
+      "name": "Next Mini",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0004"
+    },
+    {
+      "entity_id": "hardware:mediabox-next",
+      "name": "Mediabox Next",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0004"
+    },
+    {
+      "entity_id": "specification:4k-beeldkwaliteit",
+      "name": "4K-beeldkwaliteit",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0004"
+    },
+    {
+      "entity_id": "specification:4k-uhd",
+      "name": "4K UHD",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen::chunk-0004"
+    }
+  ],
+  "section_summaries": {
+    "televisie_mediaboxen::next-mini": "De Next Mini is een compacte 4K-mediabox en het kleine broertje van de Mediabox Next. Sluit hem met een internetkabel aan op je modem voor de snelste en meest stabiele verbinding; je ontvangt hem bij een nieuw televisieabonnement.",
+    "televisie_mediaboxen::mediabox-next": "De Mediabox Next is een compacte mediabox met 4K UHD. Voor de snelste en meest stabiele verbinding sluit je hem aan met een coaxkabel en een internetkabel op je modem.",
+    "televisie_mediaboxen::veelgestelde-vragen": "De veelgestelde vragen leggen uit hoe je een oude mediabox kunt omruilen voor een Next Mini, hoe je dit via Mijn Ziggo aanvraagt en dat een bestaande korting daardoor kan vervallen. Ook staat er dat een Mediabox Next niet hoeft te worden omgeruild, dat de Next Mini bij televisieabonnementen wordt geleverd en dat beide boxen 4K UHD ondersteunen."
+  }
+}

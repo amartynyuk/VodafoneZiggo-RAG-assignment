@@ -1,0 +1,168 @@
+{
+  "ingested_at": "2026-08-18T12:30:44.042445+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/tarieven/bellen",
+    "page_id": "tarieven_bellen",
+    "label": "Tarieven",
+    "title": "Tarieven Telefonie | Klantenservice | Ziggo",
+    "meta_description": "Een overzicht van alle beltarieven van Ziggo vind je hier.",
+    "og_title": "Tarieven Telefonie | Klantenservice | Ziggo",
+    "og_description": "Een overzicht van alle beltarieven van Ziggo vind je hier."
+  },
+  "content_quality": "sparse",
+  "main_char_count": 431,
+  "warnings": [
+    "Sparse static content (431 chars in <main>). Pricing/tables may need Playwright for full extraction."
+  ],
+  "sections": [
+    {
+      "section_id": "tarieven_bellen::overview",
+      "heading": "Tarieven Telefonie | Klantenservice | Ziggo",
+      "level": 1,
+      "text": "Een overzicht van alle beltarieven van Ziggo vind je hier.\n\nNog geen Ziggo?\nStel samen\nStel je pakket samen\nAlle gesprekstarieven voor binnen- en buitenland\nTarieven Ziggo Bellen (370.7 kB)\nTarieven Volop Bellen (370.9 kB)\nTarieven Volop Bellen Internationaal* (370.6 kB)\nTarieven Bellen zonder starttarief (385.0 kB)\n* Volop Bellen Internationaal kan niet meer besteld worden.\nOp alle pakketten zijn onze\nalgemene voorwaarden\nvan toepassing. Op de aanbiedingen zijn onze\nactievoorwaarden\nvan toepassing.",
+      "order": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tarieven_bellen::chunk-0001",
+      "section_id": "tarieven_bellen::overview",
+      "text": "Tarieven Telefonie | Klantenservice | Ziggo\n\nEen overzicht van alle beltarieven van Ziggo vind je hier.\n\nNog geen Ziggo?\nStel samen\nStel je pakket samen\nAlle gesprekstarieven voor binnen- en buitenland\nTarieven Ziggo Bellen (370.7 kB)\nTarieven Volop Bellen (370.9 kB)\nTarieven Volop Bellen Internationaal* (370.6 kB)\nTarieven Bellen zonder starttarief (385.0 kB)\n* Volop Bellen Internationaal kan niet meer besteld worden.\nOp alle pakketten zijn onze\nalgemene voorwaarden\nvan toepassing. Op de aanbiedingen zijn onze\nactievoorwaarden\nvan toepassing.",
+      "order": 1,
+      "token_estimate": 137
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:tarieven_bellen",
+      "label": "Page",
+      "properties": {
+        "page_id": "tarieven_bellen",
+        "url": "https://www.ziggo.nl/tarieven/bellen",
+        "title": "Tarieven Telefonie | Klantenservice | Ziggo",
+        "label": "Tarieven",
+        "content_quality": "sparse"
+      }
+    },
+    {
+      "node_id": "section:tarieven_bellen::overview",
+      "label": "Section",
+      "properties": {
+        "section_id": "tarieven_bellen::overview",
+        "heading": "Tarieven Telefonie | Klantenservice | Ziggo",
+        "level": 1,
+        "order": 1,
+        "summary": "Deze pagina geeft een overzicht van alle beltarieven van Ziggo voor gesprekken in binnen- en buitenland. Je vindt er tarieven voor Ziggo Bellen, Volop Bellen, Volop Bellen Internationaal en Bellen zonder starttarief; Volop Bellen Internationaal kan niet meer worden besteld.",
+        "topic": "pricing"
+      }
+    },
+    {
+      "node_id": "chunk:tarieven_bellen::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "tarieven_bellen::chunk-0001",
+        "section_id": "tarieven_bellen::overview",
+        "text": "Tarieven Telefonie | Klantenservice | Ziggo\n\nEen overzicht van alle beltarieven van Ziggo vind je hier.\n\nNog geen Ziggo?\nStel samen\nStel je pakket samen\nAlle gesprekstarieven voor binnen- en buitenland\nTarieven Ziggo Bellen (370.7 kB)\nTarieven Volop Bellen (370.9 kB)\nTarieven Volop Bellen Internationaal* (370.6 kB)\nTarieven Bellen zonder starttarief (385.0 kB)\n* Volop Bellen Internationaal kan niet meer besteld worden.\nOp alle pakketten zijn onze\nalgemene voorwaarden\nvan toepassing. Op de aanbiedingen zijn onze\nactievoorwaarden\nvan toepassing.",
+        "order": 1,
+        "token_estimate": 137
+      }
+    },
+    {
+      "node_id": "entity:ziggo-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:ziggo-bellen",
+        "name": "Ziggo Bellen",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:volop-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:volop-bellen",
+        "name": "Volop Bellen",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:volop-bellen-internationaal",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:volop-bellen-internationaal",
+        "name": "Volop Bellen Internationaal",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:bellen-zonder-starttarief",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:bellen-zonder-starttarief",
+        "name": "Bellen zonder starttarief",
+        "type": "Product"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:tarieven_bellen",
+      "target_id": "section:tarieven_bellen::overview",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:tarieven_bellen::overview",
+      "target_id": "chunk:tarieven_bellen::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:tarieven_bellen::chunk-0001",
+      "target_id": "entity:ziggo-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:tarieven_bellen::chunk-0001",
+      "target_id": "entity:volop-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:tarieven_bellen::chunk-0001",
+      "target_id": "entity:volop-bellen-internationaal",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:tarieven_bellen::chunk-0001",
+      "target_id": "entity:bellen-zonder-starttarief",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "product:ziggo-bellen",
+      "name": "Ziggo Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "tarieven_bellen::chunk-0001"
+    },
+    {
+      "entity_id": "product:volop-bellen",
+      "name": "Volop Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "tarieven_bellen::chunk-0001"
+    },
+    {
+      "entity_id": "product:volop-bellen-internationaal",
+      "name": "Volop Bellen Internationaal",
+      "entity_type": "Product",
+      "source_chunk_id": "tarieven_bellen::chunk-0001"
+    },
+    {
+      "entity_id": "product:bellen-zonder-starttarief",
+      "name": "Bellen zonder starttarief",
+      "entity_type": "Product",
+      "source_chunk_id": "tarieven_bellen::chunk-0001"
+    }
+  ],
+  "section_summaries": {
+    "tarieven_bellen::overview": "Deze pagina geeft een overzicht van alle beltarieven van Ziggo voor gesprekken in binnen- en buitenland. Je vindt er tarieven voor Ziggo Bellen, Volop Bellen, Volop Bellen Internationaal en Bellen zonder starttarief; Volop Bellen Internationaal kan niet meer worden besteld."
+  }
+}

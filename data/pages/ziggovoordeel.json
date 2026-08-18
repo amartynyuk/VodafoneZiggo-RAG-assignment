@@ -1,0 +1,87 @@
+{
+  "ingested_at": "2026-08-18T12:31:37.576513+00:00",
+  "metadata": {
+    "url": "https://directsales.ziggo.nl/ziggovoordeel?filter=voice&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_telefoons",
+    "page_id": "ziggovoordeel",
+    "label": "Telefoons",
+    "title": "Speciaal voor jou als Ziggo klant",
+    "meta_description": "Ziggo",
+    "og_title": null,
+    "og_description": null
+  },
+  "content_quality": "sparse",
+  "main_char_count": 61,
+  "warnings": [
+    "Sparse static content (61 chars in <main>). Pricing/tables may need Playwright for full extraction."
+  ],
+  "sections": [
+    {
+      "section_id": "ziggovoordeel::overview",
+      "heading": "Speciaal voor jou als Ziggo klant",
+      "level": 1,
+      "text": "Ziggo\n\nHomepage voor Speciaal voor jou als Ziggo klant\nAlle telefoons",
+      "order": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "ziggovoordeel::chunk-0001",
+      "section_id": "ziggovoordeel::overview",
+      "text": "Speciaal voor jou als Ziggo klant\n\nZiggo\n\nHomepage voor Speciaal voor jou als Ziggo klant\nAlle telefoons",
+      "order": 1,
+      "token_estimate": 26
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:ziggovoordeel",
+      "label": "Page",
+      "properties": {
+        "page_id": "ziggovoordeel",
+        "url": "https://directsales.ziggo.nl/ziggovoordeel?filter=voice&utm_medium=referral&utm_source=ziggo&utm_campaign=xsellvf2z&utm_term=nav_telefoons",
+        "title": "Speciaal voor jou als Ziggo klant",
+        "label": "Telefoons",
+        "content_quality": "sparse"
+      }
+    },
+    {
+      "node_id": "section:ziggovoordeel::overview",
+      "label": "Section",
+      "properties": {
+        "section_id": "ziggovoordeel::overview",
+        "heading": "Speciaal voor jou als Ziggo klant",
+        "level": 1,
+        "order": 1,
+        "summary": "Deze pagina is speciaal voor Ziggo-klanten en biedt een overzicht van alle telefoons.",
+        "topic": "overview"
+      }
+    },
+    {
+      "node_id": "chunk:ziggovoordeel::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "ziggovoordeel::chunk-0001",
+        "section_id": "ziggovoordeel::overview",
+        "text": "Speciaal voor jou als Ziggo klant\n\nZiggo\n\nHomepage voor Speciaal voor jou als Ziggo klant\nAlle telefoons",
+        "order": 1,
+        "token_estimate": 26
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:ziggovoordeel",
+      "target_id": "section:ziggovoordeel::overview",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:ziggovoordeel::overview",
+      "target_id": "chunk:ziggovoordeel::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    }
+  ],
+  "entities": [],
+  "section_summaries": {
+    "ziggovoordeel::overview": "Deze pagina is speciaal voor Ziggo-klanten en biedt een overzicht van alle telefoons."
+  }
+}

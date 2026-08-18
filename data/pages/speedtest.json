@@ -1,0 +1,872 @@
+{
+  "ingested_at": "2026-08-18T12:25:17.552198+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/speedtest",
+    "page_id": "speedtest",
+    "label": "Speedtest",
+    "title": "Speedtest - Check je internet- en wifi-snelheid | Ziggo",
+    "meta_description": "Benieuwd naar je internetsnelheid? Doe de Ziggo speedtest en ontdek je download- en uploadsnelheid. Zo weet je direct hoe jouw verbinding presteert!\r\n",
+    "og_title": "Speedtest - Check je internet- en wifi-snelheid | Ziggo",
+    "og_description": "Benieuwd naar je internetsnelheid? Doe de Ziggo speedtest en ontdek je download- en uploadsnelheid. Zo weet je direct hoe jouw verbinding presteert!\r\n"
+  },
+  "content_quality": "rich",
+  "main_char_count": 12202,
+  "warnings": [],
+  "sections": [
+    {
+      "section_id": "speedtest::introduction",
+      "heading": "Introduction",
+      "level": 3,
+      "text": "Wist je dat een hoge snelheid niet het enige ingrediënt is voor een goede internetverbinding? Stabiliteit is net zo belangrijk om soepel te streamen, gamen en videobellen.\nBen je tevreden met de internetsnelheid van je huidige provider?",
+      "order": 2
+    },
+    {
+      "section_id": "speedtest::downloadsnelheid",
+      "heading": "Downloadsnelheid",
+      "level": 3,
+      "text": "De downloadsnelheid bepaalt hoe snel je bestanden, video's of webpagina's kunt binnenhalen. Hoe hoger de snelheid, hoe sneller je kunt streamen, downloaden en browsen. Dit is vooral belangrijk als je veel video's bekijkt op Netflix of YouTube, of als je regelmatig grote bestanden downloadt.",
+      "order": 6
+    },
+    {
+      "section_id": "speedtest::uploadsnelheid",
+      "heading": "Uploadsnelheid",
+      "level": 3,
+      "text": "De uploadsnelheid geeft aan hoe snel je bestanden, foto’s of video's kunt versturen. Dit is belangrijk als je vaak grote bestanden deelt, in de cloud werkt of videogesprekken voert via bijvoorbeeld Zoom of Teams. Een hoge uploadsnelheid zorgt voor een soepelere verbinding en betere beeldkwaliteit.",
+      "order": 7
+    },
+    {
+      "section_id": "speedtest::latency-ping",
+      "heading": "Latency (ping)",
+      "level": 3,
+      "text": "Latency, ook wel ping genoemd, is de tijd die een datapakketje nodig heeft om van jouw apparaat naar de server en terug te reizen. Een lage latency is vooral belangrijk bij online gamen, videobellen en live streaming, omdat het voor minder vertraging zorgt. Hoe lager de ping, hoe sneller je acties worden geregistreerd.",
+      "order": 8
+    },
+    {
+      "section_id": "speedtest::jitter",
+      "heading": "Jitter",
+      "level": 3,
+      "text": "Jitter meet de variatie in latency. Een constante verbinding zonder veel schommelingen is ideaal, vooral voor online meetings, gamen en bellen via het internet. Veel jitter kan zorgen voor haperend geluid of vertraagde beelden. Een lage latency en weinig jitter zijn dus cruciaal voor de beste internetprestaties.",
+      "order": 9
+    },
+    {
+      "section_id": "speedtest::veelgestelde-vragen",
+      "heading": "Veelgestelde vragen",
+      "level": 2,
+      "text": "Bij Ziggo krijg je internet waar je op kunt rekenen. Stabiel, snel en veilig via ons toekomstvaste glasvezel-kabel internet. En overal in huis perfecte wifi door SmartWifi. Toch een probleem met wifi? Onze Wifi Crew staat altijd voor je klaar.\nDe downloadsnelheid tot 2 gigabit per seconde komt neer op het twintigvoudige van de gemiddelde 100 Mbit/s aansluiting in Nederland. Hiermee kunnen gezinnen op meerdere apparaten tegelijk 4K-films en tv-programma's bekijken, soepel\nen razendsnel downloaden. Zij halen een film van 5 GB in 20 seconden binnen, terwijl dat meer dan 6 minuten duurt met een huidig gemiddelde internetverbinding.\nJe kan kiezen uit een downloadsnelheid van 200, 500, 1 Gbit/s (1000 Mbit/s) of  2 Gbit/s (2000 Mbit/s). We bieden internet aan in verschillende pakketten, zo hebben we\nmet Internet, TV & Bellen. Je kan ook kiezen voor een pakket zonder bellen:\n. Daarnaast hebben we ook een pakket met alleen\n.\nDownloadsnelheid is de snelheid waarmee je dingen kunt binnenhalen vanaf internet naar je computer. Denk aan je e-mails, of een filmpje dat iemand naar je heeft gestuurd.\nUploadsnelheid is de snelheid waarmee je dingen kunt versturen via internet. Dus foto's van dat feestje dat je naar vrienden stuurt, of een presentatie voor je werk die je thuis hebt gemaakt.\nDe download- en uploadsnelheid wordt aangeduid in Mbit/s, voluit megabit per seconde.\nCheck eerst wat je huidige contract- en opzegtermijn is. Dat is handig, want zo voorkom je dubbele kosten. Tijdens je online bestelling kun je kiezen voor de\n. Wij zeggen dan voor je op bij je oude provider en regelen dat je niet zonder televisie, internet of bellen komt te zitten. Je kunt de Overstapservice gebruiken als de overstapdatum minimaal 30 dagen en maximaal 90 dagen in de toekomst ligt.",
+      "order": 16
+    },
+    {
+      "section_id": "speedtest::advies-nodig",
+      "heading": "Advies nodig?",
+      "level": 2,
+      "text": "Ontvang je liever persoonlijk advies over je internetverbinding? Onze experts helpen je graag verder!\nGebruikelijke (mobiele) belkosten\nWe zijn elke dag van 8.00 tot 20.00 uur bereikbaar.",
+      "order": 17
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "speedtest::chunk-0001",
+      "section_id": "speedtest::introduction",
+      "text": "Introduction\n\nWist je dat een hoge snelheid niet het enige ingrediënt is voor een goede internetverbinding? Stabiliteit is net zo belangrijk om soepel te streamen, gamen en videobellen.\nBen je tevreden met de internetsnelheid van je huidige provider?",
+      "order": 1,
+      "token_estimate": 62
+    },
+    {
+      "chunk_id": "speedtest::chunk-0002",
+      "section_id": "speedtest::downloadsnelheid",
+      "text": "Downloadsnelheid\n\nDe downloadsnelheid bepaalt hoe snel je bestanden, video's of webpagina's kunt binnenhalen. Hoe hoger de snelheid, hoe sneller je kunt streamen, downloaden en browsen. Dit is vooral belangrijk als je veel video's bekijkt op Netflix of YouTube, of als je regelmatig grote bestanden downloadt.",
+      "order": 2,
+      "token_estimate": 77
+    },
+    {
+      "chunk_id": "speedtest::chunk-0003",
+      "section_id": "speedtest::uploadsnelheid",
+      "text": "Uploadsnelheid\n\nDe uploadsnelheid geeft aan hoe snel je bestanden, foto’s of video's kunt versturen. Dit is belangrijk als je vaak grote bestanden deelt, in de cloud werkt of videogesprekken voert via bijvoorbeeld Zoom of Teams. Een hoge uploadsnelheid zorgt voor een soepelere verbinding en betere beeldkwaliteit.",
+      "order": 3,
+      "token_estimate": 78
+    },
+    {
+      "chunk_id": "speedtest::chunk-0004",
+      "section_id": "speedtest::latency-ping",
+      "text": "Latency (ping)\n\nLatency, ook wel ping genoemd, is de tijd die een datapakketje nodig heeft om van jouw apparaat naar de server en terug te reizen. Een lage latency is vooral belangrijk bij online gamen, videobellen en live streaming, omdat het voor minder vertraging zorgt. Hoe lager de ping, hoe sneller je acties worden geregistreerd.",
+      "order": 4,
+      "token_estimate": 84
+    },
+    {
+      "chunk_id": "speedtest::chunk-0005",
+      "section_id": "speedtest::jitter",
+      "text": "Jitter\n\nJitter meet de variatie in latency. Een constante verbinding zonder veel schommelingen is ideaal, vooral voor online meetings, gamen en bellen via het internet. Veel jitter kan zorgen voor haperend geluid of vertraagde beelden. Een lage latency en weinig jitter zijn dus cruciaal voor de beste internetprestaties.",
+      "order": 5,
+      "token_estimate": 80
+    },
+    {
+      "chunk_id": "speedtest::chunk-0006",
+      "section_id": "speedtest::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 6,
+      "token_estimate": 4
+    },
+    {
+      "chunk_id": "speedtest::chunk-0007",
+      "section_id": "speedtest::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nBij Ziggo krijg je internet waar je op kunt rekenen. Stabiel, snel en veilig via ons toekomstvaste glasvezel-kabel internet. En overal in huis perfecte wifi door SmartWifi. Toch een probleem met wifi? Onze Wifi Crew staat altijd voor je klaar.\nDe downloadsnelheid tot 2 gigabit per seconde komt neer op het twintigvoudige van de gemiddelde 100 Mbit/s aansluiting in Nederland. Hiermee kunnen gezinnen op meerdere apparaten tegelijk 4K-films en tv-programma's bekijken, soepel\nen razendsnel downloaden. Zij halen een film van 5 GB in 20 seconden binnen, terwijl dat meer dan 6 minuten duurt met een huidig gemiddelde internetverbinding.\nJe kan kiezen uit een downloadsnelheid van 200, 500, 1 Gbit/s (1000 Mbit/s) of  2 Gbit/s (2000 Mbit/s). We bieden internet aan in verschillende pakketten, zo hebben we\nmet Internet, TV & Bellen. Je kan ook kiezen voor een pakket zonder bellen:\n. Daarnaast hebben we ook een pakket met alleen\n.\nDownloadsnelheid is de snelheid waarmee je dingen kunt binnenhalen vanaf internet naar je computer. Denk aan je e-mails, of een filmpje dat iemand naar je heeft gestuurd.\nUploadsnelheid is de snelheid waarmee je dingen kunt versturen via internet. Dus foto's van dat feestje dat je naar vrienden stuurt, of een presentatie voor je werk die je thuis hebt gemaakt.\nDe download- en uploadsnelheid wordt aangeduid in Mbit/s, voluit megabit per seconde.\nCheck eerst wat je huidige contract- en opzegtermijn is. Dat is handig, want zo voorkom je dubbele kosten. Tijdens je online bestelling kun je kiezen voor de\n. Wij zeggen dan voor je op bij je oude provider en regelen dat je niet zonder televisie, internet of bellen komt te zitten. Je kunt de Overstapservice gebruiken als de overstapdatum minimaal 30 dagen en maximaal 90 dagen in de toekomst ligt.",
+      "order": 7,
+      "token_estimate": 450
+    },
+    {
+      "chunk_id": "speedtest::chunk-0008",
+      "section_id": "speedtest::advies-nodig",
+      "text": "Advies nodig?\n\nOntvang je liever persoonlijk advies over je internetverbinding? Onze experts helpen je graag verder!\nGebruikelijke (mobiele) belkosten\nWe zijn elke dag van 8.00 tot 20.00 uur bereikbaar.",
+      "order": 8,
+      "token_estimate": 50
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:speedtest",
+      "label": "Page",
+      "properties": {
+        "page_id": "speedtest",
+        "url": "https://www.ziggo.nl/speedtest",
+        "title": "Speedtest - Check je internet- en wifi-snelheid | Ziggo",
+        "label": "Speedtest",
+        "content_quality": "rich"
+      }
+    },
+    {
+      "node_id": "section:speedtest::introduction",
+      "label": "Section",
+      "properties": {
+        "section_id": "speedtest::introduction",
+        "heading": "Introduction",
+        "level": 3,
+        "order": 2,
+        "summary": "Een goede internetverbinding draait niet alleen om hoge snelheid, maar ook om stabiliteit. Stabiliteit is belangrijk voor soepel streamen, gamen en videobellen.",
+        "topic": "overview"
+      }
+    },
+    {
+      "node_id": "section:speedtest::downloadsnelheid",
+      "label": "Section",
+      "properties": {
+        "section_id": "speedtest::downloadsnelheid",
+        "heading": "Downloadsnelheid",
+        "level": 3,
+        "order": 6,
+        "summary": "De downloadsnelheid bepaalt hoe snel bestanden, video’s en webpagina’s binnenkomen. Een hoge downloadsnelheid is vooral handig bij streamen en het downloaden van grote bestanden.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:speedtest::uploadsnelheid",
+      "label": "Section",
+      "properties": {
+        "section_id": "speedtest::uploadsnelheid",
+        "heading": "Uploadsnelheid",
+        "level": 3,
+        "order": 7,
+        "summary": "De uploadsnelheid bepaalt hoe snel je bestanden, foto’s en video’s kunt versturen. Dit is belangrijk voor grote bestanden delen, werken in de cloud en videogesprekken.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:speedtest::latency-ping",
+      "label": "Section",
+      "properties": {
+        "section_id": "speedtest::latency-ping",
+        "heading": "Latency (ping)",
+        "level": 3,
+        "order": 8,
+        "summary": "Latency, of ping, is de tijd die een datapakketje nodig heeft om heen en terug te reizen tussen je apparaat en de server. Een lage ping zorgt voor minder vertraging bij gamen, videobellen en live streaming.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:speedtest::jitter",
+      "label": "Section",
+      "properties": {
+        "section_id": "speedtest::jitter",
+        "heading": "Jitter",
+        "level": 3,
+        "order": 9,
+        "summary": "Jitter meet de variatie in latency. Weinig jitter en een lage latency zorgen voor een stabielere verbinding, terwijl veel jitter kan leiden tot haperend geluid of vertraagde beelden.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:speedtest::veelgestelde-vragen",
+      "label": "Section",
+      "properties": {
+        "section_id": "speedtest::veelgestelde-vragen",
+        "heading": "Veelgestelde vragen",
+        "level": 2,
+        "order": 16,
+        "summary": "Deze veelgestelde vragen behandelen Ziggo’s stabiele internet en wifi, downloadsnelheden tot 2 Gbit/s, beschikbare internetpakketten en het verschil tussen download- en uploadsnelheid. Ook wordt uitgelegd hoe de Overstapservice werkt en dat de overstapdatum 30 tot 90 dagen in de toekomst moet liggen.",
+        "topic": "faq"
+      }
+    },
+    {
+      "node_id": "section:speedtest::advies-nodig",
+      "label": "Section",
+      "properties": {
+        "section_id": "speedtest::advies-nodig",
+        "heading": "Advies nodig?",
+        "level": 2,
+        "order": 17,
+        "summary": "Ziggo-experts geven persoonlijk advies over je internetverbinding. Ze zijn dagelijks bereikbaar van 8.00 tot 20.00 uur; gebruikelijke mobiele belkosten zijn van toepassing.",
+        "topic": "other"
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0001",
+        "section_id": "speedtest::introduction",
+        "text": "Introduction\n\nWist je dat een hoge snelheid niet het enige ingrediënt is voor een goede internetverbinding? Stabiliteit is net zo belangrijk om soepel te streamen, gamen en videobellen.\nBen je tevreden met de internetsnelheid van je huidige provider?",
+        "order": 1,
+        "token_estimate": 62
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0002",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0002",
+        "section_id": "speedtest::downloadsnelheid",
+        "text": "Downloadsnelheid\n\nDe downloadsnelheid bepaalt hoe snel je bestanden, video's of webpagina's kunt binnenhalen. Hoe hoger de snelheid, hoe sneller je kunt streamen, downloaden en browsen. Dit is vooral belangrijk als je veel video's bekijkt op Netflix of YouTube, of als je regelmatig grote bestanden downloadt.",
+        "order": 2,
+        "token_estimate": 77
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0003",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0003",
+        "section_id": "speedtest::uploadsnelheid",
+        "text": "Uploadsnelheid\n\nDe uploadsnelheid geeft aan hoe snel je bestanden, foto’s of video's kunt versturen. Dit is belangrijk als je vaak grote bestanden deelt, in de cloud werkt of videogesprekken voert via bijvoorbeeld Zoom of Teams. Een hoge uploadsnelheid zorgt voor een soepelere verbinding en betere beeldkwaliteit.",
+        "order": 3,
+        "token_estimate": 78
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0004",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0004",
+        "section_id": "speedtest::latency-ping",
+        "text": "Latency (ping)\n\nLatency, ook wel ping genoemd, is de tijd die een datapakketje nodig heeft om van jouw apparaat naar de server en terug te reizen. Een lage latency is vooral belangrijk bij online gamen, videobellen en live streaming, omdat het voor minder vertraging zorgt. Hoe lager de ping, hoe sneller je acties worden geregistreerd.",
+        "order": 4,
+        "token_estimate": 84
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0005",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0005",
+        "section_id": "speedtest::jitter",
+        "text": "Jitter\n\nJitter meet de variatie in latency. Een constante verbinding zonder veel schommelingen is ideaal, vooral voor online meetings, gamen en bellen via het internet. Veel jitter kan zorgen voor haperend geluid of vertraagde beelden. Een lage latency en weinig jitter zijn dus cruciaal voor de beste internetprestaties.",
+        "order": 5,
+        "token_estimate": 80
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0006",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0006",
+        "section_id": "speedtest::veelgestelde-vragen",
+        "text": "Veelgestelde vragen",
+        "order": 6,
+        "token_estimate": 4
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0007",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0007",
+        "section_id": "speedtest::veelgestelde-vragen",
+        "text": "Veelgestelde vragen\n\nBij Ziggo krijg je internet waar je op kunt rekenen. Stabiel, snel en veilig via ons toekomstvaste glasvezel-kabel internet. En overal in huis perfecte wifi door SmartWifi. Toch een probleem met wifi? Onze Wifi Crew staat altijd voor je klaar.\nDe downloadsnelheid tot 2 gigabit per seconde komt neer op het twintigvoudige van de gemiddelde 100 Mbit/s aansluiting in Nederland. Hiermee kunnen gezinnen op meerdere apparaten tegelijk 4K-films en tv-programma's bekijken, soepel\nen razendsnel downloaden. Zij halen een film van 5 GB in 20 seconden binnen, terwijl dat meer dan 6 minuten duurt met een huidig gemiddelde internetverbinding.\nJe kan kiezen uit een downloadsnelheid van 200, 500, 1 Gbit/s (1000 Mbit/s) of  2 Gbit/s (2000 Mbit/s). We bieden internet aan in verschillende pakketten, zo hebben we\nmet Internet, TV & Bellen. Je kan ook kiezen voor een pakket zonder bellen:\n. Daarnaast hebben we ook een pakket met alleen\n.\nDownloadsnelheid is de snelheid waarmee je dingen kunt binnenhalen vanaf internet naar je computer. Denk aan je e-mails, of een filmpje dat iemand naar je heeft gestuurd.\nUploadsnelheid is de snelheid waarmee je dingen kunt versturen via internet. Dus foto's van dat feestje dat je naar vrienden stuurt, of een presentatie voor je werk die je thuis hebt gemaakt.\nDe download- en uploadsnelheid wordt aangeduid in Mbit/s, voluit megabit per seconde.\nCheck eerst wat je huidige contract- en opzegtermijn is. Dat is handig, want zo voorkom je dubbele kosten. Tijdens je online bestelling kun je kiezen voor de\n. Wij zeggen dan voor je op bij je oude provider en regelen dat je niet zonder televisie, internet of bellen komt te zitten. Je kunt de Overstapservice gebruiken als de overstapdatum minimaal 30 dagen en maximaal 90 dagen in de toekomst ligt.",
+        "order": 7,
+        "token_estimate": 450
+      }
+    },
+    {
+      "node_id": "chunk:speedtest::chunk-0008",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "speedtest::chunk-0008",
+        "section_id": "speedtest::advies-nodig",
+        "text": "Advies nodig?\n\nOntvang je liever persoonlijk advies over je internetverbinding? Onze experts helpen je graag verder!\nGebruikelijke (mobiele) belkosten\nWe zijn elke dag van 8.00 tot 20.00 uur bereikbaar.",
+        "order": 8,
+        "token_estimate": 50
+      }
+    },
+    {
+      "node_id": "entity:downloadsnelheid",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:downloadsnelheid",
+        "name": "Downloadsnelheid",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:uploadsnelheid",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:uploadsnelheid",
+        "name": "Uploadsnelheid",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:latency-ping",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:latency-ping",
+        "name": "Latency (ping)",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:jitter",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:jitter",
+        "name": "Jitter",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:smartwifi",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:smartwifi",
+        "name": "SmartWifi",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:wifi-crew",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:wifi-crew",
+        "name": "Wifi Crew",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:2-gigabit-per-seconde",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:2-gigabit-per-seconde",
+        "name": "2 gigabit per seconde",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:100-mbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:100-mbit-s",
+        "name": "100 Mbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:4k",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:4k",
+        "name": "4K",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:5-gb",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:5-gb",
+        "name": "5 GB",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:20-seconden",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:20-seconden",
+        "name": "20 seconden",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:200-mbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:200-mbit-s",
+        "name": "200 Mbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:500-mbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:500-mbit-s",
+        "name": "500 Mbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:1-gbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:1-gbit-s",
+        "name": "1 Gbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:1000-mbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:1000-mbit-s",
+        "name": "1000 Mbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:2-gbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:2-gbit-s",
+        "name": "2 Gbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:2000-mbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:2000-mbit-s",
+        "name": "2000 Mbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:internet-tv-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:internet-tv-bellen",
+        "name": "Internet, TV & Bellen",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:mbit-s",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:mbit-s",
+        "name": "Mbit/s",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:overstapservice",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:overstapservice",
+        "name": "Overstapservice",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:30-dagen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:30-dagen",
+        "name": "30 dagen",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:90-dagen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:90-dagen",
+        "name": "90 dagen",
+        "type": "Specification"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:speedtest",
+      "target_id": "section:speedtest::introduction",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:speedtest",
+      "target_id": "section:speedtest::downloadsnelheid",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:speedtest",
+      "target_id": "section:speedtest::uploadsnelheid",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:speedtest",
+      "target_id": "section:speedtest::latency-ping",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:speedtest",
+      "target_id": "section:speedtest::jitter",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:speedtest",
+      "target_id": "section:speedtest::veelgestelde-vragen",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:speedtest",
+      "target_id": "section:speedtest::advies-nodig",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:speedtest::introduction",
+      "target_id": "chunk:speedtest::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "section:speedtest::downloadsnelheid",
+      "target_id": "chunk:speedtest::chunk-0002",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0001",
+      "target_id": "chunk:speedtest::chunk-0002",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:speedtest::uploadsnelheid",
+      "target_id": "chunk:speedtest::chunk-0003",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0002",
+      "target_id": "chunk:speedtest::chunk-0003",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:speedtest::latency-ping",
+      "target_id": "chunk:speedtest::chunk-0004",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0003",
+      "target_id": "chunk:speedtest::chunk-0004",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:speedtest::jitter",
+      "target_id": "chunk:speedtest::chunk-0005",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0004",
+      "target_id": "chunk:speedtest::chunk-0005",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:speedtest::veelgestelde-vragen",
+      "target_id": "chunk:speedtest::chunk-0006",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0005",
+      "target_id": "chunk:speedtest::chunk-0006",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:speedtest::veelgestelde-vragen",
+      "target_id": "chunk:speedtest::chunk-0007",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0006",
+      "target_id": "chunk:speedtest::chunk-0007",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:speedtest::advies-nodig",
+      "target_id": "chunk:speedtest::chunk-0008",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "chunk:speedtest::chunk-0008",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0002",
+      "target_id": "entity:downloadsnelheid",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0003",
+      "target_id": "entity:uploadsnelheid",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0004",
+      "target_id": "entity:latency-ping",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0005",
+      "target_id": "entity:jitter",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:smartwifi",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:wifi-crew",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:2-gigabit-per-seconde",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:100-mbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:4k",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:5-gb",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:20-seconden",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:200-mbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:500-mbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:1-gbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:1000-mbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:2-gbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:2000-mbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:internet-tv-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:mbit-s",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:overstapservice",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:30-dagen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:speedtest::chunk-0007",
+      "target_id": "entity:90-dagen",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "specification:downloadsnelheid",
+      "name": "Downloadsnelheid",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0002"
+    },
+    {
+      "entity_id": "specification:uploadsnelheid",
+      "name": "Uploadsnelheid",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0003"
+    },
+    {
+      "entity_id": "specification:latency-ping",
+      "name": "Latency (ping)",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0004"
+    },
+    {
+      "entity_id": "specification:jitter",
+      "name": "Jitter",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0005"
+    },
+    {
+      "entity_id": "servicefeature:smartwifi",
+      "name": "SmartWifi",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "servicefeature:wifi-crew",
+      "name": "Wifi Crew",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:2-gigabit-per-seconde",
+      "name": "2 gigabit per seconde",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:100-mbit-s",
+      "name": "100 Mbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:4k",
+      "name": "4K",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:5-gb",
+      "name": "5 GB",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:20-seconden",
+      "name": "20 seconden",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:200-mbit-s",
+      "name": "200 Mbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:500-mbit-s",
+      "name": "500 Mbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:1-gbit-s",
+      "name": "1 Gbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:1000-mbit-s",
+      "name": "1000 Mbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:2-gbit-s",
+      "name": "2 Gbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:2000-mbit-s",
+      "name": "2000 Mbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "product:internet-tv-bellen",
+      "name": "Internet, TV & Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:mbit-s",
+      "name": "Mbit/s",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "servicefeature:overstapservice",
+      "name": "Overstapservice",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:30-dagen",
+      "name": "30 dagen",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    },
+    {
+      "entity_id": "specification:90-dagen",
+      "name": "90 dagen",
+      "entity_type": "Specification",
+      "source_chunk_id": "speedtest::chunk-0007"
+    }
+  ],
+  "section_summaries": {
+    "speedtest::introduction": "Een goede internetverbinding draait niet alleen om hoge snelheid, maar ook om stabiliteit. Stabiliteit is belangrijk voor soepel streamen, gamen en videobellen.",
+    "speedtest::downloadsnelheid": "De downloadsnelheid bepaalt hoe snel bestanden, video’s en webpagina’s binnenkomen. Een hoge downloadsnelheid is vooral handig bij streamen en het downloaden van grote bestanden.",
+    "speedtest::uploadsnelheid": "De uploadsnelheid bepaalt hoe snel je bestanden, foto’s en video’s kunt versturen. Dit is belangrijk voor grote bestanden delen, werken in de cloud en videogesprekken.",
+    "speedtest::latency-ping": "Latency, of ping, is de tijd die een datapakketje nodig heeft om heen en terug te reizen tussen je apparaat en de server. Een lage ping zorgt voor minder vertraging bij gamen, videobellen en live streaming.",
+    "speedtest::jitter": "Jitter meet de variatie in latency. Weinig jitter en een lage latency zorgen voor een stabielere verbinding, terwijl veel jitter kan leiden tot haperend geluid of vertraagde beelden.",
+    "speedtest::veelgestelde-vragen": "Deze veelgestelde vragen behandelen Ziggo’s stabiele internet en wifi, downloadsnelheden tot 2 Gbit/s, beschikbare internetpakketten en het verschil tussen download- en uploadsnelheid. Ook wordt uitgelegd hoe de Overstapservice werkt en dat de overstapdatum 30 tot 90 dagen in de toekomst moet liggen.",
+    "speedtest::advies-nodig": "Ziggo-experts geven persoonlijk advies over je internetverbinding. Ze zijn dagelijks bereikbaar van 8.00 tot 20.00 uur; gebruikelijke mobiele belkosten zijn van toepassing."
+  }
+}

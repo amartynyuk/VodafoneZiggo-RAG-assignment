@@ -1,0 +1,814 @@
+{
+  "ingested_at": "2026-08-18T12:28:07.583485+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/televisie/mediaboxen/extra",
+    "page_id": "televisie_mediaboxen_extra",
+    "label": "Extra tv in huis",
+    "title": "Extra tv in huis | Televisie | Ziggo",
+    "meta_description": "Tv-kijken op tweede scherm? Digitaal via coaxkabel ✓ Ziggo GO app: mobiel, tablet, laptop en mediaplayer ✓ CI+ Module | Bekijk alle extra tv-opties:",
+    "og_title": "Extra tv in huis | Televisie | Ziggo",
+    "og_description": "Tv-kijken op tweede scherm? Digitaal via coaxkabel ✓ Ziggo GO app: mobiel, tablet, laptop en mediaplayer ✓ CI+ Module | Bekijk alle extra tv-opties:"
+  },
+  "content_quality": "rich",
+  "main_char_count": 6257,
+  "warnings": [],
+  "sections": [
+    {
+      "section_id": "televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+      "heading": "Next Mini voor je 2e tv",
+      "level": 3,
+      "text": "Heb je een Mediabox XL, Mediabox Next of Next Mini? Dan kun je een Extra Next Mini huren voor je tweede (of derde) tv.\n6,- huur\nKlein en energiezuinig (max. 5W)\nGeen coaxkabel nodig",
+      "order": 4
+    },
+    {
+      "section_id": "televisie_mediaboxen_extra::kabel-digitaal",
+      "heading": "Kabel digitaal",
+      "level": 3,
+      "text": "Met Kabel TV van Ziggo kijk je overal in huis tv in digitale beeldkwaliteit, zonder extra kastje, met een geschikte televisie.\nDigitale beeldkwaliteit\n50+ tv-zenders (4 in HD)\nAlleen coaxkabel nodig",
+      "order": 5
+    },
+    {
+      "section_id": "televisie_mediaboxen_extra::ci-module",
+      "heading": "CI+ Module",
+      "level": 3,
+      "text": "Deze digitale insteekkaart gaat rechtstreeks in je televisie. Je kijkt digitaal en in HD-kwaliteit, zónder een losse mediabox.\n4,- huur per maand\nGeen extra afstandsbediening\nAlleen coaxkabel nodig",
+      "order": 6
+    },
+    {
+      "section_id": "televisie_mediaboxen_extra::ziggo-go-app",
+      "heading": "Ziggo GO app",
+      "level": 3,
+      "text": "Kijk al je favoriete programma binnen de EU met de Ziggo GO app. Kijk je liever tv op je laptop? Ga dan naar ziggogo.tv\nTot 7 dagen terugkijken\nProgramma's opnemen\nStreamen naar je tv",
+      "order": 7
+    },
+    {
+      "section_id": "televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+      "heading": "Ziggo GO op je extra tv",
+      "level": 3,
+      "text": "Voor je 2de tv in huis download je de Ziggo GO app. De app is beschikbaar voor de volgende mediaplayers en smart-tv:\nApple TV\nAndroid TV\nAmazon Fire TV",
+      "order": 8
+    },
+    {
+      "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+      "heading": "Veelgestelde vragen",
+      "level": 2,
+      "text": "Met de Ziggo GO app kijk je live tv op drie verschillende apparaten en kijk je tot 7 dagen terug. Je breidt als het ware je tv uit naar je pc, laptop, mobiel of tablet. En kijkt waar je maar wilt. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand.\n.\nMet Ziggo GO kun je overal in de EU tv-kijken als je verbonden bent met internet (wifi of je eigen netwerk). Via Ziggo GO kijk je live en tot 7 dagen terug. Buiten de EU werkt dit niet. Dat heeft te maken met de rechten van televisieprogramma's. Het enige dat je hoeft te doen is de laatste versie van de Ziggo GO app downloaden.\nDit heb je nodig om ook op je tweede, derde en vierde toestel digitale televisie te kijken zonder ontvanger:\n- Een tv-abonnement van Ziggo\n- Een televisie met ingebouwede DVB-C tuner\n- Een coaxkabel van goede kwaliteit. Je herkent ze aan het logo van Kabel Keur\nHeb je een Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je een Extra Next Mini bestellen voor je tweede tv.\nHeb je nog geen Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je overstappen naar een van de nieuwe pakketten met een Extra Next Mini door contact met ons op te nemen.\nOp deze tv-producten zijn onze\nvan toepassing.",
+      "order": 9
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0001",
+      "section_id": "televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+      "text": "Next Mini voor je 2e tv\n\nHeb je een Mediabox XL, Mediabox Next of Next Mini? Dan kun je een Extra Next Mini huren voor je tweede (of derde) tv.\n6,- huur\nKlein en energiezuinig (max. 5W)\nGeen coaxkabel nodig",
+      "order": 1,
+      "token_estimate": 51
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0002",
+      "section_id": "televisie_mediaboxen_extra::kabel-digitaal",
+      "text": "Kabel digitaal\n\nMet Kabel TV van Ziggo kijk je overal in huis tv in digitale beeldkwaliteit, zonder extra kastje, met een geschikte televisie.\nDigitale beeldkwaliteit\n50+ tv-zenders (4 in HD)\nAlleen coaxkabel nodig",
+      "order": 2,
+      "token_estimate": 53
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0003",
+      "section_id": "televisie_mediaboxen_extra::ci-module",
+      "text": "CI+ Module\n\nDeze digitale insteekkaart gaat rechtstreeks in je televisie. Je kijkt digitaal en in HD-kwaliteit, zónder een losse mediabox.\n4,- huur per maand\nGeen extra afstandsbediening\nAlleen coaxkabel nodig",
+      "order": 3,
+      "token_estimate": 52
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0004",
+      "section_id": "televisie_mediaboxen_extra::ziggo-go-app",
+      "text": "Ziggo GO app\n\nKijk al je favoriete programma binnen de EU met de Ziggo GO app. Kijk je liever tv op je laptop? Ga dan naar ziggogo.tv\nTot 7 dagen terugkijken\nProgramma's opnemen\nStreamen naar je tv",
+      "order": 4,
+      "token_estimate": 49
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0005",
+      "section_id": "televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+      "text": "Ziggo GO op je extra tv\n\nVoor je 2de tv in huis download je de Ziggo GO app. De app is beschikbaar voor de volgende mediaplayers en smart-tv:\nApple TV\nAndroid TV\nAmazon Fire TV",
+      "order": 5,
+      "token_estimate": 44
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0006",
+      "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 6,
+      "token_estimate": 4
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0007",
+      "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nMet de Ziggo GO app kijk je live tv op drie verschillende apparaten en kijk je tot 7 dagen terug. Je breidt als het ware je tv uit naar je pc, laptop, mobiel of tablet. En kijkt waar je maar wilt. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand.\n.\nMet Ziggo GO kun je overal in de EU tv-kijken als je verbonden bent met internet (wifi of je eigen netwerk). Via Ziggo GO kijk je live en tot 7 dagen terug. Buiten de EU werkt dit niet. Dat heeft te maken met de rechten van televisieprogramma's. Het enige dat je hoeft te doen is de laatste versie van de Ziggo GO app downloaden.\nDit heb je nodig om ook op je tweede, derde en vierde toestel digitale televisie te kijken zonder ontvanger:\n- Een tv-abonnement van Ziggo\n- Een televisie met ingebouwede DVB-C tuner\n- Een coaxkabel van goede kwaliteit. Je herkent ze aan het logo van Kabel Keur\nHeb je een Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je een Extra Next Mini bestellen voor je tweede tv.\nHeb je nog geen Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je overstappen naar een van de nieuwe pakketten met een Extra Next Mini door contact met ons op te nemen.\nOp deze tv-producten zijn onze\nvan toepassing.",
+      "order": 7,
+      "token_estimate": 313
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:televisie_mediaboxen_extra",
+      "label": "Page",
+      "properties": {
+        "page_id": "televisie_mediaboxen_extra",
+        "url": "https://www.ziggo.nl/televisie/mediaboxen/extra",
+        "title": "Extra tv in huis | Televisie | Ziggo",
+        "label": "Extra tv in huis",
+        "content_quality": "rich"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+        "heading": "Next Mini voor je 2e tv",
+        "level": 3,
+        "order": 4,
+        "summary": "Huur een Extra Next Mini voor je tweede of derde tv als je al een Mediabox XL, Mediabox Next of Next Mini hebt. De Next Mini kost €6 per maand, is klein en energiezuinig en heeft geen coaxkabel nodig.",
+        "topic": "pricing"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen_extra::kabel-digitaal",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen_extra::kabel-digitaal",
+        "heading": "Kabel digitaal",
+        "level": 3,
+        "order": 5,
+        "summary": "Met Kabel TV van Ziggo kijk je met een geschikte televisie digitale tv zonder extra kastje. Je ontvangt 50+ tv-zenders, waarvan 4 in HD, en hebt alleen een coaxkabel nodig.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen_extra::ci-module",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen_extra::ci-module",
+        "heading": "CI+ Module",
+        "level": 3,
+        "order": 6,
+        "summary": "Met de CI+ Module kijk je digitale televisie in HD-kwaliteit zonder losse mediabox. De module kost €4 per maand, vereist geen extra afstandsbediening en gebruikt alleen een coaxkabel.",
+        "topic": "pricing"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen_extra::ziggo-go-app",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen_extra::ziggo-go-app",
+        "heading": "Ziggo GO app",
+        "level": 3,
+        "order": 7,
+        "summary": "Met de Ziggo GO app kijk je favoriete programma’s binnen de EU, tot 7 dagen terug. Je kunt ook programma’s opnemen en naar je tv streamen; op een laptop kun je ziggogo.tv gebruiken.",
+        "topic": "features"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+        "heading": "Ziggo GO op je extra tv",
+        "level": 3,
+        "order": 8,
+        "summary": "Voor je tweede tv kun je de Ziggo GO app downloaden op een mediaplayer of smart-tv. De app is beschikbaar voor Apple TV, Android TV en Amazon Fire TV.",
+        "topic": "how_to"
+      }
+    },
+    {
+      "node_id": "section:televisie_mediaboxen_extra::veelgestelde-vragen",
+      "label": "Section",
+      "properties": {
+        "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+        "heading": "Veelgestelde vragen",
+        "level": 2,
+        "order": 9,
+        "summary": "Met Ziggo GO kijk je live tv op drie apparaten en tot 7 dagen terug, overal in de EU met internetverbinding; buiten de EU werkt dit niet. Voor digitale tv zonder ontvanger op een tweede, derde of vierde toestel heb je een Ziggo-tv-abonnement, een televisie met ingebouwde DVB-C-tuner en een geschikte coaxkabel nodig; bestaande klanten met een Mediabox XL, Mediabox Next of Next Mini kunnen een Extra Next Mini bestellen.",
+        "topic": "faq"
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen_extra::chunk-0001",
+        "section_id": "televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+        "text": "Next Mini voor je 2e tv\n\nHeb je een Mediabox XL, Mediabox Next of Next Mini? Dan kun je een Extra Next Mini huren voor je tweede (of derde) tv.\n6,- huur\nKlein en energiezuinig (max. 5W)\nGeen coaxkabel nodig",
+        "order": 1,
+        "token_estimate": 51
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen_extra::chunk-0002",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen_extra::chunk-0002",
+        "section_id": "televisie_mediaboxen_extra::kabel-digitaal",
+        "text": "Kabel digitaal\n\nMet Kabel TV van Ziggo kijk je overal in huis tv in digitale beeldkwaliteit, zonder extra kastje, met een geschikte televisie.\nDigitale beeldkwaliteit\n50+ tv-zenders (4 in HD)\nAlleen coaxkabel nodig",
+        "order": 2,
+        "token_estimate": 53
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen_extra::chunk-0003",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen_extra::chunk-0003",
+        "section_id": "televisie_mediaboxen_extra::ci-module",
+        "text": "CI+ Module\n\nDeze digitale insteekkaart gaat rechtstreeks in je televisie. Je kijkt digitaal en in HD-kwaliteit, zónder een losse mediabox.\n4,- huur per maand\nGeen extra afstandsbediening\nAlleen coaxkabel nodig",
+        "order": 3,
+        "token_estimate": 52
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen_extra::chunk-0004",
+        "section_id": "televisie_mediaboxen_extra::ziggo-go-app",
+        "text": "Ziggo GO app\n\nKijk al je favoriete programma binnen de EU met de Ziggo GO app. Kijk je liever tv op je laptop? Ga dan naar ziggogo.tv\nTot 7 dagen terugkijken\nProgramma's opnemen\nStreamen naar je tv",
+        "order": 4,
+        "token_estimate": 49
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen_extra::chunk-0005",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen_extra::chunk-0005",
+        "section_id": "televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+        "text": "Ziggo GO op je extra tv\n\nVoor je 2de tv in huis download je de Ziggo GO app. De app is beschikbaar voor de volgende mediaplayers en smart-tv:\nApple TV\nAndroid TV\nAmazon Fire TV",
+        "order": 5,
+        "token_estimate": 44
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen_extra::chunk-0006",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen_extra::chunk-0006",
+        "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+        "text": "Veelgestelde vragen",
+        "order": 6,
+        "token_estimate": 4
+      }
+    },
+    {
+      "node_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "televisie_mediaboxen_extra::chunk-0007",
+        "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+        "text": "Veelgestelde vragen\n\nMet de Ziggo GO app kijk je live tv op drie verschillende apparaten en kijk je tot 7 dagen terug. Je breidt als het ware je tv uit naar je pc, laptop, mobiel of tablet. En kijkt waar je maar wilt. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand.\n.\nMet Ziggo GO kun je overal in de EU tv-kijken als je verbonden bent met internet (wifi of je eigen netwerk). Via Ziggo GO kijk je live en tot 7 dagen terug. Buiten de EU werkt dit niet. Dat heeft te maken met de rechten van televisieprogramma's. Het enige dat je hoeft te doen is de laatste versie van de Ziggo GO app downloaden.\nDit heb je nodig om ook op je tweede, derde en vierde toestel digitale televisie te kijken zonder ontvanger:\n- Een tv-abonnement van Ziggo\n- Een televisie met ingebouwede DVB-C tuner\n- Een coaxkabel van goede kwaliteit. Je herkent ze aan het logo van Kabel Keur\nHeb je een Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je een Extra Next Mini bestellen voor je tweede tv.\nHeb je nog geen Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je overstappen naar een van de nieuwe pakketten met een Extra Next Mini door contact met ons op te nemen.\nOp deze tv-producten zijn onze\nvan toepassing.",
+        "order": 7,
+        "token_estimate": 313
+      }
+    },
+    {
+      "node_id": "entity:next-mini",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:next-mini",
+        "name": "Next Mini",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:mediabox-xl",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:mediabox-xl",
+        "name": "Mediabox XL",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:mediabox-next",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:mediabox-next",
+        "name": "Mediabox Next",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:6",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "pricepoint:6",
+        "name": "6,-",
+        "type": "PricePoint"
+      }
+    },
+    {
+      "node_id": "entity:max-5w",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:max-5w",
+        "name": "max. 5W",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:kabel-tv",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:kabel-tv",
+        "name": "Kabel TV",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:50-tv-zenders",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:50-tv-zenders",
+        "name": "50+ tv-zenders",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:4-in-hd",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:4-in-hd",
+        "name": "4 in HD",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:ci-module",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:ci-module",
+        "name": "CI+ Module",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:4",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "pricepoint:4",
+        "name": "4,-",
+        "type": "PricePoint"
+      }
+    },
+    {
+      "node_id": "entity:ziggo-go",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:ziggo-go",
+        "name": "Ziggo GO",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:tot-7-dagen-terugkijken",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:tot-7-dagen-terugkijken",
+        "name": "Tot 7 dagen terugkijken",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:programma-s-opnemen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:programma-s-opnemen",
+        "name": "Programma's opnemen",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:streamen-naar-je-tv",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:streamen-naar-je-tv",
+        "name": "Streamen naar je tv",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:3-verschillende-apparaten",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:3-verschillende-apparaten",
+        "name": "3 verschillende apparaten",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:tot-7-dagen-terug",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:tot-7-dagen-terug",
+        "name": "tot 7 dagen terug",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:extra-next-mini",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:extra-next-mini",
+        "name": "Extra Next Mini",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:televisie-met-ingebouwde-dvb-c-tuner",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:televisie-met-ingebouwde-dvb-c-tuner",
+        "name": "televisie met ingebouwde DVB-C tuner",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:coaxkabel",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:coaxkabel",
+        "name": "coaxkabel",
+        "type": "Hardware"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:televisie_mediaboxen_extra",
+      "target_id": "section:televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_mediaboxen_extra",
+      "target_id": "section:televisie_mediaboxen_extra::kabel-digitaal",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_mediaboxen_extra",
+      "target_id": "section:televisie_mediaboxen_extra::ci-module",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_mediaboxen_extra",
+      "target_id": "section:televisie_mediaboxen_extra::ziggo-go-app",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_mediaboxen_extra",
+      "target_id": "section:televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:televisie_mediaboxen_extra",
+      "target_id": "section:televisie_mediaboxen_extra::veelgestelde-vragen",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen_extra::kabel-digitaal",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0002",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0002",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen_extra::ci-module",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0003",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0002",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0003",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen_extra::ziggo-go-app",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0003",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0005",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0005",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen_extra::veelgestelde-vragen",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0006",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0005",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0006",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:televisie_mediaboxen_extra::veelgestelde-vragen",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0006",
+      "target_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "target_id": "entity:next-mini",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "target_id": "entity:mediabox-xl",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "target_id": "entity:mediabox-next",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "target_id": "entity:6",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0001",
+      "target_id": "entity:max-5w",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0002",
+      "target_id": "entity:kabel-tv",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0002",
+      "target_id": "entity:50-tv-zenders",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0002",
+      "target_id": "entity:4-in-hd",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0003",
+      "target_id": "entity:ci-module",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0003",
+      "target_id": "entity:4",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "target_id": "entity:ziggo-go",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "target_id": "entity:tot-7-dagen-terugkijken",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "target_id": "entity:programma-s-opnemen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0004",
+      "target_id": "entity:streamen-naar-je-tv",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0005",
+      "target_id": "entity:ziggo-go",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:ziggo-go",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:3-verschillende-apparaten",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:tot-7-dagen-terug",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:mediabox-xl",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:mediabox-next",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:next-mini",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:extra-next-mini",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:televisie-met-ingebouwde-dvb-c-tuner",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_mediaboxen_extra::chunk-0007",
+      "target_id": "entity:coaxkabel",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "hardware:next-mini",
+      "name": "Next Mini",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0001"
+    },
+    {
+      "entity_id": "hardware:mediabox-xl",
+      "name": "Mediabox XL",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0001"
+    },
+    {
+      "entity_id": "hardware:mediabox-next",
+      "name": "Mediabox Next",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0001"
+    },
+    {
+      "entity_id": "pricepoint:6",
+      "name": "6,-",
+      "entity_type": "PricePoint",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0001"
+    },
+    {
+      "entity_id": "specification:max-5w",
+      "name": "max. 5W",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0001"
+    },
+    {
+      "entity_id": "product:kabel-tv",
+      "name": "Kabel TV",
+      "entity_type": "Product",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0002"
+    },
+    {
+      "entity_id": "specification:50-tv-zenders",
+      "name": "50+ tv-zenders",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0002"
+    },
+    {
+      "entity_id": "specification:4-in-hd",
+      "name": "4 in HD",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0002"
+    },
+    {
+      "entity_id": "hardware:ci-module",
+      "name": "CI+ Module",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0003"
+    },
+    {
+      "entity_id": "pricepoint:4",
+      "name": "4,-",
+      "entity_type": "PricePoint",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0003"
+    },
+    {
+      "entity_id": "product:ziggo-go",
+      "name": "Ziggo GO",
+      "entity_type": "Product",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0004"
+    },
+    {
+      "entity_id": "servicefeature:tot-7-dagen-terugkijken",
+      "name": "Tot 7 dagen terugkijken",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0004"
+    },
+    {
+      "entity_id": "servicefeature:programma-s-opnemen",
+      "name": "Programma's opnemen",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0004"
+    },
+    {
+      "entity_id": "servicefeature:streamen-naar-je-tv",
+      "name": "Streamen naar je tv",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0004"
+    },
+    {
+      "entity_id": "product:ziggo-go",
+      "name": "Ziggo GO",
+      "entity_type": "Product",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0005"
+    },
+    {
+      "entity_id": "product:ziggo-go",
+      "name": "Ziggo GO",
+      "entity_type": "Product",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "specification:3-verschillende-apparaten",
+      "name": "3 verschillende apparaten",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "specification:tot-7-dagen-terug",
+      "name": "tot 7 dagen terug",
+      "entity_type": "Specification",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "hardware:mediabox-xl",
+      "name": "Mediabox XL",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "hardware:mediabox-next",
+      "name": "Mediabox Next",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "hardware:next-mini",
+      "name": "Next Mini",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "hardware:extra-next-mini",
+      "name": "Extra Next Mini",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "hardware:televisie-met-ingebouwde-dvb-c-tuner",
+      "name": "televisie met ingebouwde DVB-C tuner",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    },
+    {
+      "entity_id": "hardware:coaxkabel",
+      "name": "coaxkabel",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_mediaboxen_extra::chunk-0007"
+    }
+  ],
+  "section_summaries": {
+    "televisie_mediaboxen_extra::next-mini-voor-je-2e-tv": "Huur een Extra Next Mini voor je tweede of derde tv als je al een Mediabox XL, Mediabox Next of Next Mini hebt. De Next Mini kost €6 per maand, is klein en energiezuinig en heeft geen coaxkabel nodig.",
+    "televisie_mediaboxen_extra::kabel-digitaal": "Met Kabel TV van Ziggo kijk je met een geschikte televisie digitale tv zonder extra kastje. Je ontvangt 50+ tv-zenders, waarvan 4 in HD, en hebt alleen een coaxkabel nodig.",
+    "televisie_mediaboxen_extra::ci-module": "Met de CI+ Module kijk je digitale televisie in HD-kwaliteit zonder losse mediabox. De module kost €4 per maand, vereist geen extra afstandsbediening en gebruikt alleen een coaxkabel.",
+    "televisie_mediaboxen_extra::ziggo-go-app": "Met de Ziggo GO app kijk je favoriete programma’s binnen de EU, tot 7 dagen terug. Je kunt ook programma’s opnemen en naar je tv streamen; op een laptop kun je ziggogo.tv gebruiken.",
+    "televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv": "Voor je tweede tv kun je de Ziggo GO app downloaden op een mediaplayer of smart-tv. De app is beschikbaar voor Apple TV, Android TV en Amazon Fire TV.",
+    "televisie_mediaboxen_extra::veelgestelde-vragen": "Met Ziggo GO kijk je live tv op drie apparaten en tot 7 dagen terug, overal in de EU met internetverbinding; buiten de EU werkt dit niet. Voor digitale tv zonder ontvanger op een tweede, derde of vierde toestel heb je een Ziggo-tv-abonnement, een televisie met ingebouwde DVB-C-tuner en een geschikte coaxkabel nodig; bestaande klanten met een Mediabox XL, Mediabox Next of Next Mini kunnen een Extra Next Mini bestellen."
+  }
+}

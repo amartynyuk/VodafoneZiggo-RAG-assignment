@@ -1,0 +1,469 @@
+{
+  "ingested_at": "2026-08-18T12:30:34.566052+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/bellen/volop-bellen",
+    "page_id": "bellen_volop-bellen",
+    "label": "Volop Bellen",
+    "title": "Gratis bellen naar vast en mobiel met Volop Bellen | Ziggo",
+    "meta_description": "Volop Bellen is altijd gratis bellen naar mobiele en vaste nummers in Nederland. En wij bieden je een heel stel gratis extra diensten die je niets kosten.",
+    "og_title": "Gratis bellen naar vast en mobiel met Volop Bellen | Ziggo",
+    "og_description": "Volop Bellen is altijd gratis bellen naar mobiele en vaste nummers in Nederland. En wij bieden je een heel stel gratis extra diensten die je niets kosten."
+  },
+  "content_quality": "rich",
+  "main_char_count": 7987,
+  "warnings": [],
+  "sections": [
+    {
+      "section_id": "bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+      "heading": "Onbeperkt bellen naar vast en mobiel",
+      "level": 2,
+      "text": "Volop Bellen kan gecombineerd worden met één telefoonlijn. ​Wil je ook Volop Bellen op een extra telefoonlijn in huis? ​Sluit daar dan een tweede abonnement voor af.\n15,50 per maand\nBel onbeperkt naar alle Nederlandse vaste en mobiele nummers, met uitzondering van betaalde servicenummers. Dat is pas écht onbezorgd bellen.\nOm veiligheidsredenen is het de eerste 3 maanden niet mogelijk om betaalde (0909/0906) nummers te bellen.\nJe kunt je huidige nummer gratis meenemen naar Ziggo. Nummerbehoud vraag je eenvoudig aan tijdens je bestelling. Ziggo zegt dan het contract bij je huidige telefonieaanbieder voor je op. Dat hoef je dus niet meer zelf te doen.",
+      "order": 2
+    },
+    {
+      "section_id": "bellen_volop-bellen::stappenplan",
+      "heading": "Stappenplan",
+      "level": 3,
+      "text": "Klik op de bestelbutton en log in op Mijn Ziggo\nKies Volop Bellen in het bestelformulier en ga akkoord met de voorwaarden\nEen paar dagen nadat je de bestelling hebt gedaan, ontvang je een bevestiging van Ziggo\nVanaf nu werkt Volop Bellen\nBellen via de kabel maakt een kraakheldere spraakverbinding mogelijk. Beter en betrouwbaarder dan wat je gewend bent van bijvoorbeeld DSL-aanbieders. Ook tijdens het internetten of downloaden merk je geen verschil in kwaliteit van je telefoonverbinding. Wij beheren onze telefoonverbindingen van het begin tot het einde zelf en daarom zijn ze erg betrouwbaar.\nNatuurlijk kan dat. Je kunt per telefoonlijn één ISDN-nummer meenemen.\nJazeker. Je kunt je thuistelefoon makkelijk combineren met televisie en internet van Ziggo. Dan kies je voor een Alles-in-1 Pakket, met\n. Kijk bij onze\nvoor een compleet overzicht van de mogelijkheden.\nZiggo Vast Bellen is in de meeste gevallen ook geschikt om alarmmeldingen door te geven. Maar we kunnen niet altijd garanderen dat deze goed werken in combinatie met Ziggo telefonie. We weten dat het werkt bij alarmsystemen van Bosch, Lobeco, General Electrics en Homesafety. Neem echter altijd contact op met de leverancier van het systeem om te checken of het werkt met Ziggo telefonie.\nIn het geval van een stroom- of signaalstoring werkt de modem niet en kan er dus ook geen alarmering worden doorgegeven. Onze installateurs zijn niet gecertificeerd om alarminstallaties aan te sluiten. Ze zijn daarmee niet verantwoordelijk voor het niet doorkomen van een alarmmelding. Hiervoor zul je contact op moeten nemen met de leverancier van je alarmsysteem.\nAls je nog geen vast telefoonnummer hebt, dan ontvang je van ons een vast telefoonnummer op je adres.\nDit abonnement en de extra opties zijn maandelijks opzegbaar.",
+      "order": 3
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "bellen_volop-bellen::chunk-0001",
+      "section_id": "bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+      "text": "Onbeperkt bellen naar vast en mobiel\n\nVolop Bellen kan gecombineerd worden met één telefoonlijn. ​Wil je ook Volop Bellen op een extra telefoonlijn in huis? ​Sluit daar dan een tweede abonnement voor af.\n15,50 per maand\nBel onbeperkt naar alle Nederlandse vaste en mobiele nummers, met uitzondering van betaalde servicenummers. Dat is pas écht onbezorgd bellen.\nOm veiligheidsredenen is het de eerste 3 maanden niet mogelijk om betaalde (0909/0906) nummers te bellen.\nJe kunt je huidige nummer gratis meenemen naar Ziggo. Nummerbehoud vraag je eenvoudig aan tijdens je bestelling. Ziggo zegt dan het contract bij je huidige telefonieaanbieder voor je op. Dat hoef je dus niet meer zelf te doen.",
+      "order": 1,
+      "token_estimate": 173
+    },
+    {
+      "chunk_id": "bellen_volop-bellen::chunk-0002",
+      "section_id": "bellen_volop-bellen::stappenplan",
+      "text": "Stappenplan",
+      "order": 2,
+      "token_estimate": 2
+    },
+    {
+      "chunk_id": "bellen_volop-bellen::chunk-0003",
+      "section_id": "bellen_volop-bellen::stappenplan",
+      "text": "Stappenplan\n\nKlik op de bestelbutton en log in op Mijn Ziggo\nKies Volop Bellen in het bestelformulier en ga akkoord met de voorwaarden\nEen paar dagen nadat je de bestelling hebt gedaan, ontvang je een bevestiging van Ziggo\nVanaf nu werkt Volop Bellen\nBellen via de kabel maakt een kraakheldere spraakverbinding mogelijk. Beter en betrouwbaarder dan wat je gewend bent van bijvoorbeeld DSL-aanbieders. Ook tijdens het internetten of downloaden merk je geen verschil in kwaliteit van je telefoonverbinding. Wij beheren onze telefoonverbindingen van het begin tot het einde zelf en daarom zijn ze erg betrouwbaar.\nNatuurlijk kan dat. Je kunt per telefoonlijn één ISDN-nummer meenemen.\nJazeker. Je kunt je thuistelefoon makkelijk combineren met televisie en internet van Ziggo. Dan kies je voor een Alles-in-1 Pakket, met\n. Kijk bij onze\nvoor een compleet overzicht van de mogelijkheden.\nZiggo Vast Bellen is in de meeste gevallen ook geschikt om alarmmeldingen door te geven. Maar we kunnen niet altijd garanderen dat deze goed werken in combinatie met Ziggo telefonie. We weten dat het werkt bij alarmsystemen van Bosch, Lobeco, General Electrics en Homesafety. Neem echter altijd contact op met de leverancier van het systeem om te checken of het werkt met Ziggo telefonie.\nIn het geval van een stroom- of signaalstoring werkt de modem niet en kan er dus ook geen alarmering worden doorgegeven. Onze installateurs zijn niet gecertificeerd om alarminstallaties aan te sluiten. Ze zijn daarmee niet verantwoordelijk voor het niet doorkomen van een alarmmelding. Hiervoor zul je contact op moeten nemen met de leverancier van je alarmsysteem.\nAls je nog geen vast telefoonnummer hebt, dan ontvang je van ons een vast telefoonnummer op je adres.\nDit abonnement en de extra opties zijn maandelijks opzegbaar.",
+      "order": 3,
+      "token_estimate": 450
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:bellen_volop-bellen",
+      "label": "Page",
+      "properties": {
+        "page_id": "bellen_volop-bellen",
+        "url": "https://www.ziggo.nl/bellen/volop-bellen",
+        "title": "Gratis bellen naar vast en mobiel met Volop Bellen | Ziggo",
+        "label": "Volop Bellen",
+        "content_quality": "rich"
+      }
+    },
+    {
+      "node_id": "section:bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+      "label": "Section",
+      "properties": {
+        "section_id": "bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+        "heading": "Onbeperkt bellen naar vast en mobiel",
+        "level": 2,
+        "order": 2,
+        "summary": "Met Volop Bellen bel je voor €15,50 per maand onbeperkt naar Nederlandse vaste en mobiele nummers, behalve betaalde servicenummers. Je kunt je huidige nummer gratis meenemen naar Ziggo; voor een extra telefoonlijn is een tweede abonnement nodig.",
+        "topic": "pricing"
+      }
+    },
+    {
+      "node_id": "section:bellen_volop-bellen::stappenplan",
+      "label": "Section",
+      "properties": {
+        "section_id": "bellen_volop-bellen::stappenplan",
+        "heading": "Stappenplan",
+        "level": 3,
+        "order": 3,
+        "summary": "Bestel Volop Bellen via Mijn Ziggo, ga akkoord met de voorwaarden en ontvang enkele dagen later een bevestiging; daarna werkt de dienst. Ziggo vermeldt daarnaast dat de kabelverbinding een heldere en betrouwbare telefoonverbinding biedt en dat het abonnement maandelijks opzegbaar is.",
+        "topic": "how_to"
+      }
+    },
+    {
+      "node_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "bellen_volop-bellen::chunk-0001",
+        "section_id": "bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+        "text": "Onbeperkt bellen naar vast en mobiel\n\nVolop Bellen kan gecombineerd worden met één telefoonlijn. ​Wil je ook Volop Bellen op een extra telefoonlijn in huis? ​Sluit daar dan een tweede abonnement voor af.\n15,50 per maand\nBel onbeperkt naar alle Nederlandse vaste en mobiele nummers, met uitzondering van betaalde servicenummers. Dat is pas écht onbezorgd bellen.\nOm veiligheidsredenen is het de eerste 3 maanden niet mogelijk om betaalde (0909/0906) nummers te bellen.\nJe kunt je huidige nummer gratis meenemen naar Ziggo. Nummerbehoud vraag je eenvoudig aan tijdens je bestelling. Ziggo zegt dan het contract bij je huidige telefonieaanbieder voor je op. Dat hoef je dus niet meer zelf te doen.",
+        "order": 1,
+        "token_estimate": 173
+      }
+    },
+    {
+      "node_id": "chunk:bellen_volop-bellen::chunk-0002",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "bellen_volop-bellen::chunk-0002",
+        "section_id": "bellen_volop-bellen::stappenplan",
+        "text": "Stappenplan",
+        "order": 2,
+        "token_estimate": 2
+      }
+    },
+    {
+      "node_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "bellen_volop-bellen::chunk-0003",
+        "section_id": "bellen_volop-bellen::stappenplan",
+        "text": "Stappenplan\n\nKlik op de bestelbutton en log in op Mijn Ziggo\nKies Volop Bellen in het bestelformulier en ga akkoord met de voorwaarden\nEen paar dagen nadat je de bestelling hebt gedaan, ontvang je een bevestiging van Ziggo\nVanaf nu werkt Volop Bellen\nBellen via de kabel maakt een kraakheldere spraakverbinding mogelijk. Beter en betrouwbaarder dan wat je gewend bent van bijvoorbeeld DSL-aanbieders. Ook tijdens het internetten of downloaden merk je geen verschil in kwaliteit van je telefoonverbinding. Wij beheren onze telefoonverbindingen van het begin tot het einde zelf en daarom zijn ze erg betrouwbaar.\nNatuurlijk kan dat. Je kunt per telefoonlijn één ISDN-nummer meenemen.\nJazeker. Je kunt je thuistelefoon makkelijk combineren met televisie en internet van Ziggo. Dan kies je voor een Alles-in-1 Pakket, met\n. Kijk bij onze\nvoor een compleet overzicht van de mogelijkheden.\nZiggo Vast Bellen is in de meeste gevallen ook geschikt om alarmmeldingen door te geven. Maar we kunnen niet altijd garanderen dat deze goed werken in combinatie met Ziggo telefonie. We weten dat het werkt bij alarmsystemen van Bosch, Lobeco, General Electrics en Homesafety. Neem echter altijd contact op met de leverancier van het systeem om te checken of het werkt met Ziggo telefonie.\nIn het geval van een stroom- of signaalstoring werkt de modem niet en kan er dus ook geen alarmering worden doorgegeven. Onze installateurs zijn niet gecertificeerd om alarminstallaties aan te sluiten. Ze zijn daarmee niet verantwoordelijk voor het niet doorkomen van een alarmmelding. Hiervoor zul je contact op moeten nemen met de leverancier van je alarmsysteem.\nAls je nog geen vast telefoonnummer hebt, dan ontvang je van ons een vast telefoonnummer op je adres.\nDit abonnement en de extra opties zijn maandelijks opzegbaar.",
+        "order": 3,
+        "token_estimate": 450
+      }
+    },
+    {
+      "node_id": "entity:volop-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:volop-bellen",
+        "name": "Volop Bellen",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:15-50-per-maand",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "pricepoint:15-50-per-maand",
+        "name": "15,50 per maand",
+        "type": "PricePoint"
+      }
+    },
+    {
+      "node_id": "entity:onbeperkt-bellen-naar-alle-nederlandse-vaste-en-mobiele-nummers",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:onbeperkt-bellen-naar-alle-nederlandse-vaste-en-mobiele-numm",
+        "name": "Onbeperkt bellen naar alle Nederlandse vaste en mobiele nummers",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:nummerbehoud",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:nummerbehoud",
+        "name": "Nummerbehoud",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:n-telefoonlijn",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:n-telefoonlijn",
+        "name": "één telefoonlijn",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:tweede-telefoonlijn",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:tweede-telefoonlijn",
+        "name": "tweede telefoonlijn",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:eerste-3-maanden",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:eerste-3-maanden",
+        "name": "eerste 3 maanden",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:0909-0906-nummers",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:0909-0906-nummers",
+        "name": "0909/0906-nummers",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:alles-in-1-pakket",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:alles-in-1-pakket",
+        "name": "Alles-in-1 Pakket",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:ziggo-vast-bellen",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "product:ziggo-vast-bellen",
+        "name": "Ziggo Vast Bellen",
+        "type": "Product"
+      }
+    },
+    {
+      "node_id": "entity:bellen-via-de-kabel",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:bellen-via-de-kabel",
+        "name": "Bellen via de kabel",
+        "type": "ServiceFeature"
+      }
+    },
+    {
+      "node_id": "entity:modem",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:modem",
+        "name": "modem",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:n-isdn-nummer",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:n-isdn-nummer",
+        "name": "één ISDN-nummer",
+        "type": "Specification"
+      }
+    },
+    {
+      "node_id": "entity:alarmmeldingen-doorgeven",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "servicefeature:alarmmeldingen-doorgeven",
+        "name": "Alarmmeldingen doorgeven",
+        "type": "ServiceFeature"
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:bellen_volop-bellen",
+      "target_id": "section:bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "page:bellen_volop-bellen",
+      "target_id": "section:bellen_volop-bellen::stappenplan",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+      "target_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "section:bellen_volop-bellen::stappenplan",
+      "target_id": "chunk:bellen_volop-bellen::chunk-0002",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "chunk:bellen_volop-bellen::chunk-0002",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "section:bellen_volop-bellen::stappenplan",
+      "target_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "rel_type": "HAS_CHUNK"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0002",
+      "target_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "rel_type": "NEXT"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:volop-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:15-50-per-maand",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:onbeperkt-bellen-naar-alle-nederlandse-vaste-en-mobiele-nummers",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:nummerbehoud",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:n-telefoonlijn",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:tweede-telefoonlijn",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:eerste-3-maanden",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0001",
+      "target_id": "entity:0909-0906-nummers",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:volop-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:alles-in-1-pakket",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:ziggo-vast-bellen",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:bellen-via-de-kabel",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:nummerbehoud",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:modem",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:n-isdn-nummer",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:bellen_volop-bellen::chunk-0003",
+      "target_id": "entity:alarmmeldingen-doorgeven",
+      "rel_type": "MENTIONS"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "product:volop-bellen",
+      "name": "Volop Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "pricepoint:15-50-per-maand",
+      "name": "15,50 per maand",
+      "entity_type": "PricePoint",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "servicefeature:onbeperkt-bellen-naar-alle-nederlandse-vaste-en-mobiele-numm",
+      "name": "Onbeperkt bellen naar alle Nederlandse vaste en mobiele nummers",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "servicefeature:nummerbehoud",
+      "name": "Nummerbehoud",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "specification:n-telefoonlijn",
+      "name": "één telefoonlijn",
+      "entity_type": "Specification",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "specification:tweede-telefoonlijn",
+      "name": "tweede telefoonlijn",
+      "entity_type": "Specification",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "specification:eerste-3-maanden",
+      "name": "eerste 3 maanden",
+      "entity_type": "Specification",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "specification:0909-0906-nummers",
+      "name": "0909/0906-nummers",
+      "entity_type": "Specification",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0001"
+    },
+    {
+      "entity_id": "product:volop-bellen",
+      "name": "Volop Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    },
+    {
+      "entity_id": "product:alles-in-1-pakket",
+      "name": "Alles-in-1 Pakket",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    },
+    {
+      "entity_id": "product:ziggo-vast-bellen",
+      "name": "Ziggo Vast Bellen",
+      "entity_type": "Product",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    },
+    {
+      "entity_id": "servicefeature:bellen-via-de-kabel",
+      "name": "Bellen via de kabel",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    },
+    {
+      "entity_id": "servicefeature:nummerbehoud",
+      "name": "Nummerbehoud",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    },
+    {
+      "entity_id": "hardware:modem",
+      "name": "modem",
+      "entity_type": "Hardware",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    },
+    {
+      "entity_id": "specification:n-isdn-nummer",
+      "name": "één ISDN-nummer",
+      "entity_type": "Specification",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    },
+    {
+      "entity_id": "servicefeature:alarmmeldingen-doorgeven",
+      "name": "Alarmmeldingen doorgeven",
+      "entity_type": "ServiceFeature",
+      "source_chunk_id": "bellen_volop-bellen::chunk-0003"
+    }
+  ],
+  "section_summaries": {
+    "bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel": "Met Volop Bellen bel je voor €15,50 per maand onbeperkt naar Nederlandse vaste en mobiele nummers, behalve betaalde servicenummers. Je kunt je huidige nummer gratis meenemen naar Ziggo; voor een extra telefoonlijn is een tweede abonnement nodig.",
+    "bellen_volop-bellen::stappenplan": "Bestel Volop Bellen via Mijn Ziggo, ga akkoord met de voorwaarden en ontvang enkele dagen later een bevestiging; daarna werkt de dienst. Ziggo vermeldt daarnaast dat de kabelverbinding een heldere en betrouwbare telefoonverbinding biedt en dat het abonnement maandelijks opzegbaar is."
+  }
+}
