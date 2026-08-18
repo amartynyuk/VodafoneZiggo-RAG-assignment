@@ -1,18 +1,128 @@
+/**
+ * Ziggo brand tokens, extracted from ziggo.nl:
+ *   theme-color #ff5f00, "Vodafone Ziggo text" + "Ziggo Headline",
+ *   white chrome, dark footer, pill CTAs.
+ */
+
+@font-face {
+  font-display: swap;
+  font-family: "Vodafone Ziggo text";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-light.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Vodafone Ziggo text";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Vodafone Ziggo text";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://www.ziggo.nl/assets/fonts/ziggo/v2.1/vodafoneziggo-text-bold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Ziggo Headline";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Ziggo Headline";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://www.ziggo.nl/assets/fonts/ziggo/v2/ziggoheadline-bold.woff2")
+    format("woff2");
+}
+
+:root {
+  --ziggo-orange: #ff5f00;
+  --ziggo-orange-hover: #e65600;
+  --ziggo-orange-soft: #fff3eb;
+  --ziggo-black: #1a1a1a;
+  --ziggo-text: #1a1a1a;
+  --ziggo-muted: #5c5c5c;
+  --ziggo-border: #e8e4e0;
+  --ziggo-white: #ffffff;
+  --ziggo-cream: #faf7f5;
+  --ziggo-footer: #1a1a1a;
+  --ziggo-gradient: linear-gradient(135deg, #ff5f00 0%, #ff7a2e 45%, #ffb347 100%);
+  --radius-card: 16px;
+  --radius-bubble: 16px;
+  --radius-pill: 999px;
+  --shadow-card: 0 8px 32px rgba(26, 26, 26, 0.08);
+  --font-text: "Vodafone Ziggo text", "Segoe UI", system-ui, sans-serif;
+  --font-headline: "Ziggo Headline", "Vodafone Ziggo text", "Segoe UI", system-ui,
+    sans-serif;
+  --container: 1180px;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+html,
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
-  background: #f5f5f5;
-  color: #1a1a1a;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-text);
+  font-weight: 400;
+  background: var(--ziggo-cream);
+  color: var(--ziggo-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 #root {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

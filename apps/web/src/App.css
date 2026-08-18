@@ -1,104 +1,532 @@
-.app {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 1.5rem;
+/* Layout shell matching ziggo.nl: audience bar → navbar → hero → content → footer */
+
+.page {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
+}
+
+.container {
   width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 1.5rem;
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -48px;
+  z-index: 100;
+  background: var(--ziggo-black);
+  color: var(--ziggo-white);
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
 }
 
-.header h1 {
-  margin: 0;
-  color: #e6007e;
-  font-size: 1.75rem;
+.skip-link:focus {
+  top: 16px;
 }
 
-.subtitle {
-  margin: 0.25rem 0 0;
-  color: #666;
+/* —— Audience selector (Privé / Zakelijk) —— */
+
+.audience {
+  background: var(--ziggo-white);
+  border-bottom: 1px solid var(--ziggo-border);
   font-size: 0.875rem;
+}
+
+.audience__inner {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  min-height: 36px;
+}
+
+/* Decorative chrome: same look as a link, but never navigates. */
+.inert-link {
+  cursor: not-allowed;
+}
+
+.audience__link {
+  color: var(--ziggo-muted);
+  text-decoration: none;
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.audience__link:hover {
+  color: var(--ziggo-black);
+}
+
+.audience__link--active {
+  color: var(--ziggo-black);
+  font-weight: 700;
+  border-bottom-color: var(--ziggo-orange);
+}
+
+/* —— Main navbar —— */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--ziggo-white);
+  border-bottom: 1px solid var(--ziggo-border);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  min-height: 72px;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.navbar__logo {
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+.navbar__nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar__nav .inert-link,
+.navbar__nav-item {
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ziggo-black);
+  padding: 8px 0;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar__nav .inert-link:hover,
+.navbar__nav-item--active {
+  border-bottom-color: var(--ziggo-orange);
+}
+
+.navbar__apps {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.navbar__apps .inert-link {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ziggo-black);
+}
+
+.navbar__account {
+  background: var(--ziggo-black);
+  color: var(--ziggo-white) !important;
+  padding: 10px 18px;
+  border-radius: var(--radius-pill);
+}
+
+.navbar__account:hover {
+  background: #333;
+}
+
+/* —— Hero (bg-ziggo-gradient + white type, like homepage banners) —— */
+
+.hero {
+  background: var(--ziggo-gradient);
+  color: var(--ziggo-white);
+  padding: 48px 0 88px;
+}
+
+.hero__inner {
+  text-align: center;
+}
+
+.hero__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.hero h1 {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.15;
+  margin: 0;
+}
+
+.hero__sub {
+  margin: 12px 0 0;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+/* —— Chat card overlapping the hero —— */
+
+.chat-panel {
+  position: relative;
+  z-index: 2;
+  margin: -56px auto 48px;
+  max-width: 760px;
+  background: var(--ziggo-white);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  overflow: hidden;
+}
+
+.chat-panel__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--ziggo-border);
+}
+
+.chat-panel__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--ziggo-orange);
+  box-shadow: 0 0 0 6px var(--ziggo-orange-soft);
+  flex-shrink: 0;
+}
+
+.chat-panel__head h2 {
+  margin: 0;
+  font-family: var(--font-headline);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.chat-panel__head p {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--ziggo-muted);
 }
 
 .chat {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 12px;
+  padding: 24px;
   overflow-y: auto;
-  padding: 1rem 0;
-  min-height: 300px;
+  min-height: 280px;
+  max-height: min(52vh, 520px);
 }
 
-.placeholder {
-  color: #999;
-  text-align: center;
+.empty {
   margin: auto;
+  text-align: center;
+  max-width: 520px;
+}
+
+.empty__lead {
+  margin: 0 0 20px;
+  color: var(--ziggo-muted);
+}
+
+.suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.chip {
+  background: var(--ziggo-orange-soft);
+  color: var(--ziggo-black);
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  padding: 10px 16px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.chip:hover {
+  border-color: var(--ziggo-orange);
+  color: var(--ziggo-orange);
 }
 
 .bubble {
-  padding: 0.75rem 1rem;
-  border-radius: 12px;
+  padding: 12px 16px;
+  border-radius: var(--radius-bubble);
   max-width: 85%;
-}
-
-.bubble--user {
-  align-self: flex-end;
-  background: #e6007e;
-  color: white;
-}
-
-.bubble--assistant {
-  align-self: flex-start;
-  background: white;
-  border: 1px solid #e0e0e0;
 }
 
 .bubble p {
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.bubble--user {
+  align-self: flex-end;
+  background: var(--ziggo-orange);
+  color: var(--ziggo-white);
+  border-bottom-right-radius: 4px;
+}
+
+.bubble--assistant {
+  align-self: flex-start;
+  background: var(--ziggo-cream);
+  color: var(--ziggo-text);
+  border-bottom-left-radius: 4px;
 }
 
 .badge {
   display: inline-block;
-  margin-top: 0.5rem;
-  font-size: 0.7rem;
-  color: #888;
+  margin-top: 8px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: rgba(26, 26, 26, 0.08);
+  color: var(--ziggo-muted);
 }
 
-.input-row {
+.bubble--user .badge {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--ziggo-white);
+}
+
+.badge--cache {
+  background: #e8f6ee;
+  color: #1b7a3d;
+}
+
+.badge--rag {
+  background: var(--ziggo-orange-soft);
+  color: var(--ziggo-orange-hover);
+}
+
+.badge--blocked {
+  background: #fdecec;
+  color: #b42318;
+}
+
+.typing {
   display: flex;
-  gap: 0.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid #e0e0e0;
+  gap: 6px;
+  padding: 4px 2px;
 }
 
-.input-row input {
+.typing span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ziggo-orange);
+  animation: typing 1.2s ease-in-out infinite;
+}
+
+.typing span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes typing {
+  0%,
+  80%,
+  100% {
+    opacity: 0.3;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+}
+
+/* —— Composer: pill input + black CTA (Ziggo primary button language) —— */
+
+.composer {
+  display: flex;
+  gap: 8px;
+  padding: 16px 20px 20px;
+  border-top: 1px solid var(--ziggo-border);
+  background: var(--ziggo-white);
+}
+
+.composer input {
   flex: 1;
-  padding: 0.75rem 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  padding: 14px 20px;
+  border: 1px solid var(--ziggo-border);
+  border-radius: var(--radius-pill);
   font-size: 1rem;
+  background: var(--ziggo-cream);
+  color: var(--ziggo-text);
+  outline: none;
 }
 
-.input-row button {
-  padding: 0.75rem 1.25rem;
-  background: #e6007e;
-  color: white;
+.composer input:focus {
+  border-color: var(--ziggo-orange);
+  background: var(--ziggo-white);
+  box-shadow: 0 0 0 3px rgba(255, 95, 0, 0.18);
+}
+
+.composer input:disabled {
+  opacity: 0.6;
+}
+
+.composer button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: var(--ziggo-black);
+  color: var(--ziggo-white);
   border: none;
-  border-radius: 8px;
+  border-radius: var(--radius-pill);
   font-size: 1rem;
+  font-weight: 700;
   cursor: pointer;
+  white-space: nowrap;
 }
 
-.input-row button:disabled {
-  opacity: 0.5;
+.composer button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.composer button:hover:not(:disabled) {
+  background: var(--ziggo-orange);
+}
+
+.composer button:disabled {
+  opacity: 0.4;
   cursor: not-allowed;
+}
+
+/* —— Footer (dark, like ziggo.nl page-footer) —— */
+
+.footer {
+  margin-top: auto;
+  background: var(--ziggo-footer);
+  color: var(--ziggo-white);
+  padding: 48px 0 24px;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.footer h2 {
+  margin: 0 0 12px;
+  font-family: var(--font-headline);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li + li {
+  margin-top: 8px;
+}
+
+.footer .inert-link {
+  color: #d4d0cc;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.footer .inert-link:hover {
+  color: var(--ziggo-white);
+  text-decoration: underline;
+}
+
+.footer__legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 0.8125rem;
+  color: #9a9590;
+}
+
+.footer__legal ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__legal .inert-link {
+  color: #9a9590;
+}
+
+/* —— Responsive —— */
+
+@media (max-width: 860px) {
+  .navbar__nav,
+  .navbar__apps .inert-link:not(.navbar__account) {
+    display: none;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero {
+    padding: 32px 0 72px;
+  }
+
+  .chat-panel {
+    margin-top: -40px;
+    min-height: 0;
+  }
+
+  .composer {
+    flex-direction: column;
+  }
+
+  .composer button {
+    justify-content: center;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .footer__legal {
+    flex-direction: column;
+  }
 }
