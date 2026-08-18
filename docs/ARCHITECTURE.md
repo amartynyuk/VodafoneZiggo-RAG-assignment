@@ -1,6 +1,6 @@
 # Architecture — VodafoneZiggo RAG Assistant
 
-This document describes the system architecture for the Ziggo customer-facing AI assistant. It covers the local development setup, service boundaries, data stores, and the target AWS deployment model.
+This document describes the system architecture for the Ziggo customer-facing AI assistant. It covers the local development setup, service boundaries, data stores, LangGraph workflows, and the target AWS deployment model.
 
 ## 1. Goals
 
@@ -17,30 +17,29 @@ This document describes the system architecture for the Ziggo customer-facing AI
 ```mermaid
 flowchart TB
   subgraph client [Client]
-    WEB[React Web App]
+    WEB[React Web App :3000]
   end
 
   subgraph services [Services]
     AA[AI Assistant<br/>FastAPI + LangGraph]
-    KB[KB Builder<br/>FastAPI + Ingest Pipeline]
+    KB[KB Builder<br/>FastAPI + LangGraph Ingest]
   end
 
-  subgraph storage [Local Storage]
-    VF[(FAISS — RAG index)]
-    VC[(FAISS — Q&A cache index)]
-    GN[(NetworkX graph)]
+  subgraph storage [Local Storage — data/]
+    VF[(FAISS rag.faiss)]
+    VC[(FAISS cache.faiss)]
+    GN[(NetworkX graph.json)]
   end
 
   subgraph external [External]
     LS[LangSmith]
-    LLM[LLM Provider]
-    EMB[Embedding Provider]
+    LLM[OpenAI LLM]
+    EMB[OpenAI Embeddings]
     ZIG[ziggo.nl pages]
   end
 
   WEB -->|POST /ask| AA
-  KB -->|POST /ingest| KB
-  KB --> ZIG
+  KB -->|POST /ingest| ZIG
   KB --> VF
   KB --> GN
   AA --> VC
@@ -50,7 +49,11 @@ flowchart TB
   AA --> EMB
   AA --> LS
   KB --> EMB
+  KB --> LLM
+  KB --> LS
 ```
+
+**Current KB scale** (after batch ingest of 30 ziggo.nl pages): ~353 vector chunks, ~1004 graph nodes, ~1732 edges. See `data/ingest_report.json`.
 
 ## 3. Repository layout
 
@@ -63,23 +66,33 @@ vziggo-rag/
 │   ├── ai-assistant/           # Query path: cache → security → RAG
 │   │   ├── app/
 │   │   │   ├── api/
-│   │   │   ├── graph/          # LangGraph workflow
-│   │   │   ├── cache/
+│   │   │   ├── graph/          # LangGraph query workflow
+│   │   │   ├── cache/          # Seed + cache write-back
 │   │   │   ├── security/       # BERT gate
-│   │   │   └── storage/        # VectorStore, GraphStore, CacheStore
-│   │   └── Dockerfile
+│   │   │   └── storage/        # FaissVectorStore, NetworkXGraphStore, FaissCacheStore
+│   │   ├── scripts/            # smoke_ask, smoke_cache_security
+│   │   └── QUERY_WORKFLOW.md
 │   └── kb-builder/             # Write path: scrape → structure → embed
 │       ├── app/
 │       │   ├── api/
-│       │   ├── scrape/
-│       │   ├── structure/      # DOM → graph nodes
-│       │   ├── chunk/
-│       │   ├── embed/
+│       │   ├── pipeline/       # LangGraph ingest workflow + nodes/
+│       │   ├── scrape/         # fetch + clean
+│       │   ├── structure/      # DOM → sections
+│       │   ├── chunk/          # section-aware chunking
+│       │   ├── llm/            # entity extraction + summarization
 │       │   └── storage/
-│       └── Dockerfile
+│       ├── scripts/            # run_ingest_all, run_ingest_sample, extract_product_nav
+│       └── INGEST_PIPELINE.md
 ├── packages/
 │   └── api-contracts/          # Optional: shared API types for web
-├── data/                       # Serialized FAISS indexes + graph snapshots
+├── data/                       # Serialized FAISS indexes + graph + page snapshots
+│   ├── rag.faiss, rag_meta.json, rag_vectors.npy
+│   ├── cache.faiss, cache_meta.json, cache_vectors.npy
+│   ├── graph.json
+│   ├── pages/{page_id}.json
+│   ├── qa_cache_seed.json
+│   ├── ziggo-product-label-urls.json
+│   └── ingest_report.json
 ├── docker-compose.yml
 ├── turbo.json                  # Orchestrates infra + web (not Python)
 ├── ARCHITECTURE.md
@@ -113,12 +126,14 @@ flowchart LR
   CACHE -->|miss| SEC[security_classify]
   SEC -->|block| REJECT[reject_response]
   SEC -->|allow| RETRIEVE[vector_retrieve]
-  RETRIEVE --> EXPAND[graph_expand_context]
+  RETRIEVE -->|chunks found| EXPAND[graph_expand_context]
+  RETRIEVE -->|no context| NO_ANS[cannot_answer]
   EXPAND --> GEN[generate_answer]
   GEN --> MAYBE[maybe_cache_answer]
   MAYBE --> RETURN[return_answer]
+  NO_ANS --> RETURN
   RETURN_CACHED --> END([Response])
-  REJECT --> END
+  REJECT --> RETURN
   RETURN --> END
 ```
 
@@ -126,20 +141,21 @@ flowchart LR
 |------|-------|------------|--------|
 | `embed_question` | User question string | Embed via embedding model | Question vector |
 | `cache_lookup` | Question vector | Similarity search in **cache index** (separate FAISS) | Cache hit + answer, or miss |
-| `security_classify` | User question | BERT / zero-shot classifier | `allow` \| `block` + reason |
+| `security_classify` | User question | toxic-bert + zero-shot topic check | `allow` \| `block` + reason |
 | `vector_retrieve` | Question vector | Top-k similarity in **RAG index** | Chunk IDs + scores |
 | `graph_expand_context` | Chunk IDs | NetworkX traversal: parent section, entities, adjacent chunks | Enriched context set |
 | `generate_answer` | Question + context | LLM with system prompt (tone, safety, cite context) | Draft answer |
 | `maybe_cache_answer` | Question, answer, confidence | Write to cache if confidence ≥ threshold | Updated cache (optional) |
+| `cannot_answer` | Empty retrieval | Polite "not in knowledge base" message | Draft answer, `source=none` |
 | `return_cached_answer` | Cached record | Format customer-facing response | Final JSON |
-| `reject_response` | Block reason | Safe refusal message | Final JSON |
+| `reject_response` | Block reason | Safe refusal message | Final JSON, `blocked=true` |
 
 **Low-confidence / empty retrieval**
 
-- If vector retrieve returns no chunks above threshold → route to `reject_response` or a dedicated `cannot_answer` node with a clear message.
+- If `vector_retrieve` returns no chunks above `RAG_SIMILARITY_THRESHOLD` (default `0.65`) → route to `cannot_answer`, then `return_answer`.
 - Optional future node: `reformulate_query` before a second retrieve attempt.
 
-**Observability:** LangSmith traces every node transition and LLM call.
+**Observability:** LangSmith traces every node transition and LLM call (`run_name: ziggo-ask`).
 
 ### 4.2 KB Builder (ingest path)
 
@@ -147,26 +163,41 @@ flowchart LR
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/ingest` | POST | Re-ingest a single page by URL (`page_url` in body) |
-| `/ingest/batch` | POST | Ingest multiple configured pages (optional) |
-| `/status` | GET | Last ingest status per page |
+| `/ingest` | POST | Re-ingest a single page by URL or nav `label` |
+| `/status` | GET | Ingested page list + vector/graph store stats |
 | `/health` | GET | Liveness check |
 
-**Ingest pipeline**
+Batch ingest is via CLI script `scripts/run_ingest_all.py` (not a separate HTTP endpoint).
+
+**LangGraph ingest pipeline**
 
 ```mermaid
 flowchart LR
-  URL[page_url] --> SCRAPE[scrape_html]
-  SCRAPE --> PARSE[parse_dom_hierarchy]
-  PARSE --> GRAPH[build_graph_nodes]
-  GRAPH --> CHUNK[chunk_by_section]
-  CHUNK --> ENTITY[extract_entities]
-  ENTITY --> EMBED[embed_chunks]
-  EMBED --> PERSIST_V[persist_vector_index]
-  EMBED --> PERSIST_G[persist_graph]
-  PERSIST_V --> DONE([Done])
-  PERSIST_G --> DONE
+  START([page_url or label]) --> RESOLVE[resolve]
+  RESOLVE --> FETCH[fetch]
+  FETCH --> CLEAN[clean]
+  CLEAN --> PARSE[parse_sections]
+  PARSE --> CHUNK[chunk]
+  CHUNK --> GRAPH[build_graph]
+  GRAPH --> LLM_E[llm_extract]
+  LLM_E --> LLM_S[llm_summarize]
+  LLM_S --> INDEX[index_kb]
+  INDEX --> PERSIST[persist]
+  PERSIST --> DONE([Done])
 ```
+
+| Node | Type | Description |
+|------|------|-------------|
+| `resolve` | deterministic | Map nav label → URL via `ziggo-product-label-urls.json` |
+| `fetch` | deterministic | `requests` GET |
+| `clean` | deterministic | Strip nav/footer; flag `rich` vs `sparse` content |
+| `parse_sections` | deterministic | h1–h4 sections, or sparse-page overview fallback |
+| `chunk` | deterministic | Section-aware chunking |
+| `build_graph` | deterministic | Page → Section → Chunk + NEXT edges |
+| `llm_extract` | LLM | Entity extraction → Entity + MENTIONS edges |
+| `llm_summarize` | LLM | Section topic + summary on Section nodes |
+| `index_kb` | deterministic | Embed chunks → FAISS; save graph |
+| `persist` | deterministic | Write `data/pages/{page_id}.json` snapshot |
 
 **Re-ingest semantics**
 
@@ -174,7 +205,7 @@ flowchart LR
 - Re-ingest **replaces** the page subgraph and associated chunk vectors (delete-then-insert).
 - Other pages in the KB are untouched.
 
-**Source scope:** 5–10 Ziggo product/service pages (e.g. internet, TV, Ziggo GO).
+**Source scope:** 30 ziggo.nl product/service pages ingested from `data/ziggo-product-label-urls.json`. JS-heavy pricing pages fall back to sparse og/meta overview.
 
 ## 5. Knowledge graph schema
 
@@ -185,7 +216,7 @@ NetworkX locally; Amazon Neptune (Gremlin) in AWS — both behind a `GraphStore`
 | Label | Key properties | Description |
 |-------|----------------|-------------|
 | `Page` | `page_id`, `url`, `title`, `scraped_at` | One scraped ziggo.nl page |
-| `Section` | `section_id`, `heading`, `level` | DOM heading block (h1–h4) |
+| `Section` | `section_id`, `heading`, `level`, `summary` | DOM heading block (h1–h4) |
 | `Chunk` | `chunk_id`, `text`, `token_count` | Retrieval unit within a section |
 | `Entity` | `entity_id`, `name`, `type` | Product/feature mention (e.g. "Ziggo GO") |
 
@@ -197,59 +228,46 @@ NetworkX locally; Amazon Neptune (Gremlin) in AWS — both behind a `GraphStore`
 | `HAS_CHUNK` | Section → Chunk | Section contains chunks |
 | `NEXT` | Chunk → Chunk | Reading order within section |
 | `MENTIONS` | Chunk → Entity | Entity extraction link |
-| `RELATED_TO` | Entity → Entity | Cross-page / cross-product relationships |
+| `RELATED_TO` | Entity → Entity | Cross-page relationships *(not yet implemented)* |
 
 ### 5.3 Graph-augmented retrieval
 
 1. Vector search returns top-k `Chunk` nodes.
 2. Graph expansion adds:
-   - Parent `Section` (heading context)
+   - Parent `Section` (heading + LLM summary context)
    - `NEXT` adjacent chunks (continuity)
-   - `MENTIONS` → `RELATED_TO` entities (cross-link context)
+   - `MENTIONS` → entities (cross-link context)
 3. Dedupe, rank by relevance, trim to context window budget.
 
 ## 6. Storage layer
 
-### 6.1 Abstractions
+### 6.1 Implementations
 
-All services depend on protocols, not concrete backends:
+Concrete classes live in `services/*/app/storage/` (no formal Protocol classes yet; shared interface by convention):
 
-```python
-# Conceptual interfaces (implemented in services/*/app/storage/)
-
-class VectorStore(Protocol):
-    def upsert_chunks(self, chunks: list[ChunkRecord]) -> None: ...
-    def delete_by_page(self, page_id: str) -> None: ...
-    def search(self, query_vector: list[float], top_k: int) -> list[ScoredChunk]: ...
-
-class CacheStore(Protocol):
-    def lookup(self, query_vector: list[float], threshold: float) -> CacheHit | None: ...
-    def put(self, question: str, answer: str, vector: list[float]) -> None: ...
-
-class GraphStore(Protocol):
-    def upsert_page_subgraph(self, page_id: str, nodes, edges) -> None: ...
-    def delete_page(self, page_id: str) -> None: ...
-    def expand_from_chunks(self, chunk_ids: list[str]) -> GraphContext: ...
-    def save(self, path: str) -> None: ...
-    def load(self, path: str) -> None: ...
-```
+| Class | Files | Purpose |
+|-------|-------|---------|
+| `FaissVectorStore` | `rag.faiss`, `rag_meta.json`, `rag_vectors.npy` | RAG chunk index |
+| `FaissCacheStore` | `cache.faiss`, `cache_meta.json`, `cache_vectors.npy` | Q&A cache index |
+| `NetworkXGraphStore` | `graph.json` | Knowledge graph (node-link JSON) |
+| `KnowledgeBase` | facade in `storage/kb.py` | Unified read/write API |
 
 ### 6.2 Local vs AWS
 
 | Concern | Local | AWS |
 |---------|-------|-----|
-| RAG vectors | FAISS index on disk (`data/rag.index`) | Aurora PostgreSQL + pgvector |
-| Q&A cache | Separate FAISS index (`data/cache.index`) | Aurora pgvector (separate table) |
-| Knowledge graph | NetworkX → serialized (`data/graph.pkl` / JSON) | Amazon Neptune |
+| RAG vectors | FAISS (`data/rag.faiss`) | Aurora PostgreSQL + pgvector |
+| Q&A cache | Separate FAISS (`data/cache.faiss`) | Aurora pgvector (separate table) |
+| Knowledge graph | NetworkX → `data/graph.json` | Amazon Neptune |
 | Graph queries | NetworkX traversal | Gremlin (same `GraphStore` contract) |
-| LLM / embeddings | OpenAI or Hugging Face (env-configured) | Same providers via VPC endpoints / secrets |
+| LLM / embeddings | OpenAI (env-configured) | Same providers via VPC endpoints / secrets |
 | Observability | LangSmith | LangSmith (env vars in Lambda/ECS) |
 
 ### 6.3 Committed data
 
-- `data/` holds **sample** serialized indexes and graph for clone-and-run.
-- Document `make ingest` (or `POST /ingest`) to regenerate after scraping.
-- Keep artifacts small (5–10 pages); add `data/*.index` to `.gitignore` if binaries grow.
+- `data/` holds serialized indexes, graph, page snapshots, and seed Q&As for clone-and-run.
+- Regenerate via `POST /ingest` or `scripts/run_ingest_all.py`.
+- Large binaries may be gitignored; document ingest steps in README.
 
 ## 7. Cache index design
 
@@ -271,21 +289,23 @@ class GraphStore(Protocol):
 }
 ```
 
-**Lookup:** cosine similarity ≥ configurable threshold (e.g. 0.92) → return cached answer without LLM call.
+**Lookup:** cosine similarity ≥ `CACHE_SIMILARITY_THRESHOLD` (default `0.92`) → return cached answer without LLM call.
 
-**Seed data:** ship 5–10 canonical Q&As in `data/qa_cache_seed.json` for demo cache hits.
+**Seed data:** 10 canonical Q&As in `data/qa_cache_seed.json` (NL + EN).
+
+**Write-back:** `maybe_cache_answer` stores high-confidence RAG answers when `CACHE_AUTO_WRITE=true` and confidence ≥ `CACHE_MIN_WRITE_CONFIDENCE`.
 
 ## 8. Security gate (BERT)
 
 **Role:** Route before expensive RAG — not a replacement for LLM safety.
 
-| Label | Action |
-|-------|--------|
-| `product_question` | Continue to RAG |
-| `off_topic` | Polite refusal |
-| `harmful` / `toxic` | Block with safe message |
+| Label | Model | Action |
+|-------|-------|--------|
+| `allow` | — | Continue to RAG |
+| `off_topic` | `typeform/distilbert-base-uncased-mnli` (zero-shot) | Polite refusal |
+| `toxic` | `unitary/toxic-bert` | Block with safe message |
 
-**Implementation (local):** pretrained model (e.g. `unitary/toxic-bert`) or small zero-shot classifier — no custom training required for the assignment.
+Toggle with `SECURITY_ENABLED=false` for fast local dev (skips model download ~500MB).
 
 **AWS:** model artifact in S3, loaded in container Lambda cold start; SageMaker endpoint noted as production alternative in README.
 
@@ -300,14 +320,14 @@ flowchart LR
     VOL[(shared volume<br/>./data)]
   end
 
-  WEB --> AA
+  WEB -->|depends_on healthy| AA
   AA --> VOL
   KB --> VOL
 ```
 
 - Both Python services mount `./data` read/write.
-- KB-builder writes indexes; AI-assistant reads them (restart or hot-reload on ingest complete).
-- Web app proxies or calls `ai-assistant` directly.
+- KB-builder writes indexes; AI-assistant reads them (restart after ingest if needed).
+- Web app calls `ai-assistant` directly (`VITE_API_URL`).
 
 ## 10. AWS target architecture (CDK — illustrative)
 
@@ -332,13 +352,14 @@ flowchart TB
 
 ### 10.1 CDK stack split (`infra/`)
 
-| Stack | Resources |
-|-------|-----------|
-| `NetworkStack` | VPC, subnets, security groups |
-| `DataStack` | Aurora (pgvector), Neptune cluster |
-| `ApiStack` | API Gateway, AI-assistant Lambda, KB-builder Lambda |
-| `IngestStack` | Step Functions state machine, EventBridge schedule (optional) |
-| `ObservabilityStack` | CloudWatch logs, optional X-Ray |
+| Stack | Resources | Status |
+|-------|-----------|--------|
+| `NetworkStack` | VPC, subnets, security groups | Stub |
+| `DataStack` | Aurora (pgvector), Neptune cluster | Stub |
+| `ApiStack` | API Gateway, AI-assistant Lambda, KB-builder Lambda | Stub |
+| `IngestStack` | Step Functions state machine, EventBridge schedule | Stub |
+
+`cdk synth` succeeds; no resources deployed.
 
 ### 10.2 Security considerations (AWS)
 
@@ -352,14 +373,16 @@ flowchart TB
 
 | Component | Choice | Rationale |
 |-----------|--------|-----------|
-| Embeddings | OpenAI `text-embedding-3-small` (or HF `all-MiniLM-L6-v2`) | Quality/cost balance; HF option for offline |
-| Vector store (local) | FAISS | Fast, no extra service, easy serialize to `data/` |
+| Embeddings | OpenAI `text-embedding-3-small` | Quality/cost balance; shared by RAG + cache |
+| LLM | Configurable via `LLM_MODEL` | Answer generation |
+| Vector store (local) | FAISS IndexFlatIP | Fast, no extra service, easy serialize to `data/` |
 | Vector store (AWS) | Aurora pgvector | Managed, SQL ecosystem, dual table for RAG + cache |
 | Graph (local) | NetworkX | Simple, serializable, fast iteration |
 | Graph (AWS) | Neptune | Managed graph, Gremlin, fits entity/structure model |
-| Orchestration | LangGraph | Assignment requirement; explicit node/edge observability |
+| Ingest orchestration | LangGraph | Same framework as query; LangSmith traces |
+| Query orchestration | LangGraph | Assignment requirement; explicit node/edge observability |
 | API | FastAPI | Async, OpenAPI docs, lightweight |
-| Frontend | React | Local chat testing (not assignment-critical) |
+| Frontend | React + Vite | Local chat testing |
 | IaC | AWS CDK (TypeScript) | Enterprise showcase; matches turbo infra pipeline |
 | Observability | LangSmith | First-class LangGraph tracing |
 
@@ -376,7 +399,7 @@ flowchart TB
 ```json
 {
   "answer": "...",
-  "source": "cache | rag",
+  "source": "cache | rag | none",
   "confidence": 0.95,
   "blocked": false
 }
@@ -384,21 +407,39 @@ flowchart TB
 
 ### POST `/ingest` (KB Builder)
 
-**Request**
+**Request** (URL or nav label)
 ```json
 { "page_url": "https://www.ziggo.nl/internet" }
+```
+```json
+{ "label": "Ziggo GO" }
 ```
 
 **Response**
 ```json
 {
   "page_id": "internet",
-  "chunks_created": 42,
+  "chunks_count": 42,
   "entities_extracted": 8,
-  "status": "success"
+  "vectors_indexed": 42,
+  "status": "completed"
+}
+```
+
+### GET `/status` (KB Builder)
+
+```json
+{
+  "pages": [{ "page_id": "ziggo-go", "artifact": "ziggo-go.json" }],
+  "store": {
+    "vector_chunks": 353,
+    "graph_nodes": 1004,
+    "graph_edges": 1732,
+    "embedding_model": "text-embedding-3-small"
+  }
 }
 ```
 
 ---
 
-*See [IMPLEMENTATION_PLAN.md](./IMPLEMENTATION_PLAN.md) for phased build order and task checklist.*
+*See [IMPLEMENTATION_PLAN.md](./IMPLEMENTATION_PLAN.md) for phased build order and completion status.*
