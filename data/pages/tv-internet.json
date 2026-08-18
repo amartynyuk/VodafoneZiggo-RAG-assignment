@@ -1,0 +1,83 @@
+{
+  "ingested_at": "2026-08-18T11:05:04.720258+00:00",
+  "metadata": {
+    "url": "https://www.ziggo.nl/tv-internet",
+    "page_id": "tv-internet",
+    "label": "Internet & TV",
+    "title": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
+    "meta_description": "✓ Stabiel, snel en veilig internet thuis ✓ Wifi Garantie ✓ Next Mini: TV & Streaming ✓ Kijk TV waar en wanneer je wilt ✓ Gratis Ziggo Sport",
+    "og_title": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
+    "og_description": "✓ Stabiel, snel en veilig internet thuis ✓ Wifi Garantie ✓ Next Mini: TV & Streaming ✓ Kijk TV waar en wanneer je wilt ✓ Gratis Ziggo Sport"
+  },
+  "content_quality": "sparse",
+  "main_char_count": 588,
+  "warnings": [
+    "Sparse static content (588 chars in <main>). Pricing/tables may need Playwright for full extraction."
+  ],
+  "sections": [
+    {
+      "section_id": "tv-internet::overview",
+      "heading": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
+      "level": 1,
+      "text": "✓ Stabiel, snel en veilig internet thuis ✓ Wifi Garantie ✓ Next Mini: TV & Streaming ✓ Kijk TV waar en wanneer je wilt ✓ Gratis Ziggo Sport\n\nInternet & TV\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "tv-internet::chunk-0001",
+      "section_id": "tv-internet::overview",
+      "text": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo\n\n✓ Stabiel, snel en veilig internet thuis ✓ Wifi Garantie ✓ Next Mini: TV & Streaming ✓ Kijk TV waar en wanneer je wilt ✓ Gratis Ziggo Sport\n\nInternet & TV\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1,
+      "token_estimate": 192
+    }
+  ],
+  "graph_nodes": [
+    {
+      "node_id": "page:tv-internet",
+      "label": "Page",
+      "properties": {
+        "page_id": "tv-internet",
+        "url": "https://www.ziggo.nl/tv-internet",
+        "title": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
+        "label": "Internet & TV",
+        "content_quality": "sparse"
+      }
+    },
+    {
+      "node_id": "section:tv-internet::overview",
+      "label": "Section",
+      "properties": {
+        "section_id": "tv-internet::overview",
+        "heading": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo",
+        "level": 1,
+        "order": 1
+      }
+    },
+    {
+      "node_id": "chunk:tv-internet::chunk-0001",
+      "label": "Chunk",
+      "properties": {
+        "chunk_id": "tv-internet::chunk-0001",
+        "section_id": "tv-internet::overview",
+        "text": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo\n\n✓ Stabiel, snel en veilig internet thuis ✓ Wifi Garantie ✓ Next Mini: TV & Streaming ✓ Kijk TV waar en wanneer je wilt ✓ Gratis Ziggo Sport\n\nInternet & TV\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+        "order": 1,
+        "token_estimate": 192
+      }
+    }
+  ],
+  "graph_edges": [
+    {
+      "source_id": "page:tv-internet",
+      "target_id": "section:tv-internet::overview",
+      "rel_type": "HAS_SECTION"
+    },
+    {
+      "source_id": "section:tv-internet::overview",
+      "target_id": "chunk:tv-internet::chunk-0001",
+      "rel_type": "HAS_CHUNK"
+    }
+  ],
+  "entities": [],
+  "section_summaries": {}
+}

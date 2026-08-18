@@ -9,7 +9,8 @@ build/
 cdk.out/
 *.tsbuildinfo
 
-# Python
+# Python venv
+.venv/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -43,3 +44,5 @@ npm-debug.log*
 
 # CDK
 .cdk.staging/
+
+.cursorrules
