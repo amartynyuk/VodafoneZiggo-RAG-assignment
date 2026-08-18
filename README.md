@@ -104,6 +104,7 @@ vziggo-rag/
 ├── services/
 │   ├── ai-assistant/          # Query: cache → BERT → graph RAG
 │   └── kb-builder/            # Ingest: scrape → graph → embed
+├── packages/kb-store/         # Shared FAISS + NetworkX + embeddings
 ├── data/                      # Shared FAISS + NetworkX + page snapshots
 │   ├── rag.faiss              # RAG vector index
 │   ├── cache.faiss            # Q&A cache index
@@ -118,7 +119,7 @@ vziggo-rag/
 
 | Component | Choice | Why |
 |-----------|--------|-----|
-| Embeddings | OpenAI `text-embedding-3-small` | Quality/cost; same model for RAG + cache |
+| Embeddings | OpenAI `text-embedding-3-small` (1536-d) | Quality/cost; same model for RAG + cache |
 | LLM | Configurable (`LLM_MODEL` env) | Answer generation |
 | Vector store (local) | FAISS `IndexFlatIP` | Fast cosine search, serializable |
 | Graph (local) | NetworkX | Page → Section → Chunk → Entity structure |
@@ -146,6 +147,9 @@ See [`.env.example`](./.env.example). Key settings:
 ## Useful scripts
 
 ```bash
+# Shared storage package (from repo root, venv active)
+pip install -e packages/kb-store
+
 # KB Builder (from services/kb-builder, venv active)
 DATA_DIR=../../data python scripts/run_ingest_all.py --ziggo-only   # batch ingest
 DATA_DIR=../../data python scripts/run_ingest_sample.py --label "Ziggo GO"
@@ -163,8 +167,8 @@ python scripts/extract_product_nav.py   # → ziggo-product-label-urls.json
 
 | Deliverable | Location |
 |-------------|----------|
-| Python source + comments | `services/ai-assistant/`, `services/kb-builder/` |
-| LangGraph workflows | `app/graph/workflow.py` (query), `app/pipeline/graph.py` (ingest) |
+| Python source + comments | `services/ai-assistant/`, `services/kb-builder/`, `packages/kb-store/` |
+| LangGraph workflows | `app/graph.py` (query), `app/pipeline/graph.py` (ingest) |
 | Dockerfile + compose | `services/*/Dockerfile`, `docker-compose.yml` |
 | README | This file |
 | Architecture diagrams | [ARCHITECTURE.md](./ARCHITECTURE.md) |
@@ -172,15 +176,19 @@ python scripts/extract_product_nav.py   # → ziggo-product-label-urls.json
 
 ## Development (without Docker)
 
+Both Python services need the shared `kb-store` package:
+
 ```bash
+# from repo root
+python3 -m venv .venv && source .venv/bin/activate
+pip install -e packages/kb-store
+
 # AI Assistant
-cd services/ai-assistant && python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+cd services/ai-assistant && pip install -r requirements.txt
 DATA_DIR=../../data uvicorn app.main:app --reload --port 8000
 
 # KB Builder
-cd services/kb-builder && python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+cd services/kb-builder && pip install -r requirements.txt
 DATA_DIR=../../data uvicorn app.main:app --reload --port 8001
 
 # Web UI
@@ -193,6 +201,6 @@ cd infra && npm install && npm run synth
 ## Known limitations
 
 - **JS-heavy pages** (e.g. `/tv-internet`) return sparse static HTML; pricing tables need Playwright for full extraction.
-- **BERT models** download ~500MB on first request when `SECURITY_ENABLED=true`.
+- **BERT models** are downloaded into the ai-assistant image at Docker build (`HF_HOME=/models`). Local venv still downloads on first run unless you execute `python scripts/download_hf_models.py`.
 - **CDK stacks** are stubs — `cdk synth` works but nothing is deployed.
 - **Cross-page `RELATED_TO` entity edges** not yet implemented (future enhancement).

@@ -4,16 +4,12 @@ pydantic>=2.10.0
 pydantic-settings>=2.6.0
 python-dotenv>=1.0.0
 
-# Storage (shared data/ with kb-builder)
-faiss-cpu>=1.9.0
-networkx>=3.4.0
-numpy>=1.26.0
-
-# LangGraph query workflow
+# LangGraph query workflow (storage/embeddings come from kb-store)
 langgraph>=0.2.0
 langchain-core>=0.3.0
 langchain-openai>=0.2.0
 
-# Security gate (BERT)
+# Security gate (BERT) — weights are downloaded at Docker build into HF_HOME
 transformers>=4.46.0
 torch>=2.5.0
+huggingface_hub>=0.26.0

@@ -33,7 +33,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=_env_files() or (".env",), extra="ignore")
 
     data_dir: Path = Field(default_factory=_default_data_dir)
-    embedding_model: str = "text-embedding-3-small"
+    embedding_model: str = "text-embedding-3-small"  # 1536-d; do not change without re-ingest
     llm_model: str = "gpt-5.6-luna"
     llm_temperature: float = 0.2
     rag_similarity_threshold: float = 0.65

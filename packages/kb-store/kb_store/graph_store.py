@@ -14,7 +14,7 @@ from typing import Any
 
 import networkx as nx
 
-from app.models.schemas import GraphEdge, GraphNode
+from kb_store.models import GraphEdge, GraphNode
 
 
 class NetworkXGraphStore:
@@ -73,7 +73,9 @@ class NetworkXGraphStore:
         """
         Graph-augmented context: parent sections, NEXT chunks, MENTIONS entities.
 
-        Returns serializable nodes/edges for the RAG context builder (Phase 3).
+        hops=1 means the seed chunk plus its immediate neighbours.
+        Each collected node includes node_id so the query context builder can
+        match graph chunks back to vector hits.
         """
         collected_nodes: dict[str, dict] = {}
         collected_edges: list[dict] = []
@@ -83,9 +85,9 @@ class NetworkXGraphStore:
             if node_id not in self.g:
                 continue
             frontier = {node_id}
-            visited = set()
+            visited: set[str] = set()
             for _ in range(hops + 1):
-                next_frontier = set()
+                next_frontier: set[str] = set()
                 for nid in frontier:
                     if nid in visited:
                         continue

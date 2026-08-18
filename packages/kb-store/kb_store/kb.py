@@ -2,12 +2,13 @@
 
 from __future__ import annotations
 
+from functools import lru_cache
 from pathlib import Path
 
-from app.config import settings
-from app.models.schemas import GraphEdge, GraphNode, TextChunk
-from app.storage.graph_store import NetworkXGraphStore
-from app.storage.vector_store import FaissVectorStore
+from kb_store.graph_store import NetworkXGraphStore
+from kb_store.models import GraphEdge, GraphNode, TextChunk
+from kb_store.paths import resolve_data_dir
+from kb_store.vector_store import FaissVectorStore
 
 
 class KnowledgeBase:
@@ -18,7 +19,7 @@ class KnowledgeBase:
     """
 
     def __init__(self, data_dir: Path | None = None) -> None:
-        self.data_dir = data_dir or settings.data_dir
+        self.data_dir = data_dir or resolve_data_dir()
         self.vectors = FaissVectorStore(self.data_dir)
         self.graph = NetworkXGraphStore(self.data_dir)
 
@@ -64,8 +65,15 @@ class KnowledgeBase:
         }
 
 
+@lru_cache
 def get_knowledge_base() -> KnowledgeBase:
-    """Return a loaded knowledge base from configured DATA_DIR."""
+    """
+    Process-wide knowledge base, loaded once (call from FastAPI lifespan).
+
+    After ingest in the same process the in-memory stores are already updated.
+    After ingest from the *other* Compose service, restart ai-assistant so it
+    re-reads the volume.
+    """
     kb = KnowledgeBase()
     kb.load()
     return kb

@@ -1,22 +1,41 @@
 """
-FastAPI application entrypoint for the AI Assistant service.
+FastAPI application for the AI Assistant.
 
-This service handles customer questions via POST /ask using a LangGraph RAG workflow
-(embed → retrieve → graph expand → generate). Cache and security gates come in Phase 4+.
+On startup we load FAISS + the knowledge graph, warm the OpenAI embedder,
+seed the Q&A cache if empty, and load BERT security models from HF_HOME.
 """
 
-from fastapi import FastAPI
+from contextlib import asynccontextmanager
+
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.routes import router
+from app.cache import get_cache_store
+from app.config import settings
+from app.graph import AskRequest, AskResponse, run_query
+from app.security import warmup_security_models
+from kb_store.embeddings import get_embedder
+from kb_store.kb import get_knowledge_base
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Load stores and models once so the first /ask is not a cold start."""
+    get_embedder()
+    get_knowledge_base()
+    get_cache_store()
+    if settings.security_enabled:
+        warmup_security_models()
+    yield
+
 
 app = FastAPI(
     title="Ziggo AI Assistant",
     description="Customer-facing RAG assistant with LangGraph orchestration",
     version="0.1.0",
+    lifespan=lifespan,
 )
 
-# Allow the React dev server and Docker web container to call the API.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -25,4 +44,26 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(router)
+
+@app.get("/health")
+async def health() -> dict[str, str]:
+    """Liveness probe used by Docker Compose and load balancers."""
+    return {"status": "ok", "service": "ai-assistant"}
+
+
+@app.post("/ask", response_model=AskResponse)
+async def ask(request: AskRequest) -> AskResponse:
+    """
+    Accept a customer question and return a graph-augmented RAG answer.
+
+    Workflow: embed → cache → security → retrieve → expand → generate (LangGraph).
+    """
+    try:
+        return run_query(request.question)
+    except FileNotFoundError as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="Knowledge base not indexed yet. Run kb-builder ingest first.",
+        ) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc

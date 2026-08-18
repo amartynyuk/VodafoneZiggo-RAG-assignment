@@ -34,7 +34,7 @@ async def ingest(request: IngestRequest) -> IngestResult:
 async def status() -> dict:
     """KB status: ingested pages + vector/graph store stats."""
     from app.config import settings
-    from app.storage.kb import get_knowledge_base
+    from kb_store.kb import get_knowledge_base
 
     pages_dir = settings.data_dir / "pages"
     pages = []

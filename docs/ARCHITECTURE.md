@@ -65,12 +65,14 @@ vziggo-rag/
 ├── services/
 │   ├── ai-assistant/           # Query path: cache → security → RAG
 │   │   ├── app/
-│   │   │   ├── api/
-│   │   │   ├── graph/          # LangGraph query workflow
-│   │   │   ├── cache/          # Seed + cache write-back
-│   │   │   ├── security/       # BERT gate
-│   │   │   └── storage/        # FaissVectorStore, NetworkXGraphStore, FaissCacheStore
-│   │   ├── scripts/            # smoke_ask, smoke_cache_security
+│   │   │   ├── main.py         # FastAPI + /ask
+│   │   │   ├── config.py
+│   │   │   ├── graph.py        # LangGraph wiring
+│   │   │   ├── nodes.py        # All query nodes
+│   │   │   ├── cache/          # Q&A cache seed + lookup
+│   │   │   ├── llm/            # Chat model + prompts
+│   │   │   └── security/       # BERT gate
+│   │   ├── scripts/            # smoke_ask, smoke_cache_security, download_hf_models
 │   │   └── QUERY_WORKFLOW.md
 │   └── kb-builder/             # Write path: scrape → structure → embed
 │       ├── app/
@@ -79,11 +81,11 @@ vziggo-rag/
 │       │   ├── scrape/         # fetch + clean
 │       │   ├── structure/      # DOM → sections
 │       │   ├── chunk/          # section-aware chunking
-│       │   ├── llm/            # entity extraction + summarization
-│       │   └── storage/
+│       │   └── llm/            # entity extraction + summarization
 │       ├── scripts/            # run_ingest_all, run_ingest_sample, extract_product_nav
 │       └── INGEST_PIPELINE.md
 ├── packages/
+│   ├── kb-store/               # Shared FAISS + NetworkX + OpenAI embeddings
 │   └── api-contracts/          # Optional: shared API types for web
 ├── data/                       # Serialized FAISS indexes + graph + page snapshots
 │   ├── rag.faiss, rag_meta.json, rag_vectors.npy
@@ -243,14 +245,14 @@ NetworkX locally; Amazon Neptune (Gremlin) in AWS — both behind a `GraphStore`
 
 ### 6.1 Implementations
 
-Concrete classes live in `services/*/app/storage/` (no formal Protocol classes yet; shared interface by convention):
+Concrete classes live in `packages/kb-store` (`kb_store`) — one package imported by both Python services so vector/graph code is not duplicated. Both FastAPI apps load the stores in their **lifespan** (process-wide singleton via `get_knowledge_base()`).
 
 | Class | Files | Purpose |
 |-------|-------|---------|
 | `FaissVectorStore` | `rag.faiss`, `rag_meta.json`, `rag_vectors.npy` | RAG chunk index |
 | `FaissCacheStore` | `cache.faiss`, `cache_meta.json`, `cache_vectors.npy` | Q&A cache index |
 | `NetworkXGraphStore` | `graph.json` | Knowledge graph (node-link JSON) |
-| `KnowledgeBase` | facade in `storage/kb.py` | Unified read/write API |
+| `KnowledgeBase` | facade in `kb_store/kb.py` | Unified read/write API |
 
 ### 6.2 Local vs AWS
 
@@ -305,7 +307,7 @@ Concrete classes live in `services/*/app/storage/` (no formal Protocol classes y
 | `off_topic` | `typeform/distilbert-base-uncased-mnli` (zero-shot) | Polite refusal |
 | `toxic` | `unitary/toxic-bert` | Block with safe message |
 
-Toggle with `SECURITY_ENABLED=false` for fast local dev (skips model download ~500MB).
+Toggle with `SECURITY_ENABLED=false` for fast local dev (skips loading ~500MB of weights). Docker images download the models at **build** time into `HF_HOME=/models`.
 
 **AWS:** model artifact in S3, loaded in container Lambda cold start; SageMaker endpoint noted as production alternative in README.
 
@@ -326,7 +328,8 @@ flowchart LR
 ```
 
 - Both Python services mount `./data` read/write.
-- KB-builder writes indexes; AI-assistant reads them (restart after ingest if needed).
+- Compose build context is the **repo root** so images can `pip install packages/kb-store`.
+- KB-builder writes indexes; AI-assistant reads them (restart after ingest if needed — in-memory FAISS is loaded once at lifespan).
 - Web app calls `ai-assistant` directly (`VITE_API_URL`).
 
 ## 10. AWS target architecture (CDK — illustrative)
@@ -373,7 +376,7 @@ flowchart TB
 
 | Component | Choice | Rationale |
 |-----------|--------|-----------|
-| Embeddings | OpenAI `text-embedding-3-small` | Quality/cost balance; shared by RAG + cache |
+| Embeddings | OpenAI `text-embedding-3-small` (1536-d) | Quality/cost balance; shared by RAG + cache; native dim keeps existing FAISS indexes valid |
 | LLM | Configurable via `LLM_MODEL` | Answer generation |
 | Vector store (local) | FAISS IndexFlatIP | Fast, no extra service, easy serialize to `data/` |
 | Vector store (AWS) | Aurora pgvector | Managed, SQL ecosystem, dual table for RAG + cache |

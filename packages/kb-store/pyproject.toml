@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kb-store"
+version = "0.1.0"
+description = "Shared FAISS + NetworkX knowledge-base storage for the Ziggo RAG services"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.9.0",
+    "networkx>=3.4.0",
+    "numpy>=1.26.0",
+    "pydantic>=2.10.0",
+    "langchain-openai>=0.2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["kb_store*"]

@@ -19,7 +19,7 @@ resolve → fetch → clean → parse_sections → chunk → build_graph
 | `build_graph` | deterministic | Page → Section → Chunk + NEXT edges |
 | `llm_extract` | **LLM** | Entity extraction per chunk → Entity + MENTIONS edges |
 | `llm_summarize` | **LLM** | Section topic + summary on Section nodes |
-| `index_kb` | deterministic | Embed chunks → FAISS; save graph → NetworkX |
+| `index_kb` | deterministic | Embed chunks → FAISS + graph via shared `kb_store` |
 | `persist` | deterministic | Write `data/pages/{page_id}.json` snapshot |
 
 ## On-disk layout (`DATA_DIR`)

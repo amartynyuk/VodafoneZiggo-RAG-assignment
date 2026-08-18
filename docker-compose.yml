@@ -1,7 +1,8 @@
 services:
   ai-assistant:
     build:
-      context: ./services/ai-assistant
+      context: .
+      dockerfile: services/ai-assistant/Dockerfile
     ports:
       - "8000:8000"
     volumes:
@@ -10,16 +11,19 @@ services:
       - .env
     environment:
       - DATA_DIR=/app/data
+      - HF_HOME=/models
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 10s
       timeout: 5s
       retries: 3
-      start_period: 10s
+      # BERT + FAISS load from disk on lifespan; give the process time.
+      start_period: 120s
 
   kb-builder:
     build:
-      context: ./services/kb-builder
+      context: .
+      dockerfile: services/kb-builder/Dockerfile
     ports:
       - "8001:8001"
     volumes:
@@ -33,7 +37,7 @@ services:
       interval: 10s
       timeout: 5s
       retries: 3
-      start_period: 10s
+      start_period: 30s
 
   web:
     build:

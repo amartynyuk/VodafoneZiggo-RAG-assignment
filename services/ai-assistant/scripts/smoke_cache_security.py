@@ -9,8 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from app.graph.workflow import run_query
-from app.models.schemas import AskRequest
+from app.graph import run_query
 
 
 def main() -> None:
@@ -26,7 +25,7 @@ def main() -> None:
 
     for label, question in cases:
         print(f"\n--- {label}: {question!r} ---")
-        result = run_query(AskRequest(question=question))
+        result = run_query(question)
         print(f"source={result.source} blocked={result.blocked} confidence={result.confidence:.3f}")
         print(result.answer[:200])
 

@@ -13,7 +13,7 @@ from pathlib import Path
 import faiss
 import numpy as np
 
-from app.storage.models import CacheHit, CacheRecord
+from kb_store.models import CacheHit, CacheRecord
 
 
 class FaissCacheStore:
@@ -61,6 +61,10 @@ class FaissCacheStore:
         """Return best cache hit if similarity ≥ threshold."""
         if self._index is None or self._index.ntotal == 0:
             return None
+        if self.dimension and len(query_vector) != self.dimension:
+            raise ValueError(
+                f"Query vector dim {len(query_vector)} != cache dim {self.dimension}."
+            )
         q = np.array([query_vector], dtype=np.float32)
         faiss.normalize_L2(q)
         scores, indices = self._index.search(q, 1)

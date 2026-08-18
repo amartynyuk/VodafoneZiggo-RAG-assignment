@@ -8,9 +8,23 @@ They mirror the graph schema in ARCHITECTURE.md (Page → Section → Chunk).
 from __future__ import annotations
 
 from enum import Enum
-from typing import Any
 
 from pydantic import BaseModel, Field, HttpUrl
+
+# Graph/chunk types live in kb-store so ingest and query share one schema.
+from kb_store.models import GraphEdge, GraphNode, TextChunk
+
+__all__ = [
+    "ContentQuality",
+    "ExtractedEntity",
+    "GraphEdge",
+    "GraphNode",
+    "IngestRequest",
+    "IngestResult",
+    "PageMetadata",
+    "SectionBlock",
+    "TextChunk",
+]
 
 
 class ContentQuality(str, Enum):
@@ -40,32 +54,6 @@ class SectionBlock(BaseModel):
     level: int = Field(ge=1, le=6, description="Heading level 1–6")
     text: str
     order: int
-
-
-class TextChunk(BaseModel):
-    """Retrieval unit linked to a parent section."""
-
-    chunk_id: str
-    section_id: str
-    text: str
-    order: int
-    token_estimate: int
-
-
-class GraphNode(BaseModel):
-    """Serializable graph node (NetworkX / Neptune)."""
-
-    node_id: str
-    label: str  # Page | Section | Chunk | Entity
-    properties: dict[str, Any] = Field(default_factory=dict)
-
-
-class GraphEdge(BaseModel):
-    """Directed edge between two nodes."""
-
-    source_id: str
-    target_id: str
-    rel_type: str  # HAS_SECTION | HAS_CHUNK | NEXT | MENTIONS | RELATED_TO
 
 
 class ExtractedEntity(BaseModel):

@@ -16,7 +16,7 @@ from pathlib import Path
 import faiss
 import numpy as np
 
-from app.storage.models import ChunkVectorRecord, ScoredChunk
+from kb_store.models import ChunkVectorRecord, ScoredChunk
 
 
 class FaissVectorStore:
@@ -122,6 +122,11 @@ class FaissVectorStore:
         """Cosine similarity search; returns chunks ranked by score."""
         if self._index is None or self._index.ntotal == 0:
             return []
+        if self.dimension and len(query_vector) != self.dimension:
+            raise ValueError(
+                f"Query vector dim {len(query_vector)} != index dim {self.dimension}. "
+                "Re-ingest after changing EMBEDDING_MODEL."
+            )
         q = np.array([query_vector], dtype=np.float32)
         faiss.normalize_L2(q)
         scores, indices = self._index.search(q, min(top_k, self._index.ntotal))

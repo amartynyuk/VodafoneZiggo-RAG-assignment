@@ -5,10 +5,13 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends curl \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Build context is the repo root so kb-store can be installed from packages/.
+COPY packages/kb-store /packages/kb-store
+COPY services/kb-builder/requirements.txt .
+RUN pip install --no-cache-dir /packages/kb-store \
+    && pip install --no-cache-dir -r requirements.txt
 
-COPY app/ ./app/
+COPY services/kb-builder/app/ ./app/
 
 ENV DATA_DIR=/app/data
 EXPOSE 8001

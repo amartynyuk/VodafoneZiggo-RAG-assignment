@@ -48,11 +48,12 @@ DATA_DIR=../../data .venv/bin/python scripts/smoke_cache_security.py
 
 ## Cache seed data
 
-`data/qa_cache_seed.json` — loaded automatically on first request when cache is empty.
+`data/qa_cache_seed.json` — loaded at startup (lifespan) when the cache index is empty.
 
-## Models (lazy-loaded on first security check)
+## Models (loaded at app startup)
 
+- OpenAI `text-embedding-3-small` (1536-d) — question + chunk embeddings
 - `unitary/toxic-bert` — toxicity detection
 - `typeform/distilbert-base-uncased-mnli` — zero-shot topic classification
 
-First request with security enabled downloads ~500MB of model weights.
+FAISS indexes, the knowledge graph, and BERT pipelines are initialized in the FastAPI **lifespan** so the first `/ask` is not a cold start. Docker bakes the Hugging Face weights into the image (`scripts/download_hf_models.py`).

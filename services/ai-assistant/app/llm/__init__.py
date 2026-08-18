@@ -1,10 +1,23 @@
-"""System prompts for the Ziggo customer assistant."""
+"""Chat model and prompts for grounded RAG answers."""
 
 from __future__ import annotations
+
+from functools import lru_cache
+
+from langchain_openai import ChatOpenAI
 
 from app.config import settings
 
 _LANGUAGE_NAMES = {"nl": "Dutch", "en": "English"}
+
+
+@lru_cache
+def get_chat_model() -> ChatOpenAI:
+    """Chat model for RAG answer generation (LangSmith traces when enabled)."""
+    return ChatOpenAI(
+        model=settings.llm_model,
+        temperature=settings.llm_temperature,
+    )
 
 
 def system_prompt() -> str:

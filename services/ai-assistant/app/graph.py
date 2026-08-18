@@ -1,31 +1,44 @@
-"""LangGraph query workflow definition."""
+"""
+LangGraph query workflow.
+
+Wires nodes from nodes.py into a StateGraph. HTTP and smoke scripts call run_query().
+"""
 
 from __future__ import annotations
 
-from langgraph.graph import END, START, StateGraph
+from typing import Literal
 
-from app.graph.nodes import (
+from langgraph.graph import END, START, StateGraph
+from pydantic import BaseModel, Field
+
+from app.nodes import (
+    AgentState,
+    cache_lookup,
     cannot_answer,
     embed_question,
     generate_answer,
     graph_expand_context,
-    return_answer,
-    route_after_retrieve,
-    vector_retrieve,
-)
-from app.graph.nodes_cache import (
-    cache_lookup,
     maybe_cache_answer,
+    reject_response,
+    return_answer,
     return_cached_answer,
     route_after_cache,
-)
-from app.graph.nodes_security import (
-    reject_response,
+    route_after_retrieve,
     route_after_security,
     security_classify,
+    vector_retrieve,
 )
-from app.graph.state import AgentState
-from app.models.schemas import AskRequest, AskResponse
+
+
+class AskRequest(BaseModel):
+    question: str = Field(min_length=1, description="Customer question about Ziggo products/services")
+
+
+class AskResponse(BaseModel):
+    answer: str
+    source: Literal["cache", "rag", "none"] = "rag"
+    confidence: float = Field(ge=0.0, le=1.0)
+    blocked: bool = False
 
 
 def build_query_graph():
@@ -37,7 +50,6 @@ def build_query_graph():
     """
     graph = StateGraph(AgentState)
 
-    # Core path
     graph.add_node("embed_question", embed_question)
     graph.add_node("cache_lookup", cache_lookup)
     graph.add_node("return_cached_answer", return_cached_answer)
@@ -81,13 +93,13 @@ def build_query_graph():
 QUERY_GRAPH = build_query_graph()
 
 
-def run_query(request: AskRequest) -> AskResponse:
+def run_query(question: str) -> AskResponse:
     """
     Execute the full query workflow for one customer question.
 
     LangSmith traces the run as 'ziggo-ask' when LANGSMITH_TRACING=true.
     """
-    initial: AgentState = {"question": request.question.strip()}
+    initial: AgentState = {"question": question.strip()}
     final = QUERY_GRAPH.invoke(
         initial,
         config={"run_name": "ziggo-ask"},

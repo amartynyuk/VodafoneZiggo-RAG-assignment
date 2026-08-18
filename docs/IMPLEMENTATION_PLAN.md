@@ -50,7 +50,7 @@ curl http://localhost:8001/health   # kb-builder
 - [x] `FaissVectorStore` (RAG index — `rag.faiss`, `rag_meta.json`, `rag_vectors.npy`)
 - [x] `FaissCacheStore` (separate index — `cache.faiss`, `cache_meta.json`, `cache_vectors.npy`)
 - [x] `NetworkXGraphStore` (`graph.json`, node-link JSON)
-- [x] `KnowledgeBase` facade in `storage/kb.py`
+- [x] `KnowledgeBase` facade in `packages/kb-store` (`kb_store.kb`)
 - [x] Smoke test: `scripts/smoke_storage.py`
 - [ ] Formal `Protocol` classes *(deferred — convention-based interface works for now)*
 
@@ -278,7 +278,7 @@ cd infra && npm install && npx cdk synth
 | Deliverable | Location |
 |-------------|----------|
 | Python source + comments | `services/ai-assistant/`, `services/kb-builder/` |
-| LangGraph workflows | `app/graph/workflow.py` (query), `app/pipeline/graph.py` (ingest) |
+| LangGraph workflows | `app/graph.py` (query), `app/pipeline/graph.py` (ingest) |
 | Dockerfile + compose | `services/*/Dockerfile`, `docker-compose.yml` |
 | README | `README.md` |
 | Architecture diagrams | `ARCHITECTURE.md`, `README.md` |

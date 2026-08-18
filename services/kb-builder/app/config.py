@@ -48,7 +48,7 @@ class Settings(BaseSettings):
     llm_model: str = "gpt-4o-mini"
     llm_temperature: float = 0.0
     llm_chunk_batch_size: int = 5
-    embedding_model: str = "text-embedding-3-small"
+    embedding_model: str = "text-embedding-3-small"  # 1536-d; do not change without re-ingest
 
     @property
     def label_urls_path(self) -> Path:

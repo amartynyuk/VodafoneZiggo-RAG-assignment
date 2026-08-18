@@ -9,8 +9,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from app.storage.embeddings import embed_texts
-from app.storage.kb import get_knowledge_base
+from kb_store.embeddings import embed_texts
+from kb_store.kb import get_knowledge_base
 
 
 def main() -> None:

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Smoke-test POST /ask workflow locally (no HTTP server required)."""
+"""Smoke-test the query workflow locally (no HTTP server required)."""
 
 from __future__ import annotations
 
@@ -9,8 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from app.graph.workflow import run_query
-from app.models.schemas import AskRequest
+from app.graph import run_query
 
 
 def main() -> None:
@@ -22,7 +21,7 @@ def main() -> None:
     ]
     for q in questions:
         print(f"\n--- Q: {q} ---")
-        result = run_query(AskRequest(question=q))
+        result = run_query(q)
         print(f"source={result.source} confidence={result.confidence:.3f}")
         print(result.answer[:500])
 

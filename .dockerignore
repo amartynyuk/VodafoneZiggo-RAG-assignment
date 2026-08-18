@@ -1,0 +1,15 @@
+.git
+.cursor
+**/.venv
+**/__pycache__
+**/*.pyc
+**/node_modules
+**/.turbo
+apps
+infra
+data
+docs
+cdk.out
+*.md
+!README.md
+.env

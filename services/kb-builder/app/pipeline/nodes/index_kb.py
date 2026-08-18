@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from app.config import settings
 from app.pipeline.state import IngestState
-from app.storage.embeddings import embed_texts
-from app.storage.kb import KnowledgeBase
+from kb_store.embeddings import embed_texts
+from kb_store.kb import get_knowledge_base
 
 
 def index_knowledge_base(state: IngestState) -> dict:
@@ -25,7 +25,7 @@ def index_knowledge_base(state: IngestState) -> dict:
 
     try:
         vectors = embed_texts([c.text for c in chunks])
-        kb = KnowledgeBase()
+        kb = get_knowledge_base()
         stats = kb.upsert_page(
             page_id=metadata.page_id,
             chunks=chunks,
