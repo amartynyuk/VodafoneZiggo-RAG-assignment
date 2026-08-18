@@ -89,6 +89,9 @@ class IngestResult(BaseModel):
     graph_nodes: int
     graph_edges: int
     entities_extracted: int = 0
+    vectors_indexed: int = 0
+    graph_nodes_total: int = 0
+    graph_edges_total: int = 0
     status: str
     warnings: list[str] = Field(default_factory=list)
 

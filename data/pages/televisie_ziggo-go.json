@@ -1,5 +1,5 @@
 {
-  "ingested_at": "2026-08-18T11:29:31.348577+00:00",
+  "ingested_at": "2026-08-18T11:42:33.602707+00:00",
   "metadata": {
     "url": "https://www.ziggo.nl/televisie/ziggo-go",
     "page_id": "televisie_ziggo-go",
@@ -225,7 +225,7 @@
         "heading": "Tot 7 dagen terugkijken",
         "level": 3,
         "order": 4,
-        "summary": "Je kunt programma’s kijken wanneer het jou uitkomt en tot 7 dagen terugkijken.",
+        "summary": "Met Ziggo GO kun je programma’s bekijken wanneer het jou uitkomt, tot maximaal 7 dagen na uitzending.",
         "topic": "features"
       }
     },
@@ -237,7 +237,7 @@
         "heading": "Live tv-kijken",
         "level": 3,
         "order": 5,
-        "summary": "Kijk naar meer dan 70 tv-zenders. Als je een programma hebt gemist, kun je het vanaf het begin starten.",
+        "summary": "Je kunt live naar meer dan 70 tv-zenders kijken. Als je een programma hebt gemist, kun je het vanaf het begin starten.",
         "topic": "features"
       }
     },
@@ -249,7 +249,7 @@
         "heading": "Programma's opnemen",
         "level": 3,
         "order": 6,
-        "summary": "Neem films en programma’s eenvoudig op met de app, ook op afstand.",
+        "summary": "Met de app kun je programma’s eenvoudig opnemen als je geen tijd hebt om ze live te bekijken. Dit kan ook op afstand.",
         "topic": "features"
       }
     },
@@ -261,7 +261,7 @@
         "heading": "Streamen naar je tv",
         "level": 3,
         "order": 7,
-        "summary": "Koppel Ziggo GO via je smartphone, Chromecast of Apple TV aan je tv en kijk op een groot scherm.",
+        "summary": "Je kunt Ziggo GO vanaf een smartphone, Chromecast of Apple TV naar je televisie streamen en zo op een groot scherm kijken.",
         "topic": "features"
       }
     },
@@ -273,7 +273,7 @@
         "heading": "On- en offline kijken",
         "level": 3,
         "order": 8,
-        "summary": "Kijk direct honderden films en series of download ze om onderweg offline te kijken.",
+        "summary": "Je kunt honderden films en series direct bekijken of downloaden om ze onderweg offline te kijken.",
         "topic": "features"
       }
     },
@@ -285,7 +285,7 @@
         "heading": "Meer schermen tegelijk",
         "level": 3,
         "order": 9,
-        "summary": "Met Ziggo GO kun je tegelijk tv, films en series kijken op meerdere schermen.",
+        "summary": "Met Ziggo GO kun je tegelijk tv, films en series kijken, zodat iedereen kan kijken waar hij of zij zin in heeft.",
         "topic": "features"
       }
     },
@@ -297,7 +297,7 @@
         "heading": "1. Vodafone & Ziggo account",
         "level": 3,
         "order": 11,
-        "summary": "Met televisie van Ziggo maak je een Vodafone & Ziggo account aan om in te loggen op de Ziggo GO app.",
+        "summary": "Als je televisie van Ziggo hebt, maak je een Vodafone & Ziggo-account aan om in te loggen op de Ziggo GO-app.",
         "topic": "how_to"
       }
     },
@@ -309,7 +309,7 @@
         "heading": "2. Tablet, telefoon of tv",
         "level": 3,
         "order": 12,
-        "summary": "Voor optimaal gebruik van de app heeft je tablet of smartphone minimaal Apple iOS 12.1 of Android 6.0 nodig.",
+        "summary": "Voor optimaal gebruik van de app moet je tablet of smartphone minimaal Apple iOS 12.1 of Android 6.0 hebben.",
         "topic": "how_to"
       }
     },
@@ -321,7 +321,7 @@
         "heading": "3.  Ziggo GO",
         "level": 3,
         "order": 13,
-        "summary": "Download de Ziggo GO app om je smartphone of tablet als tv te gebruiken.",
+        "summary": "Download de Ziggo GO-app om van je smartphone of tablet een tv te maken.",
         "topic": "how_to"
       }
     },
@@ -333,8 +333,8 @@
         "heading": "Ziggo GO op vakantie",
         "level": 3,
         "order": 16,
-        "summary": "Je kunt Ziggo GO ook op vakantie gebruiken, maar de regels verschillen per Europees land en overzees gebied. Engeland en Zwitserland vallen bijvoorbeeld niet onder de EU.",
-        "topic": "faq"
+        "summary": "Ook op vakantie kun je Ziggo GO gebruiken, maar de regels verschillen per Europees land en overzees gebied. Engeland en Zwitserland behoren bijvoorbeeld niet tot de EU.",
+        "topic": "overview"
       }
     },
     {
@@ -345,7 +345,7 @@
         "heading": "Ziggo GO op je 2e tv",
         "level": 3,
         "order": 17,
-        "summary": "Ziggo GO is beschikbaar op Apple TV, Android TV en Amazon Fire TV, zodat je zonder extra kabels of mediabox op een tweede tv kunt kijken.",
+        "summary": "Ziggo GO is ook beschikbaar op Apple TV, Android TV en Amazon Fire TV. Daarmee kijk je zonder extra kabels of mediabox op een tweede tv in huis.",
         "topic": "features"
       }
     },
@@ -357,7 +357,7 @@
         "heading": "Veelgestelde vragen",
         "level": 2,
         "order": 18,
-        "summary": "Ziggo GO biedt onder meer offline downloads, kijken in de EU en gelijktijdig kijken op maximaal 3 apparaten. De beschikbaarheid van zenders en programma’s hangt af van je abonnement, locatie en internetverbinding.",
+        "summary": "De FAQ behandelt onder meer offline downloaden, kijken in de EU, dataverbruik, toegang voor Ziggo-klanten, beschikbare zenders en kijken op maximaal drie apparaten tegelijk. Gedownloade films en series blijven 30 dagen beschikbaar en worden twee dagen na het bekijken automatisch verwijderd; maximaal twee apparaten kunnen voor offline kijken worden geregistreerd.",
         "topic": "faq"
       }
     },
@@ -369,7 +369,7 @@
         "heading": "Hulp bij Ziggo GO",
         "level": 3,
         "order": 19,
-        "summary": "Bekijk oplossingen wanneer Ziggo GO niet goed werkt, zodat je snel weer naar je favoriete programma kunt kijken.",
+        "summary": "De hulppagina biedt oplossingen wanneer Ziggo GO niet goed werkt, zodat je weer snel naar je favoriete programma kunt kijken.",
         "topic": "how_to"
       }
     },
@@ -528,11 +528,11 @@
       }
     },
     {
-      "node_id": "entity:terugkijken",
+      "node_id": "entity:tot-7-dagen-terugkijken",
       "label": "Entity",
       "properties": {
-        "entity_id": "servicefeature:terugkijken",
-        "name": "Terugkijken",
+        "entity_id": "servicefeature:tot-7-dagen-terugkijken",
+        "name": "Tot 7 dagen terugkijken",
         "type": "ServiceFeature"
       }
     },
@@ -582,6 +582,33 @@
       }
     },
     {
+      "node_id": "entity:smartphone",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:smartphone",
+        "name": "smartphone",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:chromecast",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:chromecast",
+        "name": "chromecast",
+        "type": "Hardware"
+      }
+    },
+    {
+      "node_id": "entity:apple-tv",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "hardware:apple-tv",
+        "name": "Apple TV",
+        "type": "Hardware"
+      }
+    },
+    {
       "node_id": "entity:on-en-offline-kijken",
       "label": "Entity",
       "properties": {
@@ -609,30 +636,12 @@
       }
     },
     {
-      "node_id": "entity:meer-schermen-tegelijk",
+      "node_id": "entity:vodafone-ziggo-account",
       "label": "Entity",
       "properties": {
-        "entity_id": "servicefeature:meer-schermen-tegelijk",
-        "name": "Meer schermen tegelijk",
-        "type": "ServiceFeature"
-      }
-    },
-    {
-      "node_id": "entity:tablet",
-      "label": "Entity",
-      "properties": {
-        "entity_id": "hardware:tablet",
-        "name": "tablet",
-        "type": "Hardware"
-      }
-    },
-    {
-      "node_id": "entity:smartphone",
-      "label": "Entity",
-      "properties": {
-        "entity_id": "hardware:smartphone",
-        "name": "smartphone",
-        "type": "Hardware"
+        "entity_id": "product:vodafone-ziggo-account",
+        "name": "Vodafone & Ziggo account",
+        "type": "Product"
       }
     },
     {
@@ -654,48 +663,12 @@
       }
     },
     {
-      "node_id": "entity:apple-tv",
+      "node_id": "entity:tablet",
       "label": "Entity",
       "properties": {
-        "entity_id": "hardware:apple-tv",
-        "name": "Apple TV",
+        "entity_id": "hardware:tablet",
+        "name": "tablet",
         "type": "Hardware"
-      }
-    },
-    {
-      "node_id": "entity:android-tv",
-      "label": "Entity",
-      "properties": {
-        "entity_id": "hardware:android-tv",
-        "name": "Android TV",
-        "type": "Hardware"
-      }
-    },
-    {
-      "node_id": "entity:amazon-fire-tv",
-      "label": "Entity",
-      "properties": {
-        "entity_id": "hardware:amazon-fire-tv",
-        "name": "Amazon Fire TV",
-        "type": "Hardware"
-      }
-    },
-    {
-      "node_id": "entity:offline-kijken",
-      "label": "Entity",
-      "properties": {
-        "entity_id": "servicefeature:offline-kijken",
-        "name": "offline kijken",
-        "type": "ServiceFeature"
-      }
-    },
-    {
-      "node_id": "entity:downloadfunctie",
-      "label": "Entity",
-      "properties": {
-        "entity_id": "servicefeature:downloadfunctie",
-        "name": "downloadfunctie",
-        "type": "ServiceFeature"
       }
     },
     {
@@ -708,39 +681,39 @@
       }
     },
     {
-      "node_id": "entity:alles-in-1",
+      "node_id": "entity:alles-in-1-pakket",
       "label": "Entity",
       "properties": {
-        "entity_id": "product:alles-in-1",
-        "name": "Alles-in-1",
+        "entity_id": "product:alles-in-1-pakket",
+        "name": "Alles-in-1 pakket",
         "type": "Product"
       }
     },
     {
-      "node_id": "entity:internet-tv",
+      "node_id": "entity:internet-tv-pakket",
       "label": "Entity",
       "properties": {
-        "entity_id": "product:internet-tv",
-        "name": "Internet & TV",
+        "entity_id": "product:internet-tv-pakket",
+        "name": "Internet & TV pakket",
         "type": "Product"
       }
     },
     {
-      "node_id": "entity:internet-online-tv",
+      "node_id": "entity:internet-online-tv-pakket",
       "label": "Entity",
       "properties": {
-        "entity_id": "product:internet-online-tv",
-        "name": "Internet & Online TV",
+        "entity_id": "product:internet-online-tv-pakket",
+        "name": "Internet & Online TV pakket",
         "type": "Product"
       }
     },
     {
-      "node_id": "entity:on-demand",
+      "node_id": "entity:offline-kijken",
       "label": "Entity",
       "properties": {
-        "entity_id": "product:on-demand",
-        "name": "On Demand",
-        "type": "Product"
+        "entity_id": "servicefeature:offline-kijken",
+        "name": "offline kijken",
+        "type": "ServiceFeature"
       }
     },
     {
@@ -807,11 +780,20 @@
       }
     },
     {
-      "node_id": "entity:3-apparaten-tegelijk",
+      "node_id": "entity:gratis",
       "label": "Entity",
       "properties": {
-        "entity_id": "specification:3-apparaten-tegelijk",
-        "name": "3 apparaten tegelijk",
+        "entity_id": "pricepoint:gratis",
+        "name": "gratis",
+        "type": "PricePoint"
+      }
+    },
+    {
+      "node_id": "entity:tot-wel-3-apparaten-tegelijk",
+      "label": "Entity",
+      "properties": {
+        "entity_id": "specification:tot-wel-3-apparaten-tegelijk",
+        "name": "tot wel 3 apparaten tegelijk",
         "type": "Specification"
       }
     },
@@ -821,15 +803,6 @@
       "properties": {
         "entity_id": "specification:hd-kwaliteit",
         "name": "HD-kwaliteit",
-        "type": "Specification"
-      }
-    },
-    {
-      "node_id": "entity:maximaal-3-apparaten-tegelijk",
-      "label": "Entity",
-      "properties": {
-        "entity_id": "specification:maximaal-3-apparaten-tegelijk",
-        "name": "maximaal 3 apparaten tegelijk",
         "type": "Specification"
       }
     }
@@ -1037,7 +1010,7 @@
     },
     {
       "source_id": "chunk:televisie_ziggo-go::chunk-0001",
-      "target_id": "entity:terugkijken",
+      "target_id": "entity:tot-7-dagen-terugkijken",
       "rel_type": "MENTIONS"
     },
     {
@@ -1066,6 +1039,21 @@
       "rel_type": "MENTIONS"
     },
     {
+      "source_id": "chunk:televisie_ziggo-go::chunk-0004",
+      "target_id": "entity:smartphone",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_ziggo-go::chunk-0004",
+      "target_id": "entity:chromecast",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_ziggo-go::chunk-0004",
+      "target_id": "entity:apple-tv",
+      "rel_type": "MENTIONS"
+    },
+    {
       "source_id": "chunk:televisie_ziggo-go::chunk-0005",
       "target_id": "entity:on-en-offline-kijken",
       "rel_type": "MENTIONS"
@@ -1081,23 +1069,13 @@
       "rel_type": "MENTIONS"
     },
     {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0006",
-      "target_id": "entity:meer-schermen-tegelijk",
+      "source_id": "chunk:televisie_ziggo-go::chunk-0007",
+      "target_id": "entity:vodafone-ziggo-account",
       "rel_type": "MENTIONS"
     },
     {
       "source_id": "chunk:televisie_ziggo-go::chunk-0007",
       "target_id": "entity:ziggo-go",
-      "rel_type": "MENTIONS"
-    },
-    {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0008",
-      "target_id": "entity:tablet",
-      "rel_type": "MENTIONS"
-    },
-    {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0008",
-      "target_id": "entity:smartphone",
       "rel_type": "MENTIONS"
     },
     {
@@ -1136,31 +1114,6 @@
       "rel_type": "MENTIONS"
     },
     {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0011",
-      "target_id": "entity:apple-tv",
-      "rel_type": "MENTIONS"
-    },
-    {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0011",
-      "target_id": "entity:android-tv",
-      "rel_type": "MENTIONS"
-    },
-    {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0011",
-      "target_id": "entity:amazon-fire-tv",
-      "rel_type": "MENTIONS"
-    },
-    {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:offline-kijken",
-      "rel_type": "MENTIONS"
-    },
-    {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:downloadfunctie",
-      "rel_type": "MENTIONS"
-    },
-    {
       "source_id": "chunk:televisie_ziggo-go::chunk-0013",
       "target_id": "entity:ziggo-go",
       "rel_type": "MENTIONS"
@@ -1172,22 +1125,22 @@
     },
     {
       "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:alles-in-1",
+      "target_id": "entity:alles-in-1-pakket",
       "rel_type": "MENTIONS"
     },
     {
       "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:internet-tv",
+      "target_id": "entity:internet-tv-pakket",
       "rel_type": "MENTIONS"
     },
     {
       "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:internet-online-tv",
+      "target_id": "entity:internet-online-tv-pakket",
       "rel_type": "MENTIONS"
     },
     {
       "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:on-demand",
+      "target_id": "entity:offline-kijken",
       "rel_type": "MENTIONS"
     },
     {
@@ -1227,7 +1180,12 @@
     },
     {
       "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:3-apparaten-tegelijk",
+      "target_id": "entity:gratis",
+      "rel_type": "MENTIONS"
+    },
+    {
+      "source_id": "chunk:televisie_ziggo-go::chunk-0013",
+      "target_id": "entity:tot-wel-3-apparaten-tegelijk",
       "rel_type": "MENTIONS"
     },
     {
@@ -1241,11 +1199,6 @@
       "rel_type": "MENTIONS"
     },
     {
-      "source_id": "chunk:televisie_ziggo-go::chunk-0013",
-      "target_id": "entity:maximaal-3-apparaten-tegelijk",
-      "rel_type": "MENTIONS"
-    },
-    {
       "source_id": "chunk:televisie_ziggo-go::chunk-0014",
       "target_id": "entity:ziggo-go",
       "rel_type": "MENTIONS"
@@ -1253,8 +1206,8 @@
   ],
   "entities": [
     {
-      "entity_id": "servicefeature:terugkijken",
-      "name": "Terugkijken",
+      "entity_id": "servicefeature:tot-7-dagen-terugkijken",
+      "name": "Tot 7 dagen terugkijken",
       "entity_type": "ServiceFeature",
       "source_chunk_id": "televisie_ziggo-go::chunk-0001"
     },
@@ -1289,6 +1242,24 @@
       "source_chunk_id": "televisie_ziggo-go::chunk-0004"
     },
     {
+      "entity_id": "hardware:smartphone",
+      "name": "smartphone",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_ziggo-go::chunk-0004"
+    },
+    {
+      "entity_id": "hardware:chromecast",
+      "name": "chromecast",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_ziggo-go::chunk-0004"
+    },
+    {
+      "entity_id": "hardware:apple-tv",
+      "name": "Apple TV",
+      "entity_type": "Hardware",
+      "source_chunk_id": "televisie_ziggo-go::chunk-0004"
+    },
+    {
       "entity_id": "servicefeature:on-en-offline-kijken",
       "name": "On- en offline kijken",
       "entity_type": "ServiceFeature",
@@ -1307,28 +1278,16 @@
       "source_chunk_id": "televisie_ziggo-go::chunk-0006"
     },
     {
-      "entity_id": "servicefeature:meer-schermen-tegelijk",
-      "name": "Meer schermen tegelijk",
-      "entity_type": "ServiceFeature",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0006"
+      "entity_id": "product:vodafone-ziggo-account",
+      "name": "Vodafone & Ziggo account",
+      "entity_type": "Product",
+      "source_chunk_id": "televisie_ziggo-go::chunk-0007"
     },
     {
       "entity_id": "product:ziggo-go",
       "name": "Ziggo GO",
       "entity_type": "Product",
       "source_chunk_id": "televisie_ziggo-go::chunk-0007"
-    },
-    {
-      "entity_id": "hardware:tablet",
-      "name": "tablet",
-      "entity_type": "Hardware",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0008"
-    },
-    {
-      "entity_id": "hardware:smartphone",
-      "name": "smartphone",
-      "entity_type": "Hardware",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0008"
     },
     {
       "entity_id": "specification:apple-ios-12-1",
@@ -1373,36 +1332,6 @@
       "source_chunk_id": "televisie_ziggo-go::chunk-0011"
     },
     {
-      "entity_id": "hardware:apple-tv",
-      "name": "Apple TV",
-      "entity_type": "Hardware",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0011"
-    },
-    {
-      "entity_id": "hardware:android-tv",
-      "name": "Android TV",
-      "entity_type": "Hardware",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0011"
-    },
-    {
-      "entity_id": "hardware:amazon-fire-tv",
-      "name": "Amazon Fire TV",
-      "entity_type": "Hardware",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0011"
-    },
-    {
-      "entity_id": "servicefeature:offline-kijken",
-      "name": "offline kijken",
-      "entity_type": "ServiceFeature",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0013"
-    },
-    {
-      "entity_id": "servicefeature:downloadfunctie",
-      "name": "downloadfunctie",
-      "entity_type": "ServiceFeature",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0013"
-    },
-    {
       "entity_id": "product:ziggo-go",
       "name": "Ziggo GO",
       "entity_type": "Product",
@@ -1415,27 +1344,27 @@
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
     {
-      "entity_id": "product:alles-in-1",
-      "name": "Alles-in-1",
+      "entity_id": "product:alles-in-1-pakket",
+      "name": "Alles-in-1 pakket",
       "entity_type": "Product",
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
     {
-      "entity_id": "product:internet-tv",
-      "name": "Internet & TV",
+      "entity_id": "product:internet-tv-pakket",
+      "name": "Internet & TV pakket",
       "entity_type": "Product",
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
     {
-      "entity_id": "product:internet-online-tv",
-      "name": "Internet & Online TV",
+      "entity_id": "product:internet-online-tv-pakket",
+      "name": "Internet & Online TV pakket",
       "entity_type": "Product",
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
     {
-      "entity_id": "product:on-demand",
-      "name": "On Demand",
-      "entity_type": "Product",
+      "entity_id": "servicefeature:offline-kijken",
+      "name": "offline kijken",
+      "entity_type": "ServiceFeature",
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
     {
@@ -1481,8 +1410,14 @@
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
     {
-      "entity_id": "specification:3-apparaten-tegelijk",
-      "name": "3 apparaten tegelijk",
+      "entity_id": "pricepoint:gratis",
+      "name": "gratis",
+      "entity_type": "PricePoint",
+      "source_chunk_id": "televisie_ziggo-go::chunk-0013"
+    },
+    {
+      "entity_id": "specification:tot-wel-3-apparaten-tegelijk",
+      "name": "tot wel 3 apparaten tegelijk",
       "entity_type": "Specification",
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
@@ -1499,12 +1434,6 @@
       "source_chunk_id": "televisie_ziggo-go::chunk-0013"
     },
     {
-      "entity_id": "specification:maximaal-3-apparaten-tegelijk",
-      "name": "maximaal 3 apparaten tegelijk",
-      "entity_type": "Specification",
-      "source_chunk_id": "televisie_ziggo-go::chunk-0013"
-    },
-    {
       "entity_id": "product:ziggo-go",
       "name": "Ziggo GO",
       "entity_type": "Product",
@@ -1512,18 +1441,18 @@
     }
   ],
   "section_summaries": {
-    "televisie_ziggo-go::tot-7-dagen-terugkijken": "Je kunt programma’s kijken wanneer het jou uitkomt en tot 7 dagen terugkijken.",
-    "televisie_ziggo-go::live-tv-kijken": "Kijk naar meer dan 70 tv-zenders. Als je een programma hebt gemist, kun je het vanaf het begin starten.",
-    "televisie_ziggo-go::programma-s-opnemen": "Neem films en programma’s eenvoudig op met de app, ook op afstand.",
-    "televisie_ziggo-go::streamen-naar-je-tv": "Koppel Ziggo GO via je smartphone, Chromecast of Apple TV aan je tv en kijk op een groot scherm.",
-    "televisie_ziggo-go::on-en-offline-kijken": "Kijk direct honderden films en series of download ze om onderweg offline te kijken.",
-    "televisie_ziggo-go::meer-schermen-tegelijk": "Met Ziggo GO kun je tegelijk tv, films en series kijken op meerdere schermen.",
-    "televisie_ziggo-go::1-vodafone-ziggo-account": "Met televisie van Ziggo maak je een Vodafone & Ziggo account aan om in te loggen op de Ziggo GO app.",
-    "televisie_ziggo-go::2-tablet-telefoon-of-tv": "Voor optimaal gebruik van de app heeft je tablet of smartphone minimaal Apple iOS 12.1 of Android 6.0 nodig.",
-    "televisie_ziggo-go::3-ziggo-go": "Download de Ziggo GO app om je smartphone of tablet als tv te gebruiken.",
-    "televisie_ziggo-go::ziggo-go-op-vakantie": "Je kunt Ziggo GO ook op vakantie gebruiken, maar de regels verschillen per Europees land en overzees gebied. Engeland en Zwitserland vallen bijvoorbeeld niet onder de EU.",
-    "televisie_ziggo-go::ziggo-go-op-je-2e-tv": "Ziggo GO is beschikbaar op Apple TV, Android TV en Amazon Fire TV, zodat je zonder extra kabels of mediabox op een tweede tv kunt kijken.",
-    "televisie_ziggo-go::veelgestelde-vragen": "Ziggo GO biedt onder meer offline downloads, kijken in de EU en gelijktijdig kijken op maximaal 3 apparaten. De beschikbaarheid van zenders en programma’s hangt af van je abonnement, locatie en internetverbinding.",
-    "televisie_ziggo-go::hulp-bij-ziggo-go": "Bekijk oplossingen wanneer Ziggo GO niet goed werkt, zodat je snel weer naar je favoriete programma kunt kijken."
+    "televisie_ziggo-go::tot-7-dagen-terugkijken": "Met Ziggo GO kun je programma’s bekijken wanneer het jou uitkomt, tot maximaal 7 dagen na uitzending.",
+    "televisie_ziggo-go::live-tv-kijken": "Je kunt live naar meer dan 70 tv-zenders kijken. Als je een programma hebt gemist, kun je het vanaf het begin starten.",
+    "televisie_ziggo-go::programma-s-opnemen": "Met de app kun je programma’s eenvoudig opnemen als je geen tijd hebt om ze live te bekijken. Dit kan ook op afstand.",
+    "televisie_ziggo-go::streamen-naar-je-tv": "Je kunt Ziggo GO vanaf een smartphone, Chromecast of Apple TV naar je televisie streamen en zo op een groot scherm kijken.",
+    "televisie_ziggo-go::on-en-offline-kijken": "Je kunt honderden films en series direct bekijken of downloaden om ze onderweg offline te kijken.",
+    "televisie_ziggo-go::meer-schermen-tegelijk": "Met Ziggo GO kun je tegelijk tv, films en series kijken, zodat iedereen kan kijken waar hij of zij zin in heeft.",
+    "televisie_ziggo-go::1-vodafone-ziggo-account": "Als je televisie van Ziggo hebt, maak je een Vodafone & Ziggo-account aan om in te loggen op de Ziggo GO-app.",
+    "televisie_ziggo-go::2-tablet-telefoon-of-tv": "Voor optimaal gebruik van de app moet je tablet of smartphone minimaal Apple iOS 12.1 of Android 6.0 hebben.",
+    "televisie_ziggo-go::3-ziggo-go": "Download de Ziggo GO-app om van je smartphone of tablet een tv te maken.",
+    "televisie_ziggo-go::ziggo-go-op-vakantie": "Ook op vakantie kun je Ziggo GO gebruiken, maar de regels verschillen per Europees land en overzees gebied. Engeland en Zwitserland behoren bijvoorbeeld niet tot de EU.",
+    "televisie_ziggo-go::ziggo-go-op-je-2e-tv": "Ziggo GO is ook beschikbaar op Apple TV, Android TV en Amazon Fire TV. Daarmee kijk je zonder extra kabels of mediabox op een tweede tv in huis.",
+    "televisie_ziggo-go::veelgestelde-vragen": "De FAQ behandelt onder meer offline downloaden, kijken in de EU, dataverbruik, toegang voor Ziggo-klanten, beschikbare zenders en kijken op maximaal drie apparaten tegelijk. Gedownloade films en series blijven 30 dagen beschikbaar en worden twee dagen na het bekijken automatisch verwijderd; maximaal twee apparaten kunnen voor offline kijken worden geregistreerd.",
+    "televisie_ziggo-go::hulp-bij-ziggo-go": "De hulppagina biedt oplossingen wanneer Ziggo GO niet goed werkt, zodat je weer snel naar je favoriete programma kunt kijken."
   }
 }

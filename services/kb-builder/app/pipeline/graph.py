@@ -8,6 +8,7 @@ from app.models.schemas import ContentQuality, IngestRequest, IngestResult
 from app.pipeline.nodes.clean import clean_and_extract
 from app.pipeline.nodes.fetch import fetch_html, route_after_fetch
 from app.pipeline.nodes.graph_build import build_graph_skeleton
+from app.pipeline.nodes.index_kb import index_knowledge_base
 from app.pipeline.nodes.llm import llm_extract_entities, llm_label_and_summarize
 from app.pipeline.nodes.persist import persist_artifacts
 from app.pipeline.nodes.resolve import resolve_input
@@ -41,6 +42,7 @@ def build_ingest_graph():
     graph.add_node("build_graph", build_graph_skeleton)
     graph.add_node("llm_extract", llm_extract_entities)
     graph.add_node("llm_summarize", llm_label_and_summarize)
+    graph.add_node("index_kb", index_knowledge_base)
     graph.add_node("persist", persist_artifacts)
 
     graph.add_edge(START, "resolve")
@@ -51,7 +53,8 @@ def build_ingest_graph():
     graph.add_edge("chunk", "build_graph")
     graph.add_edge("build_graph", "llm_extract")
     graph.add_edge("llm_extract", "llm_summarize")
-    graph.add_edge("llm_summarize", "persist")
+    graph.add_edge("llm_summarize", "index_kb")
+    graph.add_edge("index_kb", "persist")
     graph.add_edge("persist", END)
 
     return graph.compile()
@@ -111,6 +114,9 @@ def run_ingest(request: IngestRequest) -> IngestResult:
         graph_nodes=len(final.get("graph_nodes", [])),
         graph_edges=len(final.get("graph_edges", [])),
         entities_extracted=len(final.get("entities", [])),
+        vectors_indexed=final.get("vectors_indexed", 0),
+        graph_nodes_total=final.get("graph_nodes_total", len(final.get("graph_nodes", []))),
+        graph_edges_total=final.get("graph_edges_total", len(final.get("graph_edges", []))),
         status=final.get("status", "completed"),
         warnings=final.get("warnings", []),
     )

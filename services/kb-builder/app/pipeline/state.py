@@ -53,3 +53,6 @@ class IngestState(TypedDict, total=False):
     # --- Output ---
     status: str
     errors: list[str]
+    vectors_indexed: int
+    graph_nodes_total: int
+    graph_edges_total: int

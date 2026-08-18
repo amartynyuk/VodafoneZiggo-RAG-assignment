@@ -32,6 +32,9 @@ Thumbs.db
 
 # Data artifacts (regenerate via kb-builder ingest)
 data/*.index
+data/*.faiss
+data/rag_meta.json
+data/rag_vectors.npy
 data/*.pkl
 data/graph.json
 

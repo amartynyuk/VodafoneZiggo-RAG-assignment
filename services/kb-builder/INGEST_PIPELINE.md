@@ -6,7 +6,7 @@ LangGraph workflow for scraping Ziggo pages and building the knowledge graph.
 
 ```
 resolve → fetch → clean → parse_sections → chunk → build_graph
-    → llm_extract (stub) → llm_summarize (stub) → persist
+    → llm_extract → llm_summarize → index_kb → persist
 ```
 
 | Node | Type | What it does |
@@ -19,7 +19,18 @@ resolve → fetch → clean → parse_sections → chunk → build_graph
 | `build_graph` | deterministic | Page → Section → Chunk + NEXT edges |
 | `llm_extract` | **LLM** | Entity extraction per chunk → Entity + MENTIONS edges |
 | `llm_summarize` | **LLM** | Section topic + summary on Section nodes |
-| `persist` | deterministic | Write `data/pages/{page_id}.json` |
+| `index_kb` | deterministic | Embed chunks → FAISS; save graph → NetworkX |
+| `persist` | deterministic | Write `data/pages/{page_id}.json` snapshot |
+
+## On-disk layout (`DATA_DIR`)
+
+| File | Contents |
+|------|----------|
+| `rag.faiss` | FAISS IndexFlatIP (cosine via normalized vectors) |
+| `rag_meta.json` | Chunk metadata + embedding model |
+| `rag_vectors.npy` | float32 matrix for re-ingest rebuild |
+| `graph.json` | NetworkX node-link graph |
+| `pages/{page_id}.json` | Full ingest snapshot per page |
 
 ## Page patterns (from live fetch)
 
@@ -36,6 +47,9 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 DATA_DIR=../../data .venv/bin/python scripts/run_ingest_sample.py
 DATA_DIR=../../data .venv/bin/python scripts/run_ingest_sample.py --label "Ziggo GO"
+
+# Verify FAISS + graph search
+DATA_DIR=../../data .venv/bin/python scripts/smoke_storage.py
 ```
 
 ## API
