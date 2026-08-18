@@ -35,6 +35,9 @@ data/*.index
 data/*.faiss
 data/rag_meta.json
 data/rag_vectors.npy
+data/cache.faiss
+data/cache_meta.json
+data/cache_vectors.npy
 data/*.pkl
 data/graph.json
 

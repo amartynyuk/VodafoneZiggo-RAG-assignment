@@ -39,8 +39,17 @@ class Settings(BaseSettings):
     rag_similarity_threshold: float = 0.65
     rag_top_k: int = 5
     graph_expand_hops: int = 1
-    # nl or en — language for customer-facing answers
     response_language: str = "nl"
+
+    # Q&A cache (separate FAISS index)
+    cache_similarity_threshold: float = 0.92
+    cache_auto_write: bool = True
+    cache_min_write_confidence: float = 0.70
+
+    # BERT security gate
+    security_enabled: bool = True
+    security_toxic_threshold: float = 0.5
+    security_offtopic_threshold: float = 0.75
 
 
 settings = Settings()

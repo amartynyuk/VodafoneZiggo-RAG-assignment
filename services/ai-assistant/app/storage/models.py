@@ -1,13 +1,11 @@
-"""Storage record types for vectors and graph persistence."""
+"""Storage record types for vectors, graph, and Q&A cache."""
 
 from __future__ import annotations
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 
 class ChunkVectorRecord(BaseModel):
-    """Metadata for one embedded chunk in the FAISS index."""
-
     chunk_id: str
     page_id: str
     section_id: str
@@ -16,10 +14,23 @@ class ChunkVectorRecord(BaseModel):
 
 
 class ScoredChunk(BaseModel):
-    """Vector search hit returned to the RAG pipeline."""
-
     chunk_id: str
     page_id: str
     section_id: str
     text: str
     score: float
+
+
+class CacheRecord(BaseModel):
+    """One cached question→answer pair."""
+
+    question: str
+    answer: str
+    source: str = "seed"  # seed | auto
+
+
+class CacheHit(BaseModel):
+    question: str
+    answer: str
+    score: float
+    source: str = "seed"

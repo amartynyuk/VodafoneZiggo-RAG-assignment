@@ -39,7 +39,7 @@ export default function App() {
         {
           role: "assistant",
           text: data.answer,
-          source: data.source,
+          source: data.blocked ? "blocked" : data.source,
         },
       ]);
     } catch {

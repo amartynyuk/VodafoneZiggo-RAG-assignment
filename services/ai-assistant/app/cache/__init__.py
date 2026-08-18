@@ -1,1 +1,1 @@
-"""Q&A cache embedding lookup (Phase 4+)."""
+"""Q&A cache for query short-circuiting."""

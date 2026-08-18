@@ -1,21 +1,29 @@
-# AI Assistant — Query Workflow (Phase 3)
+# AI Assistant — Query Workflow
 
-LangGraph RAG pipeline for customer questions.
+LangGraph RAG pipeline with Q&A cache and BERT security gate.
 
 ## Flow
 
 ```
-embed_question → vector_retrieve → [graph_expand_context | cannot_answer]
-    → generate_answer → return_answer
+embed_question
+    → cache_lookup ──hit──→ return_cached_answer → END
+    │ miss
+    → security_classify ──block──→ reject_response → return_answer → END
+    │ allow
+    → vector_retrieve → [graph_expand | cannot_answer]
+    → generate_answer → maybe_cache_answer → return_answer → END
 ```
 
-| Node | Input | Output |
-|------|-------|--------|
-| `embed_question` | question | question_vector |
-| `vector_retrieve` | question_vector | retrieved_chunks (score ≥ threshold) |
-| `graph_expand_context` | chunks | context_text (+ sections, entities from graph) |
-| `generate_answer` | question + context | answer (Dutch by default) |
-| `cannot_answer` | — | polite fallback when no chunks match |
+| Node | Type | What it does |
+|------|------|--------------|
+| `embed_question` | deterministic | Embed question (shared by cache + RAG) |
+| `cache_lookup` | deterministic | Search separate FAISS Q&A index |
+| `security_classify` | **BERT** | toxic-bert + zero-shot topic check |
+| `vector_retrieve` | deterministic | RAG chunk search |
+| `graph_expand_context` | deterministic | NetworkX context expansion |
+| `generate_answer` | **LLM** | Grounded answer generation |
+| `maybe_cache_answer` | deterministic | Write high-confidence RAG answers to cache |
+| `reject_response` | deterministic | Safe refusal (blocked=true) |
 
 ## Run locally
 
@@ -23,24 +31,28 @@ embed_question → vector_retrieve → [graph_expand_context | cannot_answer]
 cd services/ai-assistant
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
-# Requires indexed KB (kb-builder ingest first)
-DATA_DIR=../../data .venv/bin/python scripts/smoke_ask.py
-
-curl -X POST http://localhost:8000/ask \
-  -H "Content-Type: application/json" \
-  -d '{"question": "Hoeveel apparaten kan ik gebruiken met Ziggo GO?"}'
+DATA_DIR=../../data .venv/bin/python scripts/smoke_cache_security.py
 ```
 
 ## Env vars
 
 | Variable | Default | Purpose |
 |----------|---------|---------|
-| `RAG_SIMILARITY_THRESHOLD` | 0.65 | Min cosine score for chunk retrieval |
-| `RAG_TOP_K` | 5 | Max chunks retrieved |
-| `LLM_MODEL` | gpt-4o-mini | Answer generation |
-| `RESPONSE_LANGUAGE` | nl | `nl` or `en` |
-| `LANGSMITH_TRACING` | — | Set `true` for LangSmith traces |
+| `CACHE_SIMILARITY_THRESHOLD` | 0.92 | Min score for cache hit |
+| `CACHE_AUTO_WRITE` | true | Store successful RAG answers |
+| `CACHE_MIN_WRITE_CONFIDENCE` | 0.70 | Min RAG score to auto-cache |
+| `SECURITY_ENABLED` | true | Enable BERT gate |
+| `SECURITY_TOXIC_THRESHOLD` | 0.5 | toxic-bert block threshold |
+| `SECURITY_OFFTOPIC_THRESHOLD` | 0.75 | Zero-shot off-topic threshold |
+| `RAG_SIMILARITY_THRESHOLD` | 0.65 | Min chunk relevance score |
 
-## LangSmith
+## Cache seed data
 
-Each `/ask` run is named `ziggo-ask` in LangSmith when tracing is enabled.
+`data/qa_cache_seed.json` — loaded automatically on first request when cache is empty.
+
+## Models (lazy-loaded on first security check)
+
+- `unitary/toxic-bert` — toxicity detection
+- `typeform/distilbert-base-uncased-mnli` — zero-shot topic classification
+
+First request with security enabled downloads ~500MB of model weights.

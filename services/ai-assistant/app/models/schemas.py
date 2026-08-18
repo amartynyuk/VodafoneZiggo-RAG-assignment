@@ -33,6 +33,6 @@ class AskRequest(BaseModel):
 
 class AskResponse(BaseModel):
     answer: str
-    source: Literal["rag", "none"] = "rag"
-    confidence: float = Field(ge=0.0, le=1.0, description="Top retrieval score when source=rag")
+    source: Literal["cache", "rag", "none"] = "rag"
+    confidence: float = Field(ge=0.0, le=1.0)
     blocked: bool = False

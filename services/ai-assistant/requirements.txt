@@ -14,6 +14,6 @@ langgraph>=0.2.0
 langchain-core>=0.3.0
 langchain-openai>=0.2.0
 
-# Phase 5+
-# transformers>=4.46.0
-# torch>=2.5.0
+# Security gate (BERT)
+transformers>=4.46.0
+torch>=2.5.0

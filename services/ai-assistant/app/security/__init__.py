@@ -1,1 +1,1 @@
-"""BERT / classifier security gate (Phase 5+)."""
+"""BERT security gate for incoming questions."""

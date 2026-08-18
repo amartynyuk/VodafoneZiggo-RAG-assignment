@@ -1,7 +1,7 @@
 """
 LangGraph state for the query (RAG) workflow.
 
-Each node reads/writes specific keys. Phase 4+ will add cache and security fields.
+Flow: embed → cache → security → retrieve → expand → generate → maybe_cache
 """
 
 from __future__ import annotations
@@ -18,6 +18,13 @@ class AgentState(TypedDict, total=False):
     # embed_question
     question_vector: list[float]
 
+    # cache_lookup
+    cache_hit: bool
+
+    # security_classify
+    security_label: str
+    security_score: float
+
     # vector_retrieve
     retrieved_chunks: list[ScoredChunk]
 
@@ -25,11 +32,9 @@ class AgentState(TypedDict, total=False):
     graph_context: dict
     context_text: str
 
-    # generate_answer
+    # generate_answer / responses
     answer: str
     confidence: float
-
-    # Response metadata
-    source: str  # "rag" | "none"
+    source: str  # cache | rag | none
     blocked: bool
     status: str
