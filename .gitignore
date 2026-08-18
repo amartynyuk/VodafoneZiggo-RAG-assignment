@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+cdk.out/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data artifacts (regenerate via kb-builder ingest)
+data/*.index
+data/*.pkl
+data/graph.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Turbo
+.turbo/
+
+# CDK
+.cdk.staging/

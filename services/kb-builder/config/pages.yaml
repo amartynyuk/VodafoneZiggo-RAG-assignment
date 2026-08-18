@@ -1,0 +1,10 @@
+# Seed list of Ziggo pages to ingest (Phase 2+).
+# page_id is derived from the URL path and used as the graph upsert key.
+
+pages:
+  - page_id: internet
+    url: https://www.ziggo.nl/internet
+  - page_id: tv
+    url: https://www.ziggo.nl/tv
+  - page_id: ziggo-go
+    url: https://www.ziggo.nl/ziggo-go
