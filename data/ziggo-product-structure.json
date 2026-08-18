@@ -1,0 +1,89 @@
+{
+  "menu": "Producten",
+  "source": "https://www.ziggo.nl",
+  "categories": [
+    {
+      "label": "Internet & TV",
+      "type": "quick_link"
+    },
+    {
+      "label": "Pakketten",
+      "type": "category",
+      "items": [
+        "Alles-in-1",
+        "Internet & TV",
+        "Internet Only",
+        "Televisie",
+        "Vast Bellen",
+        "Overstappen"
+      ]
+    },
+    {
+      "label": "Internet",
+      "type": "category",
+      "items": [
+        "Over Internet",
+        "Pakket samenstellen",
+        "Wifi",
+        "Wifi Garantie",
+        "SmartWifi",
+        "Installatie zoals jij wil",
+        "Internetbeveiliging",
+        "Wifiboosters",
+        "Speedtest"
+      ]
+    },
+    {
+      "label": "Televisie",
+      "type": "category",
+      "items": [
+        "Over Televisie",
+        "Pakket samenstellen",
+        "Zenderoverzicht",
+        "Extra zenders",
+        "Streamingdiensten",
+        "Ziggo GO",
+        "Mediaboxen",
+        "Extra tv in huis",
+        "Ziggo Sport",
+        "UEFA Europees voetbal",
+        "Movies & Series",
+        "4K TV"
+      ]
+    },
+    {
+      "label": "Vast Bellen",
+      "type": "category",
+      "items": [
+        "Over Vast Bellen",
+        "Volop Bellen",
+        "Extra telefoonlijn",
+        "Tarieven",
+        "Nummerbehoud"
+      ]
+    },
+    {
+      "label": "Extra Diensten",
+      "type": "category",
+      "items": [
+        "Extra zenders & streaming",
+        "Extra tv in huis",
+        "Wifiboosters",
+        "Internetbeveiliging",
+        "Volop Bellen",
+        "Extra telefoonlijn"
+      ]
+    },
+    {
+      "label": "Mobiel",
+      "type": "category",
+      "items": [
+        "Vodafone mobiel",
+        "Sim Only",
+        "Telefoons",
+        "One van Vodafone & Ziggo",
+        "hollandsnieuwe mobiel"
+      ]
+    }
+  ]
+}

@@ -32,8 +32,34 @@ apps/web/              React chat UI
 infra/                 AWS CDK (synth only)
 services/ai-assistant/ Query path — FastAPI + LangGraph
 services/kb-builder/   Ingest path — scrape → graph → embed
-data/                  Shared FAISS + NetworkX artifacts
+data/                  Shared FAISS + NetworkX artifacts + Ziggo source exports
 ```
+
+### Ziggo product navigation (JSON)
+
+The kb-builder includes a script that parses a saved Ziggo homepage HTML export and extracts the **Producten** menu: top-level categories (Pakketten, Internet, Televisie, …) and their sub-page labels.
+
+**How it works:** BeautifulSoup loads `data/ziggo.nl.txt`, finds the main-nav droplet with `data-ddm-menu-top="producten"`, walks each category section, and reads link labels from the menu markup. Relative paths are normalized to `https://www.ziggo.nl/...`. It writes two files:
+
+| Output | Contents |
+|--------|----------|
+| `data/ziggo-product-structure.json` | Hierarchy only — categories and label lists (no URLs) |
+| `data/ziggo-product-label-urls.json` | Flat `label → url` dict; duplicate labels keep the first URL seen in nav order |
+
+**Re-create the JSON files** (from repo root):
+
+```bash
+cd services/kb-builder
+python3 -m venv .venv          # first time only
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python scripts/extract_product_nav.py
+```
+
+Optional flags: `--input`, `--structure-out`, `--labels-out` (defaults point at `data/ziggo.nl.txt` and the two JSON files above).
+
+To refresh the source HTML, save the Ziggo homepage markup to `data/ziggo.nl.txt`, then re-run the script.
 
 ## Development (without Docker)
 
