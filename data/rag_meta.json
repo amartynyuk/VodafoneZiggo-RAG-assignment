@@ -1,0 +1,2477 @@
+{
+  "embedding_model": "text-embedding-3-small",
+  "dimension": 1536,
+  "records": [
+    {
+      "chunk_id": "tv-internet::chunk-0001",
+      "page_id": "tv-internet",
+      "section_id": "tv-internet::overview",
+      "text": "Internet en TV Abonnement – Vergelijk Internet & TV | Ziggo\n\n✓ Stabiel, snel en veilig internet thuis ✓ Wifi Garantie ✓ Next Mini: TV & Streaming ✓ Kijk TV waar en wanneer je wilt ✓ Gratis Ziggo Sport\n\nInternet & TV\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1
+    },
+    {
+      "chunk_id": "alles-in-1::chunk-0001",
+      "page_id": "alles-in-1",
+      "section_id": "alles-in-1::overview",
+      "text": "Alles-in-1 | Vergelijk Internet, TV & Bellen | Ziggo\n\nVergelijk de Alles-in-1 pakketten van Ziggo ✓ Stabiel, snel en veilig internet thuis ✓ Next Mini: Vol TV & Streaming ✓ Gratis Ziggo Sport ✓ Voordelig bellen\n\nAlles-in-1\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1
+    },
+    {
+      "chunk_id": "internet_internet-only::chunk-0001",
+      "page_id": "internet_internet-only",
+      "section_id": "internet_internet-only::overview",
+      "text": "Alleen Internet – Vergelijk Internet Only Pakketten | Ziggo\n\nVergelijk alle Internet Only pakketten van Ziggo ✓  Internet waar je op kunt rekenen ✓ Stabiel, snel en veilig internet thuis ✓ Perfecte wifi door SmartWifi\n\nInternet Only\nJe abonnement loopt voor onbepaalde tijd met een door jou gekozen minimumduur van 1 of 2 jaar. Na de gekozen minimumduur kun je maandelijks kosteloos opzeggen. Tussendoor iets wijzigen aan je pakket? Dat kan altijd.\nOp bovenstaande pakketten zijn onze\nalgemene voorwaarden\nvan toepassing.\nNog een vraag over je bestelling?\nOnze adviseurs helpen je graag\nBel\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nBel 0900-0730\nBel 0900-0730\nChat\nStel direct je vraag aan één van onze adviseurs.\nOpen chat\nOpen chat\nWinkel\nBezoek een Ziggo winkel bij je in de buurt.",
+      "order": 1
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0001",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nHeb je al televisie van Ziggo?",
+      "order": 1
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0002",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::70-digitale-zenders",
+      "text": "70+ digitale zenders\n\nBekijk het zenderoverzicht",
+      "order": 2
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0003",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::ziggo-sport-espn",
+      "text": "Ziggo Sport & ESPN\n\nAlles over sport bij Ziggo",
+      "order": 3
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0004",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::ziggo-go",
+      "text": "Ziggo GO\n\nKijk online tv",
+      "order": 4
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0005",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::priority",
+      "text": "Priority\n\nOntdek alle voordelen",
+      "order": 5
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0006",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::extra-zenders",
+      "text": "Extra zenders\n\nBreid je kijkervaring uit",
+      "order": 6
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0007",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::streamingdiensten",
+      "text": "Streamingdiensten\n\nVan Netflix tot Videoland",
+      "order": 7
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0008",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nZoek met Voice Control gemakkelijk door je tv-zenders en streamingdiensten. Geef een zoekopdracht en roep ‘pauze’ of stel een vraag zoals “Heb je een Britse misdaadserie?”. Laat je inspireren of zoek slim met hulp van AI en vind razendsnel wat je graag kijkt. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 8
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0009",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nMet je eigen startscherm en persoonlijke kijktips is TV & Streaming speciaal op je afgestemd. Vanaf je eigen startscherm kijk je meteen verder waar je gebleven was. Én sla je favorieten op om ze later te kijken. Meerdere kijkers in huis? Dan maakt iedereen gewoon een eigen kijkprofiel aan. Zet de popcorn maar klaar.",
+      "order": 9
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0010",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nJe serie pauzeren omdat de deurbel gaat? Het journaal terugkijken omdat je op een verjaardag was? Of heb je keuzestress en wil je meerdere programma’s tegelijk opnemen? Mis niets en kijk waar en wanneer je maar wilt. Ook met Ziggo GO. Zo geniet je thuis en overal in de EU van je favoriete programma’s, films, series en sport.",
+      "order": 10
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0011",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nZoek in één keer door je tv-zenders en streamingdiensten en vind razendsnel wat je graag kijkt of laat je inspireren. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 11
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0012",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nZoek met Voice Control gemakkelijk door je tv-zenders en streamingdiensten. Geef een zoekopdracht en roep ‘pauze’ of stel een vraag zoals “Heb je een Britse misdaadserie?”. Laat je inspireren of zoek slim met hulp van AI en vind razendsnel wat je graag kijkt. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 12
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0013",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nDe een houdt van comedy. De ander kijkt liever ziekenhuisdrama’s. Maak tv-kijken nóg persoonlijker met je eigen kijkprofiel. Zo zie je direct wat je wilt zien, maak je je eigen kijklijst en krijg je aanbevelingen op basis van je kijkgedrag.",
+      "order": 13
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0014",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nJe serie pauzeren omdat de deurbel gaat? Dat kan. Neem rustig je pakketje aan en kijk verder door je tv van pauze af te halen. Zo mis je niets.",
+      "order": 14
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0015",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nHet journaal terugkijken omdat je op een verjaardag was? Kijk op elk moment je programma's terug en mis geen moment. Wij nemen het programma alvast voor je op, zodat je die tot 7 dagen na de uitzending gratis kunt terugkijken. Heb je TV Start? Dan kun je tot 2 dagen terugkijken.",
+      "order": 15
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0016",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\nSnel avondeten om je favoriete programma niet te hoeven missen? Niet nodig, want met tot maar liefst 400 uur opnametijd mis je niks meer. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand met Ziggo GO. Wil je eenmalig iets opnemen of een hele serie? Oók dat bepaal jij.",
+      "order": 16
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0017",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::ook-met-de-next",
+      "text": "Ook met de Next\n\nDe Mediabox Next kan hetzelfde als de Next Mini. Heb je een van deze twee mediaboxen nog niet?",
+      "order": 17
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0018",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::voor-je-extra-tv",
+      "text": "Voor je extra tv\n\nHuur een Extra Next Mini voor je 2e televisie voor maar 4,- per maand. En kijk wat je maar wilt, in dezelfde kwaliteit.",
+      "order": 18
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0019",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::bekijk-en-beheer-je-pakket",
+      "text": "Bekijk en beheer je pakket\n\nWil je je pakket bekijken en aanpassen? Dat doe je gemakkelijk in Mijn Ziggo.\nTV",
+      "order": 19
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0020",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\np.m.\nTV",
+      "order": 20
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0021",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\np.m.\nTV",
+      "order": 21
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0022",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::introduction",
+      "text": "Introduction\n\np.m.\nBovengenoemde tv-pakketten zijn alleen af te nemen in combinatie met internet van Ziggo.",
+      "order": 22
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0023",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::tv-streaming",
+      "text": "TV & Streaming\n\nOntdek de beste films, series, sport en tv-programma’s voor jou.",
+      "order": 23
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0024",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::ziggo-sport",
+      "text": "Ziggo Sport\n\nOntdek de beste wedstrijden voor jou. Gratis op kanaal 14.",
+      "order": 24
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0025",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::espn",
+      "text": "ESPN\n\nMeer live voetbal. Standaard inbegrepen bij Ziggo.",
+      "order": 25
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0026",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::priority",
+      "text": "Priority\n\nAltijd iets speciaals voor jou: ticketdeals, korting en meer.",
+      "order": 26
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0027",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 27
+    },
+    {
+      "chunk_id": "over-televisie::chunk-0028",
+      "page_id": "over-televisie",
+      "section_id": "over-televisie::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nJe kunt kiezen tussen TV Start, TV Complete, TV Max of Kabel TV. Bekijk en vergelijk de pakketten\n. Wil je je pakket aanpassen? Dat kan in\n.\nDat hangt af van je abonnement. Alle tv-pakketten worden standaard geleverd met\n, ESPN 1, 70+ digitale zenders waarvan 66 tv-zenders in HD-kwaliteit.\nBij TV Complete krijg je ook Movies & Series. Daarmee kun je onbeperkt honderden films en series on demand kijken, zonder extra kosten. Kies je voor TV Max? Dan krijg je\nerbij met iconische entertainment van wereldberoemde studio’s. En wil je meer dan 40 extra zenders?\nzit inbegrepen bij TV Max of bestel je extra bij je abonnement.\nOp zoek naar je favoriete zenders? Daarvoor hebben we ons\nsamengesteld.\nWat je ook wilt installeren, met\nheb je je installatie in een handomdraai geregeld.\nGaat je televisie wel aan, maar heb je geen beeld? Of is de beeldkwaliteit niet zoals je wilt? Met deze\nheb je de boel zo weer aan de praat.\nJa, dat kan. Naast\nen\nkan je ook kiezen voor een pakket zonder Internet. Kies dan voor\nof\n.\nMet Ziggo GO kijk je tv op je smartphone, tablet of laptop. Je kijkt waar je maar wilt, in Nederland en in de EU. En de Next Mini en Mediabox Next zijn met Ziggo GO verbonden. Zo pauzeer je die spannende serie op je tv en kijk je verder op een ander scherm. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand. Lees hier hoe je alle Ziggo GO fucties gebruikt.\nOm Ziggo GO te gebruiken heb je een account voor Mijn Ziggo nodig. Heb je nog geen account? Dan kun je er eenvoudig één\n. Zodra je bent ingelogd kijk je alle tv-zenders uit je abonnement.\nAlle klanten met een Next Mini of Mediabox Next kunnen de afstandsbediening met Voice Control gebruiken. Als nieuwe klant krijg je de afstandsbediening met Voice Control bij alle pakketten met digitale televisie.\nWe vinden het belangrijk dat je de beste kwaliteit televisie krijgt en daarvoor heb je goed internet nodig. De Next Mini of Mediabox Next krijg je daarom alleen in combinatie met Internet van Ziggo, zodat we je de beste service kunnen bieden.\nDaarnaast hebben we met contentpartijen afgesproken dat we hun programma's, films en series alleen aanbieden via ons eigen netwerk. Ook daarom heb je dus Internet van Ziggo nodig.",
+      "order": 28
+    },
+    {
+      "chunk_id": "bellen::chunk-0001",
+      "page_id": "bellen",
+      "section_id": "bellen::overview",
+      "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen met de vaste telefoon: dat doe je voor een vast bedrag per maand of lage kosten per minuut.",
+      "order": 1
+    },
+    {
+      "chunk_id": "bellen::chunk-0002",
+      "page_id": "bellen",
+      "section_id": "bellen::overview",
+      "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen naar vast en mobiel\nOntdek de mogelijkheden\nVast Bellen\nBij Ziggo bel je naar vaste en mobiele nummers in Nederland voor het voordelige tarief van 16 cent per minuut. Bovendien betaal je per seconde en kun je je huidige telefoonnummer gratis meenemen naar Ziggo. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nAbonnementen met Vast Bellen\nVast Bellen\nVast Bellen\nAlles-in-1\nAlles-in-1\nVolop Bellen\nVoor maar € 15,50 extra per maand bel je onbeperkt naar alle Nederlandse vaste en mobiele nummers.\nOnbeperkt bellen\nPer maand opzegbaar\nOm Volop Bellen te bestellen heb je een abonnement op\nVast Bellen\nof\nAlles-in-1\nnodig.\nBekijk Volop Bellen\nBekijk Volop Bellen\nNummerbehoud\nStap je over op Ziggo Bellen? Dan neem je je oude vaste telefoonnummer gratis mee. Wanneer je Ziggo modem is aangesloten, nemen we binnen 1 werkdag je telefoonnummer over.\nNummerbehoud vraag je heel eenvoudig aan. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nExtra telefoniediensten\nKies je favoriete telefoniedienst. Eenvoudig te bestellen en maandelijks opzegbaar.\nExtra lijn\nEen tweede telefoonlijn bij je Vast Bellen abonnement is erg handig. Bijvoorbeeld als je met meerdere mensen een huis deelt. Of als je niet zonder je fax kunt.\nExtra telefoonlijn\n+\nExtra diensten\nHeb je een Vast Bellen abonnement? Dan kun je verschillende extra diensten gebruiken die je niets extra kosten.\nVoicemail\n+\nDriegesprek\n+\nDoorschakelen\n+",
+      "order": 2
+    },
+    {
+      "chunk_id": "overstappen::chunk-0001",
+      "page_id": "overstappen",
+      "section_id": "overstappen::regel-je-overstap-eenvoudig-met-onze-overstapservice",
+      "text": "Regel je overstap eenvoudig met onze Overstapservice\n\nGratis overstapservice\nNooit dubbele kosten\nGeen moment zonder Internet & TV",
+      "order": 1
+    },
+    {
+      "chunk_id": "overstappen::chunk-0002",
+      "page_id": "overstappen",
+      "section_id": "overstappen::maak-de-overstap-naar-ziggo",
+      "text": "Maak de overstap naar Ziggo\n\nEr zijn 100 redenen te bedenken waarom je wilt overstappen naar Ziggo. En eigenlijk maar eentje om het niet te doen: teveel gedoe. Gelukkig is dat met Overstapservice verleden tijd. Wij regelen de opzegging bij je huidige provider en zorgen ervoor dat je geen seconde zonder internet, televisie en telefonie zit.",
+      "order": 2
+    },
+    {
+      "chunk_id": "overstappen::chunk-0003",
+      "page_id": "overstappen",
+      "section_id": "overstappen::controleer-je-huidige-contract",
+      "text": "Controleer je huidige contract\n\nCheck eerst even wat je huidige contract- en opzegtermijn is. Dat is handig, want zo voorkom je dubbele kosten. Wil je overstappen voordat je huidige contract afloopt? Dan kan je huidige provider een\nrekenen.\nJe kunt de Overstapservice gebruiken als de overstapdatum\nin de toekomst ligt. We hebben minimaal 30 dagen nodig, omdat we te maken hebben met de wettelijke opzegtermijn van je huidige provider.\nZorg ervoor dat je een abonnement aanvraagt op hetzelfde adres als waar je huidige provider je dienst(en) levert. Ga je verhuizen? Dan kun je de Overstapservice niet gebruiken. Zeg dan zelf je oude provider op.\nTijdens je online bestelling kun je kiezen voor de Overstapservice. Wij zeggen dan voor je op bij je oude provider. En regelen dat je niet zonder televisie of internet zit tijdens je overstap.",
+      "order": 3
+    },
+    {
+      "chunk_id": "overstappen::chunk-0004",
+      "page_id": "overstappen",
+      "section_id": "overstappen::bestel-je-ziggo-pakket",
+      "text": "Bestel je Ziggo pakket\n\nPlaats je bestelling en geef aan dat je gebruik maakt van de Overstapservice. Let erop dat je lopende contract binnen 120 dagen afloopt. Ligt de einddatum van je contract verder dan 120 dagen, dan kun je nog geen gebruik maken van de Overstapservice.\nWil je ook je vaste telefoonnummer meenemen naar Ziggo? Ook dat kies je tijdens je online bestelling.  Je hoeft zelf verder niets te regelen. Zeg dus niet zelf je nummer op, want dan kunnen we 'm niet meer overnemen.",
+      "order": 4
+    },
+    {
+      "chunk_id": "overstappen::chunk-0005",
+      "page_id": "overstappen",
+      "section_id": "overstappen::ontvang-je-bevestiging",
+      "text": "Ontvang je bevestiging\n\nKort na je bestelling ontvang je per mail een overzicht van je bestelling. Per ongeluk een verkeerd e-mailadres opgegeven? Dan sturen we je bevestiging per post. Daarna ontvang je een definitieve orderbevestiging. Vaak is dat binnen enkele uren.\nVlak voordat je abonnement ingaat, ontvang je een e-mail met een track & trace-code. Zo kun je je pakket volgen via PostNL.",
+      "order": 5
+    },
+    {
+      "chunk_id": "overstappen::chunk-0006",
+      "page_id": "overstappen",
+      "section_id": "overstappen::levering-en-installatie",
+      "text": "Levering en installatie\n\nIs je overstapverzoek goedgekeurd door je oude provider? Dan sturen we je een bevestiging en delen we de geplande overstapdatum. Enkele dagen voor activatie ontvang je via PostNL een doe-het-zelf pakket waarmee je je producten heel eenvoudig zelf installeert. Dat is echt de allersnelste weg naar installatie. En een hele makkelijke. Want of je nu technisch bent of niet, ons doe-het-zelf-installatiepakket met uitgebreide handleiding is geschikt voor iedereen.\nKom je er zelf toch niet uit? Maak dan een gratis afspraak met een monteur via het speciale telefoonnummer dat je in het doe-het-zelf-pakket vindt.",
+      "order": 6
+    },
+    {
+      "chunk_id": "overstappen::chunk-0007",
+      "page_id": "overstappen",
+      "section_id": "overstappen::stap-nu-over-en-krijg",
+      "text": "Stap nu over en krijg...\n\nGratis wifi-versterker\n24/7 hulp van onze Wifi Crew\nGratis monteur als het nodig is",
+      "order": 7
+    },
+    {
+      "chunk_id": "overstappen::chunk-0008",
+      "page_id": "overstappen",
+      "section_id": "overstappen::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 8
+    },
+    {
+      "chunk_id": "overstappen::chunk-0009",
+      "page_id": "overstappen",
+      "section_id": "overstappen::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nStap nu over naar Ziggo en wij regelen de overstap van je Televisie-, Internet- en/of Bellen-abonnement. Het enige wat je hoeft te doen, is aangeven tijdens het bestellen dat je de Overstapservice wilt gebruiken.\nBestel je liever telefonisch? Houd dan deze gegevens bij de hand:\ncontractnummer van je huidige abonnement\ncontractdatum van je huidige abonnement\nNee, je hebt geen telefonieabonnement meer nodig van een andere aanbieder om te bellen via onze kabel.\nWij kunnen je huidige telefoonnummer overnemen. Wil je je nummer behouden, zeg dan vooral niet zelf je abonnement op. Wij nemen contact met je huidige provider op om je nummer over te nemen. Geef tijdens je online bestelling aan dat je kiest voor nummerbehoud. Dan regelen wij de opzegging bij je huidige provider en zetten je nummer automatisch om. Zonder extra kosten.\nKies je niet voor nummerbehoud, dan krijg je automatisch een nieuw telefoonnummer.\nWe nemen je huidige vaste nummer over\nWe zeggen het contract bij je huidige telefonieaanbieder voor je op\nJe hoeft zelf verder niets te regelen.\nHoud rekening met de looptijd van je contract bij je huidige telefonieaanbieder en controleer de voorwaarden om verrassingen te voorkomen. Neem voor informatie contact op met je huidige aanbieder.\nBekijk met de\nof Ziggo beschikbaar is op jouw adres.",
+      "order": 9
+    },
+    {
+      "chunk_id": "overstappen::chunk-0010",
+      "page_id": "overstappen",
+      "section_id": "overstappen::liever-zelf-regelen",
+      "text": "Liever zelf regelen?\n\nJe kunt ook zelf je huidige abonnement opzeggen. Stel je pakket samen en geniet al\nvan internet en tv bij je thuis.",
+      "order": 10
+    },
+    {
+      "chunk_id": "overstappen::chunk-0011",
+      "page_id": "overstappen",
+      "section_id": "overstappen::nog-een-vraag",
+      "text": "Nog een vraag?\n\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nStel direct je vraag aan een van onze adviseurs.\nBezoek een Ziggo winkel bij je in de buurt.\nBekijk de dichtstbijzijnde winkel in jouw buurt.",
+      "order": 11
+    },
+    {
+      "chunk_id": "internet::chunk-0001",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nBen je Ziggo klant?",
+      "order": 1
+    },
+    {
+      "chunk_id": "internet::chunk-0002",
+      "page_id": "internet",
+      "section_id": "internet::snel-en-stabiel-internetmet-ziggo-wifi-garantie",
+      "text": "Snel en stabiel internetmet Ziggo Wifi Garantie\n\nGratis wifi-versterkers\n24/7 hulp van wifi-experts\nGratis monteur bij installatie",
+      "order": 2
+    },
+    {
+      "chunk_id": "internet::chunk-0003",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAltijd alle snelheid die je nodig hebt.",
+      "order": 3
+    },
+    {
+      "chunk_id": "internet::chunk-0004",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAltijd wifi die werkt. Gegarandeerd.",
+      "order": 4
+    },
+    {
+      "chunk_id": "internet::chunk-0005",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAltijd sterke wifi met gratis versterkers.",
+      "order": 5
+    },
+    {
+      "chunk_id": "internet::chunk-0006",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAltijd de beste hulp.",
+      "order": 6
+    },
+    {
+      "chunk_id": "internet::chunk-0007",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAltijd kosteloos een monteur, wanneer nodig.",
+      "order": 7
+    },
+    {
+      "chunk_id": "internet::chunk-0008",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAltijd gratis online beveiliging.",
+      "order": 8
+    },
+    {
+      "chunk_id": "internet::chunk-0009",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAltijd iets speciaals met Priority.",
+      "order": 9
+    },
+    {
+      "chunk_id": "internet::chunk-0010",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction",
+      "order": 10
+    },
+    {
+      "chunk_id": "internet::chunk-0011",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nOp jouw adres is tot\n(2000 Mbit/s) downloadsnelheid haalbaar via het\nvan Ziggo. Zo ben je bij ons nu al klaar voor de toekomst.\nOp jouw adres is tot\ndownloadsnelheid haalbaar via het\nvan Ziggo. Zo ben je bij ons nu al klaar voor de toekomst.\nOp jouw adres is tot\ndownloadsnelheid haalbaar via het\nvan Ziggo. Zo ben je bij ons nu al klaar voor de toekomst.\nOp jouw adres gelden afwijkende prijzen en voorwaarden, waardoor je niet online kan bestellen. Onze\nhelpen je graag verder.\nGoed nieuws! Voor inwoners van Edam en Volendam hebben we een fantastische deal klaar staan. Ontvang nu 9 maanden 50% korting op Internet & TV en een streamingdienst cadeau. Wil je hiervan gebruik maken? Neem contact op met een van onze medewerkers en we gaan het voor je regelen.\nBel onze telefoonlijn speciaal voor Edam en Volendam:\n(Maandag t/m vrijdag van 9.00-21.00 uur en op zaterdag van 10.00-16.00 uur)\nOf kom langs in onze pop-up store voor persoonlijk advies:\nZeestraat 21\n1131 ZD Volendam\n(Open op donderdag & vrijdag van 9.30-18.00 uur en op zaterdag van 9.30-17.30)\nWil je liever een zakelijk abonnement?\nmet ons of bel\n(Elke dag van 8.00 tot 22.00 uur)\nOp jouw adres is tot\ndownloadsnelheid haalbaar via het\nvan Ziggo. Zo ben je bij ons nu al klaar voor de toekomst.\nOp jouw adres is binnenkort tot\ndownloadsnelheid haalbaar via het\nvan Ziggo. Zo ben je bij ons nu al klaar voor de toekomst. Plaats nu alvast je bestelling.\nGoed nieuws! Binnenkort kun je op dit adres genieten van internet, tv en telefonie van Ziggo via het glasvezelnetwerk van DELTA Fiber. Wil je weten wanneer je Ziggo kunt bestellen? Laat dan je e-mailadres achter. We sturen je eenmalig een bericht als het zover is.\nMaar dat kan geregeld worden. Bel ons op\n(normaal tarief) voor de mogelijkheden.\nen wij bellen je terug.",
+      "order": 11
+    },
+    {
+      "chunk_id": "internet::chunk-0012",
+      "page_id": "internet",
+      "section_id": "internet::welke-internetsnelheid-heb-je-nodig",
+      "text": "Welke internetsnelheid heb je nodig?\n\nDe juiste internetsnelheid maakt je gebruik soepeler. Stream je veel? Dan is een hoge downloadsnelheid ideaal. Werk je online of videobel je vaak? Dan helpt een hogere uploadsnelheid.\nNiet zeker welke snelheid je nu hebt of nodig hebt? Test eenvoudig de huidige snelheid van je internet.",
+      "order": 12
+    },
+    {
+      "chunk_id": "internet::chunk-0013",
+      "page_id": "internet",
+      "section_id": "internet::overstappen-naar-ziggo",
+      "text": "Overstappen naar Ziggo\n\nOverstappen naar Ziggo kan vrijwel altijd! Je kan zelf opzeggen bij je huidige provider. Of je kan gebruikmaken van de\n. Dan regelen wij de opzegging bij je huidige provider en zorgen we dat je geen seconde zonder internet zit.",
+      "order": 13
+    },
+    {
+      "chunk_id": "internet::chunk-0014",
+      "page_id": "internet",
+      "section_id": "internet::zelf-je-internetabonnement-samenstellen",
+      "text": "Zelf je internetabonnement samenstellen\n\nBij Ziggo stel je zelf je favoriete internetpakket samen. En je abonnement is maandelijks aanpasbaar. Combineer\nen geniet naast zorgeloze wifi ook van TV & Streaming op één plek en kijk gratis Ziggo Sport. Of kies voor alleen internet met onze\nabonnementen. De keuze is aan jou.",
+      "order": 14
+    },
+    {
+      "chunk_id": "internet::chunk-0015",
+      "page_id": "internet",
+      "section_id": "internet::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 15
+    },
+    {
+      "chunk_id": "internet::chunk-0016",
+      "page_id": "internet",
+      "section_id": "internet::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nZiggo biedt verschillende pakketten waar je uit kunt kiezen met internet. Zo hebben we Alles-in-1 pakketten, met\n. Je kan ook kiezen voor een pakket zonder bellen, dat zijn de pakketten met\n. Wil je ook geen digitale tv? Dan hebben we pakketten met\n.\nOverstappen naar Ziggo kan vrijwel altijd. Je kan kiezen om zelf op te zeggen, of je kan gebruik maken van de Overstapservice.\nWanneer je zelf opzegt bij je huidige provider kunnen we je binnen 3 werkdagen aansluiten. Loopt je contract nog? Dan kan je zelfs aangeven dat je over 6 maanden wilt overstappen. Wanneer je gaat verhuizen, moet je altijd zelf je oude abonnement opzeggen. Dit is handig omdat je tijdelijk een abonnement op je oude én je nieuwe adres kan hebben en je daardoor geen dag zonder internet hoeft te zitten.\nJe kan ook gebruik maken van onze Overstapservice, dan is overstappen makkelijk en zonder gedoe. Wij zeggen je contract op en zorgen ervoor dat je zo snel mogelijk gebruik kunt maken van Ziggo. De Overstapservice kan je gebruiken* als de overstapdatum minimaal 1 maand en maximaal 3 maanden in de toekomst ligt. We hebben minimaal 1 maand nodig, omdat we te maken hebben met de wettelijke opzegtermijn van je huidige aanbieder. Ga je verhuizen? Zeg dan zelf je oude abonnement op.\nWifi die werkt? Wij regelen het! Met het krachtige SmartWifi modem en gratis slimme wifi-versterkers ben je zorgeloos online. Met een pakket dat bij je past krijg je de wifi-versterkers die je nodig hebt. Hulp van onze Wifi Crew, tips over gebruik van kabels, gratis een monteur of nóg een gratis wifi-versterker. Zo heb je altijd minimaal 50 Mbit/s stabiele wifi waarmee je overal in huis zorgeloos kunt streamen, thuiswerken en gamen.\nDat hangt af van wat je ermee doet. Je hebt genoeg aan een abonnement met een internetsnelheid van 200 Mbit/s als je regelmatig mailt, foto’s deelt of filmpjes kijkt. Verwacht je meer van je verbinding, of ben je vaak met meerdere mensen tegelijk online? Dan is 500 Mbit/s een goede optie. Download je films en muziek of speel je online games? Ga dan voor 1 of 2 Gbit/s. Houd er rekening mee dat je wifi-snelheid lager kan zijn dan de maximale internetsnelheid.\nNiet zeker welke snelheid je nu hebt of nodig hebt? Test eenvoudig de huidige snelheid van je internet. Zo weet je direct of je internet past bij jouw gebruik!\nMet de\nkun je eenvoudig je internet- en wifisnelheid testen. Hiermee test je jouw downloadsnelheid, uploadsnelheid, latency (ping) en Jitter. Wat een goede of normale internetsnelheid is, hangt erg af van je internetbehoeften en met hoeveel apparaten je tegelijkertijd van het internet gebruikmaakt. Zo is een hoge snelheid niet het enige ingrediënt voor een goede internetverbinding? Stabiliteit is net zo belangrijk om soepel te streamen, gamen en videobellen.\nBij Internet van Ziggo krijg je altijd een SmartWifi-modem en gratis slimme wifi-versterkers (vanaf Wifi Middel). Met Televisie in je pakket ontvang je ook de mediabox Next Mini.\nVerdeelt de wifi slim onder de apparaten. Elk apparaat in huis krijgt de snelheid die het nodig heeft.",
+      "order": 16
+    },
+    {
+      "chunk_id": "internet::chunk-0017",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nAls nieuwe klant van Ziggo ontvang je een SmartWifi modem en is je wifi slimmer dan ooit. Daarnaast is het SmartWifi modem bijzonder krachtig. Zo heb je in de meeste huizen altijd en overal perfecte wifi.\nHet modem schakelt automatisch naar de beste frequentie voor het beste wifi-signaal.\nHet modem verdeelt de wifi slim onder de apparaten. Elk apparaat in huis krijgt de snelheid die het nodig heeft.\nHet modem kiest automatisch het beste wifi-punt voor de beste verbinding.\nSlimme wifi-versterkers zorgen dat je altijd en overal in huis perfecte wifi hebt.",
+      "order": 17
+    },
+    {
+      "chunk_id": "internet::chunk-0018",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nSlimme wifi-versterkers zorgen dat je altijd en overal in huis perfecte wifi hebt. Deze Wifi-versterker werkt samen met je SmartWifi modem of SmartWifi router zodat je altijd de snelste en meest stabiele wifi-verbinding krijgt.\nDirect toegang tot al je TV Apps, makkelijk zoeken met Voice Control en kijk verder op elk scherm.",
+      "order": 18
+    },
+    {
+      "chunk_id": "internet::chunk-0019",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction",
+      "order": 19
+    },
+    {
+      "chunk_id": "internet::chunk-0020",
+      "page_id": "internet",
+      "section_id": "internet::introduction",
+      "text": "Introduction\n\nWil je op meerdere tv’s Ziggo kijken? Voor elke extra tv heb je één Next Mini nodig.\nDe Next Mini is ons kleine tv-kastje dat werkt via internet (dus geen coaxkabel nodig). Je sluit ‘m makkelijk aan achter je tv.\nNext Mini: bepaal wat,\nwaar én wanneer je kijkt. Je zoekt en vindt makkelijk met het eenvoudige menu. Praten met je Next Mini? Dat doe je met Voice Control. Bekijk beschikbare programma’s in 4K-kwaliteit en zie direct wat je wilt zien met je eigen kijkprofiel.\nGeen coax meer: een internetkabel (of wifi) is genoeg\nKlein maar fijn: de Next Mini past achter je tv\nIs in een paar minuten aangesloten\nDuurzaam, want energiezuinig en deels van hergebruikt plastic\nNext Mini ontvangt het tv-signaal via de internetverbinding, niet meer via de coaxkabel. Voor de beste beeldkwaliteit en minste kans op storingen verbind je de Next Mini met de internetkabel.\nStaat je modem wat verder weg en verbind je liever via wifi? Dan raden we je aan om onze wifi-versterkers te gebruiken.\nLeuk dat je voor Ziggo kiest! Je kunt je nieuwe internetabonnement afsluiten in de online shop, via onze adviseurs\nof\nóf in een van de\nbij je in de buurt.\nHeb je met spoed internet nodig? Kom dan naar een Vodafone & Ziggo winkel bij je in de buurt. Vaak kunnen we direct je abonnement in orde maken en krijg je het nieuwe wifi-modem direct mee. Liever online bestellen? Ook dat kan! Online kunnen we je binnen 3 werkdagen aansluiten.\nInstallatie is simpel, maar je kunt het ook door een specialist laten doen. Omdat je Wifi Garantie van ons krijgt, regelen we gratis een monteur als je er zelf niet uitkomt. Zonder extra kosten. Ben je een nieuwe klant, net verhuisd of heb je een nieuw Ziggo apparaat in huis? Tot 8 weken nadat je de apparaten hebt ontvangen, helpt een monteur je gratis om alles aan te sluiten.\nZiggo internet is eenvoudig zelf te installeren met dit\n. Binnen enkele stappen ben je al online en kun je genieten van je abonnement met snel en veilig internet. De meeste klanten doorlopen dit stappenplan binnen 30 minuten.\nLukt de installatie toch niet? Of heb je hulp nodig met andere Ziggo producten en diensten? Geen probleem! Onze installatiemonteur komt graag bij je langs. Een bezoek van de installatiemonteur is gratis tot 8 weken na ontvangst van je pakket of verhuizing.",
+      "order": 20
+    },
+    {
+      "chunk_id": "internet::chunk-0021",
+      "page_id": "internet",
+      "section_id": "internet::nog-een-vraag",
+      "text": "Nog een vraag?\n\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nStel direct je vraag aan een van onze adviseurs.\nBezoek een Ziggo winkel bij je in de buurt.\nBekijk de dichtstbijzijnde winkel in jouw buurt.",
+      "order": 21
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0001",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::wifi-garantie",
+      "text": "Wifi Garantie\n\nJe krijgt gratis wifi-versterkers\nvoor wifi in je hele huis, 24/7 hulp van onze Wifi Crew, en een gratis monteur als het nodig is.",
+      "order": 1
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0002",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::elk-jaar-beter",
+      "text": "Elk jaar beter\n\nElk jaar krijg je automatisch een snellere en stabielere verbinding. Zo ben én blijf je ook in de toekomst perfect verbonden.",
+      "order": 2
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0003",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::gratis-beveiliging",
+      "text": "Gratis beveiliging\n\nOntvang de beste internetbeveiliging van F-Secure voor 1 apparaat gratis bij Ziggo Internet. Meer weten?\n.",
+      "order": 3
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0004",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::maandelijks-aanpasbaar",
+      "text": "Maandelijks aanpasbaar\n\nVerandert je wifi-gebruik? Heb je meer of juist minder snelheid nodig? Pas je abonnement elke maand eenvoudig aan. Zo betaal je nooit teveel.",
+      "order": 4
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0005",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::installatie-zoals-jij-wil",
+      "text": "Installatie zoals jij wil\n\nJe krijgt alle hulp die je nodig hebt om wifi, tv en bellen aan te sluiten. Kijk online, in de Vodafone & Ziggo app, of krijg hulp van onze Installatie Crew.",
+      "order": 5
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0006",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::smartwifi",
+      "text": "SmartWifi\n\nMet onze SmartWifi software heb je de beste techniek in huis. De wifi wordt slim over je apparaten verdeeld, zodat je altijd een optimale verbinding hebt.",
+      "order": 6
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0007",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::stap-nu-over-en-krijg",
+      "text": "Stap nu over en krijg...\n\nGratis wifi-versterker\n24/7 hulp van onze Wifi Crew\nGratis monteur als het nodig is",
+      "order": 7
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0008",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::gratis-wifi-versterkers",
+      "text": "Gratis wifi-versterkers\n\nOveral in huis wifi die werkt? Wij regelen het! Met ons krachtige SmartWifi modem én slimme wifi-versterkers.",
+      "order": 8
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0009",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::24-7-hulp-van-de-wifi-crew",
+      "text": "24/7 hulp van de Wifi Crew\n\nWerkt je wifi toch niet zoals het hoort? Of mag het nog iets meer zijn? Onze Wifi Crew gaat geen wifi-uitdaging uit de weg.",
+      "order": 9
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0010",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::gratis-monteur-bij-installatie",
+      "text": "Gratis monteur bij installatie\n\nKom je er zelf niet uit? Geen zorgen! Een gratis monteur staat voor je klaar en helpt je graag.",
+      "order": 10
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0011",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 11
+    },
+    {
+      "chunk_id": "internet_wifi::chunk-0012",
+      "page_id": "internet_wifi",
+      "section_id": "internet_wifi::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nZiggo biedt verschillende pakketten waar je uit kunt kiezen met internet. Zo hebben we Alles-in-1 pakketten, met\n. Je kan ook kiezen voor een pakket zonder bellen, dat zijn de pakketten met\n. Wil je ook geen digitale tv? Dan hebben we ook pakketten met\n.\nBij Ziggo staan onze experts dag en nacht voor je klaar. De Wifi Crew is er voor ál je wifi-vragen. Online, telefonisch en zelfs 24/7 via de Messenger in de Vodafone & Ziggo app.\nOveral in huis mailen, appen, sharen en videobellen. Dat willen we allemaal. En allemaal tegelijk. Ook als we naar een andere kamer lopen of de trap opgaan. Isolatie, betonnen muren en apparatuur zorgen er soms voor dat je verbinding niet al te snel is. Met onze smart Wifiboosters is dat verleden tijd. De wifi bereikt je hele huis en schakelt automatisch met je mee.\nLees alles over\n.\nInstallatie is simpel, maar je kunt het ook door een specialist laten doen. Tot 8 weken na ontvangst van je pakket of verhuizing kun je een gratis installatiemonteur aanvragen. Meer informatie vind je op de pagina met de status van je bestelling. Log hiervoor in met je Mijn Ziggo account.\nOmdat je Wifi Garantie van ons krijgt, regelt de Installatie Crew kosteloos de hulp van een monteur. Zonder extra kosten. Bij het aansluiten van je wifi en bij eventuele storingen.",
+      "order": 12
+    },
+    {
+      "chunk_id": "wifigarantie::chunk-0001",
+      "page_id": "wifigarantie",
+      "section_id": "wifigarantie::stap-nu-over-en-krijg",
+      "text": "Stap nu over en krijg...\n\nGratis wifi-versterker\n24/7 hulp van onze Wifi Crew\nGratis monteur als het nodig is",
+      "order": 1
+    },
+    {
+      "chunk_id": "wifigarantie::chunk-0002",
+      "page_id": "wifigarantie",
+      "section_id": "wifigarantie::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 2
+    },
+    {
+      "chunk_id": "wifigarantie::chunk-0003",
+      "page_id": "wifigarantie",
+      "section_id": "wifigarantie::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nKies je voor Ziggo, dan krijg je Wifi Garantie voor een zorgeloze verbinding in huis. Met een pakket dat bij je past krijg je de wifi-versterkers die je nodig hebt. Hulp van onze Wifi Crew, tips over gebruik van kabels, gratis een monteur of nóg een gratis wifi-versterker. Zo heb je altijd stabiele wifi waarmee je overal in huis zorgeloos kunt streamen, thuiswerken en gamen.\nEn kunnen we je niet direct helpen? Dan krijg je gratis 100 GB mobiele data op je Vodafone abonnement zodat je altijd online blijft.\nOverstappen naar Ziggo kan vrijwel altijd. Je kan kiezen om zelf op te zeggen, of je kan gebruik maken van de Overstapservice.\nWanneer je zelf opzegt bij je huidige provider kunnen we je binnen 3 werkdagen aansluiten. Loopt je contract nog? Dan kan je zelfs aangeven dat je over 6 maanden wilt overstappen. Wanneer je gaat verhuizen, moet je altijd zelf je oude abonnement opzeggen. Dit is handig omdat je tijdelijk een abonnement op je oude én je nieuwe adres kan hebben en je daardoor geen dag zonder internet hoeft te zitten.\nJe kan ook gebruik maken van onze Overstapservice, dan is overstappen makkelijk en zonder gedoe. Wij zeggen je contract op en zorgen ervoor dat je zo snel mogelijk gebruik kunt maken van Ziggo. De Overstapservice kan je gebruiken* als de overstapdatum minimaal 1 maand en maximaal 3 maanden in de toekomst ligt. We hebben minimaal 1 maand nodig, omdat we te maken hebben met de wettelijke opzegtermijn van je huidige aanbieder. Ga je verhuizen? Zeg dan zelf je oude abonnement op.\nVoor een snelle, stabiele én veilige internetverbinding ben je bij Ziggo aan het juiste adres! Benieuwd naar de wifiprestaties bij je huidige provider? Doe de test en ontdek jouw situatie.\nDe Ziggo Wifi Garantie garandeert wifi die werkt, overal in je huis. De Wifi Crew staat voor je klaar om alles uit je wifi te halen en  helpt kosteloos. Maar er zijn wel een paar voorwaarden voor een goed resultaat:\nDe snelheid van je wifi meet je met één apparaat tegelijk.\nElk huis is anders. Wifi-signaal wordt vaak gehinderd door o.a. meubels, muren en sommige materialen zoals dik beton of HR++ glas.  Om goede wifi te krijgen zal het daarom soms nodig om je wifi-modem of wifi-versterker te verplaatsen of een internetkabel te gebruiken.\nBij Ziggo staan onze experts dag en nacht voor je klaar. De Wifi Crew is er voor ál je wifi-vragen. Online, telefonisch en zelfs 24/7 via de Messenger in de Vodafone & Ziggo app.\nInstallatie is simpel, maar je kunt het ook door een specialist laten doen. Tot 8 weken na ontvangst van je pakket of verhuizing kun je een gratis monteur aanvragen. Meer informatie vind je op de pagina met de status van je bestelling. Log hiervoor in met je\naccount.\nOmdat je Wifi Garantie van ons krijgt, regelen we gratis een monteur. Zonder extra kosten. Bij het aansluiten van je wifi én bij een storing.\nStabiele wifi op zolder, in de garage en in je thuiskantoor? Wij regelen het! Met het krachtige SmartWifi modem en slimme wifi-versterkers ben je zorgeloos online in je hele huis. Kies het pakket dat past bij jouw situatie en krijg de wifi-verstekers die je nodig hebt.\nWerkt je wifi daarna nog steeds niet op zolder? Omdat je Wifi Garantie hebt, staat onze Wifi Crew klaar voor hulp. Je krijgt een gratis wifi-versterker en als het nodig is ook een gratis monteur.",
+      "order": 3
+    },
+    {
+      "chunk_id": "wifigarantie::chunk-0004",
+      "page_id": "wifigarantie",
+      "section_id": "wifigarantie::je-overstap-is-zo-geregeld",
+      "text": "Je overstap is zo geregeld\n\nStap over naar Ziggo en geniet\nvan wifi en tv bij je thuis. Makkelijk en snel, zonder gedoe.",
+      "order": 4
+    },
+    {
+      "chunk_id": "wifigarantie::chunk-0005",
+      "page_id": "wifigarantie",
+      "section_id": "wifigarantie::weten-wat-wifi-garantie-voor-jou-kan-betekenen-krijg-gratis-",
+      "text": "Weten wat Wifi Garantie voor jou kan betekenen? Krijg gratis en vrijblijvend advies van onze experts.\n\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00\nStel direct je vraag aan een van onze adviseurs.\nBezoek een Ziggo winkel bij je in de buurt.\nBekijk de dichtstbijzijnde winkel in jouw buurt.",
+      "order": 5
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0001",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::de-beste-frequentie",
+      "text": "De beste frequentie\n\nHet modem schakelt automatisch naar de beste frequentie voor het beste wifi-signaal.",
+      "order": 1
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0002",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::verdeling-naar-gebruik",
+      "text": "Verdeling naar gebruik\n\nDe wiﬁ wordt slim onder je apparaten verdeeld. Ieder apparaat in huis krijgt wat het nodig heeft.",
+      "order": 2
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0003",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::het-snelste-wifi-punt",
+      "text": "Het snelste wifi-punt\n\nHet modem schakelt automatisch naar het snelste wifi-punt voor de beste verbinding.",
+      "order": 3
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0004",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::boost-je-bereik-met-wifi-versterkers",
+      "text": "Boost je bereik met wifi-versterkers\n\nSoms is zelfs ons krachtige modem niet genoeg om overal in huis te genieten van een sterk wifi-signaal. Isolatie, betonnen muren en andere apparatuur kunnen je verbinding vertragen. In de meeste gevallen los je dat eenvoudig op met onze wifi-versterkers.\nToch niet overal een goede verbinding? Dankzij onze Wifi Garantie krijg je tot wel 3 gratis wifi-versterkers.",
+      "order": 4
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0005",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::test-je-snelheid",
+      "text": "Test je snelheid\n\nDoe de Ziggo Speedtest en ontdek de internetsnelheid van jouw huidige wifi-netwerk. Kan het beter? We helpen je graag het maximale uit je verbinding te halen.",
+      "order": 5
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0006",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::wifi-garantie",
+      "text": "Wifi Garantie\n\nJe ontvangt gratis wifi-versterkers\nvoor wifi in je hele huis, 24/7 hulp van onze Wifi Crew, én een gratis monteur als het nodig is.",
+      "order": 6
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0007",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::elk-jaar-beter",
+      "text": "Elk jaar beter\n\nJe krijgt jaarlijks automatisch een stabielere en snellere verbinding, zodat je nu en in de toekomst perfect verbonden bent.",
+      "order": 7
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0008",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::gratis-beveiliging",
+      "text": "Gratis beveiliging\n\nMet\nheb je de beste internetbeveiliging van F-Secure. Bestel Ziggo Internet en ontvang gratis beveiliging voor 1 apparaat.",
+      "order": 8
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0009",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::maandelijks-aanpasbaar",
+      "text": "Maandelijks aanpasbaar\n\nVerandert je wifi-gebruik en wil je meer óf juist minder snelheid? Je past je abonnement makkelijk aan wanneer jij dat wil.",
+      "order": 9
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0010",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::gratis-hulp-bij-storing",
+      "text": "Gratis hulp bij storing\n\nHeb je een storing? Dan krijg je gratis hulp om het op te lossen. Je betaalt geen voorrijkosten, geen werktijd, en geen materiaal.",
+      "order": 10
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0011",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::installatie-zoals-jij-wil",
+      "text": "Installatie zoals jij wil\n\nom wifi, tv en bellen aan te sluiten. Kijk online, in de Vodafone & Ziggo app, of krijg hulp van onze Installatie Crew.",
+      "order": 11
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0012",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 12
+    },
+    {
+      "chunk_id": "internet_smartwifi::chunk-0013",
+      "page_id": "internet_smartwifi",
+      "section_id": "internet_smartwifi::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nIn een groot deel van de Nederlandse huizen is ons SmartWifi modem meer dan voldoende voor een perfect wifi-signaal in elke hoek van de woning. Merk je dat de wifi in de buurt van je modem prima is, maar wat verder in huis niet meer? Dat kan, zeker als je huis groter is dan gemiddeld en als er betonnen of betegelde muren of vloeren zijn. Hier geven we je\n.\nPlaats je wifi-punt het liefst hoog en in het zicht. En, misschien een gekke tip, apparaten die op een vaste plek staan en veel van je wifi vragen (zoals je mediabox, smart-tv, pc en wifi-versterkers) sluit je - als het kan - liever aan met een internetkabel.\nDat is voor iedereen anders. Ongeveer de helft van de consumenten geeft de voorkeur aan eigen bezit. Dat is na verloop van tijd meestal voordeliger. De andere helft leent onze apparatuur liever voor een laag bedrag per maand. Omdat we zoveel mogelijk van onze klanten willen helpen aan perfecte wifi bieden we beide mogelijkheden aan.\nOnze SmartWifi pods leen of koop je. Vanaf 1,25 euro per maand heb je ze al in huis. Breid je netwerk met maximaal 5 pods per bestelling uit.\nNee, SmartWifi werkt gewoon via je modem. Voor het beste bereik in je hele woning krijg je tot drie gratis wifi-versterkers van ons.\nDe SmartWifi app is gratis voor alle klanten van Ziggo.\nIn de Vodafone & Ziggo app kun je terecht voor alle service die je van Vodafone en Ziggo mag verwachten. Voor sommige dingen verwijst de app je door naar bijvoorbeeld de SmartWifi app. Daarin vind je specifiek oplossingen voor je wifi.",
+      "order": 13
+    },
+    {
+      "chunk_id": "installatiehulp::chunk-0001",
+      "page_id": "installatiehulp",
+      "section_id": "installatiehulp::aansluiten-is-zo-gebeurd",
+      "text": "Aansluiten is zo gebeurd\n\nWat de kortste weg is naar genieten van tv, internet en bellen? Ons doe-het-zelf-installatiepakket. Met een korte handleiding heb je onze apparaten zo aan de praat.",
+      "order": 1
+    },
+    {
+      "chunk_id": "installatiehulp::chunk-0002",
+      "page_id": "installatiehulp",
+      "section_id": "installatiehulp::duidelijke-voorbeelden",
+      "text": "Duidelijke voorbeelden\n\nWil je graag een paar duidelijke voorbeelden zodat je zeker weet dat je het goed doet? Daar hebben we handige online stappenplannen voor, met heldere afbeeldingen. Ook op je mobiel in de Vodafone & Ziggo app.",
+      "order": 2
+    },
+    {
+      "chunk_id": "installatiehulp::chunk-0003",
+      "page_id": "installatiehulp",
+      "section_id": "installatiehulp::we-zitten-voor-je-klaar",
+      "text": "We zitten voor je klaar\n\nKom je er niet uit en wil je hulp? Stel dan je vraag op onze klantenservice-pagina. Of bel ons even en we kijken met je mee.",
+      "order": 3
+    },
+    {
+      "chunk_id": "installatiehulp::chunk-0004",
+      "page_id": "installatiehulp",
+      "section_id": "installatiehulp::samen-zorgen-we-dat-alles-werkt",
+      "text": "Samen zorgen we dat alles werkt\n\nEen monteur komt op afspraak gratis naar je toe en sluit de Ziggo apparaten voor je aan. Hij test de wifi in 3 zelfgekozen ruimtes in je huis. En zorgt dat alles werkt zoals het hoort.",
+      "order": 4
+    },
+    {
+      "chunk_id": "installatiehulp::chunk-0005",
+      "page_id": "installatiehulp",
+      "section_id": "installatiehulp::wifi-garantie",
+      "text": "Wifi Garantie\n\nWe zorgen voor wifi die werkt. Met slimme wifi-versterkers, een gratis monteur en 24/7 hulp van de Wifi Crew heb je altijd wifi die werkt.",
+      "order": 5
+    },
+    {
+      "chunk_id": "installatiehulp::chunk-0006",
+      "page_id": "installatiehulp",
+      "section_id": "installatiehulp::kijk-overal-tv-met-ziggo-go",
+      "text": "Kijk overal tv met Ziggo GO\n\nOveral je favoriete programma's, films, series en live sport kijken. In Nederland én in de EU.",
+      "order": 6
+    },
+    {
+      "chunk_id": "installatiehulp::chunk-0007",
+      "page_id": "installatiehulp",
+      "section_id": "installatiehulp::de-vodafone-ziggo-app",
+      "text": "De Vodafone & Ziggo app\n\nJe pakket aanpassen, hulp bij het aansluiten, facturen, een ServiceScan en nog veel meer.",
+      "order": 7
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0001",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::introduction",
+      "text": "Introduction\n\nBen je Ziggo-klant?",
+      "order": 1
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0002",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::safe-online-met-driedubbele-beveiliging",
+      "text": "Safe Online met driedubbele beveiliging\n\nMet een gerust gevoel en maximale veiligheid bankieren, shoppen en scrollen. Dat is wat Ziggo voor je regelt. Want bij elk internetabonnement krijg je automatisch drie krachtige beveiligingslagen voor je netwerk, modem en apparaten. Geen gedoe, geen extra kosten, geen zorgen.",
+      "order": 2
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0003",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::safe-online-netwerk",
+      "text": "Safe Online Netwerk\n\nSafe Online Netwerk beschermt al onze internetgebruikers automatisch tegen grote cyberaanvallen. Als een dijk die water tegenhoudt, houdt het de dreiging tegen voordat het jou bereikt. Je kunt gerust online omdat je veilig verbonden bent.",
+      "order": 3
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0004",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::safe-online-modem",
+      "text": "Safe Online Modem\n\nSafe Online Modem geeft je wifi meer veiligheid op al je apparaten thuis. Met één druk op de knop in de Vodafone & Ziggo app. Alsof je wifi een bodyguard heeft gekregen. Kun jij gemakkelijk met een zeker gevoel online.",
+      "order": 4
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0005",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::introduction",
+      "text": "Introduction\n\nMet\nvoeg je een extra laag beveiliging toe op al je apparaten thuis.\nop de knop in de\n, zodat phishing, malware en hackers worden tegengehouden. Zelfs je op slimme apparaten! Het is alsof je wifi én je bekabelde apparaten ineens een\nhebben. Precies wat je nodig hebt om gemakkelijk met een zeker gevoel online te gaan.\nis inbegrepen in al onze nieuwe internetpakketten. Nadat je het hebt geactiveerd zijn al je\nbeveiligd als ze verbonden zijn met je\n.\nMeer weten?",
+      "order": 5
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0006",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::safe-online-extra",
+      "text": "Safe Online Extra\n\nSafe Online Extra is beveiligingssoftware die je belangrijkste apparaten en identiteit beschermt, thuis en onderweg. Met passwordmanager en ID-control ben je altijd beschermd. Dreiging binnen? Safe Online Extra blokkeert en ruimt op.",
+      "order": 6
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0007",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::activeer-safe-online-modem",
+      "text": "Activeer Safe Online Modem\n\nDownload of open de Vodafone & Ziggo app\nGa naar\nKlik op\nGa naar\nen klik op\nSelecteer",
+      "order": 7
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0008",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::veilig-browsen",
+      "text": "Veilig browsen\n\nBeschermt je tegen websites die gevaarlijke inhoud verspreiden of je persoonlijke gegevens verzamelen.",
+      "order": 8
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0009",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::veilig-bankieren",
+      "text": "Veilig bankieren\n\nVeilig internetbankieren en online betalen op elk apparaat waar je ook bent.",
+      "order": 9
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0010",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::wachtwoordkluis",
+      "text": "Wachtwoordkluis\n\nToegang tot je eigen wachtwoordkluis om alle gegevens op te slaan en veilige wachtwoorden te maken.",
+      "order": 10
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0011",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::antivirus",
+      "text": "Antivirus\n\nBeschermt al je apparaten tegen virussen, malware, phishing en ransomware.",
+      "order": 11
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0012",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::ouderlijk-toezicht",
+      "text": "Ouderlijk toezicht\n\nZelf instellen welke ongewenste content onzichtbaar is voor je kinderen. Zoals geweld, gokken of social media.",
+      "order": 12
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0013",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::identiteitsbescherming",
+      "text": "Identiteitsbescherming\n\n24/7 online monitoring van je persoonlijke gegevens en ontvang een waarschuwing zodra je gegevens opduiken in een datalek.",
+      "order": 13
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0014",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::introduction",
+      "text": "Introduction\n\nInternetpakketten na 8 juni 2026 afgesloten.\nWil je meer Safe Online Extra-licenties? Ga naar\n.\n* Safe Online Extra 20 is alleen voor klanten met een internetpakket afgesloten\n.",
+      "order": 14
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0015",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::online-masters",
+      "text": "Online Masters\n\nEen veilige en positieve omgeving voor iedereen: daar zet Vodafone Foundation en Ziggo zich elke dag voor in. Met het gratis lesprogramma Online Masters leren kinderen en jongeren hoe ze hun privacy beschermen, nepnieuws herkennen, slim omgaan met social media en nieuwe technologie zoals AI begrijpen.",
+      "order": 15
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0016",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::welkom-online",
+      "text": "Welkom Online\n\nTegelijkertijd helpen we met Welkom Online ook ouderen op weg in de digitale wereld. We organiseren trainingen in buurthuizen, bibliotheken, online lessen en persoonlijke hulp in onze winkels. Zo zorgen we dat iedereen, jong én oud, veilig kan meedoen in de digitale samenleving.",
+      "order": 16
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0017",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::introduction",
+      "text": "Introduction\n\nControleer of een website begint met ‘https://’ en of er een slotje in de adresbalk staat.",
+      "order": 17
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0018",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::introduction",
+      "text": "Introduction\n\nDeel alleen data met betrouwbare sites.",
+      "order": 18
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0019",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::introduction",
+      "text": "Introduction\n\nGebruik voor elke website een ander wachtwoord met de handige en veilige wachtwoordhulp van Safe Online Extra.",
+      "order": 19
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0020",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::introduction",
+      "text": "Introduction\n\nKlik niet zomaar op links in e-mails of berichten en controleer altijd de afzender.",
+      "order": 20
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0021",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::voor-de-techneuten-onder-ons",
+      "text": "Voor de techneuten onder ons\n\n: beschermt al je apparaten thuis tegen grote cyberaanvallen, waarschuwt op DNS-niveau voor websites met malware en blokkeert riskante protocollen zoals SMB/CIFS en RPC.\n: bescherming voor al je apparaten thuis. Detecteert en blokkeert verdachte websites, malware en andere cyberdreigingen zoals hackpogingen, DDoS-aanvallen en malware, voordat ze je netwerk en apparaat thuis bereiken.\n: bescherming voor je apparaat ongeacht hoe of waar je apparaat verbonden is, ook onderweg. Detecteert en blokkeert malware, virussen en andere cyberdreigingen. Als ze je apparaat tóch hebben bereikt, ruimt het ze ook op. En het beschermt je door te waarschuwen als je identiteit ergens is gelekt. Zodat je direct actie kan ondernemen.",
+      "order": 21
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0022",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 22
+    },
+    {
+      "chunk_id": "internet_internetbeveiliging::chunk-0023",
+      "page_id": "internet_internetbeveiliging",
+      "section_id": "internet_internetbeveiliging::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nSafe Online Extra-internetbeveiliging beschermt je apparaten, persoonlijke gegevens en je netwerk tegen virussen, hackers en andere online gevaren. Het helpt om veilig te internetten en cyberaanvallen te voorkomen.\nMet Safe Online Modem voeg je een extra beveiligingslaag toe voor alle apparaten in huis. Je zet deze beveiliging eenvoudig aan via de Vodafone & Ziggo app. Phishing, malware en hackers worden zo tegengehouden, ook op apparaten zoals je slimme deurbel of thermostaat waar geen antivirus-software op geinstalleerd kan worden. Met Safe Online Modem voeg je een extra beveiligingslaag toe voor alle apparaten in huis. Je zet deze beveiliging eenvoudig aan via de Vodafone & Ziggo app. Phishing, malware en hackers worden zo tegengehouden, ook op slimme apparaten.\nMet Safe Online Extra voeg je een extra beveiligingslaag toe voor je belangrijkste apparaten zoals je computer, laptop, tablet of telefoon. Je apparaten zijn hiermee overal beschermd, ook als je niet thuis bent. Safe Online Extra herkent en blokkeert virussen, malware en andere cyberdreigingen. Als er toch iets op je apparaat komt, ruimt de software het voor je op. Ook krijg je direct een waarschuwing als je identiteit ergens online opduikt, zodat je snel actie kunt ondernemen. Met de ingebouwde wachtwoordmanager maak en gebruik je eenvoudig sterke wachtwoorden. Zo kun je zorgeloos bankieren, shoppen en internetten, waar je ook bent.\nVoor Safe Online Netwerk hoef je niets te doen, deze bescherming staat standaard aan. Voor Safe Online Modem zet je de beveiliging eenvoudig aan met een knop in de\n. Je hoeft niks te installeren. Voor Safe Online Extra installeer je de Safe Online Extra-app op je computer, laptop of telefoon. Direct na activatie van je modem en/of Safe Online Extra op je apparaat geniet je direct van een optimale beveiliging.\nBij ieder internetpakket hoort een standaard aantal gratis Safe Online Extra-licenties. Bij het laagste internetpakket krijg je 1 Safe Online Extra-licentie, oplopend van 5, 10 tot wel 25 licenties bij het hoogste internetpakket. Ga naar\nom je internetpakket te wijzigen of sluit een\naf.\nJa, Safe Online Extra helpt alle apparaten in huis beschermen, inclusief die van kinderen. Met Safe Online Extra kun je ook extra instellingen activeren, zoals ouderlijk toezicht, zodat kinderen nog veiliger online zijn.\nOm gebruik te maken van Ziggo Safe Online Extra moet je computer aan onderstaande systeemeisen voldoen.\n10, 8.1, 7 (service pack 1)\nVentura of later\nChrome, Edge, Firefox, Safari\nAndroid 10 of later. iOS 16 of later.\nDe app is beschikbaar in het Engels of in het Nederlands.\nMet één licentie Safe Online Extra kun je de wachtwoordkluis op één apparaat installeren en gebruiken. Wil je de wachtwoordkluis op meerdere apparaten gebruiken? Ga dan voor een hoger internetpakket of een los Safe Online Extra-pakket voor méér apparaten. Het maakt niet uit welk besturingssysteem je apparaat heeft.",
+      "order": 23
+    },
+    {
+      "chunk_id": "speedtest::chunk-0001",
+      "page_id": "speedtest",
+      "section_id": "speedtest::introduction",
+      "text": "Introduction\n\nWist je dat een hoge snelheid niet het enige ingrediënt is voor een goede internetverbinding? Stabiliteit is net zo belangrijk om soepel te streamen, gamen en videobellen.\nBen je tevreden met de internetsnelheid van je huidige provider?",
+      "order": 1
+    },
+    {
+      "chunk_id": "speedtest::chunk-0002",
+      "page_id": "speedtest",
+      "section_id": "speedtest::downloadsnelheid",
+      "text": "Downloadsnelheid\n\nDe downloadsnelheid bepaalt hoe snel je bestanden, video's of webpagina's kunt binnenhalen. Hoe hoger de snelheid, hoe sneller je kunt streamen, downloaden en browsen. Dit is vooral belangrijk als je veel video's bekijkt op Netflix of YouTube, of als je regelmatig grote bestanden downloadt.",
+      "order": 2
+    },
+    {
+      "chunk_id": "speedtest::chunk-0003",
+      "page_id": "speedtest",
+      "section_id": "speedtest::uploadsnelheid",
+      "text": "Uploadsnelheid\n\nDe uploadsnelheid geeft aan hoe snel je bestanden, foto’s of video's kunt versturen. Dit is belangrijk als je vaak grote bestanden deelt, in de cloud werkt of videogesprekken voert via bijvoorbeeld Zoom of Teams. Een hoge uploadsnelheid zorgt voor een soepelere verbinding en betere beeldkwaliteit.",
+      "order": 3
+    },
+    {
+      "chunk_id": "speedtest::chunk-0004",
+      "page_id": "speedtest",
+      "section_id": "speedtest::latency-ping",
+      "text": "Latency (ping)\n\nLatency, ook wel ping genoemd, is de tijd die een datapakketje nodig heeft om van jouw apparaat naar de server en terug te reizen. Een lage latency is vooral belangrijk bij online gamen, videobellen en live streaming, omdat het voor minder vertraging zorgt. Hoe lager de ping, hoe sneller je acties worden geregistreerd.",
+      "order": 4
+    },
+    {
+      "chunk_id": "speedtest::chunk-0005",
+      "page_id": "speedtest",
+      "section_id": "speedtest::jitter",
+      "text": "Jitter\n\nJitter meet de variatie in latency. Een constante verbinding zonder veel schommelingen is ideaal, vooral voor online meetings, gamen en bellen via het internet. Veel jitter kan zorgen voor haperend geluid of vertraagde beelden. Een lage latency en weinig jitter zijn dus cruciaal voor de beste internetprestaties.",
+      "order": 5
+    },
+    {
+      "chunk_id": "speedtest::chunk-0006",
+      "page_id": "speedtest",
+      "section_id": "speedtest::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 6
+    },
+    {
+      "chunk_id": "speedtest::chunk-0007",
+      "page_id": "speedtest",
+      "section_id": "speedtest::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nBij Ziggo krijg je internet waar je op kunt rekenen. Stabiel, snel en veilig via ons toekomstvaste glasvezel-kabel internet. En overal in huis perfecte wifi door SmartWifi. Toch een probleem met wifi? Onze Wifi Crew staat altijd voor je klaar.\nDe downloadsnelheid tot 2 gigabit per seconde komt neer op het twintigvoudige van de gemiddelde 100 Mbit/s aansluiting in Nederland. Hiermee kunnen gezinnen op meerdere apparaten tegelijk 4K-films en tv-programma's bekijken, soepel\nen razendsnel downloaden. Zij halen een film van 5 GB in 20 seconden binnen, terwijl dat meer dan 6 minuten duurt met een huidig gemiddelde internetverbinding.\nJe kan kiezen uit een downloadsnelheid van 200, 500, 1 Gbit/s (1000 Mbit/s) of  2 Gbit/s (2000 Mbit/s). We bieden internet aan in verschillende pakketten, zo hebben we\nmet Internet, TV & Bellen. Je kan ook kiezen voor een pakket zonder bellen:\n. Daarnaast hebben we ook een pakket met alleen\n.\nDownloadsnelheid is de snelheid waarmee je dingen kunt binnenhalen vanaf internet naar je computer. Denk aan je e-mails, of een filmpje dat iemand naar je heeft gestuurd.\nUploadsnelheid is de snelheid waarmee je dingen kunt versturen via internet. Dus foto's van dat feestje dat je naar vrienden stuurt, of een presentatie voor je werk die je thuis hebt gemaakt.\nDe download- en uploadsnelheid wordt aangeduid in Mbit/s, voluit megabit per seconde.\nCheck eerst wat je huidige contract- en opzegtermijn is. Dat is handig, want zo voorkom je dubbele kosten. Tijdens je online bestelling kun je kiezen voor de\n. Wij zeggen dan voor je op bij je oude provider en regelen dat je niet zonder televisie, internet of bellen komt te zitten. Je kunt de Overstapservice gebruiken als de overstapdatum minimaal 30 dagen en maximaal 90 dagen in de toekomst ligt.",
+      "order": 7
+    },
+    {
+      "chunk_id": "speedtest::chunk-0008",
+      "page_id": "speedtest",
+      "section_id": "speedtest::advies-nodig",
+      "text": "Advies nodig?\n\nOntvang je liever persoonlijk advies over je internetverbinding? Onze experts helpen je graag verder!\nGebruikelijke (mobiele) belkosten\nWe zijn elke dag van 8.00 tot 20.00 uur bereikbaar.",
+      "order": 8
+    },
+    {
+      "chunk_id": "televisie::chunk-0001",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nHeb je al televisie van Ziggo?",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie::chunk-0002",
+      "page_id": "televisie",
+      "section_id": "televisie::70-digitale-zenders",
+      "text": "70+ digitale zenders\n\nBekijk het zenderoverzicht",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie::chunk-0003",
+      "page_id": "televisie",
+      "section_id": "televisie::ziggo-sport-espn",
+      "text": "Ziggo Sport & ESPN\n\nAlles over sport bij Ziggo",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie::chunk-0004",
+      "page_id": "televisie",
+      "section_id": "televisie::ziggo-go",
+      "text": "Ziggo GO\n\nKijk online tv",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie::chunk-0005",
+      "page_id": "televisie",
+      "section_id": "televisie::priority",
+      "text": "Priority\n\nOntdek alle voordelen",
+      "order": 5
+    },
+    {
+      "chunk_id": "televisie::chunk-0006",
+      "page_id": "televisie",
+      "section_id": "televisie::extra-zenders",
+      "text": "Extra zenders\n\nBreid je kijkervaring uit",
+      "order": 6
+    },
+    {
+      "chunk_id": "televisie::chunk-0007",
+      "page_id": "televisie",
+      "section_id": "televisie::streamingdiensten",
+      "text": "Streamingdiensten\n\nVan Netflix tot Videoland",
+      "order": 7
+    },
+    {
+      "chunk_id": "televisie::chunk-0008",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nZoek met Voice Control gemakkelijk door je tv-zenders en streamingdiensten. Geef een zoekopdracht en roep ‘pauze’ of stel een vraag zoals “Heb je een Britse misdaadserie?”. Laat je inspireren of zoek slim met hulp van AI en vind razendsnel wat je graag kijkt. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 8
+    },
+    {
+      "chunk_id": "televisie::chunk-0009",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nMet je eigen startscherm en persoonlijke kijktips is TV & Streaming speciaal op je afgestemd. Vanaf je eigen startscherm kijk je meteen verder waar je gebleven was. Én sla je favorieten op om ze later te kijken. Meerdere kijkers in huis? Dan maakt iedereen gewoon een eigen kijkprofiel aan. Zet de popcorn maar klaar.",
+      "order": 9
+    },
+    {
+      "chunk_id": "televisie::chunk-0010",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nJe serie pauzeren omdat de deurbel gaat? Het journaal terugkijken omdat je op een verjaardag was? Of heb je keuzestress en wil je meerdere programma’s tegelijk opnemen? Mis niets en kijk waar en wanneer je maar wilt. Ook met Ziggo GO. Zo geniet je thuis en overal in de EU van je favoriete programma’s, films, series en sport.",
+      "order": 10
+    },
+    {
+      "chunk_id": "televisie::chunk-0011",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nZoek in één keer door je tv-zenders en streamingdiensten en vind razendsnel wat je graag kijkt of laat je inspireren. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 11
+    },
+    {
+      "chunk_id": "televisie::chunk-0012",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nZoek met Voice Control gemakkelijk door je tv-zenders en streamingdiensten. Geef een zoekopdracht en roep ‘pauze’ of stel een vraag zoals “Heb je een Britse misdaadserie?”. Laat je inspireren of zoek slim met hulp van AI en vind razendsnel wat je graag kijkt. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 12
+    },
+    {
+      "chunk_id": "televisie::chunk-0013",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nDe een houdt van comedy. De ander kijkt liever ziekenhuisdrama’s. Maak tv-kijken nóg persoonlijker met je eigen kijkprofiel. Zo zie je direct wat je wilt zien, maak je je eigen kijklijst en krijg je aanbevelingen op basis van je kijkgedrag.",
+      "order": 13
+    },
+    {
+      "chunk_id": "televisie::chunk-0014",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nJe serie pauzeren omdat de deurbel gaat? Dat kan. Neem rustig je pakketje aan en kijk verder door je tv van pauze af te halen. Zo mis je niets.",
+      "order": 14
+    },
+    {
+      "chunk_id": "televisie::chunk-0015",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nHet journaal terugkijken omdat je op een verjaardag was? Kijk op elk moment je programma's terug en mis geen moment. Wij nemen het programma alvast voor je op, zodat je die tot 7 dagen na de uitzending gratis kunt terugkijken. Heb je TV Start? Dan kun je tot 2 dagen terugkijken.",
+      "order": 15
+    },
+    {
+      "chunk_id": "televisie::chunk-0016",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\nSnel avondeten om je favoriete programma niet te hoeven missen? Niet nodig, want met tot maar liefst 400 uur opnametijd mis je niks meer. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand met Ziggo GO. Wil je eenmalig iets opnemen of een hele serie? Oók dat bepaal jij.",
+      "order": 16
+    },
+    {
+      "chunk_id": "televisie::chunk-0017",
+      "page_id": "televisie",
+      "section_id": "televisie::ook-met-de-next",
+      "text": "Ook met de Next\n\nDe Mediabox Next kan hetzelfde als de Next Mini. Heb je een van deze twee mediaboxen nog niet?",
+      "order": 17
+    },
+    {
+      "chunk_id": "televisie::chunk-0018",
+      "page_id": "televisie",
+      "section_id": "televisie::voor-je-extra-tv",
+      "text": "Voor je extra tv\n\nHuur een Extra Next Mini voor je 2e televisie voor maar 4,- per maand. En kijk wat je maar wilt, in dezelfde kwaliteit.",
+      "order": 18
+    },
+    {
+      "chunk_id": "televisie::chunk-0019",
+      "page_id": "televisie",
+      "section_id": "televisie::bekijk-en-beheer-je-pakket",
+      "text": "Bekijk en beheer je pakket\n\nWil je je pakket bekijken en aanpassen? Dat doe je gemakkelijk in Mijn Ziggo.\nTV",
+      "order": 19
+    },
+    {
+      "chunk_id": "televisie::chunk-0020",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\np.m.\nTV",
+      "order": 20
+    },
+    {
+      "chunk_id": "televisie::chunk-0021",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\np.m.\nTV",
+      "order": 21
+    },
+    {
+      "chunk_id": "televisie::chunk-0022",
+      "page_id": "televisie",
+      "section_id": "televisie::introduction",
+      "text": "Introduction\n\np.m.\nBovengenoemde tv-pakketten zijn alleen af te nemen in combinatie met internet van Ziggo.",
+      "order": 22
+    },
+    {
+      "chunk_id": "televisie::chunk-0023",
+      "page_id": "televisie",
+      "section_id": "televisie::tv-streaming",
+      "text": "TV & Streaming\n\nOntdek de beste films, series, sport en tv-programma’s voor jou.",
+      "order": 23
+    },
+    {
+      "chunk_id": "televisie::chunk-0024",
+      "page_id": "televisie",
+      "section_id": "televisie::ziggo-sport",
+      "text": "Ziggo Sport\n\nOntdek de beste wedstrijden voor jou. Gratis op kanaal 14.",
+      "order": 24
+    },
+    {
+      "chunk_id": "televisie::chunk-0025",
+      "page_id": "televisie",
+      "section_id": "televisie::espn",
+      "text": "ESPN\n\nMeer live voetbal. Standaard inbegrepen bij Ziggo.",
+      "order": 25
+    },
+    {
+      "chunk_id": "televisie::chunk-0026",
+      "page_id": "televisie",
+      "section_id": "televisie::priority",
+      "text": "Priority\n\nAltijd iets speciaals voor jou: ticketdeals, korting en meer.",
+      "order": 26
+    },
+    {
+      "chunk_id": "televisie::chunk-0027",
+      "page_id": "televisie",
+      "section_id": "televisie::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 27
+    },
+    {
+      "chunk_id": "televisie::chunk-0028",
+      "page_id": "televisie",
+      "section_id": "televisie::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nJe kunt kiezen tussen TV Start, TV Complete, TV Max of Kabel TV. Bekijk en vergelijk de pakketten\n. Wil je je pakket aanpassen? Dat kan in\n.\nDat hangt af van je abonnement. Alle tv-pakketten worden standaard geleverd met\n, ESPN 1, 70+ digitale zenders waarvan 66 tv-zenders in HD-kwaliteit.\nBij TV Complete krijg je ook Movies & Series. Daarmee kun je onbeperkt honderden films en series on demand kijken, zonder extra kosten. Kies je voor TV Max? Dan krijg je\nerbij met iconische entertainment van wereldberoemde studio’s. En wil je meer dan 40 extra zenders?\nzit inbegrepen bij TV Max of bestel je extra bij je abonnement.\nOp zoek naar je favoriete zenders? Daarvoor hebben we ons\nsamengesteld.\nWat je ook wilt installeren, met\nheb je je installatie in een handomdraai geregeld.\nGaat je televisie wel aan, maar heb je geen beeld? Of is de beeldkwaliteit niet zoals je wilt? Met deze\nheb je de boel zo weer aan de praat.\nJa, dat kan. Naast\nen\nkan je ook kiezen voor een pakket zonder Internet. Kies dan voor\nof\n.\nMet Ziggo GO kijk je tv op je smartphone, tablet of laptop. Je kijkt waar je maar wilt, in Nederland en in de EU. En de Next Mini en Mediabox Next zijn met Ziggo GO verbonden. Zo pauzeer je die spannende serie op je tv en kijk je verder op een ander scherm. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand. Lees hier hoe je alle Ziggo GO fucties gebruikt.\nOm Ziggo GO te gebruiken heb je een account voor Mijn Ziggo nodig. Heb je nog geen account? Dan kun je er eenvoudig één\n. Zodra je bent ingelogd kijk je alle tv-zenders uit je abonnement.\nAlle klanten met een Next Mini of Mediabox Next kunnen de afstandsbediening met Voice Control gebruiken. Als nieuwe klant krijg je de afstandsbediening met Voice Control bij alle pakketten met digitale televisie.\nWe vinden het belangrijk dat je de beste kwaliteit televisie krijgt en daarvoor heb je goed internet nodig. De Next Mini of Mediabox Next krijg je daarom alleen in combinatie met Internet van Ziggo, zodat we je de beste service kunnen bieden.\nDaarnaast hebben we met contentpartijen afgesproken dat we hun programma's, films en series alleen aanbieden via ons eigen netwerk. Ook daarom heb je dus Internet van Ziggo nodig.",
+      "order": 28
+    },
+    {
+      "chunk_id": "televisie_zenderoverzicht::chunk-0001",
+      "page_id": "televisie_zenderoverzicht",
+      "section_id": "televisie_zenderoverzicht::deze-zenders-kijk-je-met-tv-van-ziggo",
+      "text": "Deze zenders kijk je met TV van Ziggo\n\nWij zijn het netwerk dat werkt voor jou. En we willen je altijd blij maken met verrassende zenders. Daarom kan ons aanbod af en toe veranderen. Soms voegen we zenders toe en soms verdwijnen er zenders. Omdat ze ophouden te bestaan bijvoorbeeld. Hieronder vind je het zenderaanbod zoals het op dit moment geldt. Gebruik de filters om te zien welke zenders op dit moment in jouw tv-pakket zitten.\nkun je los aan elk tv-abonnement toevoegen en zijn maandelijks opzegbaar.",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_zenderoverzicht::chunk-0002",
+      "page_id": "televisie_zenderoverzicht",
+      "section_id": "televisie_zenderoverzicht::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nNee, er zijn kleine verschillen per gemeente mogelijk. Zo verschillen de lokale en\nper gemeente.\nAlle zenderwijzigingen vind je op het\n. Het meest recente zenderoverzicht staat altijd op deze pagina zelf.\nVoor het printen van het digitale zenderoverzicht gebruik je de print-knop rechts boven de tabel. Daarmee open je een PDF die je eenvoudig kunt afdrukken. Voor de andere overzichten is er niet zo'n optie.\nDe Ziggo GO app is beschikbaar voor iOS en Android. Met de app kun je een groot aantal zenders zowel binnen- als buitenshuis bekijken. En via\nkijk je via je browser. Meer weten over Ziggo GO of de app downloaden? Bekijk dan de\n.\nSecret Circle is toegankelijk voor iedereen. We begrijpen dat niet iedereen deze zender wil zien of zelfs voorbij wil zien komen tijdens het zappen. Daarom laten we je de keuze. De zender is wel beschikbaar voor je, maar staat niet aan.",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0001",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::extra-zenders-streamingdiensten",
+      "text": "Extra zenders & streamingdiensten\n\nKijk waar en wanneer jij wil\nMaandelijks aan- en uitzetten\nGeniet altijd van het beste entertainment",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0002",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::espn-premium",
+      "text": "ESPN Premium\n\n9,95 per maand",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0003",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::ziggo-sport-totaal",
+      "text": "Ziggo Sport Totaal\n\n8,48 per maand",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0004",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::viaplay",
+      "text": "Viaplay\n\nVanaf 16,99 per maand\n22,95 per maand\n21,95 per maand",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0005",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::sport-compleet",
+      "text": "Sport Compleet\n\n18,95 per maand\n19,95 per maand\n21,95 per maand",
+      "order": 5
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0006",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::introduction",
+      "text": "Introduction\n\nBekijk de verschillende thema's, zoals tv & video, actueel & achtergrond, muziek en sport.",
+      "order": 6
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0007",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::introduction",
+      "text": "Introduction\n\nNetflix\n| Stream de beste films, series en documentaires bij Netflix. Abonnement nodig.\nVideoland\n| Stream films, series en documentaires van nationale en internationale bodem. Abonnement nodig.\nYouTube*\nVan je favoriete muziekclips tot handige tutorials en van games tot het laatste nieuws.\nNPO\n| Kijk je films, series, talkshows, docu’s, nieuws en meer van de NPO.\nMuseumTV\nMuseumTV is hét videoplatform dat kunst, cultuur en design tot leven brengt. Met ongeveer 250 video´s op musea-onderwerpen.\nTV Française*\nKijk je graag Franse televisie? Dan is deze app wat voor jou.\nTV Italiana*\nKijk je graag Italiaanse televisie? Dan is deze app wat voor jou.\nFilm1*\nMet de Film1-app kijk je de nieuwste films en klassiekers on demand, wanneer het jou uitkomt.\nMood Lounge\nGezellig voor de haard of een feestje? Met Moodlounge vind je altijd een passende video.\nShortsTV\nMet de ShortsTV app kijk je korte films wanneer je dat wilt.",
+      "order": 7
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0008",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::introduction",
+      "text": "Introduction\n\nBuienradar\nNooit meer verrast worden door een regenbui? Check dan de Buienradar-app.\nCNN\nHet laatste nieuws van CNN.\nEuronews\nEuronews brengt het laatste nieuws uit Europa en de wereld: politiek, economie, sport en cultuur.\nAl Jazeera\nNieuws en actualiteiten van Al Jazeera.",
+      "order": 8
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0009",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::introduction",
+      "text": "Introduction\n\nXITE Music Videos\nDe nieuwe manier om muziekvideo’s te bekijken. Kies uit themakanalen of maak je eigen themakanaal via de Mixer.\nXITE Music\n40 verschillende radiokanalen met elk een eigen thema, alleen bij Ziggo. Van klassiekers uit de jaren '80 tot de hits van nu.\nDeezer.com\nMuziekliefhebber? Stream en luister naar de beste hits of ontdek nieuwe muziek met de Deezer app.\nDance Trippin\nDanceTelevision brengt de wereld van elektronische muziek rechtstreeks naar je huiskamer!",
+      "order": 9
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0010",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::introduction",
+      "text": "Introduction\n\nFit at Home\nThuis-fitness app met bekende sterren uit Nederland. Abonnement nodig.",
+      "order": 10
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0011",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::netflix",
+      "text": "Netflix\n\nVanaf 9,99 per maand",
+      "order": 11
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0012",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::videoland",
+      "text": "Videoland\n\nVanaf 6,99 per maand",
+      "order": 12
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0013",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::disney",
+      "text": "Disney+\n\nVanaf 6,99 per maand",
+      "order": 13
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0014",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::skyshowtime",
+      "text": "SkyShowtime\n\n9,99 per maand",
+      "order": 14
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0015",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::hbo-max",
+      "text": "HBO Max\n\nVanaf 5,99 per maand",
+      "order": 15
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0016",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::prime-video",
+      "text": "Prime Video\n\n4,99 per maand",
+      "order": 16
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0017",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::viaplay",
+      "text": "Viaplay\n\nVanaf 16,99 per maand",
+      "order": 17
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0018",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::apple-tv",
+      "text": "Apple TV\n\n9,99 per maand",
+      "order": 18
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0019",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::canal",
+      "text": "CANAL+\n\n4,99 per maand",
+      "order": 19
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0020",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::npo-plus",
+      "text": "NPO Plus\n\n3,49 per maand",
+      "order": 20
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0021",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::cinetree",
+      "text": "Cinetree\n\n9,99 per maand",
+      "order": 21
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0022",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::film1",
+      "text": "Film1\n\n9,95 per maand",
+      "order": 22
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0023",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::path-thuis-huurfilms",
+      "text": "Pathé Thuis huurfilms\n\nv.a. 0,99 per film voor 48 uur\n21,95 per maand\n22,95 per maand",
+      "order": 23
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0024",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::tv-zenders-plus",
+      "text": "TV Zenders Plus\n\n9,95 per maand",
+      "order": 24
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0025",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::ziggo-sport-totaal",
+      "text": "Ziggo Sport Totaal\n\n8,48 per maand",
+      "order": 25
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0026",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::sport-compleet",
+      "text": "Sport Compleet\n\n18,95 per maand\n21,95 per maand",
+      "order": 26
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0027",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::viaplay-tv",
+      "text": "Viaplay TV+\n\n16,99 per maand\n22,95 per maand",
+      "order": 27
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0028",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::erotiek",
+      "text": "Erotiek\n\n12,50 per maand",
+      "order": 28
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0029",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::gay-lifestyle",
+      "text": "Gay Lifestyle\n\n9,95 per maand",
+      "order": 29
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0030",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::hindi",
+      "text": "Hindi\n\n15,95 per maand",
+      "order": 30
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0031",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::turks",
+      "text": "Turks\n\n7,95 per maand",
+      "order": 31
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0032",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::hayu",
+      "text": "Hayu\n\n6,99 per maand",
+      "order": 32
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0033",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::videoland",
+      "text": "Videoland\n\nVanaf 6,99 per maand",
+      "order": 33
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0034",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::npo-plus",
+      "text": "NPO Plus\n\n3,49 per maand",
+      "order": 34
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0035",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::aanbiedingen",
+      "text": "Aanbiedingen\n\n21,95 per maand",
+      "order": 35
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0036",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::sport-compleet",
+      "text": "Sport Compleet\n\n18,95 per maand\n19,95 per maand\n21,95 per maand",
+      "order": 36
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0037",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::disney",
+      "text": "Disney+\n\nVanaf 6,99 per maand",
+      "order": 37
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0038",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::skyshowtime",
+      "text": "SkyShowtime\n\n9,99 per maand",
+      "order": 38
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0039",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::hbo-max",
+      "text": "HBO Max\n\nVanaf 5,99 per maand",
+      "order": 39
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0040",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::prime-video",
+      "text": "Prime Video\n\n4,99 per maand",
+      "order": 40
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0041",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::apple-tv",
+      "text": "Apple TV\n\n9,99 per maand",
+      "order": 41
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0042",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::canal",
+      "text": "CANAL+\n\n4,99 per maand",
+      "order": 42
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0043",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::cinetree",
+      "text": "Cinetree\n\n9,99 per maand",
+      "order": 43
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0044",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::viaplay-tv",
+      "text": "Viaplay TV+\n\n16,99 per maand",
+      "order": 44
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0045",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::maandelijks-aan-en-uitzetten",
+      "text": "Maandelijks aan- en uitzetten\n\nBestel en beheer gemakkelijk je abonnementen via\n. Maandelijks opzegbaar.",
+      "order": 45
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0046",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::snel-beschikbaar",
+      "text": "Snel beschikbaar\n\nStreamingdiensten kijk je binnen 24 uur en extra zenders zelfs binnen één uur op je tv.",
+      "order": 46
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0047",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::vind-razendsnel-wat-je-wilt-zien",
+      "text": "Vind razendsnel wat je wilt zien\n\nZoek in één keer door je tv-zenders én streamingdiensten met je stem en vind razendsnel die ene film, serie of acteur.",
+      "order": 47
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0048",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::tv-streaming",
+      "text": "TV & Streaming\n\nOntdek de beste films, series, sport en tv-programma’s voor jou.",
+      "order": 48
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0049",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::ziggo-sport",
+      "text": "Ziggo Sport\n\nOntdek de beste wedstrijden voor jou. Gratis op kanaal 14.",
+      "order": 49
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0050",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::espn",
+      "text": "ESPN\n\nMeer live voetbal. Standaard inbegrepen bij Ziggo.",
+      "order": 50
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0051",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::priority",
+      "text": "Priority\n\nAltijd iets speciaals voor jou: ticketdeals, korting en meer.",
+      "order": 51
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0052",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 52
+    },
+    {
+      "chunk_id": "televisie_extra-zenders-streamingdiensten::chunk-0053",
+      "page_id": "televisie_extra-zenders-streamingdiensten",
+      "section_id": "televisie_extra-zenders-streamingdiensten::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\n1. Ga naar\nen log in.\n2. Bestel hier de extra zender. Je vindt hier ook een overzicht met alle extra zenders.\n3. Na je bestelling ontvang je de bevestiging per e-mail.\n4. Kijk binnen een uur op je tv op het eigen kanaal van de extra zenders. Of kijk binnen 24 uur met Ziggo GO op je mobiel, tablet of laptop. Ook als je op vakantie bent binnen de EU.\n1. Zorg voor een account bij de streamingdienst. Heb je nog geen abonnement? Kies\nje streamingdienst en klik op 'Bestellen'.\n2. Alle streamingdiensten hebben een app op je Mediabox Next of Next Mini*. Druk op het huis-icoontje op je afstandsbediening en kies in het menu ‘TV APPS’. Hier zie je de populaire apps én de apps die je als laatste hebt gebruikt. Of bedien je tv met je stem. Druk op het microfoontje van je afstandsbediening en zeg bijvoorbeeld ‘Netflix’. Sommige streamingdiensten hebben zelfs een eigen kanaal op je tv.\n*Netflix en Videoland kijk je ook op de Mediabox XL.\n3. Log eenmalig op je tv in met je account-gegevens van de streamingdienst en je blijft hierna ingelogd. Streamen via je mobiel, tablet, laptop of smart-tv kan ook.\nIn\nvind je een overzicht met al je extra zenders. De streamingdiensten vind je onder ‘Streamingdiensten beheren’.  De kosten van de extra zenders en streamingdiensten die je hebt besteld via Ziggo, vind je terug op je Ziggo factuur.\nen\nzitten standaard in je Ziggo tv-pakket. In het\nvind je terug welke zenders in je pakket zitten en welke tv-zenders je extra kunt bestellen.\nJa, je kunt bij de extra zenders ook terugkijken en/of pauzeren. Opnemen kan ook op de extra zenders als je TV Complete of TV Max hebt. De extra zenders kijk je ook op Ziggo GO.\n‘Tom Hanks’, ‘Ziggo Sport’, of gewoon ‘pauze’! Bedien je tv met je stem, met de afstandsbediening die luistert. Druk op het microfoontje en zeg welke film, acteur of tv-zender je zoekt. En wil je iets opnemen of pauzeren? Dan doe je dat met simpele commando’s als 'pauze' of 'opnemen'. Supersimpel en razendsnel.\nHeb je een extra zenderpakket via Ziggo besteld en wil je deze opzeggen? Wat jammer! Opzeggen kan via\n. Je kiest zelf de opzegdatum, deze ligt minimaal 30 dagen in de toekomst.\nDe opzegdatum is niet meer te wijzigen na bevestiging.\nZeg je je Ziggo abonnementen bij ons op? Dan worden al je extra zenderpakketten, die je via Ziggo hebt besteld, beëindigd.\nGa direct naar\n. Hier vind je een overzicht van alle extra zenderpakketten. Zoek het extra zenderpakket en kies ‘Opzeggen’. Dit staat achter het zenderpakket.\nGebruik je de\n? Ga dan naar het tabje ‘Producten’. Dan zie je onder het kopje ‘Televisie’ de optie ‘Je extra zenders’. Hier zie je ook de extra zenderpakketten die standaard zijn inbegrepen in je abonnement en je eventuele gratis zenderpakket omdat je bijvoorbeeld ook Vodafone hebt. Een extra zenderpakket waar je voor betaalt, zeg je op door te klikken op 'Extra zenders bestellen'.\nHeb je een streamingdienst via Ziggo besteld en wil je deze opzeggen? Wat jammer! Opzeggen kan via\n. Je kiest zelf de opzegdatum, deze ligt minimaal 30 dagen in de toekomst.\nDe opzegdatum is niet meer te wijzigen na bevestiging.\nZeg je je Ziggo abonnementen op? Dan worden al je streamingdiensten, die je via Ziggo hebt besteld, beëindigd. De streamingdiensten lopen door tot het einde van de lopende factuurperiode, behalve Viaplay. Deze streamingdienst eindigt tegelijk met je Ziggo abonnement.\nLog in op\nGa naar\nen klik onder Streamingdiensten op\nGa naar\nKlik daarna op\nLog in op de Vodafone & Ziggo app\nGa naar\nKlik onderaan op\nGa naar\nen kies het abonnement dat je wilt opzeggen\nKlik op\nAls Ziggo klant zonder TV & Streaming (interactieve tv van Ziggo) kun je streamingdiensten bij Ziggo bestellen en bekijken op je mobiel, tablet of laptop.\nWil je ook extra zenders bestellen via Ziggo? Dan heb je TV & Streaming nodig. Hiermee krijg je meer dan 70 zenders,\n,\nen toegang tot verschillende extra zenders en streamingdiensten.\nWeet je niet zeker of je TV & Streaming (interactieve TV van Ziggo) hebt? Ga dan naar kanaal 22 op je tv. Als je BBC Fist ziet, dan heb je digitale tv van Ziggo. Zie je geen BBC First? Check dan ons\nin Mijn Ziggo.\nDan kun je nog geen extra zenders of streamingdiensten bij ons afnemen. Stap over naar Ziggo Internet & TV. Tijdens het overstappen kun je meteen je extra zenders kiezen die je wilt. Maak direct een Vodafone & Ziggo account aan en dan kun je ook jouw favoriete streamingdiensten kiezen in Mijn Ziggo.\nAfhankelijk van je abonnement krijg je Stapelvoordeel als je streamingdiensten en extra zenders bestelt via Ziggo. Je krijgt 10% korting bij 2 streamingdiensten en extra zenders en 15% korting bij 3 of meer.\nMet Kijkvoordeel krijg je 5% korting per maand op geselecteerde streamingdiensten. Met Stapelvoordeel krijg korting als je meerdere streamingdiensten en extra zenders bestelt via Ziggo. Je krijgt 10% korting bij 2 streamingdiensten en extra zenders en 15% korting bij 3 of meer.\nKijkvoordeel en Stapelvoordeel kan je niet combineren. Of je in aanmerking komt voor Kijkvoordeel of Stapelvoordeel hangt af van je abonnement.",
+      "order": 53
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0001",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::tot-7-dagen-terugkijken",
+      "text": "Tot 7 dagen terugkijken\n\nKijk een programma wanneer je wil en tijd hebt. Je kunt tot wel 7 dagen terugkijken.",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0002",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::live-tv-kijken",
+      "text": "Live tv-kijken\n\nnaar 70+ tv-zenders. Begin gemist? Start dan opnieuw vanaf het begin.",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0003",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::programma-s-opnemen",
+      "text": "Programma's opnemen\n\nGeen tijd voor een film? Neem het  op. Eenvoudig met de app. Ook op afstand.",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0004",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::streamen-naar-je-tv",
+      "text": "Streamen naar je tv\n\nIdeaal bij meerdere tv's. Koppel de tv met smartphone, chromecast of Apple TV en kijk op groot scherm.",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0005",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::on-en-offline-kijken",
+      "text": "On- en offline kijken\n\nKijk honderden films en series direct. Of download ze voor onderweg.",
+      "order": 5
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0006",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::meer-schermen-tegelijk",
+      "text": "Meer schermen tegelijk\n\nMet Ziggo GO kijk je met\ntegelijk tv, films en series. Waar ieder zin in heeft.",
+      "order": 6
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0007",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::1-vodafone-ziggo-account",
+      "text": "1. Vodafone & Ziggo account\n\nHeb je televisie van Ziggo? Maak dan een\naan. Daarmee log je in op de Ziggo GO app.",
+      "order": 7
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0008",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::2-tablet-telefoon-of-tv",
+      "text": "2. Tablet, telefoon of tv\n\nOm optimaal te genieten van de app, heeft je tablet of smartphone minimaal Apple iOS 12.1 of Android 6.0 nodig.",
+      "order": 8
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0009",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::3-ziggo-go",
+      "text": "3.  Ziggo GO\n\nDownload de Ziggo GO app. In een mum van tijd maak je nu van je smartphone en tablet je tv. Makkelijk en snel.",
+      "order": 9
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0010",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::ziggo-go-op-vakantie",
+      "text": "Ziggo GO op vakantie\n\nOp vakantie kun je ook gewoon Ziggo GO kijken. Alleen niet alle landen in Europa horen bij de EU. Engeland en Zwitserland bijvoorbeeld niet. En voor overzeese gebieden wijken de regels ook af.",
+      "order": 10
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0011",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::ziggo-go-op-je-2e-tv",
+      "text": "Ziggo GO op je 2e tv\n\nWist je dat Ziggo GO ook beschikbaar is op je Apple TV, Android TV of Amazon Fire TV? Zo kijk je zonder extra kabels of mediabox overal tv in huis. Lees meer over Ziggo GO op je extra tv:",
+      "order": 11
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0012",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 12
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0013",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nJa, je kunt een selectie films en series downloaden om offline te kijken. Je herkent de downloadbare series en films aan een extra downloadicoon. De gedownloade afleveringen of films blijven 30 dagen beschikbaar en worden na 2 dagen automatisch verwijderd als je ze bekeken hebt.\nOm de downloadfunctie te gebruiken, moet je eerst een apparaat registreren waarop je films en series offline wilt kijken. Je kunt maximaal 2 apparaten registreren.\nMet de Ziggo GO app kun je overal in de EU tv-kijken als je verbonden bent met internet (wifi, 3G, 4G of 5G). Dit geldt voor live tv-zenders die buitenshuis te kijken zijn, programma's die je wilt terugkijken en Movies & Series (XL). Buiten de EU werkt dit niet. Dat heeft te maken met de rechten van televisieprogramma's. Het enige dat je hoeft te doen is de laatste versie van de Ziggo GO app downloaden.\nBelgië, Bulgarije, Cyprus (Griekse deel), Denemarken, Duitsland, Estland, Finland, Frankrijk, Griekenland, Hongarije, Ierland, IJsland, Italië, Kroatië, Letland, Liechtenstein, Litouwen, Luxemburg, Malta, Nederland, Noorwegen, Oostenrijk, Polen, Portugal, Roemenië, Slovenië, Slowakije, Spanje, Tsjechië en Zweden.\nMartinique, Mayotte, Guadeloupe, Frans-Guyana en Réunion, Saint-Martin (het Franse deel van Sint-Maarten), Madeira, de Azoren en de Canarische Eilanden.\nNiet alle landen in Europa maken deel uit van de Europese Unie. Denk dan aan bijvoorbeeld Engeland, Zwitserland en Noorwegen. En ook voor overzeese gebieden gelden afwijkende regels. Check dus voor vertrek in bovenstaand lijstje of je op je bestemming Ziggo GO kunt kijken.\nkijken via 3G, 4G of 5G kost je veel MB's uit je mobiele databundel. Zet je streamkwaliteit eventueel op laag, of zorg dat je op wifi zit. Combineer je Ziggo met Vodafone? Dan profiteer je van non-stop gratis extra’s, zoals dubbele data. Zo kijk je ook zorgeloos in de EU live TV.\nBinnen, buiten, overal in de EU: Ziggo GO is gratis voor alle Ziggo klanten. Als je buitenshuis tv-kijkt via een 3G-, 4G- of 5G-verbinding, dan verbruik je uiteraard wel data uit je mobiele databundel. Dus probeer zoveel mogelijk te kijken via wifi. En: je kunt ook films en series downloaden voor offline gebruik. Daarmee kijk je dus waar je wilt, zonder gebruik van data. Ideaal toch?\nHeb je een Alles-in-1 pakket, Internet & TV pakket of een Internet & Online TV pakket van Ziggo? Dan heb je toegang tot Ziggo GO. Log eenmalig in met je Mijn Ziggo-accountgegevens en je kunt gebruikmaken van Ziggo GO. Tip: ook je partner, kids of huisgenoten kunnen kijken via Ziggo GO. En dat tot wel 3 apparaten tegelijk!\nEn heb je (nog) geen Vodafone & Ziggo account, dan kun je er eenvoudig een\n.\nFilms, series en programma’s die je bestelt via On Demand kun je kijken in en om het huis. Programma gemist? Wij nemen het alvast voor je op, zodat je tot 7 dagen na de uitzending gratis kunt terugkijken.\nDe zenders die in je abonnement zitten, kijk je ook met Ziggo GO. Uiteraard in de beeldkwaliteit die je van ons gewend bent.\nkan ook via de Ziggo GO app. De HD-zenders uit je abonnement, worden via de app ook in HD-kwaliteit uitgezonden. Binnenshuis (als je kijkt via een Ziggo internetverbinding) kun je meer zenders kijken dan buitenshuis. In het\nzie je welke zenders je kunt kijken met je abonnement. En welke binnenshuis en buitenshuis beschikbaar zijn.\nMet je Vodafone & Ziggo accountgegevens kun je met maximaal 3 apparaten tegelijk online tv-kijken. Of je nu kijkt op een pc, laptop, mobiel of tablet: dat maakt niet uit. De Ziggo GO app is beschikbaar voor iOS, Android, Google en Windows toestellen. Om te kijken op je laptop ga je naar\n.",
+      "order": 13
+    },
+    {
+      "chunk_id": "televisie_ziggo-go::chunk-0014",
+      "page_id": "televisie_ziggo-go",
+      "section_id": "televisie_ziggo-go::hulp-bij-ziggo-go",
+      "text": "Hulp bij Ziggo GO\n\nWerkt Ziggo GO niet helemaal lekker? Check onze oplossingen en je kijkt binnen de kortste keren weer naar je favoriete programma.",
+      "order": 14
+    },
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0001",
+      "page_id": "televisie_mediaboxen",
+      "section_id": "televisie_mediaboxen::next-mini",
+      "text": "Next Mini\n\nDit is het kleine broertje van de Mediabox Next, inclusief 4K. Sluit deze box aan op je modem met een internetkabel en je hebt de snelste en meest stabiele verbinding. Je ontvangt de Next Mini bij een nieuw televisie abonnement.",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0002",
+      "page_id": "televisie_mediaboxen",
+      "section_id": "televisie_mediaboxen::mediabox-next",
+      "text": "Mediabox Next\n\nEen compacte box, met 4K UHD. Sluit deze box aan met de coaxkabel én op je modem met een internetkabel en dan heb je de snelste en meest stabiele verbinding.",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0003",
+      "page_id": "televisie_mediaboxen",
+      "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie_mediaboxen::chunk-0004",
+      "page_id": "televisie_mediaboxen",
+      "section_id": "televisie_mediaboxen::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nJa, dat kan. Met de Next Mini heb je alle streamingsdiensten zoals\n,\n,\nen\nop één plek. Wil je 4K-beeldkwaliteit, of je TV met je stem bedienen? Dan kun je je oude mediabox omruilen voor een nieuwe Next Mini.\nJe kan je abonnement makkelijk wijzigen in\n:\nGa naar ‘Producten’ > kies voor ‘Televisie’ of ‘Internet’ > ‘Je abonnement wijzigen’\nGa naar ‘Producten’ > ‘Pakket wijzigen’\nVink de Next Mini aan bij 'Pakket wijzigen', en rond de aanvraag verder af.\nHeb je nu een korting op een tv- of internetproduct? Dan vervalt de korting bij het omruilen van je mediabox. Je kunt dan beter even wachten tot je korting is afgelopen.\nHeb je een Mediabox Next? Dan is het omruilen naar de Next Mini niet nodig. Met je Mediabox Next heb je al dezelfde ervaring als de Next Mini. Daarom kun je die niet omwisselen.\nBij elk pakket met Televisie van Ziggo erin ontvang je de Next Mini.\n.\nWanneer je kiest voor een abonnement met de Next Mini of Mediabox Next, dan kijk je beschikbare programma's in\nmet een 4K UHD-geschikte tv. Er komen steeds meer huurfilms, tv-zenders, films en series bij in 4K UHD. Op de Mediabox Next en Next Mini bekijk je het aanbod. En apps zoals YouTube of Nextflix hebben ook films, series en programma's in 4K UHD.\n.\nBekijk\nhoe je je mediabox eenvoudig installeert.",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0001",
+      "page_id": "televisie_mediaboxen_extra",
+      "section_id": "televisie_mediaboxen_extra::next-mini-voor-je-2e-tv",
+      "text": "Next Mini voor je 2e tv\n\nHeb je een Mediabox XL, Mediabox Next of Next Mini? Dan kun je een Extra Next Mini huren voor je tweede (of derde) tv.\n6,- huur\nKlein en energiezuinig (max. 5W)\nGeen coaxkabel nodig",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0002",
+      "page_id": "televisie_mediaboxen_extra",
+      "section_id": "televisie_mediaboxen_extra::kabel-digitaal",
+      "text": "Kabel digitaal\n\nMet Kabel TV van Ziggo kijk je overal in huis tv in digitale beeldkwaliteit, zonder extra kastje, met een geschikte televisie.\nDigitale beeldkwaliteit\n50+ tv-zenders (4 in HD)\nAlleen coaxkabel nodig",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0003",
+      "page_id": "televisie_mediaboxen_extra",
+      "section_id": "televisie_mediaboxen_extra::ci-module",
+      "text": "CI+ Module\n\nDeze digitale insteekkaart gaat rechtstreeks in je televisie. Je kijkt digitaal en in HD-kwaliteit, zónder een losse mediabox.\n4,- huur per maand\nGeen extra afstandsbediening\nAlleen coaxkabel nodig",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0004",
+      "page_id": "televisie_mediaboxen_extra",
+      "section_id": "televisie_mediaboxen_extra::ziggo-go-app",
+      "text": "Ziggo GO app\n\nKijk al je favoriete programma binnen de EU met de Ziggo GO app. Kijk je liever tv op je laptop? Ga dan naar ziggogo.tv\nTot 7 dagen terugkijken\nProgramma's opnemen\nStreamen naar je tv",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0005",
+      "page_id": "televisie_mediaboxen_extra",
+      "section_id": "televisie_mediaboxen_extra::ziggo-go-op-je-extra-tv",
+      "text": "Ziggo GO op je extra tv\n\nVoor je 2de tv in huis download je de Ziggo GO app. De app is beschikbaar voor de volgende mediaplayers en smart-tv:\nApple TV\nAndroid TV\nAmazon Fire TV",
+      "order": 5
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0006",
+      "page_id": "televisie_mediaboxen_extra",
+      "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 6
+    },
+    {
+      "chunk_id": "televisie_mediaboxen_extra::chunk-0007",
+      "page_id": "televisie_mediaboxen_extra",
+      "section_id": "televisie_mediaboxen_extra::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nMet de Ziggo GO app kijk je live tv op drie verschillende apparaten en kijk je tot 7 dagen terug. Je breidt als het ware je tv uit naar je pc, laptop, mobiel of tablet. En kijkt waar je maar wilt. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand.\n.\nMet Ziggo GO kun je overal in de EU tv-kijken als je verbonden bent met internet (wifi of je eigen netwerk). Via Ziggo GO kijk je live en tot 7 dagen terug. Buiten de EU werkt dit niet. Dat heeft te maken met de rechten van televisieprogramma's. Het enige dat je hoeft te doen is de laatste versie van de Ziggo GO app downloaden.\nDit heb je nodig om ook op je tweede, derde en vierde toestel digitale televisie te kijken zonder ontvanger:\n- Een tv-abonnement van Ziggo\n- Een televisie met ingebouwede DVB-C tuner\n- Een coaxkabel van goede kwaliteit. Je herkent ze aan het logo van Kabel Keur\nHeb je een Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je een Extra Next Mini bestellen voor je tweede tv.\nHeb je nog geen Mediabox XL, Mediabox Next of Next Mini als eerste mediabox? Dan kun je overstappen naar een van de nieuwe pakketten met een Extra Next Mini door contact met ons op te nemen.\nOp deze tv-producten zijn onze\nvan toepassing.",
+      "order": 7
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0001",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::formula-1-van-viaplay",
+      "text": "Formula 1® van Viaplay\n\nOp\ngeniet je iedere vrijdagavond van het Race Café. Hier worden de laatste ontwikkelingen en nieuwtjes besproken. Met als presentatoren Chris Zegers en Shelly Sterk en natuurlijk met de vertrouwde gezichten Olav Mol en Jack Plooij.",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0002",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::formula-1-van-viaplay",
+      "text": "Formula 1® van Viaplay\n\nOp\ngeniet je iedere vrijdagavond van het Race Café. Hier worden de laatste ontwikkelingen en nieuwtjes besproken. Met als presentatoren Chris Zegers en Shelly Sterk en natuurlijk met de vertrouwde gezichten Olav Mol en Jack Plooij.",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0003",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::racing",
+      "text": "Racing\n\nOp Ziggo Sport zie je een breed aanbod van live auto- en racesporten zoals NASCAR, IndyCar racing en MotoGP. Ontwikkelingen en nieuwtjes worden besproken in het Ziggo Sport Race café door nieuwe commentatoren Chris Zegers en Shelly Sterk. Aan tafel zitten de meest gewaardeerde race-experts van Nederland, zoals: Robert Doornbos, Olav Mol, Jack Plooij en Rob van Gameren.",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0004",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::racing",
+      "text": "Racing\n\nOp Ziggo Sport zie je een breed aanbod van live auto- en racesporten zoals NASCAR, IndyCar racing en MotoGP. Ontwikkelingen en nieuwtjes worden besproken in het Ziggo Sport Race café door nieuwe commentatoren Chris Zegers en Shelly Sterk. Aan tafel zitten de meest gewaardeerde race-experts van Nederland, zoals: Robert Doornbos, Olav Mol, Jack Plooij en Rob van Gameren.",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0005",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::voetbal",
+      "text": "Voetbal\n\nDe grootste voetbalcompetities van Europa kijk je live op Ziggo Sport. Je volgt de Spaanse LaLiga, Italiaanse Serie A en uiteraard de UEFA Champions League, UEFA Europa League en UEFA Conference League allemaal op kanaal 14. Daarnaast volg je ook de EK- en WK-kwalificaties, Nations League en meer competities, zoals bekervoetbal.",
+      "order": 5
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0006",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::voetbal",
+      "text": "Voetbal\n\nDe grootste voetbalcompetities van Europa kijk je live op Ziggo Sport. Je volgt de Spaanse LaLiga, Italiaanse Serie A en uiteraard de UEFA Champions League, UEFA Europa League en UEFA Conference League allemaal op kanaal 14. Daarnaast volg je ook de EK- en WK-kwalificaties, Nations League en meer competities, zoals bekervoetbal.",
+      "order": 6
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0007",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::introduction",
+      "text": "Introduction\n\nTennis DavisCup Nederland & World Group\nTennis FedCup Nederland & World Group\nABN AMRO WTT (ATP 500 Rotterdam)\nLibema Open\nATP 1000/Finals/500/Cup/Next Gen/250's",
+      "order": 7
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0008",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::introduction",
+      "text": "Introduction\n\nUS PGA Tour\nEuropean Tour\nRyder Cup\nMajor: Augusta Masters\nMajor: US Open Golf\nMajor: The Open Championship\nMajor: US PGA Championship\nTGL 2025: (virtuele/indoor-competitie)\nLET (Ladies European Tour)",
+      "order": 8
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0009",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::introduction",
+      "text": "Introduction\n\nSamenvattingen van Formule 1 van Viaplay. De live races kun je volgen via de streamingservice Viaplay.\nFormula 2 | Formula 3 | Porsche Super Cup\nFormula E\nIndyCar Series\nNascar\nW-series\nSupercars\nDTM\nFormula European Masters, Ferrari, ADAC GT\nMotoGP | Moto2 | Moto3 (vanaf 2022)",
+      "order": 9
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0010",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::introduction",
+      "text": "Introduction\n\nDiamond League, Continental Tour, World Indoor Tour, Rome Marathon, SCC Berlin Marathon\nBWF Badminton Major & World Tour\n: FIBA EC, WC & kwalificaties, BNXT-League (2022)\nWorld Championships (m/v), European Championships (m/v), Nederlands team\n: Dutch Hockey League (m/v), Hockey Pro League (m/v), World Championships (m/v)\n: Six Nations, Autumn Internationals, Rugby World Cup, Rugby World Cup Sevens, World Rugby, HSBC World Rugby Seven Series\n: Champion of Champions (snooker), Mosconi Cup (pool)\n: PSA World Tour\n: World Triatlon Series\n: Nations League (m/v), World Championships (m/v), European Championships (m/v), Nederlandse competitie en Europese clubwedstrijden\n: UCI Mountain Bike World Cup\n: ski-cross en snowboard cross",
+      "order": 10
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0011",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::ziggo-sport-totaal",
+      "text": "Ziggo Sport Totaal\n\nGeniet volop van de mooiste sportwedstrijden op 6 topsportkanalen. Van Europees topvoetbal tot racing en van tennis tot golf. En natuurlijk zie je de beste Nederlandse teams. 24/7 sport met het meest uitgebreide aanbod van jouw favoriete sport.",
+      "order": 11
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0012",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::ziggo-go",
+      "text": "Ziggo GO\n\nMet Ziggo GO maak je van elk scherm je tv. Waar en wanneer je wil. Zo kijk je bijvoorbeeld La Liga-duels op Ziggo Sport gewoon live via Ziggo GO als je onderweg bent. Ook in de EU. Of kijk je favoriete sportmoment terug op een moment dat het jou uitkomt.",
+      "order": 12
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0013",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::ziggo-sport-totaal",
+      "text": "Ziggo Sport Totaal\n\n6 topsportkanalen\nOok onderweg: Ziggo Sport Totaal GO\nVoor fans van voetbal, racing of tennis\nNederlands én internationaal voetbal",
+      "order": 13
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0014",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::espn-premium",
+      "text": "ESPN Premium\n\n4 sportkanalen\nEredivisie en internationaal voetbal\nAmerikaanse sporten en docu's\nOnderweg kijk je met ESPN Watch",
+      "order": 14
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0015",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::sport-compleet",
+      "text": "Sport Compleet\n\nMaar liefst 10 sportkanalen\nEredivisie, racing, LaLiga en meer\nPraatprogramma's en docu's\nESPN Watch en Ziggo GO",
+      "order": 15
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0016",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::sport-compleet-film1",
+      "text": "Sport Compleet + Film1\n\nHét pakket voor het hele gezin\n10 kanalen vol topsport\n4 kanalen met de beste films\nZiggo GO, ESPN Watch en Film1-app\nNederlands voetbal, racing, LaLiga en meer​",
+      "order": 16
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0017",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::tv-streaming",
+      "text": "TV & Streaming\n\nOntdek de beste films, series, sport en tv-programma’s voor jou.",
+      "order": 17
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0018",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::ziggo-sport",
+      "text": "Ziggo Sport\n\nOntdek de beste wedstrijden voor jou. Gratis op kanaal 14.",
+      "order": 18
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0019",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::espn",
+      "text": "ESPN\n\nMeer live voetbal. Standaard inbegrepen bij Ziggo.",
+      "order": 19
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0020",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::priority",
+      "text": "Priority\n\nAltijd iets speciaals voor jou: ticketdeals, korting en meer.",
+      "order": 20
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0021",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 21
+    },
+    {
+      "chunk_id": "televisie_ziggo-sport::chunk-0022",
+      "page_id": "televisie_ziggo-sport",
+      "section_id": "televisie_ziggo-sport::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nZiggo Sport is dé sportzender van Nederland vol met zinderende sporten en gratis voor Ziggo klanten. Op Ziggo Sport kanaal 14 zie je het beste van de volgende sporten:\nVoor racefans is er natuurlijk NASCAR & IndyCar racing, MotoGP, Moto2 en Moto3!  Van Formule 1 van Viaplay zie je samenvattingen van de kwalificaties en de\n-GP's. Daarnaast is er een groot aanbod van internationaal\n(o.a. La Liga, Serie A en\n), tennis, golf, nationale teams van hockey, basketbal, handbal, volleybal, Six Nations rugby, Diamond League atletiek en nog veel meer moois om van te genieten.\nNee, Ziggo Sport kanaal 14 is helemaal gratis voor klanten. Ben je nog geen Ziggo klant? Stap dan snel over\nen krijg korting op je pakket en\nZiggo Sport!\nWil je nog meer topsport zien? Kies dan voor het extra pakket\n.\nZiggo Sport is dé grootste sportzender van Nederland en exclusief voor Ziggo klanten. Op kanaal 14 vind je een topaanbod van racing tot tennis en van Europees topvoetbal tot golf. En alles wat ertussenin zit. Wil je nog meer topsport zien? Kies dan voor het extra pakket\nJe hebt dan 6 kanalen vol topsport met extra veel voetbal, racing, golf, tennis en sportdocu's.\nOp Ziggo Sport zie je heel veel verschillende sporten en Ziggo Sport kan uiteraard één sportevent tegelijk uitzenden. Zo komt het wel eens voor dat er tegelijkertijd een voetbalwedstrijd en een race is. Is jouw favoriete sport niet live op Ziggo Sport?\nis dan dé oplossing als jij juist het andere duel wilt volgen. Met Ziggo Sport Totaal mis je echt niks.",
+      "order": 22
+    },
+    {
+      "chunk_id": "uefa::chunk-0001",
+      "page_id": "uefa",
+      "section_id": "uefa::introduction",
+      "text": "Introduction\n\nBen je Ziggo klant?",
+      "order": 1
+    },
+    {
+      "chunk_id": "uefa::chunk-0002",
+      "page_id": "uefa",
+      "section_id": "uefa::ziggo-sport-free",
+      "text": "Ziggo Sport Free\n\nStream gratis via Ziggo GO",
+      "order": 2
+    },
+    {
+      "chunk_id": "uefa::chunk-0003",
+      "page_id": "uefa",
+      "section_id": "uefa::introduction",
+      "text": "Introduction\n\nNog geen klant bij Ziggo? Dan stream je de Europese wedstrijden van Nederlandse clubs en finales met de Ziggo GO app.\nOok in het buitenland kijken? Met een gratis Ziggo Sport Free account kijk je UEFA Europees voetbal van Nederlandse clubs in heel de EU.\nJe kunt gemakkelijk op je TV kijken via 2 manieren:\nDownload de Ziggo GO app op je Smart TV\nDownload de Ziggo GO app op je mobiele telefoon/tablet en stream naar je Smart TV",
+      "order": 3
+    },
+    {
+      "chunk_id": "uefa::chunk-0004",
+      "page_id": "uefa",
+      "section_id": "uefa::ziggo-sport",
+      "text": "Ziggo Sport\n\nBij Ziggo op kanaal 14 en Ziggo GO",
+      "order": 4
+    },
+    {
+      "chunk_id": "uefa::chunk-0005",
+      "page_id": "uefa",
+      "section_id": "uefa::kijk-in-de-hele-eu",
+      "text": "Kijk in de hele EU\n\nOok in het buitenland kijken? Maak een gratis Ziggo Sport Free account aan en kijk de wedstrijden van Nederlandse clubs in heel de EU.",
+      "order": 5
+    },
+    {
+      "chunk_id": "uefa::chunk-0006",
+      "page_id": "uefa",
+      "section_id": "uefa::stap-nu-over-en-beleef-meer",
+      "text": "Stap nu over en beleef meer...\n\nZiggo Sport 1 met UEFA Europees voetbal\nLa Liga, Serie A, bekervoetbal en meer...\nAlle ESPN-zenders (ESPN 1, 2, 3 en 4)",
+      "order": 6
+    },
+    {
+      "chunk_id": "uefa::chunk-0007",
+      "page_id": "uefa",
+      "section_id": "uefa::ziggo-sport",
+      "text": "Ziggo Sport\n\nAls sportfan zit je goed bij Ziggo! Kijk de beste wedstrijden en de spannendste races live op Ziggo Sport. Dé sportzender van Nederland. Gratis voor Ziggo klanten",
+      "order": 7
+    },
+    {
+      "chunk_id": "uefa::chunk-0008",
+      "page_id": "uefa",
+      "section_id": "uefa::alles-van-espn",
+      "text": "Alles van ESPN\n\nKrijg standaard alle ESPN-zenders in je tv-pakket. Kijk live naar o.a. de Eredivisie, Keuken Kampioen Divisie, en Vrouwen Eredivisie. Zonder extra abonnement.",
+      "order": 8
+    },
+    {
+      "chunk_id": "uefa::chunk-0009",
+      "page_id": "uefa",
+      "section_id": "uefa::tv-streaming",
+      "text": "TV & Streaming\n\nJe favoriete tv-zenders, streamingdiensten en huurfilms krijg je bij Ziggo samen op één plek. Zo switch je supermakkelijk tussen Netflix, RTL, Disney+, Ziggo Sport én meer.",
+      "order": 9
+    },
+    {
+      "chunk_id": "uefa::chunk-0010",
+      "page_id": "uefa",
+      "section_id": "uefa::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 10
+    },
+    {
+      "chunk_id": "uefa::chunk-0011",
+      "page_id": "uefa",
+      "section_id": "uefa::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nHet UEFA Europees voetbal beleef je bij Ziggo Sport.\nDan zit je goed! Je kijkt de mooiste voetbalwedstrijden en andere sporten gewoon live op je tv op kanaal 14 of via Ziggo GO.\nDan stream je met Ziggo Sport Free de wedstrijden van Nederlandse clubs en de finales gratis met Ziggo GO.\nMet het\nmis je helemaal geen moment en kijk je naar alles van UEFA Europees voetbal. En met het Switch kanaal schakel je live tussen alle hoogtepunten.\nMet Ziggo Sport Free kijk je de wedstrijden van Nederlandse clubs en de finales van de\n,\nen\n. Gratis met de Ziggo GO app. Bovendien kijk je in de hele EU de finales. Meld je\ngratis aan.\nBenieuwd welke wedstrijden er worden uitgezonden? Bekijk het totale aankomende speelschema per competitie.\nControleer of Ziggo beschikbaar is op jouw adres met de postcodecheck en bestel direct je nieuwe Internet & TV abonnement.\nJa, overstappen naar Ziggo kan vrijwel altijd. Je kan kiezen om zelf op te zeggen, of je kan gebruik maken van de Overstapservice.  Controleer of Ziggo beschikbaar is op jouw adres met de\nen\n.\nWanneer je zelf opzegt bij je huidige provider kunnen we je binnen 3 werkdagen aansluiten. Loopt je contract nog? Dan kan je zelfs aangeven dat je over 6 maanden wilt overstappen. Wanneer je gaat verhuizen, moet je altijd zelf je oude abonnement opzeggen. Dit is handig omdat je tijdelijk een abonnement op je oude én je nieuwe adres kan hebben en je daardoor geen dag zonder internet hoeft te zitten.\nJe kan ook gebruik maken van onze Overstapservice, dan is overstappen makkelijk en zonder gedoe. Wij zeggen je contract op en zorgen ervoor dat je zo snel mogelijk gebruik kunt maken van Ziggo. De Overstapservice kan je gebruiken* als de overstapdatum minimaal 1 maand en maximaal 3 maanden in de toekomst ligt. We hebben minimaal 1 maand nodig, omdat we te maken hebben met de wettelijke opzegtermijn van je huidige aanbieder. Ga je verhuizen? Zeg dan zelf je oude abonnement op.\nOm Ziggo Sport in jouw zaak te vertonen, is altijd een Ziggo Sport Zakelijk licentie nodig - of je nu Ziggo Sport Free, via kanaal 14 of Ziggo Sport Totaal uitzendt.\nCombineer bijvoorbeeld een\nmet de\n, zodat je alle uitzendingen in je zaak mag vertonen; van MotoGP tot UEFA Champions League voetbal. Bovendien krijg je met de Ziggo Sport Zakelijk licentie toegang tot fijne extra's zoals de Ziggo Sport Locator en de Ziggo Sport Marketingportal.\nen alle voordelen van een licentie en\n.\nLaat je e-mailadres achter en blijf op de hoogte van het laatste voetbalnieuws, unieke winacties en aanbiedingen.",
+      "order": 11
+    },
+    {
+      "chunk_id": "uefa::chunk-0012",
+      "page_id": "uefa",
+      "section_id": "uefa::kunnen-we-je-helpen",
+      "text": "Kunnen we je helpen?\n\nIedere dag bereikbaar van 8.00 tot 20.00 uur.\nStel direct je vraag aan een van onze adviseurs.\nBezoek een Ziggo winkel bij je in de buurt.\nBekijk de dichtstbijzijnde winkel in jouw buurt.",
+      "order": 12
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0001",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nHeb je al televisie van Ziggo?",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0002",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::70-digitale-zenders",
+      "text": "70+ digitale zenders\n\nBekijk het zenderoverzicht",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0003",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::ziggo-sport-espn",
+      "text": "Ziggo Sport & ESPN\n\nAlles over sport bij Ziggo",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0004",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::ziggo-go",
+      "text": "Ziggo GO\n\nKijk online tv",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0005",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::priority",
+      "text": "Priority\n\nOntdek alle voordelen",
+      "order": 5
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0006",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::extra-zenders",
+      "text": "Extra zenders\n\nBreid je kijkervaring uit",
+      "order": 6
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0007",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::streamingdiensten",
+      "text": "Streamingdiensten\n\nVan Netflix tot Videoland",
+      "order": 7
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0008",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nZoek met Voice Control gemakkelijk door je tv-zenders en streamingdiensten. Geef een zoekopdracht en roep ‘pauze’ of stel een vraag zoals “Heb je een Britse misdaadserie?”. Laat je inspireren of zoek slim met hulp van AI en vind razendsnel wat je graag kijkt. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 8
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0009",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nMet je eigen startscherm en persoonlijke kijktips is TV & Streaming speciaal op je afgestemd. Vanaf je eigen startscherm kijk je meteen verder waar je gebleven was. Én sla je favorieten op om ze later te kijken. Meerdere kijkers in huis? Dan maakt iedereen gewoon een eigen kijkprofiel aan. Zet de popcorn maar klaar.",
+      "order": 9
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0010",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nJe serie pauzeren omdat de deurbel gaat? Het journaal terugkijken omdat je op een verjaardag was? Of heb je keuzestress en wil je meerdere programma’s tegelijk opnemen? Mis niets en kijk waar en wanneer je maar wilt. Ook met Ziggo GO. Zo geniet je thuis en overal in de EU van je favoriete programma’s, films, series en sport.",
+      "order": 10
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0011",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nZoek in één keer door je tv-zenders en streamingdiensten en vind razendsnel wat je graag kijkt of laat je inspireren. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 11
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0012",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nZoek met Voice Control gemakkelijk door je tv-zenders en streamingdiensten. Geef een zoekopdracht en roep ‘pauze’ of stel een vraag zoals “Heb je een Britse misdaadserie?”. Laat je inspireren of zoek slim met hulp van AI en vind razendsnel wat je graag kijkt. Als je niet lang wil zoeken maar meteen wil kijken.",
+      "order": 12
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0013",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nDe een houdt van comedy. De ander kijkt liever ziekenhuisdrama’s. Maak tv-kijken nóg persoonlijker met je eigen kijkprofiel. Zo zie je direct wat je wilt zien, maak je je eigen kijklijst en krijg je aanbevelingen op basis van je kijkgedrag.",
+      "order": 13
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0014",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nJe serie pauzeren omdat de deurbel gaat? Dat kan. Neem rustig je pakketje aan en kijk verder door je tv van pauze af te halen. Zo mis je niets.",
+      "order": 14
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0015",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nHet journaal terugkijken omdat je op een verjaardag was? Kijk op elk moment je programma's terug en mis geen moment. Wij nemen het programma alvast voor je op, zodat je die tot 7 dagen na de uitzending gratis kunt terugkijken. Heb je TV Start? Dan kun je tot 2 dagen terugkijken.",
+      "order": 15
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0016",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\nSnel avondeten om je favoriete programma niet te hoeven missen? Niet nodig, want met tot maar liefst 400 uur opnametijd mis je niks meer. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand met Ziggo GO. Wil je eenmalig iets opnemen of een hele serie? Oók dat bepaal jij.",
+      "order": 16
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0017",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::ook-met-de-next",
+      "text": "Ook met de Next\n\nDe Mediabox Next kan hetzelfde als de Next Mini. Heb je een van deze twee mediaboxen nog niet?",
+      "order": 17
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0018",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::voor-je-extra-tv",
+      "text": "Voor je extra tv\n\nHuur een Extra Next Mini voor je 2e televisie voor maar 4,- per maand. En kijk wat je maar wilt, in dezelfde kwaliteit.",
+      "order": 18
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0019",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::bekijk-en-beheer-je-pakket",
+      "text": "Bekijk en beheer je pakket\n\nWil je je pakket bekijken en aanpassen? Dat doe je gemakkelijk in Mijn Ziggo.\nTV",
+      "order": 19
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0020",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\np.m.\nTV",
+      "order": 20
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0021",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\np.m.\nTV",
+      "order": 21
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0022",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::introduction",
+      "text": "Introduction\n\np.m.\nBovengenoemde tv-pakketten zijn alleen af te nemen in combinatie met internet van Ziggo.",
+      "order": 22
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0023",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::tv-streaming",
+      "text": "TV & Streaming\n\nOntdek de beste films, series, sport en tv-programma’s voor jou.",
+      "order": 23
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0024",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::ziggo-sport",
+      "text": "Ziggo Sport\n\nOntdek de beste wedstrijden voor jou. Gratis op kanaal 14.",
+      "order": 24
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0025",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::espn",
+      "text": "ESPN\n\nMeer live voetbal. Standaard inbegrepen bij Ziggo.",
+      "order": 25
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0026",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::priority",
+      "text": "Priority\n\nAltijd iets speciaals voor jou: ticketdeals, korting en meer.",
+      "order": 26
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0027",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 27
+    },
+    {
+      "chunk_id": "televisie_movies-series::chunk-0028",
+      "page_id": "televisie_movies-series",
+      "section_id": "televisie_movies-series::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nJe kunt kiezen tussen TV Start, TV Complete, TV Max of Kabel TV. Bekijk en vergelijk de pakketten\n. Wil je je pakket aanpassen? Dat kan in\n.\nDat hangt af van je abonnement. Alle tv-pakketten worden standaard geleverd met\n, ESPN 1, 70+ digitale zenders waarvan 66 tv-zenders in HD-kwaliteit.\nBij TV Complete krijg je ook Movies & Series. Daarmee kun je onbeperkt honderden films en series on demand kijken, zonder extra kosten. Kies je voor TV Max? Dan krijg je\nerbij met iconische entertainment van wereldberoemde studio’s. En wil je meer dan 40 extra zenders?\nzit inbegrepen bij TV Max of bestel je extra bij je abonnement.\nOp zoek naar je favoriete zenders? Daarvoor hebben we ons\nsamengesteld.\nWat je ook wilt installeren, met\nheb je je installatie in een handomdraai geregeld.\nGaat je televisie wel aan, maar heb je geen beeld? Of is de beeldkwaliteit niet zoals je wilt? Met deze\nheb je de boel zo weer aan de praat.\nJa, dat kan. Naast\nen\nkan je ook kiezen voor een pakket zonder Internet. Kies dan voor\nof\n.\nMet Ziggo GO kijk je tv op je smartphone, tablet of laptop. Je kijkt waar je maar wilt, in Nederland en in de EU. En de Next Mini en Mediabox Next zijn met Ziggo GO verbonden. Zo pauzeer je die spannende serie op je tv en kijk je verder op een ander scherm. Ben je onderweg en wil je toch wat opnemen? Dat kan gewoon op afstand. Lees hier hoe je alle Ziggo GO fucties gebruikt.\nOm Ziggo GO te gebruiken heb je een account voor Mijn Ziggo nodig. Heb je nog geen account? Dan kun je er eenvoudig één\n. Zodra je bent ingelogd kijk je alle tv-zenders uit je abonnement.\nAlle klanten met een Next Mini of Mediabox Next kunnen de afstandsbediening met Voice Control gebruiken. Als nieuwe klant krijg je de afstandsbediening met Voice Control bij alle pakketten met digitale televisie.\nWe vinden het belangrijk dat je de beste kwaliteit televisie krijgt en daarvoor heb je goed internet nodig. De Next Mini of Mediabox Next krijg je daarom alleen in combinatie met Internet van Ziggo, zodat we je de beste service kunnen bieden.\nDaarnaast hebben we met contentpartijen afgesproken dat we hun programma's, films en series alleen aanbieden via ons eigen netwerk. Ook daarom heb je dus Internet van Ziggo nodig.",
+      "order": 28
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0001",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::films-series-en-zenders-in-4k-beeldkwaliteit",
+      "text": "Films, series en zenders in 4K-beeldkwaliteit\n\nMet TV Zenders Plus heb je 40+ extra tv-zenders, waaronder de zender\ndie in 4K-kwaliteit wordt uitgezonden.",
+      "order": 1
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0002",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::tv-apps-zoals-netflix-in-4k-beeldkwaliteit",
+      "text": "TV apps zoals Netflix in 4K-beeldkwaliteit\n\nHeb je een Netflix Premium, HBO Max, Prime Video of YouTube-abonnement? Dan kijk je je favoriete serie, film of video vaak ook in 4K-beeldkwaliteit.",
+      "order": 2
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0003",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::espn-premium-in-uhd",
+      "text": "ESPN Premium in UHD\n\nMet een Next Mini of Mediabox Next en een UHD tv zie je je favoriete club in extra scherp beeld met veel meer kleur.",
+      "order": 3
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0004",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::4k-uhd-televisie",
+      "text": "4K UHD televisie\n\nOm 4K of UHD tv te kijken heb je een 4K UHD-tv nodig en een film, serie, programma of sportevent in 4K of UHD. Ons aanbod wordt steeds verder aangevuld.",
+      "order": 4
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0005",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::internet-tv-van-ziggo",
+      "text": "Internet & TV van Ziggo\n\nOm ons 4K UHD aanbod te kunnen kijken heb je voldoende internetsnelheid nodig en een Mediabox Next, Next Mini of CI+ module. Met een Internet & TV pakket van Ziggo krijg je razendsnel internet én kijk je tv waar en wanneer je wilt.",
+      "order": 5
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0006",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::mediabox-next-next-mini-of-ci",
+      "text": "Mediabox Next, Next Mini of CI+\n\nMet de\nof de\nheb je in een handomdraai toegang tot alle beschikbare films, documentaires en series in 4K of UHD-beeldkwaliteit. Ook met  de\nkijk je sinds kort in 4K of UHD.",
+      "order": 6
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0007",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::kies-je-tv-pakket",
+      "text": "Kies je tv-pakket\n\nTelevisie",
+      "order": 7
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0008",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::introduction",
+      "text": "Introduction\n\n.\nTelevisie",
+      "order": 8
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0009",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::introduction",
+      "text": "Introduction\n\n.\nTelevisie",
+      "order": 9
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0010",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::introduction",
+      "text": "Introduction\n\n.\nBovengenoemde tv-pakketten kies je altijd in combinatie met internet van Ziggo",
+      "order": 10
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0011",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 11
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0012",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nOm 4K UHD bij Ziggo te kijken, heb je een 4K UHD-tv en een 4K UHD-geschikte ontvanger zoals de Mediabox Next, de Next Mini of een CI+ Module nodig.\nJa, dit is gratis. Heb je een Ziggo Internet & TV abonnement met Mediabox Next, Next Mini of CI+ module? Dan hoef je niet extra te betalen of een extra abonnement af te sluiten om in 4K of UHD te kijken.\nWanneer je klant bent van Ziggo en je hebt een 4K UHD-televisie, kijk je met je Mediabox Next, Next Mini of CI+ Module op de volgende kanalen in 4K of UHD-beeldkwaliteit:\nVia Ziggo On Demand, de videotheek op de Mediabox Next en de Next Mini, huur je diverse toptitels in 4K.\nEn afhankelijk van je\n,\nof YouTube-abonnement, kijk je je favoriete serie of video ook direct en snel in 4K. Om bij Netflix in 4K te kijken, heb je wel een Premium abonnement nodig.\nNee. De termen worden vaak door elkaar gebruikt omdat ze beide een mooier beeld geven. 4K zegt alleen iets over de beeldresolutie. Het heeft meer pixels waardoor de beeldresolutie hoger en beter is dan je met HD krijgt. UHD zegt iets over de beeldbeleving aan de hand van meerdere aspecten, namelijk de combinatie van beeldresolutie en het aantal details (High Dynamic Range, ook wel HDR genoemd) en een breder kleurenpallet, ook wel WCG (Wide Colour Gamut) genoemd.\nUHD (ook wel Ultra HD genoemd) geeft een rijkere en intensere kijkervaring. Het beeld wordt minimaal in High Dynamic Range (HDR) uitgezonden. Hiermee krijgt het beeld een rijker contrast. Vaak gaat dit samen met Wide Colour Gamut (WCG) wat een rijker kleurenpallet geeft. Daarnaast is de resolutie van UHD minimaal 1080p; wanneer de resolutie 2160p is in combinatie met HDR, spreken we van 4K UHD.\nMet 4K kijk je vier keer scherper dan met Full HD. Waar een Full HD-televisie een beeldresolutie heeft van 1920 x 1080 pixels, biedt een 4K-televisie met een resolutie van 3840 x 2160 pixels een nog scherper beeld. Deze resolutie zorgt voor een haarscherpe weergave waarbij je geen enkel detail mist en elk sportmoment nog scherper te volgen zal zijn. 4K zegt dus enkel iets over de beeldresolutie en is daarmee iets anders dan UHD.\nAls je al bij Ziggo klant bent met een TV en Internet abonnement, dan kan je een Next Mini krijgen door over te stappen naar een nieuw TV abonnement (TV Start, TV Complete of TV Max). Let op: dit kan niet online, maar alleen via de klantenservice: bel gratis 1200 vanaf je telefoonaansluiting van Ziggo, of bel 0900-1884.\nBen je nog geen klant bij Ziggo? Dan kan je overstappen naar Ziggo met een Internet & TV pakket. Je ontvangt dan een Next Mini. Bekijk hier de\n.\nNee. Heb je geen 4K UHD-ontvanger, zoals een Mediabox Next, Next Mini of CI+ module? Dan verandert er niks. Je blijft je favoriete serie of film in HD-kwaliteit kijken.",
+      "order": 12
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0013",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::alles-over-ziggo-tv",
+      "text": "Alles over Ziggo TV\n\nTv-kijken wordt een stuk persoonlijker, slimmer én makkelijker. Geniet van al je kijkplezier bij elkaar. En kijk op elk scherm, waar en wanneer je wilt.",
+      "order": 13
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0014",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::haal-meer-uit-je-mediabox",
+      "text": "Haal meer uit je mediabox\n\nDe mogelijkheden met de Mediabox Next en\nzijn eindeloos. Maar niet bij iedereen bekend. Hoog tijd voor wat handige tips.",
+      "order": 14
+    },
+    {
+      "chunk_id": "televisie_4k-uhd::chunk-0015",
+      "page_id": "televisie_4k-uhd",
+      "section_id": "televisie_4k-uhd::skyshowtime-bij-ziggo",
+      "text": "SkyShowtime bij Ziggo\n\nGeniet bij Ziggo van de nieuwste films & series van SkyShowtime, de plek waar wereldberoemde studio’s samenkomen.",
+      "order": 15
+    },
+    {
+      "chunk_id": "bellen_volop-bellen::chunk-0001",
+      "page_id": "bellen_volop-bellen",
+      "section_id": "bellen_volop-bellen::onbeperkt-bellen-naar-vast-en-mobiel",
+      "text": "Onbeperkt bellen naar vast en mobiel\n\nVolop Bellen kan gecombineerd worden met één telefoonlijn. ​Wil je ook Volop Bellen op een extra telefoonlijn in huis? ​Sluit daar dan een tweede abonnement voor af.\n15,50 per maand\nBel onbeperkt naar alle Nederlandse vaste en mobiele nummers, met uitzondering van betaalde servicenummers. Dat is pas écht onbezorgd bellen.\nOm veiligheidsredenen is het de eerste 3 maanden niet mogelijk om betaalde (0909/0906) nummers te bellen.\nJe kunt je huidige nummer gratis meenemen naar Ziggo. Nummerbehoud vraag je eenvoudig aan tijdens je bestelling. Ziggo zegt dan het contract bij je huidige telefonieaanbieder voor je op. Dat hoef je dus niet meer zelf te doen.",
+      "order": 1
+    },
+    {
+      "chunk_id": "bellen_volop-bellen::chunk-0002",
+      "page_id": "bellen_volop-bellen",
+      "section_id": "bellen_volop-bellen::stappenplan",
+      "text": "Stappenplan",
+      "order": 2
+    },
+    {
+      "chunk_id": "bellen_volop-bellen::chunk-0003",
+      "page_id": "bellen_volop-bellen",
+      "section_id": "bellen_volop-bellen::stappenplan",
+      "text": "Stappenplan\n\nKlik op de bestelbutton en log in op Mijn Ziggo\nKies Volop Bellen in het bestelformulier en ga akkoord met de voorwaarden\nEen paar dagen nadat je de bestelling hebt gedaan, ontvang je een bevestiging van Ziggo\nVanaf nu werkt Volop Bellen\nBellen via de kabel maakt een kraakheldere spraakverbinding mogelijk. Beter en betrouwbaarder dan wat je gewend bent van bijvoorbeeld DSL-aanbieders. Ook tijdens het internetten of downloaden merk je geen verschil in kwaliteit van je telefoonverbinding. Wij beheren onze telefoonverbindingen van het begin tot het einde zelf en daarom zijn ze erg betrouwbaar.\nNatuurlijk kan dat. Je kunt per telefoonlijn één ISDN-nummer meenemen.\nJazeker. Je kunt je thuistelefoon makkelijk combineren met televisie en internet van Ziggo. Dan kies je voor een Alles-in-1 Pakket, met\n. Kijk bij onze\nvoor een compleet overzicht van de mogelijkheden.\nZiggo Vast Bellen is in de meeste gevallen ook geschikt om alarmmeldingen door te geven. Maar we kunnen niet altijd garanderen dat deze goed werken in combinatie met Ziggo telefonie. We weten dat het werkt bij alarmsystemen van Bosch, Lobeco, General Electrics en Homesafety. Neem echter altijd contact op met de leverancier van het systeem om te checken of het werkt met Ziggo telefonie.\nIn het geval van een stroom- of signaalstoring werkt de modem niet en kan er dus ook geen alarmering worden doorgegeven. Onze installateurs zijn niet gecertificeerd om alarminstallaties aan te sluiten. Ze zijn daarmee niet verantwoordelijk voor het niet doorkomen van een alarmmelding. Hiervoor zul je contact op moeten nemen met de leverancier van je alarmsysteem.\nAls je nog geen vast telefoonnummer hebt, dan ontvang je van ons een vast telefoonnummer op je adres.\nDit abonnement en de extra opties zijn maandelijks opzegbaar.",
+      "order": 3
+    },
+    {
+      "chunk_id": "bellen_extra-telefoonlijn::chunk-0001",
+      "page_id": "bellen_extra-telefoonlijn",
+      "section_id": "bellen_extra-telefoonlijn::overview",
+      "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen met de vaste telefoon: dat doe je voor een vast bedrag per maand of lage kosten per minuut.",
+      "order": 1
+    },
+    {
+      "chunk_id": "bellen_extra-telefoonlijn::chunk-0002",
+      "page_id": "bellen_extra-telefoonlijn",
+      "section_id": "bellen_extra-telefoonlijn::overview",
+      "text": "Voordelig bellen met vaste telefonie | Ziggo\n\nVoordelig bellen naar vast en mobiel\nOntdek de mogelijkheden\nVast Bellen\nBij Ziggo bel je naar vaste en mobiele nummers in Nederland voor het voordelige tarief van 16 cent per minuut. Bovendien betaal je per seconde en kun je je huidige telefoonnummer gratis meenemen naar Ziggo. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nAbonnementen met Vast Bellen\nVast Bellen\nVast Bellen\nAlles-in-1\nAlles-in-1\nVolop Bellen\nVoor maar € 15,50 extra per maand bel je onbeperkt naar alle Nederlandse vaste en mobiele nummers.\nOnbeperkt bellen\nPer maand opzegbaar\nOm Volop Bellen te bestellen heb je een abonnement op\nVast Bellen\nof\nAlles-in-1\nnodig.\nBekijk Volop Bellen\nBekijk Volop Bellen\nNummerbehoud\nStap je over op Ziggo Bellen? Dan neem je je oude vaste telefoonnummer gratis mee. Wanneer je Ziggo modem is aangesloten, nemen we binnen 1 werkdag je telefoonnummer over.\nNummerbehoud vraag je heel eenvoudig aan. Hoe dat in zijn werk gaat, leggen we je tijdens de bestelling uit.\nExtra telefoniediensten\nKies je favoriete telefoniedienst. Eenvoudig te bestellen en maandelijks opzegbaar.\nExtra lijn\nEen tweede telefoonlijn bij je Vast Bellen abonnement is erg handig. Bijvoorbeeld als je met meerdere mensen een huis deelt. Of als je niet zonder je fax kunt.\nExtra telefoonlijn\n+\nExtra diensten\nHeb je een Vast Bellen abonnement? Dan kun je verschillende extra diensten gebruiken die je niets extra kosten.\nVoicemail\n+\nDriegesprek\n+\nDoorschakelen\n+",
+      "order": 2
+    },
+    {
+      "chunk_id": "tarieven_bellen::chunk-0001",
+      "page_id": "tarieven_bellen",
+      "section_id": "tarieven_bellen::overview",
+      "text": "Tarieven Telefonie | Klantenservice | Ziggo\n\nEen overzicht van alle beltarieven van Ziggo vind je hier.\n\nNog geen Ziggo?\nStel samen\nStel je pakket samen\nAlle gesprekstarieven voor binnen- en buitenland\nTarieven Ziggo Bellen (370.7 kB)\nTarieven Volop Bellen (370.9 kB)\nTarieven Volop Bellen Internationaal* (370.6 kB)\nTarieven Bellen zonder starttarief (385.0 kB)\n* Volop Bellen Internationaal kan niet meer besteld worden.\nOp alle pakketten zijn onze\nalgemene voorwaarden\nvan toepassing. Op de aanbiedingen zijn onze\nactievoorwaarden\nvan toepassing.",
+      "order": 1
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0001",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::nummerbehoud",
+      "text": "Nummerbehoud\n\nNummerbehoud is gratis en vraag je snel en makkelijk aan met onze\n. Tijdens je bestelling van Bellen van Ziggo kun je dit aangeven.\nBen je een zakelijke klant? Met onze\nwerk je binnen no-time verder met onze zakelijke producten.",
+      "order": 1
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0002",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nAls je kiest voor Nummerbehoud neemt Ziggo je telefoonnummer over van de oude provider. Dat noemen we 'portering'. De portering start vanaf het moment dat je modem geactiveerd wordt. Vanaf dan kun je meteen bellen via de Ziggo lijn. Maar gebeld worden kan pas wanneer het nummer volledig is overgenomen. Dit duurt ongeveer 24 uur. Duurt het langer dan 24 uur? Neem dan contact op met onze\n.\nJa, wanneer je twee telefoonlijnen bestelt bij Ziggo, kun je twee nummers meenemen. Ook wanneer je twee ISDN-nummers hebt. Geef dan de nummers die je mee wil nemen aan ons door.\nJa, tijdens je bestelling van Bellen van Ziggo kun je aangeven dat je wel Nummerbehoud wil, maar geen gebruik wil maken van de Overstapservice. Is je Ziggo abonnement al ingegaan met een Ziggo telefoonnummer en wil je toch nog gebruik maken van Nummerbehoud? Neem dan\nmet ons op.\nOverstappen met Nummerbehoud tussen twee providers wordt overzien door de vereniging COIN. Dit is een samenwerkingsverband van telecomaanbieders die actief zijn op de Nederlandse markt. Op\nvind je meer informatie over het overstappen met nummerbehoud.",
+      "order": 2
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0003",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::vermelding-in-de-telefoongids",
+      "text": "Vermelding in de telefoongids\n\nKies je voor een vermelding in de telefoongids, dan is je nummer daarna opvraagbaar via telefonische inlichtingen. Je kunt ook kiezen voor een geheim nummer.\nJe hebt\ndie je (telefoon)gegevens afschermen:\nKies je\nvoor een opt-in? Dan verschijnen je gegevens niet in openbare telefoongidsen en online databases, maar je nummer is dan nog wel zichtbaar voor de mensen die je zelf belt (je kan altijd zelf\ninschakelen, als je dat graag wilt). Je gegevens zijn dan nog wel bij onze klantenservice bekend om jou te kunnen helpen.\nJe kunt ook kiezen voor een\n. Je telefoonnummer en gegevens worden dan niet opgenomen in telefoongidsen of databases. Je nummer wordt niet meegestuurd bij uitgaande oproepen. De ontvanger ziet dan 'anoniem' of geen nummer. Daardoor kan het dat er minder vaak wordt opgenomen als je iemand probeert te bellen. Je gegevens worden strikter afgeschermd en worden alleen verstrekt aan derden als de wet dit verplicht.\nTijdens de bestelling nemen we graag met je door wat jouw keuze is. Wil je achteraf je keuze aanpassen? Dat kan elk moment op\n.",
+      "order": 3
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0004",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::telefonische-overlast",
+      "text": "Telefonische overlast\n\nAls je tenminste 5 keer ongewenst bent gebeld vanaf hetzelfde nummer, stellen we een onderzoek in. Dat kan bij gesprekken waarbij je minimaal 1 seconde in verbinding bent geweest met de beller. Met het telefoonnummer van een gemiste oproep kunnen we dus helaas geen onderzoek starten.\nOm een onderzoek in te stellen, hebben we een paar gegevens van je nodig. Verzamel daarom gedurende twee weken de volgende informatie:\ndatum wanneer het lastigvallen begonnen is\ndatum en tijdstip dat het gebeurt\nwat je hoort als je opneemt\neventuele vermoedens over de identiteit van de dader\nStuur deze gegevens daarna naar ons op met behulp\n. Stuur je liever een brief? Stuur de informatie in dat geval op naar Ziggo B.V. Postbus 43048, 3540 AA, Utrecht.",
+      "order": 4
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0005",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::wat-gebeurt-er-als-we-een-onderzoek-instellen",
+      "text": "Wat gebeurt er als we een onderzoek instellen?\n\nZien we dat je wordt lastiggevallen? Dan nemen we contact op met de provider van de dader. Heb je een week na ons onderzoek nog steeds telefonische overlast, verzamel dan opnieuw de telefoonnummers en tijdstippen en stuur ze door met ons\n. Zo kunnen we samen verdere stappen zetten. Helaas lukt het niet altijd om alle overlast te stoppen.\nHelaas kunnen we geen onderzoek instellen als het gaat om klant-/contractantgegevens van buitenlandse telefoonaansluitingen. Ziggo beschikt niet over deze gegevens.",
+      "order": 5
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0006",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::telefoonscams",
+      "text": "Telefoonscams\n\nWe zien helaas vaak dat mensen gevoelige informatie willen achterhalen via de telefoon. Bekend voorbeeld: je neemt de telefoon op en hoort een bandje. Dit bandje vertelt je dat je een prijs hebt gewonnen. Je hoeft alleen maar een cijfer in te toetsen.\nEen ander voorbeeld is dat iemand zich voordoet als een technisch monteur om zo je gebruikersnaam en wachtwoord te achterhalen. Als een gesprek verdacht lijkt, ga dan niet in op het verzoek en hang meteen op.",
+      "order": 6
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0007",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::wangiri-fraude-met-een-japans-sausje",
+      "text": "Wangiri: fraude met een Japans sausje\n\nHet kan je zomaar gebeuren: je ziet een gemiste oproep van een buitenlands nummer. Terugbellen voelt niet goed – en dat is maar goed ook, want zo voorkom je hoge kosten. Waarschijnlijk was dit een\n. Deze oplichters bellen kort en hangen snel op, in de hoop dat jij terugbelt. Hun nummer is gekoppeld aan een dure betaaldienst, waardoor ze verdienen zolang jij aan de lijn blijft. Soms laten ze toontjes of piepjes horen zodat je denkt dat het gesprek al is beëindigd, terwijl je nog steeds verbonden bent.",
+      "order": 7
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0008",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::wat-kan-ik-er-tegen-doen",
+      "text": "Wat kan ik er tegen doen?\n\nGelukkig is dat heel simpel: bel nooit terug. Zolang je niet terugbelt is er niks aan de hand. Inkomende gesprekken uit het buitenland kun je ook gewoon opnemen. De teller kan pas gaan lopen als je zelf terugbelt.",
+      "order": 8
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0009",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::hoe-komen-ze-aan-mijn-nummer",
+      "text": "Hoe komen ze aan mijn nummer?\n\nStaat je nummer in de telefoongids of online? Dan kunnen fraudeurs het makkelijk toevoegen aan hun bellijst. Zulke lijsten worden vaak gedeeld, waardoor je meerdere keren en uit verschillende landen gebeld kunt worden. Ook gebruiken ze soms software die willekeurige nummers toetst, om zo actieve telefoonnummers op te sporen.",
+      "order": 9
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0010",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nLaat het onze\neven weten. Dan zoeken we voor je uit of het echt om een telefoonnummer van fraudeurs gaat.\nHeb je je maandelijkse factuur van Ziggo ontvangen en zie je dat er hoge belkosten zijn gemaakt naar een buitenlands nummer dat je hebt teruggebeld? Meld dit bij onze\nzodat we een onderzoek kunnen starten.",
+      "order": 10
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0011",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::nummerblokkade",
+      "text": "Nummerblokkade\n\nMet nummerblokkade voorkom je dat er vanaf je vaste telefoonlijn naar bepaalde nummers wordt gebeld, zoals 0900-nummers of internationale nummers.",
+      "order": 11
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0012",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::handig-om-te-weten",
+      "text": "Handig om te weten\n\nMet Nummerblokkade kun je uitgaande telefoongesprekken blokkeren. Bijvoorbeeld bellen naar 0906-nummers. Wil je inkomende gesprekken blokkeren? Dat kan alleen voor anonieme nummers. Inkomende gesprekken van buitenlandse telefoonnummers blokkeren is helaas niet mogelijk.",
+      "order": 12
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0013",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::wat-wil-je-doen",
+      "text": "Wat wil je doen?",
+      "order": 13
+    },
+    {
+      "chunk_id": "klantenservice_contact_nummerbehoud::chunk-0014",
+      "page_id": "klantenservice_contact_nummerbehoud",
+      "section_id": "klantenservice_contact_nummerbehoud::wat-wil-je-doen",
+      "text": "Wat wil je doen?\n\nWil je niet meer gebeld worden door bedrijven die hun diensten of producten aan je proberen te verkopen? Of word je op een andere manier telefonisch lastiggevallen? Lees hoe we je kunnen helpen bij\n.\nWijzig hieronder direct je nummerblokkade instellingen in Mijn Ziggo.\nBen je je gebruikersnaam en/of wachtwoord vergeten? Ga naar\nom je\nop te vragen. Je\nvraag je op door naar\nte gaan.\nBen je ingelogd? Klik op het tabblad\nKlik op\nKies het gewenste blokkadeniveau\nJe regelt de wijziging of opzegging van de nummerblokkade zelf in Mijn Ziggo. We leggen je hier uit hoe je dat doet.\nWil je dit liever schriftelijk doen? Dat kan natuurlijk. Gebruik dan het\n.\nKlik in Mijn Ziggo op het tabblad\nKlik op\nKies het gewenste blokkadeniveau\nJe hebt je nummerblokkade succesvol ingesteld!\nWil je niet meer gebeld worden door anonieme nummers? Dat stel je zo in:\nNeem de hoorn op en wacht op de kiestoon.\nToets na de kiestoon in\n.\nJe hoort nu (eenmalig): ‘Uw dienst is nu geactiveerd. U bent nu alleen bereikbaar voor de bellers die hun nummer meesturen. Let op! Enkele ziekenhuizen en alarmdiensten bellen anoniem en kunnen u niet bereiken. Om deze functie weer uit te zetten toets u #141#’.\nJe blijft altijd bereikbaar voor bellers die hun nummer wel meezenden.\nJe kunt nu de hoorn neerleggen.\nNeem de hoorn op en wacht op de kiestoon.\nToets na de kiestoon in #141#.\nJe hoort nu (eenmalig): 'Uw dienst is nu uitgeschakeld.'\nJe kunt nu de hoorn neerleggen.",
+      "order": 14
+    },
+    {
+      "chunk_id": "vodafone::chunk-0001",
+      "page_id": "vodafone",
+      "section_id": "vodafone::one-van-vodafone-ziggo",
+      "text": "One van Vodafone & Ziggo\n\nSlim besparen, elke maand weer. Want als je Vodafone mobiel en Ziggo Internet hebt pak je elke maand dubbel voordeel: tot €10 korting op mobiel én tot €10 korting op je internet. Tikt lekker aan toch? Dat noemen we\nvan Vodafone en Ziggo.\nTot\nop Ziggo Internet\nTot\nop Vodafone mobiel\nin je\nVodafone databundel\nHad je voor 8 juni al Vodafone en Ziggo samen? Dan heb je Volop Extra Voordelen.\nIk heb al Ziggo\nIk heb al Vodafone\nIk heb nog geen Ziggo of Vodafone\nBen je ondernemer?",
+      "order": 1
+    },
+    {
+      "chunk_id": "vodafone::chunk-0002",
+      "page_id": "vodafone",
+      "section_id": "vodafone::dat-telt-lekker-op",
+      "text": "Dat telt lekker op\n\nHoe meer data en snelheid, hoe meer korting je krijgt. Dat is dubbele winst!\nCheck hoeveel korting je\nkrijgt als je Vodafone en Ziggo combineert:",
+      "order": 2
+    },
+    {
+      "chunk_id": "vodafone::chunk-0003",
+      "page_id": "vodafone",
+      "section_id": "vodafone::introduction",
+      "text": "Introduction\n\nExtra sims, extra voordeel!\nHeb je meerdere Vodafone-abonnementen op hetzelfde adres? Dan geldt de korting voor elk abonnement\nBij een 50 GB Family-abonnement: €5 korting op de hoofdsim en €2,50 korting per Family Member-sim\nBij twee of meer Vodafone Unlimited-abonnementen: nóg eens €2,50 extra korting per Unlimited-abonnement\nGoed om te weten: met Vodafone Kids & Teens profiteer je al van een scherpe prijs. Daarom krijg je geen extra korting op Vodafone, maar wél dubbele data.",
+      "order": 3
+    },
+    {
+      "chunk_id": "vodafone::chunk-0004",
+      "page_id": "vodafone",
+      "section_id": "vodafone::al-het-mooie-van-ziggo",
+      "text": "Al het mooie van Ziggo\n\nAltijd alle snelheid die je nodig hebt\nAltijd het beste van sport en entertainment voor jou\nAltijd wifi die werkt. Gegarandeerd",
+      "order": 4
+    },
+    {
+      "chunk_id": "vodafone::chunk-0005",
+      "page_id": "vodafone",
+      "section_id": "vodafone::al-het-mooie-van-vodafone",
+      "text": "Al het mooie van Vodafone\n\nAltijd maximale snelheid tot 1Gbit/s op ons excellente 5G-netwerk\nAltijd een abonnement dat bij jou of je kind past\nAltijd goede service, online en in de winkel",
+      "order": 5
+    },
+    {
+      "chunk_id": "vodafone::chunk-0006",
+      "page_id": "vodafone",
+      "section_id": "vodafone::vodafone-ziggo-samen",
+      "text": "Vodafone & Ziggo samen\n\nAlles op één plek met de Vodafone en Ziggo app\nAltijd iets speciaals met Priority",
+      "order": 6
+    },
+    {
+      "chunk_id": "vodafone::chunk-0007",
+      "page_id": "vodafone",
+      "section_id": "vodafone::maak-je-combinatie-compleet",
+      "text": "Maak je combinatie compleet\n\nHeb je nog geen Vodafone mobiel en Ziggo Internet samen? Dan loop je korting mis! Maak je combinatie compleet en krijg automatisch korting, elke maand weer.\nHad je voor 8 juni al Vodafone en Ziggo samen? Dan heb je nu Volop Extra Voordelen.",
+      "order": 7
+    },
+    {
+      "chunk_id": "vodafone::chunk-0008",
+      "page_id": "vodafone",
+      "section_id": "vodafone::later-overstappen-geen-probleem",
+      "text": "Later overstappen? Geen probleem!\n\nGeef aan wanneer je contract afloopt en we geven je een seintje wanneer je kan overstappen.",
+      "order": 8
+    },
+    {
+      "chunk_id": "vodafone::chunk-0009",
+      "page_id": "vodafone",
+      "section_id": "vodafone::veelgestelde-vragen",
+      "text": "Veelgestelde vragen",
+      "order": 9
+    },
+    {
+      "chunk_id": "vodafone::chunk-0010",
+      "page_id": "vodafone",
+      "section_id": "vodafone::veelgestelde-vragen",
+      "text": "Veelgestelde vragen\n\nVanaf 8 juni 2026 krijg je met de combinatie van Vodafone en Ziggo Internet, op één adres, de voordelen van One van Vodafone en Ziggo.\nJe krijgt elke maand korting als je Ziggo Internet (besteld of vernieuwd vanaf 8 juni 2026) en Vodafone op hetzelfde adres of KVK-nummer hebt.\nJe krijgt elke maand korting op je Vodafone abonnement als je deze met Ziggo Internet combineert op één adres. Nog geen Unlimited databundel? Dan krijg je dubbel zoveel GB.\nMet One van Vodafone en Ziggo heb je dus dubbel voordeel!\nTot € 10 korting op Ziggo Internet\nTot € 10 korting per Vodafone mobiel abonnement\nHeb je meerdere Vodafone-abonnementen op hetzelfde adres? Dan geldt de korting voor elk abonnement\nBij een 50 GB Family-abonnement: € 5 korting op de hoofdsim en € 2,50 korting per Family Member-sim\nBij twee of meer Vodafone Unlimited-abonnementen: nóg eens € 2,50 extra korting per Unlimited-abonnement\nGoed om te weten: met Vodafone Kids & Teens profiteer je al van een scherpe prijs. Daarom krijg je geen extra korting op Vodafone, maar wél dubbele data.\nCombineer je Vodafone en Ziggo Internet op hetzelfde adres? Dan krijg je altijd voordeel. Was je al klant van allebei vóór 8 juni 2026? Dan houd je de voordelen die je al had, zoals je extra tv-pakket en Safe Online Extra 20.\n.\nHeb je ook Vodafone en sluit je op of na 8 juni 2026 Ziggo Internet af? Of vernieuw je je pakket? Dan krijg je de voordelen van One van Vodafone en Ziggo. Zodra Vodafone en Ziggo Internet actief zijn op hetzelfde adres, zetten we je korting automatisch aan. Wel zo makkelijk.\nWas je al klant van allebei vóór 8 juni 2026? Dan houd je de voordelen die je gewend bent. Van korting tot een extra tv-pakket naar keuze en internetbeveiliging, jij hebt het al in huis.\nHad je al Ziggo Internet en neem je vanaf nu een Vodafone-abonnement erbij? Dan krijg je tot € 10 korting en dubbele data op je Vodafone-abonnement. Pas wanneer je je internet-pakket vernieuwd, krijg je óók korting op Ziggo Internet.\nNee, je hoeft hiervoor niks te doen. Zolang je Vodafone en Ziggo Internet op één adres combineert, krijg je voordeel. Goed om te weten: je ziet alles van Vodafone en Ziggo samen makkelijk in één overzicht in de Vodafone & Ziggo app.\nWanneer je verhuist, verhuizen je voordelen gewoon met je mee. Alleen als je je Ziggo Internet-pakket vernieuwt, krijg je andere combinatievoordelen. Ga naar\nom je verhuizing door te geven of je pakket te wijzigen.\nDan vervallen je maandelijkse combinatievoordelen. Dit geldt voor alle klanten die Vodafone en Ziggo combineren en één daarvan opzeggen.\nSinds 8 september 2025 hebben een aantal Vodafone-abonnementen een nieuwe naam. De databundel, prijs en voorwaarden zijn gelijk gebleven. Dit zijn de nieuwe namen:\nStart XL heet nu 15 GB\nRed heet nu 30 GB\nRed Together heet nu 50 GB Family\nRed Together Extra heet nu Family Member\nRed Unlimited heet nu Unlimited\nJa, ook voor ondernemers zijn de One voordelen beschikbaar. Deze vind je op de Ziggo Zakelijk pagina.​",
+      "order": 10
+    },
+    {
+      "chunk_id": "vodafone::chunk-0011",
+      "page_id": "vodafone",
+      "section_id": "vodafone::bel",
+      "text": "Bel\n\nWerkdagen 8.00 - 20.00\nZaterdag 9.00 - 18.00",
+      "order": 11
+    },
+    {
+      "chunk_id": "vodafone::chunk-0012",
+      "page_id": "vodafone",
+      "section_id": "vodafone::chat-met-ons",
+      "text": "Chat met ons\n\nStel direct je vraag aan één van onze adviseurs.",
+      "order": 12
+    },
+    {
+      "chunk_id": "vodafone::chunk-0013",
+      "page_id": "vodafone",
+      "section_id": "vodafone::bezoek-ons",
+      "text": "Bezoek ons\n\nBezoek een Ziggo winkel bij je in de buurt.\nBekijk de dichtstbijzijnde winkel in jouw buurt.",
+      "order": 13
+    },
+    {
+      "chunk_id": "ziggovoordeel_simonly::chunk-0001",
+      "page_id": "ziggovoordeel_simonly",
+      "section_id": "ziggovoordeel_simonly::overview",
+      "text": "Sim Only\n\nDetails voor Sim Only",
+      "order": 1
+    },
+    {
+      "chunk_id": "ziggovoordeel::chunk-0001",
+      "page_id": "ziggovoordeel",
+      "section_id": "ziggovoordeel::overview",
+      "text": "Speciaal voor jou als Ziggo klant\n\nZiggo\n\nHomepage voor Speciaal voor jou als Ziggo klant\nAlle telefoons",
+      "order": 1
+    }
+  ]
+}

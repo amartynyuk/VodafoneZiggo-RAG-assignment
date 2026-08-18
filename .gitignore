@@ -31,15 +31,15 @@ venv/
 Thumbs.db
 
 # Data artifacts (regenerate via kb-builder ingest)
-data/*.index
-data/*.faiss
-data/rag_meta.json
-data/rag_vectors.npy
-data/cache.faiss
-data/cache_meta.json
-data/cache_vectors.npy
-data/*.pkl
-data/graph.json
+# data/*.index
+# data/*.faiss
+# data/rag_meta.json
+# data/rag_vectors.npy
+# data/cache.faiss
+# data/cache_meta.json
+# data/cache_vectors.npy
+# data/*.pkl
+# data/graph.json
 
 # Logs
 *.log
@@ -52,3 +52,4 @@ npm-debug.log*
 .cdk.staging/
 
 .cursorrules
+docs/

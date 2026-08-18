@@ -1,0 +1,14 @@
+cache.faiss
+cache_meta.json
+cache_vectors.npy
+graph.json
+ingest_report.json
+pages
+qa_cache_seed.json
+rag.faiss
+rag_meta.json
+rag_vectors.npy
+samples
+ziggo-product-label-urls.json
+ziggo-product-structure.json
+ziggo.nl.txt

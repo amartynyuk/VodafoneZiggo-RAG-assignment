@@ -1,0 +1,76 @@
+{
+  "embedding_model": "text-embedding-3-small",
+  "dimension": 1536,
+  "records": [
+    {
+      "question": "What is Ziggo GO?",
+      "answer": "Ziggo GO is Ziggo's app for watching TV on your smartphone, tablet, laptop or compatible TV devices. You can watch live TV, replay programmes for up to 7 days, and download selected films and series for offline viewing. It is included for Ziggo customers with an Internet & TV or Alles-in-1 package.",
+      "source": "seed"
+    },
+    {
+      "question": "Wat is Ziggo GO?",
+      "answer": "Ziggo GO is de app van Ziggo waarmee je tv kijkt op je smartphone, tablet, laptop of geschikte tv-apparaten. Je kunt live tv kijken, programma's tot 7 dagen terugkijken en geselecteerde films en series downloaden voor offline gebruik. Ziggo GO is inbegrepen voor klanten met Internet & TV of Alles-in-1.",
+      "source": "seed"
+    },
+    {
+      "question": "How many devices can I use with Ziggo GO?",
+      "answer": "With Ziggo GO you can watch on up to 3 devices at the same time.",
+      "source": "seed"
+    },
+    {
+      "question": "Hoeveel apparaten kan ik tegelijk gebruiken met Ziggo GO?",
+      "answer": "Met Ziggo GO kun je op maximaal 3 apparaten tegelijk online tv-kijken.",
+      "source": "seed"
+    },
+    {
+      "question": "Can I use Ziggo GO abroad?",
+      "answer": "Yes, within the EU you can use Ziggo GO when connected to the internet. Outside the EU it does not work due to broadcasting rights.",
+      "source": "seed"
+    },
+    {
+      "question": "Kan ik Ziggo GO gebruiken in het buitenland?",
+      "answer": "Ja, binnen de EU kun je Ziggo GO gebruiken met een internetverbinding. Buiten de EU werkt Ziggo GO niet vanwege uitzendrechten.",
+      "source": "seed"
+    },
+    {
+      "question": "What is Wifi Garantie?",
+      "answer": "Wifi Garantie is a Ziggo service that helps ensure strong WiFi coverage throughout your home, often using WiFi boosters where needed.",
+      "source": "seed"
+    },
+    {
+      "question": "Wat is Wifi Garantie?",
+      "answer": "Wifi Garantie is een Ziggo-dienst die zorgt voor goede WiFi-dekking in je hele huis, vaak met wifi-versterkers waar nodig.",
+      "source": "seed"
+    },
+    {
+      "question": "How many channels does Ziggo TV offer?",
+      "answer": "Ziggo TV packages vary; TV Start offers 70+ channels, while other packages such as TV Complete and TV Max include more channels and features. Check ziggo.nl/tv for current package details.",
+      "source": "seed"
+    },
+    {
+      "question": "Hoeveel zenders heeft Ziggo TV?",
+      "answer": "Het aantal zenders hangt af van je tv-pakket. TV Start biedt 70+ zenders; uitgebreidere pakketten zoals TV Complete en TV Max bieden meer zenders en functies. Bekijk ziggo.nl/tv voor actuele pakketinformatie.",
+      "source": "seed"
+    },
+    {
+      "question": "Why should I get Ziggo GO, and what is it?",
+      "answer": "**Ziggo GO** is de online tv-dienst van Ziggo. Je kijkt ermee tv op elk scherm, waar en wanneer je wilt: bijvoorbeeld op je pc, laptop, mobiel of tablet.\n\nVoordelen zijn onder andere:\n\n- Live tv-kijken en programma’s tot 7 dagen terugkijken.\n- Ook in de EU tv-kijken via internet.\n- Films en series uit **Movies & Series (XL)** selecteren en downloaden om offline te kijken.\n- Met maximaal 3 apparaten tegelijk kijken.\n- De dienst is gratis voor Ziggo-klanten met een **Alles-in-1**, **Internet & TV** of **Internet & Online TV** pakket.\n\nJe hebt alleen je Mijn Ziggo- of Vodafone & Ziggo-accountgegevens nodig om in te loggen. Buiten de EU werkt Ziggo GO niet.",
+      "source": "auto"
+    },
+    {
+      "question": "What TV packages does Ziggo offer?",
+      "answer": "Ziggo biedt verschillende tv-pakketten aan, maar de specifieke namen en inhoud van deze pakketten staan niet in de beschikbare informatie. De tv-pakketten zijn altijd te combineren met internet van Ziggo. Er is onder meer een aanbod met 70+ digitale zenders en de Next Mini voor TV & Streaming.",
+      "source": "auto"
+    },
+    {
+      "question": "What is GO from Ziggo and how do I use it?",
+      "answer": "Ziggo GO is de online tv-dienst van Ziggo. Hiermee kijk je tv op je pc, laptop, mobiel of tablet, waar en wanneer je wilt. Je kunt onder andere:\n\n- Live tv kijken, ook Ziggo Sport en La Liga;\n- Programma’s tot 7 dagen terugkijken;\n- Een selectie films en series downloaden om offline te kijken;\n- In de EU tv-kijken via internet.\n\n**Zo gebruik je Ziggo GO:**\n1. Download de Ziggo GO-app voor iOS, Android, Google of Windows, of kijk via je laptop.\n2. Log eenmalig in met je Mijn Ziggo- of Vodafone & Ziggo-accountgegevens.\n3. Kijk met maximaal 3 apparaten tegelijk.\n\nZiggo GO is gratis voor Ziggo-klanten met een Alles-in-1 pakket, Internet & TV pakket of Internet & Online TV pakket. Buiten de EU werkt Ziggo GO niet. Kijk je via 3G, 4G of 5G, dan verbruik je data uit je mobiele databundel.",
+      "source": "auto"
+    },
+    {
+      "question": "what are the download speeds for ziggo internet?",
+      "answer": "Bij Ziggo kun je kiezen uit downloadsnelheden van:\n\n- 200 Mbit/s  \n- 500 Mbit/s  \n- 1 Gbit/s (1000 Mbit/s)  \n- 2 Gbit/s (2000 Mbit/s)",
+      "source": "auto"
+    }
+  ]
+}
